@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-   
     public void CargarEscena()
     {
         int i = SceneManager.GetActiveScene().buildIndex;
