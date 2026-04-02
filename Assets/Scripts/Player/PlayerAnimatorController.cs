@@ -38,6 +38,7 @@ public class PlayerAnimatorController : MonoBehaviour
     private static readonly int TriggerDeath  = Animator.StringToHash("TriggerDeath");
     private static readonly int TriggerTaunt  = Animator.StringToHash("TriggerTaunt");
     private static readonly int HurtType      = Animator.StringToHash("HurtType");
+    aaaaa
     // ─────────────────────────────────────────────
     //  TIPO DE DAÑO
     //  Mapea a la animación de hurt correcta.
