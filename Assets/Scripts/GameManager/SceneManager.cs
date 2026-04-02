@@ -11,6 +11,8 @@ public class MenuManager : MonoBehaviour
 
     public void SalirDelJuego()
     {
-        Application.Quit();
+        ola jaja
+        cambio 1
+        cambio 2
     }
 }
