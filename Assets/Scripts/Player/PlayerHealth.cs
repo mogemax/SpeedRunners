@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("Daño y Stun")]
     [Tooltip("Duración del stun al recibir daño normal (Spiked)")]
     public float stunDuration = 0.6f;
- aaaa
+
     [Tooltip("Duración del stun por daño fuerte (Tumble / Grabbed)")]
     public float heavyStunDuration = 1.2f;
  
