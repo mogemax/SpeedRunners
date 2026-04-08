@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: ac1540527deff9f4594d6f2dd4186ac6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6833629470723998120
+    second: Metro1_0
+  - first:
+      213: 8737770466733358061
+    second: Metro1_1
+  - first:
+      213: 6365920191105912389
+    second: Metro1_2
+  - first:
+      213: 6796651577598469649
+    second: Metro1_3
+  - first:
+      213: -4078008378017686416
+    second: Metro1_4
+  - first:
+      213: -2842707810929285523
+    second: Metro1_5
+  - first:
+      213: -3564680023247863149
+    second: Metro1_6
+  - first:
+      213: 3008504199321872534
+    second: Metro1_7
+  - first:
+      213: -7204766254787849250
+    second: Metro1_8
+  - first:
+      213: 8401927813660203702
+    second: Metro1_9
+  - first:
+      213: 3455053332852475017
+    second: Metro1_10
+  - first:
+      213: 387184647203468919
+    second: Metro1_11
+  - first:
+      213: -622610506634718410
+    second: Metro1_12
+  - first:
+      213: -2336862350936976628
+    second: Metro1_13
+  - first:
+      213: 833409195840089352
+    second: Metro1_14
+  - first:
+      213: 5389011757706439115
+    second: Metro1_15
+  - first:
+      213: -2695980676567940596
+    second: Metro1_16
+  - first:
+      213: -4578982072071915500
+    second: Metro1_17
+  - first:
+      213: -1154541010006499125
+    second: Metro1_18
+  - first:
+      213: 1640443467289661430
+    second: Metro1_19
+  - first:
+      213: 4823594399609636457
+    second: Metro1_20
+  - first:
+      213: 2605491541585018394
+    second: Metro1_21
+  - first:
+      213: 6646284100530560849
+    second: Metro1_22
+  - first:
+      213: 1647648695591051120
+    second: Metro1_23
+  - first:
+      213: -5207509128471430486
+    second: Metro1_24
+  - first:
+      213: 1163202237691824085
+    second: Metro1_25
+  - first:
+      213: -4465801578593111530
+    second: Metro1_26
+  - first:
+      213: 7175549525755586647
+    second: Metro1_27
+  - first:
+      213: -7136201477857997523
+    second: Metro1_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Metro1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1394
+        width: 589
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85efad6d3321a21a0800000000000000
+      internalID: -6833629470723998120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1372
+        width: 595
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb7a8ed1fbc24970800000000000000
+      internalID: 8737770466733358061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1519
+        width: 811
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eca5b8faa485850800000000000000
+      internalID: 6365920191105912389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_3
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1537
+        width: 566
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116ead0899e825e50800000000000000
+      internalID: 6796651577598469649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_4
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1379
+        width: 613
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c50358cf00867c0800000000000000
+      internalID: -4078008378017686416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_5
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1382
+        width: 598
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66e459ae4cac88d0800000000000000
+      internalID: -2842707810929285523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_6
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1400
+        width: 156
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3924164c766b78ec0800000000000000
+      internalID: -3564680023247863149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1039
+        width: 834
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698e9d921aa50c920800000000000000
+      internalID: 3008504199321872534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 495
+        width: 708
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed316a58347830c90800000000000000
+      internalID: -7204766254787849250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_9
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 891
+        width: 84
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bad0b9c4d4a99470800000000000000
+      internalID: 8401927813660203702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_10
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 837
+        width: 791
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98483b853b0d2ff20800000000000000
+      internalID: 3455053332852475017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_11
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 879
+        width: 400
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7763c0f926e8f5500800000000000000
+      internalID: 387184647203468919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 218
+        width: 566
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6339c9efa0b0c57f0800000000000000
+      internalID: -622610506634718410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_13
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 446
+        width: 791
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03da63b21cc19fd0800000000000000
+      internalID: -2336862350936976628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 243
+        width: 325
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80da79e7f3dd09b00800000000000000
+      internalID: 833409195840089352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_15
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 472
+        width: 215
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9ee7434ad99ca40800000000000000
+      internalID: 5389011757706439115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_16
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 337
+        width: 138
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02c9dbcbd3f59ad0800000000000000
+      internalID: -2695980676567940596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_17
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 384
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4187541e0103470c0800000000000000
+      internalID: -4578982072071915500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_18
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 4
+        width: 762
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc021f3811f3affe0800000000000000
+      internalID: -1154541010006499125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_19
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 321
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff09ed54a604c610800000000000000
+      internalID: 1640443467289661430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_20
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 294
+        width: 138
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966cb49cc89d0f240800000000000000
+      internalID: 4823594399609636457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_21
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 262
+        width: 190
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eb579a0c0982420800000000000000
+      internalID: 2605491541585018394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 521
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f53780d285c3c50800000000000000
+      internalID: 6646284100530560849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_23
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 210
+        width: 130
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f175f42cf9dd610800000000000000
+      internalID: 1647648695591051120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_24
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 210
+        width: 130
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa3bd8c9063bb7b0800000000000000
+      internalID: -5207509128471430486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_25
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 147
+        width: 88
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d78f83b546842010800000000000000
+      internalID: 1163202237691824085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_26
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 63
+        width: 194
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612349600294602c0800000000000000
+      internalID: -4465801578593111530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_27
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 59
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75862e6a64ca49360800000000000000
+      internalID: 7175549525755586647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metro1_28
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 5
+        width: 514
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d08aaa09e17fc90800000000000000
+      internalID: -7136201477857997523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Metro1_0: -6833629470723998120
+      Metro1_1: 8737770466733358061
+      Metro1_10: 3455053332852475017
+      Metro1_11: 387184647203468919
+      Metro1_12: -622610506634718410
+      Metro1_13: -2336862350936976628
+      Metro1_14: 833409195840089352
+      Metro1_15: 5389011757706439115
+      Metro1_16: -2695980676567940596
+      Metro1_17: -4578982072071915500
+      Metro1_18: -1154541010006499125
+      Metro1_19: 1640443467289661430
+      Metro1_2: 6365920191105912389
+      Metro1_20: 4823594399609636457
+      Metro1_21: 2605491541585018394
+      Metro1_22: 6646284100530560849
+      Metro1_23: 1647648695591051120
+      Metro1_24: -5207509128471430486
+      Metro1_25: 1163202237691824085
+      Metro1_26: -4465801578593111530
+      Metro1_27: 7175549525755586647
+      Metro1_28: -7136201477857997523
+      Metro1_3: 6796651577598469649
+      Metro1_4: -4078008378017686416
+      Metro1_5: -2842707810929285523
+      Metro1_6: -3564680023247863149
+      Metro1_7: 3008504199321872534
+      Metro1_8: -7204766254787849250
+      Metro1_9: 8401927813660203702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

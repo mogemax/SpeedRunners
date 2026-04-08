@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 6787f77af44039f40ba8f64ee51c9310
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1938562346493258978
+    second: Speed_Festival_Banner_Left_0
+  - first:
+      213: -2802842921308635577
+    second: Speed_Festival_Banner_Left_1
+  - first:
+      213: -4933816034221896555
+    second: Speed_Festival_Banner_Left_2
+  - first:
+      213: -9008807590262608931
+    second: Speed_Festival_Banner_Left_3
+  - first:
+      213: 4026839531722863197
+    second: Speed_Festival_Banner_Left_4
+  - first:
+      213: -23081128471926524
+    second: Speed_Festival_Banner_Left_5
+  - first:
+      213: -8138385977296819590
+    second: Speed_Festival_Banner_Left_6
+  - first:
+      213: -2519499989760297549
+    second: Speed_Festival_Banner_Left_7
+  - first:
+      213: -1159754830901481453
+    second: Speed_Festival_Banner_Left_8
+  - first:
+      213: -2638001070970114384
+    second: Speed_Festival_Banner_Left_9
+  - first:
+      213: -5154229576407160689
+    second: Speed_Festival_Banner_Left_10
+  - first:
+      213: -8184972556739133220
+    second: Speed_Festival_Banner_Left_11
+  - first:
+      213: 2121167578463161346
+    second: Speed_Festival_Banner_Left_12
+  - first:
+      213: -1146554687152382305
+    second: Speed_Festival_Banner_Left_13
+  - first:
+      213: -3288947528429265390
+    second: Speed_Festival_Banner_Left_14
+  - first:
+      213: 911995523104972822
+    second: Speed_Festival_Banner_Left_15
+  - first:
+      213: 8195161156174775061
+    second: Speed_Festival_Banner_Left_16
+  - first:
+      213: -7448985902009632536
+    second: Speed_Festival_Banner_Left_17
+  - first:
+      213: 137254466043923679
+    second: Speed_Festival_Banner_Left_18
+  - first:
+      213: -4192032644719060557
+    second: Speed_Festival_Banner_Left_19
+  - first:
+      213: 7897107106408642320
+    second: Speed_Festival_Banner_Left_20
+  - first:
+      213: 4008720082301396582
+    second: Speed_Festival_Banner_Left_21
+  - first:
+      213: 5907151884893114105
+    second: Speed_Festival_Banner_Left_22
+  - first:
+      213: 8267570950128210358
+    second: Speed_Festival_Banner_Left_23
+  - first:
+      213: -562854437541337338
+    second: Speed_Festival_Banner_Left_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 953
+        width: 399
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13525a11d7d815e0800000000000000
+      internalID: -1938562346493258978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 953
+        width: 399
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e3e22963d4a19d0800000000000000
+      internalID: -2802842921308635577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 882
+        width: 399
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cc3151570978bb0800000000000000
+      internalID: -4933816034221896555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 882
+        width: 399
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbed843a394af280800000000000000
+      internalID: -9008807590262608931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 812
+        width: 399
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5277df083532e730800000000000000
+      internalID: 4026839531722863197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 743
+        width: 399
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4096a6006dffdaff0800000000000000
+      internalID: -23081128471926524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 812
+        width: 399
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ae33a9215ae0f80800000000000000
+      internalID: -8138385977296819590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 743
+        width: 399
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5bcb2bb10f80dd0800000000000000
+      internalID: -2519499989760297549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 674
+        width: 399
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310f29d3029b7efe0800000000000000
+      internalID: -1159754830901481453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 605
+        width: 399
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bee9bfa000f36bd0800000000000000
+      internalID: -2638001070970114384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 674
+        width: 399
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88607f228f7878b0800000000000000
+      internalID: -5154229576407160689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 606
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd04e3353d2296e80800000000000000
+      internalID: -8184972556739133220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 537
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c4f579ca6ef6d10800000000000000
+      internalID: 2121167578463161346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 537
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e19b4369e9610f0800000000000000
+      internalID: -1146554687152382305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 468
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e131306af4b52d0800000000000000
+      internalID: -3288947528429265390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 468
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6102b67a81f08ac00800000000000000
+      internalID: 911995523104972822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 399
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51380e6d6af0bb170800000000000000
+      internalID: 8195161156174775061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 399
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8b2ddd9c2ef9890800000000000000
+      internalID: -7448985902009632536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 330
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc426ca530a7e100800000000000000
+      internalID: 137254466043923679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 330
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9ddac1588e2d5c0800000000000000
+      internalID: -4192032644719060557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01733b69219289d60800000000000000
+      internalID: 7897107106408642320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 260
+        width: 399
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666ac8dfca5d1a730800000000000000
+      internalID: 4008720082301396582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe4555875b6af150800000000000000
+      internalID: 5907151884893114105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 123
+        width: 399
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b11bb5c9ff4cb270800000000000000
+      internalID: 8267570950128210358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speed_Festival_Banner_Left_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 399
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607a8160fd65038f0800000000000000
+      internalID: -562854437541337338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Speed_Festival_Banner_Left_0: -1938562346493258978
+      Speed_Festival_Banner_Left_1: -2802842921308635577
+      Speed_Festival_Banner_Left_10: -5154229576407160689
+      Speed_Festival_Banner_Left_11: -8184972556739133220
+      Speed_Festival_Banner_Left_12: 2121167578463161346
+      Speed_Festival_Banner_Left_13: -1146554687152382305
+      Speed_Festival_Banner_Left_14: -3288947528429265390
+      Speed_Festival_Banner_Left_15: 911995523104972822
+      Speed_Festival_Banner_Left_16: 8195161156174775061
+      Speed_Festival_Banner_Left_17: -7448985902009632536
+      Speed_Festival_Banner_Left_18: 137254466043923679
+      Speed_Festival_Banner_Left_19: -4192032644719060557
+      Speed_Festival_Banner_Left_2: -4933816034221896555
+      Speed_Festival_Banner_Left_20: 7897107106408642320
+      Speed_Festival_Banner_Left_21: 4008720082301396582
+      Speed_Festival_Banner_Left_22: 5907151884893114105
+      Speed_Festival_Banner_Left_23: 8267570950128210358
+      Speed_Festival_Banner_Left_24: -562854437541337338
+      Speed_Festival_Banner_Left_3: -9008807590262608931
+      Speed_Festival_Banner_Left_4: 4026839531722863197
+      Speed_Festival_Banner_Left_5: -23081128471926524
+      Speed_Festival_Banner_Left_6: -8138385977296819590
+      Speed_Festival_Banner_Left_7: -2519499989760297549
+      Speed_Festival_Banner_Left_8: -1159754830901481453
+      Speed_Festival_Banner_Left_9: -2638001070970114384
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

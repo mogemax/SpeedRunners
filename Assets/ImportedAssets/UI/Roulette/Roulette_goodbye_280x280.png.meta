@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 1859162d12ccc324eb478c0efc91da54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7269540142797997657
+    second: Roulette_goodbye_280x280_0
+  - first:
+      213: -1937340517461231789
+    second: Roulette_goodbye_280x280_1
+  - first:
+      213: 6776928995799597897
+    second: Roulette_goodbye_280x280_2
+  - first:
+      213: 6691884385983570706
+    second: Roulette_goodbye_280x280_3
+  - first:
+      213: 6044770693525338508
+    second: Roulette_goodbye_280x280_4
+  - first:
+      213: 8488120584768944771
+    second: Roulette_goodbye_280x280_5
+  - first:
+      213: 6469624034549740881
+    second: Roulette_goodbye_280x280_6
+  - first:
+      213: -236826212564227359
+    second: Roulette_goodbye_280x280_7
+  - first:
+      213: -7472037340195292500
+    second: Roulette_goodbye_280x280_8
+  - first:
+      213: -8787657593680987624
+    second: Roulette_goodbye_280x280_9
+  - first:
+      213: -9108900144752377283
+    second: Roulette_goodbye_280x280_10
+  - first:
+      213: 4422278007718362116
+    second: Roulette_goodbye_280x280_11
+  - first:
+      213: 5616227002559630275
+    second: Roulette_goodbye_280x280_12
+  - first:
+      213: 8333828577686917670
+    second: Roulette_goodbye_280x280_13
+  - first:
+      213: -4576507602046794863
+    second: Roulette_goodbye_280x280_14
+  - first:
+      213: 2074360794093634687
+    second: Roulette_goodbye_280x280_15
+  - first:
+      213: -3156217789638209691
+    second: Roulette_goodbye_280x280_16
+  - first:
+      213: -2637730690855938541
+    second: Roulette_goodbye_280x280_17
+  - first:
+      213: -5128593909742473053
+    second: Roulette_goodbye_280x280_18
+  - first:
+      213: 4049549228339919335
+    second: Roulette_goodbye_280x280_19
+  - first:
+      213: 6842227169954780988
+    second: Roulette_goodbye_280x280_20
+  - first:
+      213: -1168869046851565425
+    second: Roulette_goodbye_280x280_21
+  - first:
+      213: -6724408862254369306
+    second: Roulette_goodbye_280x280_22
+  - first:
+      213: -1173990905388338563
+    second: Roulette_goodbye_280x280_23
+  - first:
+      213: 4448802039928185938
+    second: Roulette_goodbye_280x280_24
+  - first:
+      213: -5396628233247791954
+    second: Roulette_goodbye_280x280_25
+  - first:
+      213: -5618011918255888710
+    second: Roulette_goodbye_280x280_26
+  - first:
+      213: 4812217306224332479
+    second: Roulette_goodbye_280x280_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 863
+        width: 213
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956cae38e3892e460800000000000000
+      internalID: 7269540142797997657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 863
+        width: 211
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35770c7501f2d15e0800000000000000
+      internalID: -1937340517461231789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_2
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 863
+        width: 211
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9430ea6140d7c0e50800000000000000
+      internalID: 6776928995799597897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_3
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 863
+        width: 211
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213a888d4695edc50800000000000000
+      internalID: 6691884385983570706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 863
+        width: 223
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89f4405be653e350800000000000000
+      internalID: 6044770693525338508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_5
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 863
+        width: 230
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a75d923bcdbc570800000000000000
+      internalID: 8488120584768944771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_6
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 863
+        width: 230
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155baa928c8b8c950800000000000000
+      internalID: 6469624034549740881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 584
+        width: 227
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eaab9e70df96bcf0800000000000000
+      internalID: -236826212564227359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_8
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 584
+        width: 213
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa743da0adfd4890800000000000000
+      internalID: -7472037340195292500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 584
+        width: 211
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a71e04af7fb0680800000000000000
+      internalID: -8787657593680987624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_10
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 584
+        width: 211
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32c781549fa69180800000000000000
+      internalID: -9108900144752377283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_11
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 584
+        width: 211
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c3314fa661f5d30800000000000000
+      internalID: 4422278007718362116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 584
+        width: 223
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb0689e3b8d0fd40800000000000000
+      internalID: 5616227002559630275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_13
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 584
+        width: 230
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6221708dfe4b7a370800000000000000
+      internalID: 8333828577686917670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 304
+        width: 231
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1934024559afc70c0800000000000000
+      internalID: -4576507602046794863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_15
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 304
+        width: 227
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74c2fbd62c99cc10800000000000000
+      internalID: 2074360794093634687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 304
+        width: 213
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f88d684acd234d0800000000000000
+      internalID: -3156217789638209691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_17
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 304
+        width: 211
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316d26679e5e46bd0800000000000000
+      internalID: -2637730690855938541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_18
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 300
+        width: 218
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a07194f20393d8b0800000000000000
+      internalID: -5128593909742473053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_19
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 296
+        width: 224
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e978a75193e23830800000000000000
+      internalID: 4049549228339919335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_20
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 294
+        width: 229
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c375ea10c5974fe50800000000000000
+      internalID: 6842227169954780988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 235
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8886797bc757cfe0800000000000000
+      internalID: -1168869046851565425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_22
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 12
+        width: 237
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5f6d864c91ea2a0800000000000000
+      internalID: -6724408862254369306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_23
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 18
+        width: 231
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72f9cadd7525bfe0800000000000000
+      internalID: -1173990905388338563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_24
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 36
+        width: 237
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254e3f172e15dbd30800000000000000
+      internalID: 4448802039928185938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_25
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 65
+        width: 193
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4eb64e6335b15b0800000000000000
+      internalID: -5396628233247791954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_26
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 106
+        width: 147
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab662740defc802b0800000000000000
+      internalID: -5618011918255888710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_goodbye_280x280_27
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 121
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe0d7fc42e68c240800000000000000
+      internalID: 4812217306224332479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Roulette_goodbye_280x280_0: 7269540142797997657
+      Roulette_goodbye_280x280_1: -1937340517461231789
+      Roulette_goodbye_280x280_10: -9108900144752377283
+      Roulette_goodbye_280x280_11: 4422278007718362116
+      Roulette_goodbye_280x280_12: 5616227002559630275
+      Roulette_goodbye_280x280_13: 8333828577686917670
+      Roulette_goodbye_280x280_14: -4576507602046794863
+      Roulette_goodbye_280x280_15: 2074360794093634687
+      Roulette_goodbye_280x280_16: -3156217789638209691
+      Roulette_goodbye_280x280_17: -2637730690855938541
+      Roulette_goodbye_280x280_18: -5128593909742473053
+      Roulette_goodbye_280x280_19: 4049549228339919335
+      Roulette_goodbye_280x280_2: 6776928995799597897
+      Roulette_goodbye_280x280_20: 6842227169954780988
+      Roulette_goodbye_280x280_21: -1168869046851565425
+      Roulette_goodbye_280x280_22: -6724408862254369306
+      Roulette_goodbye_280x280_23: -1173990905388338563
+      Roulette_goodbye_280x280_24: 4448802039928185938
+      Roulette_goodbye_280x280_25: -5396628233247791954
+      Roulette_goodbye_280x280_26: -5618011918255888710
+      Roulette_goodbye_280x280_27: 4812217306224332479
+      Roulette_goodbye_280x280_3: 6691884385983570706
+      Roulette_goodbye_280x280_4: 6044770693525338508
+      Roulette_goodbye_280x280_5: 8488120584768944771
+      Roulette_goodbye_280x280_6: 6469624034549740881
+      Roulette_goodbye_280x280_7: -236826212564227359
+      Roulette_goodbye_280x280_8: -7472037340195292500
+      Roulette_goodbye_280x280_9: -8787657593680987624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

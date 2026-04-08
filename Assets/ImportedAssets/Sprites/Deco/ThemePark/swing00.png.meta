@@ -1,0 +1,3159 @@
+fileFormatVersion: 2
+guid: 282b2d2fd556b0f41be58f9a4c32d3f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 129880779421579816
+    second: swing00_0
+  - first:
+      213: 7758735457098205064
+    second: swing00_1
+  - first:
+      213: 6732291865536281512
+    second: swing00_2
+  - first:
+      213: 2243267730780625148
+    second: swing00_3
+  - first:
+      213: -2540807490323950823
+    second: swing00_4
+  - first:
+      213: 7253855564606329394
+    second: swing00_5
+  - first:
+      213: 3463928122531280811
+    second: swing00_6
+  - first:
+      213: 249120691028702195
+    second: swing00_7
+  - first:
+      213: -6480056576599433361
+    second: swing00_8
+  - first:
+      213: -4595656966957202477
+    second: swing00_9
+  - first:
+      213: -7427872716810744116
+    second: swing00_10
+  - first:
+      213: -3169130211711616133
+    second: swing00_11
+  - first:
+      213: -3545500230138453440
+    second: swing00_12
+  - first:
+      213: -2125636961707253764
+    second: swing00_13
+  - first:
+      213: -6864910824227803180
+    second: swing00_14
+  - first:
+      213: -7291796837982999874
+    second: swing00_15
+  - first:
+      213: 220482675875147881
+    second: swing00_16
+  - first:
+      213: -6604095928884134282
+    second: swing00_17
+  - first:
+      213: 9184508639831881973
+    second: swing00_18
+  - first:
+      213: -1959406375236042573
+    second: swing00_19
+  - first:
+      213: -753048467989567567
+    second: swing00_20
+  - first:
+      213: 6838522905476102087
+    second: swing00_21
+  - first:
+      213: 3680331073220281018
+    second: swing00_22
+  - first:
+      213: -2450830077617735034
+    second: swing00_23
+  - first:
+      213: -619246755901635427
+    second: swing00_24
+  - first:
+      213: -7739271775877120958
+    second: swing00_25
+  - first:
+      213: -6513933909983992498
+    second: swing00_26
+  - first:
+      213: -7028225344197172240
+    second: swing00_27
+  - first:
+      213: 598113328609894857
+    second: swing00_28
+  - first:
+      213: -5304814504237013560
+    second: swing00_29
+  - first:
+      213: -8827167333230507018
+    second: swing00_30
+  - first:
+      213: 4698574492195321497
+    second: swing00_31
+  - first:
+      213: 1083609593045984602
+    second: swing00_32
+  - first:
+      213: -8561743222827440209
+    second: swing00_33
+  - first:
+      213: -253195064795422118
+    second: swing00_34
+  - first:
+      213: 6102293790738265736
+    second: swing00_35
+  - first:
+      213: 3928027551873997108
+    second: swing00_36
+  - first:
+      213: 1986092066222446531
+    second: swing00_37
+  - first:
+      213: -2322560547022386650
+    second: swing00_38
+  - first:
+      213: 7056514166014194968
+    second: swing00_39
+  - first:
+      213: -8638522908971583197
+    second: swing00_40
+  - first:
+      213: 6263239973282109261
+    second: swing00_41
+  - first:
+      213: 2882104993416480168
+    second: swing00_42
+  - first:
+      213: -9033125133783322971
+    second: swing00_43
+  - first:
+      213: -8070479364936474765
+    second: swing00_44
+  - first:
+      213: 6882443074169641218
+    second: swing00_45
+  - first:
+      213: 161938831023688103
+    second: swing00_46
+  - first:
+      213: -1658660866431853993
+    second: swing00_47
+  - first:
+      213: -7984076324510393254
+    second: swing00_48
+  - first:
+      213: 2335574876199108270
+    second: swing00_49
+  - first:
+      213: 6765238606255426388
+    second: swing00_50
+  - first:
+      213: -2218181234080349768
+    second: swing00_51
+  - first:
+      213: -3032045722637533825
+    second: swing00_52
+  - first:
+      213: 3349908042210775884
+    second: swing00_53
+  - first:
+      213: 8693367039737719801
+    second: swing00_54
+  - first:
+      213: 8107843163007775068
+    second: swing00_55
+  - first:
+      213: 812359645184436763
+    second: swing00_56
+  - first:
+      213: 1928691052083285202
+    second: swing00_57
+  - first:
+      213: -3160459834344396438
+    second: swing00_58
+  - first:
+      213: 6350033925880334197
+    second: swing00_59
+  - first:
+      213: 7474088206908093108
+    second: swing00_60
+  - first:
+      213: -5426347321450735484
+    second: swing00_61
+  - first:
+      213: 3386299589943343717
+    second: swing00_62
+  - first:
+      213: -4994466250918004857
+    second: swing00_63
+  - first:
+      213: 3862413648284932039
+    second: swing00_64
+  - first:
+      213: 4438314163950133071
+    second: swing00_65
+  - first:
+      213: -738481841349113467
+    second: swing00_66
+  - first:
+      213: -7078652303548076332
+    second: swing00_67
+  - first:
+      213: -5911180817255629512
+    second: swing00_68
+  - first:
+      213: -5307956904049793029
+    second: swing00_69
+  - first:
+      213: 66117067504733398
+    second: swing00_70
+  - first:
+      213: -8307600226907001661
+    second: swing00_71
+  - first:
+      213: -6228374296482199254
+    second: swing00_72
+  - first:
+      213: 8010946893945334572
+    second: swing00_73
+  - first:
+      213: 639143486319550420
+    second: swing00_74
+  - first:
+      213: 8246074674246911061
+    second: swing00_75
+  - first:
+      213: -7684045616647241143
+    second: swing00_76
+  - first:
+      213: -3200915793546420612
+    second: swing00_77
+  - first:
+      213: -8335040074545426458
+    second: swing00_78
+  - first:
+      213: -4855070948898501823
+    second: swing00_79
+  - first:
+      213: -8327706299723083669
+    second: swing00_80
+  - first:
+      213: 5288558345535317724
+    second: swing00_81
+  - first:
+      213: 6362626331359114064
+    second: swing00_82
+  - first:
+      213: 6362135870049075351
+    second: swing00_83
+  - first:
+      213: 1268120962893610568
+    second: swing00_84
+  - first:
+      213: -5608651467751659563
+    second: swing00_85
+  - first:
+      213: 8477433396133570492
+    second: swing00_86
+  - first:
+      213: -313455608804851415
+    second: swing00_87
+  - first:
+      213: 847771626957687149
+    second: swing00_88
+  - first:
+      213: 3462444473986819512
+    second: swing00_89
+  - first:
+      213: -3839514324517232257
+    second: swing00_90
+  - first:
+      213: 3449179365836621913
+    second: swing00_91
+  - first:
+      213: 1631563665302324226
+    second: swing00_92
+  - first:
+      213: -7182038373703163433
+    second: swing00_93
+  - first:
+      213: 8968168208908518893
+    second: swing00_94
+  - first:
+      213: -3428451078487422667
+    second: swing00_95
+  - first:
+      213: 3218038718758426452
+    second: swing00_96
+  - first:
+      213: -6081951518671524746
+    second: swing00_97
+  - first:
+      213: -1126380203796757961
+    second: swing00_98
+  - first:
+      213: -2698598810005597023
+    second: swing00_99
+  - first:
+      213: -7007588716513563949
+    second: swing00_100
+  - first:
+      213: 6479550946647147137
+    second: swing00_101
+  - first:
+      213: 2182746095226296213
+    second: swing00_102
+  - first:
+      213: 9085917105402359451
+    second: swing00_103
+  - first:
+      213: 8651964788201402757
+    second: swing00_104
+  - first:
+      213: -6601271727406519292
+    second: swing00_105
+  - first:
+      213: 8746898623895769435
+    second: swing00_106
+  - first:
+      213: -5468614030676009839
+    second: swing00_107
+  - first:
+      213: 5259894480147192846
+    second: swing00_108
+  - first:
+      213: -3755152088159421955
+    second: swing00_109
+  - first:
+      213: 4290877103315985412
+    second: swing00_110
+  - first:
+      213: 1754395600213951722
+    second: swing00_111
+  - first:
+      213: 7653412887323328817
+    second: swing00_112
+  - first:
+      213: -8349513430955078072
+    second: swing00_113
+  - first:
+      213: 6829017108623331968
+    second: swing00_114
+  - first:
+      213: 5687759436114472292
+    second: swing00_115
+  - first:
+      213: -1252464453618292699
+    second: swing00_116
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: swing00_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1587
+        width: 266
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82af29871ed6dc100800000000000000
+      internalID: 129880779421579816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1526
+        width: 230
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887019a6ac09cab60800000000000000
+      internalID: 7758735457098205064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1464
+        width: 151
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abba8158c7ed6d50800000000000000
+      internalID: 6732291865536281512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1441
+        width: 86
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf89645ad10b12f10800000000000000
+      internalID: 2243267730780625148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_4
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1443
+        width: 95
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913d690ac0d3dbcd0800000000000000
+      internalID: -2540807490323950823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_5
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1466
+        width: 154
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232d954143fdaa460800000000000000
+      internalID: 7253855564606329394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_6
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1527
+        width: 230
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba776f65648521030800000000000000
+      internalID: 3463928122531280811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_7
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1599
+        width: 264
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f337f6d2fd057300800000000000000
+      internalID: 249120691028702195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_8
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1586
+        width: 266
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f5b5b50e63216a0800000000000000
+      internalID: -6480056576599433361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_9
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1559
+        width: 238
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d387fe5652f830c0800000000000000
+      internalID: -4595656966957202477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_10
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1520
+        width: 221
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce0ead5e15eae890800000000000000
+      internalID: -7427872716810744116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_11
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1503
+        width: 160
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b78fbfcdcf404d0800000000000000
+      internalID: -3169130211711616133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_12
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1462
+        width: 144
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0422887535adbcec0800000000000000
+      internalID: -3545500230138453440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_13
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1478
+        width: 94
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff9ff702783082e0800000000000000
+      internalID: -2125636961707253764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_14
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1441
+        width: 73
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfea2b2affeab0a0800000000000000
+      internalID: -6864910824227803180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_15
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1478
+        width: 80
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebae4b1d8655eca90800000000000000
+      internalID: -7291796837982999874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_16
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1446
+        width: 101
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9607aa653df4f0300800000000000000
+      internalID: 220482675875147881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_17
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1472
+        width: 175
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ef1402eb98954a0800000000000000
+      internalID: -6604095928884134282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_18
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1541
+        width: 253
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f87fa142fde57f70800000000000000
+      internalID: 9184508639831881973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_19
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1598
+        width: 263
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b08b69784acec4e0800000000000000
+      internalID: -1959406375236042573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1239
+        width: 265
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b764de7862ac85f0800000000000000
+      internalID: -753048467989567567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_21
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1220
+        width: 245
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c77649b95057ee50800000000000000
+      internalID: 6838522905476102087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1168
+        width: 214
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab28023ac99231330800000000000000
+      internalID: 3680331073220281018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1163
+        width: 169
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a70ca8707ecfdd0800000000000000
+      internalID: -2450830077617735034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_24
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1114
+        width: 138
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d948b2e3b5ef767f0800000000000000
+      internalID: -619246755901635427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_25
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1135
+        width: 100
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c33a20355989490800000000000000
+      internalID: -7739271775877120958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_26
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1096
+        width: 60
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4568050f9bd995a0800000000000000
+      internalID: -6513933909983992498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_27
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1133
+        width: 67
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3eabd594ab67e90800000000000000
+      internalID: -7028225344197172240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_28
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1103
+        width: 107
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1283747ecec4800800000000000000
+      internalID: 598113328609894857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_29
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1149
+        width: 142
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5ec9380538166b0800000000000000
+      internalID: -5304814504237013560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_30
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1133
+        width: 171
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb0dd9241a9f7580800000000000000
+      internalID: -8827167333230507018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1195
+        width: 214
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99673064b90b43140800000000000000
+      internalID: 4698574492195321497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_32
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1209
+        width: 243
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5526b40f21c90f00800000000000000
+      internalID: 1083609593045984602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_33
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1252
+        width: 263
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa72341a6e39e2980800000000000000
+      internalID: -8561743222827440209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_34
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1226
+        width: 279
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52acf71e687c7cf0800000000000000
+      internalID: -253195064795422118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_35
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1162
+        width: 206
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886b6001fd3bfa450800000000000000
+      internalID: 6102293790738265736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_36
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1168
+        width: 177
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43995613f38238630800000000000000
+      internalID: 3928027551873997108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_37
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1111
+        width: 131
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c719622634009b10800000000000000
+      internalID: 1986092066222446531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_38
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1136
+        width: 107
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ac469ec7b94cfd0800000000000000
+      internalID: -2322560547022386650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_39
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1097
+        width: 46
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815b9c93f36cde160800000000000000
+      internalID: 7056514166014194968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_40
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1132
+        width: 53
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329bca2ee2dcd1880800000000000000
+      internalID: -8638522908971583197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_41
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1106
+        width: 113
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47d186529f7be650800000000000000
+      internalID: 6263239973282109261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_42
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1147
+        width: 135
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a508f1b83b4ff720800000000000000
+      internalID: 2882104993416480168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_43
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1139
+        width: 179
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae2135ec84e3a280800000000000000
+      internalID: -9033125133783322971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_44
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1190
+        width: 207
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f57ddd6c5efff80800000000000000
+      internalID: -8070479364936474765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_45
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1221
+        width: 275
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2099abed289538f50800000000000000
+      internalID: 6882443074169641218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_46
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 885
+        width: 266
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9428242825f3200800000000000000
+      internalID: 161938831023688103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_47
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 810
+        width: 207
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75adc7ddab04bf8e0800000000000000
+      internalID: -1658660866431853993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_48
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 764
+        width: 134
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c93f162ecd23190800000000000000
+      internalID: -7984076324510393254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_49
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 752
+        width: 44
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaebc2ab9f0a96020800000000000000
+      internalID: 2335574876199108270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_50
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 787
+        width: 44
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b0d9a2ba4f2ed50800000000000000
+      internalID: 6765238606255426388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_51
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 763
+        width: 120
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b104378bef6731e0800000000000000
+      internalID: -2218181234080349768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_52
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 799
+        width: 129
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d727fca720ce5d0800000000000000
+      internalID: -3032045722637533825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_53
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 801
+        width: 186
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c439236ad934d7e20800000000000000
+      internalID: 3349908042210775884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_54
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 839
+        width: 199
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbe7a1634b05a870800000000000000
+      internalID: 8693367039737719801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_55
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 885
+        width: 264
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5178a94668d48070800000000000000
+      internalID: 8107843163007775068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_56
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 879
+        width: 265
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1aa4111bc4164b00800000000000000
+      internalID: 812359645184436763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_57
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 804
+        width: 196
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc06e01b4614ca10800000000000000
+      internalID: 1928691052083285202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_58
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 762
+        width: 124
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a692307868ac324d0800000000000000
+      internalID: -3160459834344396438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_59
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 967
+        width: 11
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577c6cf263adf1850800000000000000
+      internalID: 6350033925880334197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_60
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 921
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b271b0ff9b49b760800000000000000
+      internalID: 7474088206908093108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_61
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 766
+        width: 129
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48859057cddb1b4b0800000000000000
+      internalID: -5426347321450735484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_62
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 807
+        width: 197
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56abf91298d8efe20800000000000000
+      internalID: 3386299589943343717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_63
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 893
+        width: 261
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787fa57186710bab0800000000000000
+      internalID: -4994466250918004857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_64
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 840
+        width: 14
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7d4a9cfbc0a9530800000000000000
+      internalID: 3862413648284932039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_65
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 890
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f15d7873f089d30800000000000000
+      internalID: 4438314163950133071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_66
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 876
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5894f4d8da260c5f0800000000000000
+      internalID: -738481841349113467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_67
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 850
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de2486fb3393cd90800000000000000
+      internalID: -7078652303548076332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_68
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 837
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dff509d5447fda0800000000000000
+      internalID: -5911180817255629512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_69
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 752
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7a70b81595656b0800000000000000
+      internalID: -5307956904049793029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_70
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 526
+        width: 277
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcc5326f15eae000800000000000000
+      internalID: 66117067504733398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_71
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 495
+        width: 201
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cce043fb9975bc80800000000000000
+      internalID: -8307600226907001661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_72
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 452
+        width: 180
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a294102a39e5099a0800000000000000
+      internalID: -6228374296482199254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 452
+        width: 128
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b612891c99c2f60800000000000000
+      internalID: 8010946893945334572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_74
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 414
+        width: 109
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfd49e4d91bed800800000000000000
+      internalID: 639143486319550420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_75
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 441
+        width: 44
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55405d50a31ff6270800000000000000
+      internalID: 8246074674246911061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_76
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 407
+        width: 45
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94208d53939cc5590800000000000000
+      internalID: -7684045616647241143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_77
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 423
+        width: 149
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e5ab18b001493d0800000000000000
+      internalID: -3200915793546420612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_78
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 469
+        width: 217
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef0310963df35c80800000000000000
+      internalID: -8335040074545426458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_79
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 543
+        width: 274
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b069bf1b25f9cb0800000000000000
+      internalID: -4855070948898501823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_80
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 550
+        width: 267
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6019331e3b0e6c80800000000000000
+      internalID: -8327706299723083669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_81
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 516
+        width: 246
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd66f879bcbb46940800000000000000
+      internalID: 5288558345535317724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_82
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 499
+        width: 210
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053f43f00f69c4850800000000000000
+      internalID: 6362626331359114064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_83
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 446
+        width: 173
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790cb03add8da4850800000000000000
+      internalID: 6362135870049075351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_84
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 454
+        width: 135
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84eff750c45499110800000000000000
+      internalID: 1268120962893610568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_85
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 411
+        width: 102
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d760bbb4311a22b0800000000000000
+      internalID: -5608651467751659563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_86
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 441
+        width: 51
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7239722c4e5a570800000000000000
+      internalID: 8477433396133570492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_87
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 407
+        width: 60
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9214558d8c166abf0800000000000000
+      internalID: -313455608804851415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_88
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 447
+        width: 109
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69c7739dc3e3cb00800000000000000
+      internalID: 847771626957687149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_89
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 426
+        width: 139
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5af7e77e21d0030800000000000000
+      internalID: 3462444473986819512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_90
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 477
+        width: 174
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f716021801e47bac0800000000000000
+      internalID: -3839514324517232257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_91
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 475
+        width: 209
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9588c43db52fddf20800000000000000
+      internalID: 3449179365836621913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_92
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 535
+        width: 245
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20487ca528a74a610800000000000000
+      internalID: 1631563665302324226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_93
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 558
+        width: 261
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1e234b626445c90800000000000000
+      internalID: -7182038373703163433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_94
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 206
+        width: 268
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de581f97875557c70800000000000000
+      internalID: 8968168208908518893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_95
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 240
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539c3f8a8e1bb60d0800000000000000
+      internalID: -3428451078487422667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_96
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 160
+        width: 217
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4579c013a25c8ac20800000000000000
+      internalID: 3218038718758426452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_97
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 94
+        width: 164
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67caf6c3151989ba0800000000000000
+      internalID: -6081951518671524746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_98
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 110
+        width: 142
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73289a62c2b4e50f0800000000000000
+      internalID: -1126380203796757961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_99
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 64
+        width: 96
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4135a1ea6ac8ad0800000000000000
+      internalID: -2698598810005597023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_100
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 95
+        width: 64
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da6c2ca03b00ce90800000000000000
+      internalID: -7007588716513563949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_101
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 62
+        width: 74
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18203fe714dfbe950800000000000000
+      internalID: 6479550946647147137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_102
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 100
+        width: 103
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59795d8420caa4e10800000000000000
+      internalID: 2182746095226296213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_103
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 83
+        width: 145
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e2726d779a71e70800000000000000
+      internalID: 9085917105402359451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_104
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 126
+        width: 167
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581bee18224f11870800000000000000
+      internalID: 8651964788201402757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_105
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 136
+        width: 218
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cea16c6529364a0800000000000000
+      internalID: -6601271727406519292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_106
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 181
+        width: 240
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5119a394f9336970800000000000000
+      internalID: 8746898623895769435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_107
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 216
+        width: 262
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cd6d753849b14b0800000000000000
+      internalID: -5468614030676009839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_108
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 207
+        width: 269
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c163d5926eef840800000000000000
+      internalID: 5259894480147192846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_109
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 149
+        width: 237
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9f0bb421503ebc0800000000000000
+      internalID: -3755152088159421955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_110
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 88
+        width: 163
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404a10ecdf14c8b30800000000000000
+      internalID: 4290877103315985412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_111
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 62
+        width: 97
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4c242d08dd85810800000000000000
+      internalID: 1754395600213951722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_112
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 62
+        width: 87
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131cd44b872663a60800000000000000
+      internalID: 7653412887323328817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_113
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 97
+        width: 97
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ec19ca5c1902c80800000000000000
+      internalID: -8349513430955078072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_114
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 85
+        width: 167
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0821f8ce0ea85ce50800000000000000
+      internalID: 6829017108623331968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_115
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 143
+        width: 238
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46daa75721bfeee40800000000000000
+      internalID: 5687759436114472292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swing00_116
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 217
+        width: 263
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528274c173a5e9ee0800000000000000
+      internalID: -1252464453618292699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      swing00_0: 129880779421579816
+      swing00_1: 7758735457098205064
+      swing00_10: -7427872716810744116
+      swing00_100: -7007588716513563949
+      swing00_101: 6479550946647147137
+      swing00_102: 2182746095226296213
+      swing00_103: 9085917105402359451
+      swing00_104: 8651964788201402757
+      swing00_105: -6601271727406519292
+      swing00_106: 8746898623895769435
+      swing00_107: -5468614030676009839
+      swing00_108: 5259894480147192846
+      swing00_109: -3755152088159421955
+      swing00_11: -3169130211711616133
+      swing00_110: 4290877103315985412
+      swing00_111: 1754395600213951722
+      swing00_112: 7653412887323328817
+      swing00_113: -8349513430955078072
+      swing00_114: 6829017108623331968
+      swing00_115: 5687759436114472292
+      swing00_116: -1252464453618292699
+      swing00_12: -3545500230138453440
+      swing00_13: -2125636961707253764
+      swing00_14: -6864910824227803180
+      swing00_15: -7291796837982999874
+      swing00_16: 220482675875147881
+      swing00_17: -6604095928884134282
+      swing00_18: 9184508639831881973
+      swing00_19: -1959406375236042573
+      swing00_2: 6732291865536281512
+      swing00_20: -753048467989567567
+      swing00_21: 6838522905476102087
+      swing00_22: 3680331073220281018
+      swing00_23: -2450830077617735034
+      swing00_24: -619246755901635427
+      swing00_25: -7739271775877120958
+      swing00_26: -6513933909983992498
+      swing00_27: -7028225344197172240
+      swing00_28: 598113328609894857
+      swing00_29: -5304814504237013560
+      swing00_3: 2243267730780625148
+      swing00_30: -8827167333230507018
+      swing00_31: 4698574492195321497
+      swing00_32: 1083609593045984602
+      swing00_33: -8561743222827440209
+      swing00_34: -253195064795422118
+      swing00_35: 6102293790738265736
+      swing00_36: 3928027551873997108
+      swing00_37: 1986092066222446531
+      swing00_38: -2322560547022386650
+      swing00_39: 7056514166014194968
+      swing00_4: -2540807490323950823
+      swing00_40: -8638522908971583197
+      swing00_41: 6263239973282109261
+      swing00_42: 2882104993416480168
+      swing00_43: -9033125133783322971
+      swing00_44: -8070479364936474765
+      swing00_45: 6882443074169641218
+      swing00_46: 161938831023688103
+      swing00_47: -1658660866431853993
+      swing00_48: -7984076324510393254
+      swing00_49: 2335574876199108270
+      swing00_5: 7253855564606329394
+      swing00_50: 6765238606255426388
+      swing00_51: -2218181234080349768
+      swing00_52: -3032045722637533825
+      swing00_53: 3349908042210775884
+      swing00_54: 8693367039737719801
+      swing00_55: 8107843163007775068
+      swing00_56: 812359645184436763
+      swing00_57: 1928691052083285202
+      swing00_58: -3160459834344396438
+      swing00_59: 6350033925880334197
+      swing00_6: 3463928122531280811
+      swing00_60: 7474088206908093108
+      swing00_61: -5426347321450735484
+      swing00_62: 3386299589943343717
+      swing00_63: -4994466250918004857
+      swing00_64: 3862413648284932039
+      swing00_65: 4438314163950133071
+      swing00_66: -738481841349113467
+      swing00_67: -7078652303548076332
+      swing00_68: -5911180817255629512
+      swing00_69: -5307956904049793029
+      swing00_7: 249120691028702195
+      swing00_70: 66117067504733398
+      swing00_71: -8307600226907001661
+      swing00_72: -6228374296482199254
+      swing00_73: 8010946893945334572
+      swing00_74: 639143486319550420
+      swing00_75: 8246074674246911061
+      swing00_76: -7684045616647241143
+      swing00_77: -3200915793546420612
+      swing00_78: -8335040074545426458
+      swing00_79: -4855070948898501823
+      swing00_8: -6480056576599433361
+      swing00_80: -8327706299723083669
+      swing00_81: 5288558345535317724
+      swing00_82: 6362626331359114064
+      swing00_83: 6362135870049075351
+      swing00_84: 1268120962893610568
+      swing00_85: -5608651467751659563
+      swing00_86: 8477433396133570492
+      swing00_87: -313455608804851415
+      swing00_88: 847771626957687149
+      swing00_89: 3462444473986819512
+      swing00_9: -4595656966957202477
+      swing00_90: -3839514324517232257
+      swing00_91: 3449179365836621913
+      swing00_92: 1631563665302324226
+      swing00_93: -7182038373703163433
+      swing00_94: 8968168208908518893
+      swing00_95: -3428451078487422667
+      swing00_96: 3218038718758426452
+      swing00_97: -6081951518671524746
+      swing00_98: -1126380203796757961
+      swing00_99: -2698598810005597023
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

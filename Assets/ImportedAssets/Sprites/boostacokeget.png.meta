@@ -1,0 +1,1807 @@
+fileFormatVersion: 2
+guid: f6883b4ca86896e4393f907b63ce65ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7748809516713147109
+    second: boostacokeget_0
+  - first:
+      213: 7850991625483341868
+    second: boostacokeget_1
+  - first:
+      213: 7288171819993375594
+    second: boostacokeget_2
+  - first:
+      213: -8854041983214947387
+    second: boostacokeget_3
+  - first:
+      213: -1788858181994044982
+    second: boostacokeget_4
+  - first:
+      213: 8734295328646067989
+    second: boostacokeget_5
+  - first:
+      213: 1249500154788724146
+    second: boostacokeget_6
+  - first:
+      213: -5730616577258023291
+    second: boostacokeget_7
+  - first:
+      213: 5596866397752611174
+    second: boostacokeget_8
+  - first:
+      213: -8037162014971777489
+    second: boostacokeget_9
+  - first:
+      213: 4451424928822780166
+    second: boostacokeget_10
+  - first:
+      213: 7671281302845253746
+    second: boostacokeget_11
+  - first:
+      213: -6218019009890952893
+    second: boostacokeget_12
+  - first:
+      213: 1235547607282425117
+    second: boostacokeget_13
+  - first:
+      213: 4159661706311029728
+    second: boostacokeget_14
+  - first:
+      213: -6282720224827472713
+    second: boostacokeget_15
+  - first:
+      213: -5820626657461985835
+    second: boostacokeget_16
+  - first:
+      213: 5138110097132425597
+    second: boostacokeget_17
+  - first:
+      213: -6322700473967285073
+    second: boostacokeget_18
+  - first:
+      213: 8960443464708660025
+    second: boostacokeget_19
+  - first:
+      213: -248063144799332924
+    second: boostacokeget_20
+  - first:
+      213: -9207999343181279460
+    second: boostacokeget_21
+  - first:
+      213: -1304023891305841649
+    second: boostacokeget_22
+  - first:
+      213: 7494885233765433691
+    second: boostacokeget_23
+  - first:
+      213: -8840875141247245056
+    second: boostacokeget_24
+  - first:
+      213: -8332926195917116217
+    second: boostacokeget_25
+  - first:
+      213: 9165565146265142571
+    second: boostacokeget_26
+  - first:
+      213: -7006615043791208854
+    second: boostacokeget_27
+  - first:
+      213: 1312997619215608449
+    second: boostacokeget_28
+  - first:
+      213: 7270860477900906878
+    second: boostacokeget_29
+  - first:
+      213: 8147777432359943954
+    second: boostacokeget_30
+  - first:
+      213: -2359559695980724993
+    second: boostacokeget_31
+  - first:
+      213: -8947842018058882492
+    second: boostacokeget_32
+  - first:
+      213: 242813353955283725
+    second: boostacokeget_33
+  - first:
+      213: 5058068914200274470
+    second: boostacokeget_34
+  - first:
+      213: 4050105233007971974
+    second: boostacokeget_35
+  - first:
+      213: -199394460899697113
+    second: boostacokeget_36
+  - first:
+      213: -1118881319477602758
+    second: boostacokeget_37
+  - first:
+      213: -5083061861324134819
+    second: boostacokeget_38
+  - first:
+      213: 896002512862429605
+    second: boostacokeget_39
+  - first:
+      213: -3548267115192961969
+    second: boostacokeget_40
+  - first:
+      213: 3863927213082364855
+    second: boostacokeget_41
+  - first:
+      213: -8225244505159607064
+    second: boostacokeget_42
+  - first:
+      213: 2093527276212448708
+    second: boostacokeget_43
+  - first:
+      213: -1186506526057390198
+    second: boostacokeget_44
+  - first:
+      213: -6336630721236455989
+    second: boostacokeget_45
+  - first:
+      213: -1165878018546561883
+    second: boostacokeget_46
+  - first:
+      213: -6938953723466415483
+    second: boostacokeget_47
+  - first:
+      213: -2765981352526625896
+    second: boostacokeget_48
+  - first:
+      213: -3328830785951599950
+    second: boostacokeget_49
+  - first:
+      213: -7983969284568855607
+    second: boostacokeget_50
+  - first:
+      213: 3985838337543813547
+    second: boostacokeget_51
+  - first:
+      213: -2131250714417565834
+    second: boostacokeget_52
+  - first:
+      213: 2812750030125919391
+    second: boostacokeget_53
+  - first:
+      213: 1014815513096193699
+    second: boostacokeget_54
+  - first:
+      213: -2353613326563094127
+    second: boostacokeget_55
+  - first:
+      213: 2962812930257077107
+    second: boostacokeget_56
+  - first:
+      213: -8119504648471573908
+    second: boostacokeget_57
+  - first:
+      213: 4319419787870600142
+    second: boostacokeget_58
+  - first:
+      213: 141506623109356722
+    second: boostacokeget_59
+  - first:
+      213: -8104866045808007743
+    second: boostacokeget_60
+  - first:
+      213: -2488918636524363334
+    second: boostacokeget_61
+  - first:
+      213: -6891571929569161636
+    second: boostacokeget_62
+  - first:
+      213: 2017158468515429589
+    second: boostacokeget_63
+  - first:
+      213: 9060027738856632886
+    second: boostacokeget_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boostacokeget_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 302
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15852cacc2b67490800000000000000
+      internalID: -7748809516713147109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 299
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20508b794354fc60800000000000000
+      internalID: 7850991625483341868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 296
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63a7b8e7a9c42560800000000000000
+      internalID: 7288171819993375594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 292
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3f31c1abf102580800000000000000
+      internalID: -8854041983214947387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 310
+        width: 99
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1a1b416f2bc27e0800000000000000
+      internalID: -1788858181994044982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_5
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 290
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5177d4b3353763970800000000000000
+      internalID: 8734295328646067989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 287
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd3af845cd175110800000000000000
+      internalID: 1249500154788724146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_7
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 284
+        width: 101
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5861298c592c870b0800000000000000
+      internalID: -5730616577258023291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_8
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 285
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6615d55d5501cad40800000000000000
+      internalID: 5596866397752611174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_9
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 285
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e2857eab3467090800000000000000
+      internalID: -8037162014971777489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_10
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 285
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601ecca5363a6cd30800000000000000
+      internalID: 4451424928822780166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278ef2463bdd57a60800000000000000
+      internalID: 7671281302845253746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 157
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349d2dca7a825b9a0800000000000000
+      internalID: -6218019009890952893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 157
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d172ba00c852110800000000000000
+      internalID: 1235547607282425117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 157
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3d67678461ab930800000000000000
+      internalID: 4159661706311029728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_15
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 157
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b40ff72e3b4fc8a0800000000000000
+      internalID: -6282720224827472713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_16
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 211
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd1fcfd4eaf83fa0800000000000000
+      internalID: -5820626657461985835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 211
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d711d6419eb3e4740800000000000000
+      internalID: 5138110097132425597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_18
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 231
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac6cf30b614148a0800000000000000
+      internalID: -6322700473967285073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_19
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 215
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b1eef4bd3e95c70800000000000000
+      internalID: 8960443464708660025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_20
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 215
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c59e5452e3be8cf0800000000000000
+      internalID: -248063144799332924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_21
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 219
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f46a9226d963080800000000000000
+      internalID: -9207999343181279460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_22
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 217
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cb71c0e2d27ede0800000000000000
+      internalID: -1304023891305841649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_23
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 223
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51c8e6196e230860800000000000000
+      internalID: 7494885233765433691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_24
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 219
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005606666e6ee4580800000000000000
+      internalID: -8840875141247245056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_25
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 203
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc20d846cf7b5c80800000000000000
+      internalID: -8332926195917116217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_26
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 203
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25c5d470f0a23f70800000000000000
+      internalID: 9165565146265142571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_27
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 213
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ebae48db083ce90800000000000000
+      internalID: -7006615043791208854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_28
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 157
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aa74cc064b83210800000000000000
+      internalID: 1312997619215608449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_29
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 212
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71e5bcf41947e460800000000000000
+      internalID: 7270860477900906878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_30
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 192
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f32cce768b21170800000000000000
+      internalID: 8147777432359943954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_31
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 211
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc7dbe35f8214fd0800000000000000
+      internalID: -2359559695980724993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_32
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 191
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442394f9711e2d380800000000000000
+      internalID: -8947842018058882492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_33
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 191
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03d93d7575ae5300800000000000000
+      internalID: 242813353955283725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_34
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 192
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6266a50f0eed13640800000000000000
+      internalID: 5058068914200274470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_35
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 157
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e0464404dd43830800000000000000
+      internalID: 4050105233007971974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_36
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 157
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e94e35bcb9b3df0800000000000000
+      internalID: -199394460899697113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_37
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 94
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3697b63e5fe870f0800000000000000
+      internalID: -1118881319477602758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5660781b265579b0800000000000000
+      internalID: -5083061861324134819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_39
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 97
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1c509c98d3f6c00800000000000000
+      internalID: 896002512862429605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_40
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 99
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4439b6bbd502cec0800000000000000
+      internalID: -3548267115192961969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_41
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 101
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb4dbd045d6f9530800000000000000
+      internalID: 3863927213082364855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_42
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 98
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec5a37a3bf0add80800000000000000
+      internalID: -8225244505159607064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_43
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 102
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdeb3a37f3bd0d10800000000000000
+      internalID: 2093527276212448708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_44
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 76
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f9aa6d99ea88fe0800000000000000
+      internalID: -1186506526057390198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_45
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 105
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdafd39ee3cf08a0800000000000000
+      internalID: -6336630721236455989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_46
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 78
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac88158e18f1dfe0800000000000000
+      internalID: -1165878018546561883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_47
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 65
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58209e74a52e3bf90800000000000000
+      internalID: -6938953723466415483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 72
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893cb4b5d924d99d0800000000000000
+      internalID: -2765981352526625896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_49
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 64
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b278fd790e9dc1d0800000000000000
+      internalID: -3328830785951599950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_50
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 70
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbc4af8c3e333190800000000000000
+      internalID: -7983969284568855607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 72
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9be61a9da805730800000000000000
+      internalID: 3985838337543813547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_52
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 71
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fe7df54c64c62e0800000000000000
+      internalID: -2131250714417565834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_53
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 73
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cef93ff35e80720800000000000000
+      internalID: 2812750030125919391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_54
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 73
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a687aa1559551e00800000000000000
+      internalID: 1014815513096193699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_55
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 75
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191d4934629465fd0800000000000000
+      internalID: -2353613326563094127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_56
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37348e399a60e1920800000000000000
+      internalID: 2962812930257077107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_57
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 73
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a08bb8a89b15f80800000000000000
+      internalID: -8119504648471573908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_58
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbf1db6969a1fb30800000000000000
+      internalID: 4319419787870600142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_59
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 71
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc5cc3268bb6f100800000000000000
+      internalID: 141506623109356722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_60
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 63
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c52d73d54bb58f80800000000000000
+      internalID: -8104866045808007743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_61
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 63
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1ad1bdfa5957dd0800000000000000
+      internalID: -2488918636524363334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_62
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 61
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e0af9d7d73c50a0800000000000000
+      internalID: -6891571929569161636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_63
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 69
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc788390f26efb10800000000000000
+      internalID: 2017158468515429589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacokeget_64
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 67
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6323cb5f93fabbd70800000000000000
+      internalID: 9060027738856632886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boostacokeget_0: -7748809516713147109
+      boostacokeget_1: 7850991625483341868
+      boostacokeget_10: 4451424928822780166
+      boostacokeget_11: 7671281302845253746
+      boostacokeget_12: -6218019009890952893
+      boostacokeget_13: 1235547607282425117
+      boostacokeget_14: 4159661706311029728
+      boostacokeget_15: -6282720224827472713
+      boostacokeget_16: -5820626657461985835
+      boostacokeget_17: 5138110097132425597
+      boostacokeget_18: -6322700473967285073
+      boostacokeget_19: 8960443464708660025
+      boostacokeget_2: 7288171819993375594
+      boostacokeget_20: -248063144799332924
+      boostacokeget_21: -9207999343181279460
+      boostacokeget_22: -1304023891305841649
+      boostacokeget_23: 7494885233765433691
+      boostacokeget_24: -8840875141247245056
+      boostacokeget_25: -8332926195917116217
+      boostacokeget_26: 9165565146265142571
+      boostacokeget_27: -7006615043791208854
+      boostacokeget_28: 1312997619215608449
+      boostacokeget_29: 7270860477900906878
+      boostacokeget_3: -8854041983214947387
+      boostacokeget_30: 8147777432359943954
+      boostacokeget_31: -2359559695980724993
+      boostacokeget_32: -8947842018058882492
+      boostacokeget_33: 242813353955283725
+      boostacokeget_34: 5058068914200274470
+      boostacokeget_35: 4050105233007971974
+      boostacokeget_36: -199394460899697113
+      boostacokeget_37: -1118881319477602758
+      boostacokeget_38: -5083061861324134819
+      boostacokeget_39: 896002512862429605
+      boostacokeget_4: -1788858181994044982
+      boostacokeget_40: -3548267115192961969
+      boostacokeget_41: 3863927213082364855
+      boostacokeget_42: -8225244505159607064
+      boostacokeget_43: 2093527276212448708
+      boostacokeget_44: -1186506526057390198
+      boostacokeget_45: -6336630721236455989
+      boostacokeget_46: -1165878018546561883
+      boostacokeget_47: -6938953723466415483
+      boostacokeget_48: -2765981352526625896
+      boostacokeget_49: -3328830785951599950
+      boostacokeget_5: 8734295328646067989
+      boostacokeget_50: -7983969284568855607
+      boostacokeget_51: 3985838337543813547
+      boostacokeget_52: -2131250714417565834
+      boostacokeget_53: 2812750030125919391
+      boostacokeget_54: 1014815513096193699
+      boostacokeget_55: -2353613326563094127
+      boostacokeget_56: 2962812930257077107
+      boostacokeget_57: -8119504648471573908
+      boostacokeget_58: 4319419787870600142
+      boostacokeget_59: 141506623109356722
+      boostacokeget_6: 1249500154788724146
+      boostacokeget_60: -8104866045808007743
+      boostacokeget_61: -2488918636524363334
+      boostacokeget_62: -6891571929569161636
+      boostacokeget_63: 2017158468515429589
+      boostacokeget_64: 9060027738856632886
+      boostacokeget_7: -5730616577258023291
+      boostacokeget_8: 5596866397752611174
+      boostacokeget_9: -8037162014971777489
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c7b5c8d4d481a2a409baad6701ca91cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1108982889980700638
+    second: knockoutCircle_230x230_0
+  - first:
+      213: 7920594058852675244
+    second: knockoutCircle_230x230_1
+  - first:
+      213: -7779981786098993907
+    second: knockoutCircle_230x230_2
+  - first:
+      213: 3682008975681905324
+    second: knockoutCircle_230x230_3
+  - first:
+      213: -3726543601197780120
+    second: knockoutCircle_230x230_4
+  - first:
+      213: -476297020806716053
+    second: knockoutCircle_230x230_5
+  - first:
+      213: -350125139588845631
+    second: knockoutCircle_230x230_6
+  - first:
+      213: 2570864311629291563
+    second: knockoutCircle_230x230_7
+  - first:
+      213: -6180868315886289714
+    second: knockoutCircle_230x230_8
+  - first:
+      213: -2725910244619854010
+    second: knockoutCircle_230x230_9
+  - first:
+      213: 2215888709902724370
+    second: knockoutCircle_230x230_10
+  - first:
+      213: 5568032648792553761
+    second: knockoutCircle_230x230_11
+  - first:
+      213: 1565826071620918404
+    second: knockoutCircle_230x230_12
+  - first:
+      213: -1294999636025640884
+    second: knockoutCircle_230x230_13
+  - first:
+      213: -7346700288143056048
+    second: knockoutCircle_230x230_14
+  - first:
+      213: -5893708409324212660
+    second: knockoutCircle_230x230_15
+  - first:
+      213: -2973531889968826817
+    second: knockoutCircle_230x230_16
+  - first:
+      213: 1600437000286510010
+    second: knockoutCircle_230x230_17
+  - first:
+      213: -3027988312270027882
+    second: knockoutCircle_230x230_18
+  - first:
+      213: -1600802356397394538
+    second: knockoutCircle_230x230_19
+  - first:
+      213: 1596143501131239752
+    second: knockoutCircle_230x230_20
+  - first:
+      213: -2819618819733058690
+    second: knockoutCircle_230x230_21
+  - first:
+      213: -7203981900989813467
+    second: knockoutCircle_230x230_22
+  - first:
+      213: 8048817786545986565
+    second: knockoutCircle_230x230_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 276
+        width: 139
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed729431016e36f00800000000000000
+      internalID: 1108982889980700638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_1
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 265
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caeabf7d45a9bed60800000000000000
+      internalID: 7920594058852675244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_2
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 261
+        width: 169
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d057f8029c3f70490800000000000000
+      internalID: -7779981786098993907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_3
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 317
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2e15fb7af191330800000000000000
+      internalID: 3682008975681905324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_4
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 233
+        width: 227
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863f99ab658a84cc0800000000000000
+      internalID: -3726543601197780120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 227
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b652d33126ad369f0800000000000000
+      internalID: -476297020806716053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 197
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf6fd36a0b142bf0800000000000000
+      internalID: -350125139588845631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 197
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20a46c687b8da320800000000000000
+      internalID: 2570864311629291563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_8
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 152
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc712ca305293aa0800000000000000
+      internalID: -6180868315886289714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_9
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 152
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fd5d3331f9b2ad0800000000000000
+      internalID: -2725910244619854010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_10
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 197
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dec879a0b60ce10800000000000000
+      internalID: 2215888709902724370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_11
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 197
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129be018130a54d40800000000000000
+      internalID: 5568032648792553761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_12
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 203
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c920b148eeab510800000000000000
+      internalID: 1565826071620918404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_13
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 205
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c487e6631bc370ee0800000000000000
+      internalID: -1294999636025640884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_14
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 86
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05329fd23074b0a90800000000000000
+      internalID: -7346700288143056048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 85
+        width: 109
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e6f7c8d67553ea0800000000000000
+      internalID: -5893708409324212660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_16
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 85
+        width: 110
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36bc122084ebb6d0800000000000000
+      internalID: -2973531889968826817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_17
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 86
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb1877e8f4e53610800000000000000
+      internalID: 1600437000286510010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_18
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 87
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6934c174cac6af5d0800000000000000
+      internalID: -3027988312270027882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_19
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 87
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695335ffcbec8c9e0800000000000000
+      internalID: -1600802356397394538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_20
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 4
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841d97bbe04a62610800000000000000
+      internalID: 1596143501131239752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_21
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1
+        width: 21
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b0ec75f93bed8d0800000000000000
+      internalID: -2819618819733058690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_22
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 4
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52da82f11a0560c90800000000000000
+      internalID: -7203981900989813467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knockoutCircle_230x230_23
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 7
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c5be4e12523bf60800000000000000
+      internalID: 8048817786545986565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      knockoutCircle_230x230_0: 1108982889980700638
+      knockoutCircle_230x230_1: 7920594058852675244
+      knockoutCircle_230x230_10: 2215888709902724370
+      knockoutCircle_230x230_11: 5568032648792553761
+      knockoutCircle_230x230_12: 1565826071620918404
+      knockoutCircle_230x230_13: -1294999636025640884
+      knockoutCircle_230x230_14: -7346700288143056048
+      knockoutCircle_230x230_15: -5893708409324212660
+      knockoutCircle_230x230_16: -2973531889968826817
+      knockoutCircle_230x230_17: 1600437000286510010
+      knockoutCircle_230x230_18: -3027988312270027882
+      knockoutCircle_230x230_19: -1600802356397394538
+      knockoutCircle_230x230_2: -7779981786098993907
+      knockoutCircle_230x230_20: 1596143501131239752
+      knockoutCircle_230x230_21: -2819618819733058690
+      knockoutCircle_230x230_22: -7203981900989813467
+      knockoutCircle_230x230_23: 8048817786545986565
+      knockoutCircle_230x230_3: 3682008975681905324
+      knockoutCircle_230x230_4: -3726543601197780120
+      knockoutCircle_230x230_5: -476297020806716053
+      knockoutCircle_230x230_6: -350125139588845631
+      knockoutCircle_230x230_7: 2570864311629291563
+      knockoutCircle_230x230_8: -6180868315886289714
+      knockoutCircle_230x230_9: -2725910244619854010
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

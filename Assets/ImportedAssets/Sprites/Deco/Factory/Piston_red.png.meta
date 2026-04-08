@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 1b3fec5d801a85041ad5d1eccd369674
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7272212243041354536
+    second: Piston_red_0
+  - first:
+      213: -5506600715538420698
+    second: Piston_red_1
+  - first:
+      213: 967258208056229432
+    second: Piston_red_2
+  - first:
+      213: -1181388669399108860
+    second: Piston_red_3
+  - first:
+      213: -7868970764962811962
+    second: Piston_red_4
+  - first:
+      213: -1588345113747905920
+    second: Piston_red_5
+  - first:
+      213: -933171899002332998
+    second: Piston_red_6
+  - first:
+      213: 5912662409698278582
+    second: Piston_red_7
+  - first:
+      213: -5380726861468288997
+    second: Piston_red_8
+  - first:
+      213: -2373607645806972815
+    second: Piston_red_9
+  - first:
+      213: 3191280219888212370
+    second: Piston_red_10
+  - first:
+      213: 8825204184616653830
+    second: Piston_red_11
+  - first:
+      213: 3730798806468378778
+    second: Piston_red_12
+  - first:
+      213: -9186237326590307156
+    second: Piston_red_13
+  - first:
+      213: -7418505080233437288
+    second: Piston_red_14
+  - first:
+      213: 2384858373925800525
+    second: Piston_red_15
+  - first:
+      213: 5923824783267977589
+    second: Piston_red_16
+  - first:
+      213: 1041818094005025635
+    second: Piston_red_17
+  - first:
+      213: -5212945818516406525
+    second: Piston_red_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Piston_red_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 21
+        width: 47
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8230ab551861ce460800000000000000
+      internalID: 7272212243041354536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 21
+        width: 47
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cab6e03df9493b0800000000000000
+      internalID: -5506600715538420698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 107
+        width: 45
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83eb54927346c6d00800000000000000
+      internalID: 967258208056229432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 21
+        width: 47
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4037bc2b34dda9fe0800000000000000
+      internalID: -1181388669399108860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 21
+        width: 47
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf2576e7cccbc290800000000000000
+      internalID: -7868970764962811962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 11
+        width: 53
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0822452d88015f9e0800000000000000
+      internalID: -1588345113747905920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 11
+        width: 54
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8d69d1a15bc03f0800000000000000
+      internalID: -933171899002332998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 11
+        width: 54
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcfede822ffd0250800000000000000
+      internalID: 5912662409698278582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 11
+        width: 54
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18b7c48d61d355b0800000000000000
+      internalID: -5380726861468288997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_9
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 11
+        width: 54
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170368b0c604f0fd0800000000000000
+      internalID: -2373607645806972815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 11
+        width: 54
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299da2da374b94c20800000000000000
+      internalID: 3191280219888212370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_11
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 11
+        width: 54
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604dd5ea27c697a70800000000000000
+      internalID: 8825204184616653830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_12
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 11
+        width: 54
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90cff37fb576c330800000000000000
+      internalID: 3730798806468378778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_13
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 11
+        width: 54
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4962e72dde38080800000000000000
+      internalID: -9186237326590307156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_14
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 11
+        width: 54
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89751483fec2c0990800000000000000
+      internalID: -7418505080233437288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 11
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a86793e08b81120800000000000000
+      internalID: 2384858373925800525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 11
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579d75e2147a53250800000000000000
+      internalID: 5923824783267977589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 11
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b7eb56908457e00800000000000000
+      internalID: 1041818094005025635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_red_18
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 11
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fb8fdb565e7a7b0800000000000000
+      internalID: -5212945818516406525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Piston_red_0: 7272212243041354536
+      Piston_red_1: -5506600715538420698
+      Piston_red_10: 3191280219888212370
+      Piston_red_11: 8825204184616653830
+      Piston_red_12: 3730798806468378778
+      Piston_red_13: -9186237326590307156
+      Piston_red_14: -7418505080233437288
+      Piston_red_15: 2384858373925800525
+      Piston_red_16: 5923824783267977589
+      Piston_red_17: 1041818094005025635
+      Piston_red_18: -5212945818516406525
+      Piston_red_2: 967258208056229432
+      Piston_red_3: -1181388669399108860
+      Piston_red_4: -7868970764962811962
+      Piston_red_5: -1588345113747905920
+      Piston_red_6: -933171899002332998
+      Piston_red_7: 5912662409698278582
+      Piston_red_8: -5380726861468288997
+      Piston_red_9: -2373607645806972815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

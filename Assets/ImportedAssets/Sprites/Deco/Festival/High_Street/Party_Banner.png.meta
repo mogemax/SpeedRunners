@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 5fd63b912df3c584bb795eaf93345d3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9211349626470156514
+    second: Party_Banner_0
+  - first:
+      213: 2757711579668896357
+    second: Party_Banner_1
+  - first:
+      213: 193036144140225973
+    second: Party_Banner_2
+  - first:
+      213: -7290360455548392525
+    second: Party_Banner_3
+  - first:
+      213: 8979568987312118597
+    second: Party_Banner_4
+  - first:
+      213: -1016162373987042172
+    second: Party_Banner_5
+  - first:
+      213: 73777104374705610
+    second: Party_Banner_6
+  - first:
+      213: 3464657046019169226
+    second: Party_Banner_7
+  - first:
+      213: 8246548122234223864
+    second: Party_Banner_8
+  - first:
+      213: -5618547812759218870
+    second: Party_Banner_9
+  - first:
+      213: -2294652438790425321
+    second: Party_Banner_10
+  - first:
+      213: 1874768106110376796
+    second: Party_Banner_11
+  - first:
+      213: -2588691559229947822
+    second: Party_Banner_12
+  - first:
+      213: -8044867867975353404
+    second: Party_Banner_13
+  - first:
+      213: 5803071910066820058
+    second: Party_Banner_14
+  - first:
+      213: 454639067325017181
+    second: Party_Banner_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Party_Banner_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 907
+        width: 403
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e84ea37ea945df70800000000000000
+      internalID: 9211349626470156514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 907
+        width: 403
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a552b121c554620800000000000000
+      internalID: 2757711579668896357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 792
+        width: 403
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd0a40b95dcda200800000000000000
+      internalID: 193036144140225973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 791
+        width: 403
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbab7aaacf63da90800000000000000
+      internalID: -7290360455548392525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 677
+        width: 403
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b5adc0b66dd9c70800000000000000
+      internalID: 8979568987312118597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_5
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 677
+        width: 403
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c726864bdd5e1f0800000000000000
+      internalID: -1016162373987042172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 562
+        width: 403
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdafc2b2eb160100800000000000000
+      internalID: 73777104374705610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 564
+        width: 403
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbd6801a3fe41030800000000000000
+      internalID: 3464657046019169226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 448
+        width: 403
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc7fe833df917270800000000000000
+      internalID: 8246548122234223864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_9
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 451
+        width: 403
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4550fa5888e602b0800000000000000
+      internalID: -5618547812759218870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 337
+        width: 403
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715b9e6b3c1c720e0800000000000000
+      internalID: -2294652438790425321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_11
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 338
+        width: 403
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bd0f8d8a3840a10800000000000000
+      internalID: 1874768106110376796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 402
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2500c0b0ebe131cd0800000000000000
+      internalID: -2588691559229947822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 226
+        width: 403
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbff503c43ea5090800000000000000
+      internalID: -8044867867975353404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_14
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 115
+        width: 403
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3949df727a88050800000000000000
+      internalID: 5803071910066820058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Party_Banner_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 402
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c2ceca2d33f4600800000000000000
+      internalID: 454639067325017181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Party_Banner_0: 9211349626470156514
+      Party_Banner_1: 2757711579668896357
+      Party_Banner_10: -2294652438790425321
+      Party_Banner_11: 1874768106110376796
+      Party_Banner_12: -2588691559229947822
+      Party_Banner_13: -8044867867975353404
+      Party_Banner_14: 5803071910066820058
+      Party_Banner_15: 454639067325017181
+      Party_Banner_2: 193036144140225973
+      Party_Banner_3: -7290360455548392525
+      Party_Banner_4: 8979568987312118597
+      Party_Banner_5: -1016162373987042172
+      Party_Banner_6: 73777104374705610
+      Party_Banner_7: 3464657046019169226
+      Party_Banner_8: 8246548122234223864
+      Party_Banner_9: -5618547812759218870
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

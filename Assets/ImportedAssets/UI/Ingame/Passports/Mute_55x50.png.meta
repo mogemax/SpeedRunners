@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 09b7267e03d596b41bc5f93cac88110b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5151790653230884487
+    second: Mute_55x50_0
+  - first:
+      213: 3098832483276991717
+    second: Mute_55x50_1
+  - first:
+      213: -1744094482386404048
+    second: Mute_55x50_2
+  - first:
+      213: 3974361085510956242
+    second: Mute_55x50_3
+  - first:
+      213: 5293502427256566032
+    second: Mute_55x50_4
+  - first:
+      213: -1169018730320595709
+    second: Mute_55x50_5
+  - first:
+      213: -6965421281502188505
+    second: Mute_55x50_6
+  - first:
+      213: 108679453233574425
+    second: Mute_55x50_7
+  - first:
+      213: 2433318696109131320
+    second: Mute_55x50_8
+  - first:
+      213: 4843972126269655443
+    second: Mute_55x50_9
+  - first:
+      213: -7869078503989247682
+    second: Mute_55x50_10
+  - first:
+      213: 5749813942227220399
+    second: Mute_55x50_11
+  - first:
+      213: -4303877814056251246
+    second: Mute_55x50_12
+  - first:
+      213: 1746635016998304189
+    second: Mute_55x50_13
+  - first:
+      213: 7851224714359939493
+    second: Mute_55x50_14
+  - first:
+      213: -3628866409174243501
+    second: Mute_55x50_15
+  - first:
+      213: -245420281755939483
+    second: Mute_55x50_16
+  - first:
+      213: -3890612483224858302
+    second: Mute_55x50_17
+  - first:
+      213: 4982204836192411816
+    second: Mute_55x50_18
+  - first:
+      213: 7512304275397515021
+    second: Mute_55x50_19
+  - first:
+      213: 3242154078314343750
+    second: Mute_55x50_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mute_55x50_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 610
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7862103cd46de7740800000000000000
+      internalID: 5151790653230884487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 625
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecaa28a9b3410b20800000000000000
+      internalID: 3098832483276991717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 622
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03db3a21f4bbbc7e0800000000000000
+      internalID: -1744094482386404048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 616
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d43407a954c72730800000000000000
+      internalID: 3974361085510956242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 610
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011bb42596c467940800000000000000
+      internalID: 5293502427256566032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 560
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305767398afc6cfe0800000000000000
+      internalID: -1169018730320595709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cad15bf3ad55f90800000000000000
+      internalID: -6965421281502188505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912fe5c036b128100800000000000000
+      internalID: 108679453233574425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 410
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836c6ea3672e4c120800000000000000
+      internalID: 2433318696109131320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 360
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39942300cfe393340800000000000000
+      internalID: 4843972126269655443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 360
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e310f04faca6bc290800000000000000
+      internalID: -7869078503989247682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 355
+        width: 10
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7ba0f01517bcf40800000000000000
+      internalID: 5749813942227220399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2901e785eed8544c0800000000000000
+      internalID: -4303877814056251246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9317c3b4b4d3810800000000000000
+      internalID: 1746635016998304189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 262
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a12137b74725fc60800000000000000
+      internalID: 7851224714359939493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35762d73a3da3adc0800000000000000
+      internalID: -3628866409174243501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 212
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dc245dd87189cf0800000000000000
+      internalID: -245420281755939483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2419ea25f84c10ac0800000000000000
+      internalID: -3890612483224858302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a06b73d6e8542540800000000000000
+      internalID: 4982204836192411816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0797b3cfe0114860800000000000000
+      internalID: 7512304275397515021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mute_55x50_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64da201e4f17efc20800000000000000
+      internalID: 3242154078314343750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mute_55x50_0: 5151790653230884487
+      Mute_55x50_1: 3098832483276991717
+      Mute_55x50_10: -7869078503989247682
+      Mute_55x50_11: 5749813942227220399
+      Mute_55x50_12: -4303877814056251246
+      Mute_55x50_13: 1746635016998304189
+      Mute_55x50_14: 7851224714359939493
+      Mute_55x50_15: -3628866409174243501
+      Mute_55x50_16: -245420281755939483
+      Mute_55x50_17: -3890612483224858302
+      Mute_55x50_18: 4982204836192411816
+      Mute_55x50_19: 7512304275397515021
+      Mute_55x50_2: -1744094482386404048
+      Mute_55x50_20: 3242154078314343750
+      Mute_55x50_3: 3974361085510956242
+      Mute_55x50_4: 5293502427256566032
+      Mute_55x50_5: -1169018730320595709
+      Mute_55x50_6: -6965421281502188505
+      Mute_55x50_7: 108679453233574425
+      Mute_55x50_8: 2433318696109131320
+      Mute_55x50_9: 4843972126269655443
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

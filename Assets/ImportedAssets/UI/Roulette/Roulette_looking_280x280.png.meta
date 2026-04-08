@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 85ec45e7d7a6ba741a672801ea1bf9d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1785707109353677985
+    second: Roulette_looking_280x280_0
+  - first:
+      213: -7773782371706241160
+    second: Roulette_looking_280x280_1
+  - first:
+      213: -5812139939309017042
+    second: Roulette_looking_280x280_2
+  - first:
+      213: -4560874707732508534
+    second: Roulette_looking_280x280_3
+  - first:
+      213: 6025071901216063747
+    second: Roulette_looking_280x280_4
+  - first:
+      213: 540223304269411474
+    second: Roulette_looking_280x280_5
+  - first:
+      213: 5881169555114028664
+    second: Roulette_looking_280x280_6
+  - first:
+      213: -3216790789822610576
+    second: Roulette_looking_280x280_7
+  - first:
+      213: -302892869797796252
+    second: Roulette_looking_280x280_8
+  - first:
+      213: 797892560898033229
+    second: Roulette_looking_280x280_9
+  - first:
+      213: -9053264401072539359
+    second: Roulette_looking_280x280_10
+  - first:
+      213: -6293042933021805641
+    second: Roulette_looking_280x280_11
+  - first:
+      213: -2285928771370652909
+    second: Roulette_looking_280x280_12
+  - first:
+      213: 8952811245968308528
+    second: Roulette_looking_280x280_13
+  - first:
+      213: -2391365081893410660
+    second: Roulette_looking_280x280_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 583
+        width: 213
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a46ae5a72b18c810800000000000000
+      internalID: 1785707109353677985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 583
+        width: 235
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f7145ce1afd1490800000000000000
+      internalID: -7773782371706241160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_2
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 583
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2820ace481275fa0800000000000000
+      internalID: -5812139939309017042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 583
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a805a8c2e9484b0c0800000000000000
+      internalID: -4560874707732508534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_4
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 583
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301cb22d8fa5d9350800000000000000
+      internalID: 6025071901216063747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 303
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294bd56ab324f7700800000000000000
+      internalID: 540223304269411474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_6
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 303
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ee964fc8c1e9150800000000000000
+      internalID: 5881169555114028664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_7
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 303
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07300e7e1d9ab53d0800000000000000
+      internalID: -3216790789822610576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_8
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 303
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46624ba2a88ebcbf0800000000000000
+      internalID: -302892869797796252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_9
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 303
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4601458e0fa21b00800000000000000
+      internalID: 797892560898033229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 23
+        width: 229
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129b1645ef75c5280800000000000000
+      internalID: -9053264401072539359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 23
+        width: 229
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3f3fc5bce9aa8a0800000000000000
+      internalID: -6293042933021805641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_12
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 23
+        width: 229
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b6b90d4efb640e0800000000000000
+      internalID: -2285928771370652909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_13
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 23
+        width: 229
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0393019e466ce3c70800000000000000
+      internalID: 8952811245968308528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roulette_looking_280x280_14
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 23
+        width: 229
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c986875c02a20ded0800000000000000
+      internalID: -2391365081893410660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Roulette_looking_280x280_0: 1785707109353677985
+      Roulette_looking_280x280_1: -7773782371706241160
+      Roulette_looking_280x280_10: -9053264401072539359
+      Roulette_looking_280x280_11: -6293042933021805641
+      Roulette_looking_280x280_12: -2285928771370652909
+      Roulette_looking_280x280_13: 8952811245968308528
+      Roulette_looking_280x280_14: -2391365081893410660
+      Roulette_looking_280x280_2: -5812139939309017042
+      Roulette_looking_280x280_3: -4560874707732508534
+      Roulette_looking_280x280_4: 6025071901216063747
+      Roulette_looking_280x280_5: 540223304269411474
+      Roulette_looking_280x280_6: 5881169555114028664
+      Roulette_looking_280x280_7: -3216790789822610576
+      Roulette_looking_280x280_8: -302892869797796252
+      Roulette_looking_280x280_9: 797892560898033229
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

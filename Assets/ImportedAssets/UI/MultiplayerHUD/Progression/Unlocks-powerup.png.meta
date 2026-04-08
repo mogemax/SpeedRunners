@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: b45af261be42b864196b679fb79be2a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6560286553503822204
+    second: Unlocks-powerup_0
+  - first:
+      213: 6600891867060566177
+    second: Unlocks-powerup_1
+  - first:
+      213: 3047648756669605236
+    second: Unlocks-powerup_2
+  - first:
+      213: -2940987283364096251
+    second: Unlocks-powerup_3
+  - first:
+      213: -1161640164277174179
+    second: Unlocks-powerup_4
+  - first:
+      213: -1170156140384552396
+    second: Unlocks-powerup_5
+  - first:
+      213: -8089172209409847767
+    second: Unlocks-powerup_6
+  - first:
+      213: 7796405520144206928
+    second: Unlocks-powerup_7
+  - first:
+      213: -8578531557737712644
+    second: Unlocks-powerup_8
+  - first:
+      213: -2701064585933375480
+    second: Unlocks-powerup_9
+  - first:
+      213: -1703407439028276585
+    second: Unlocks-powerup_10
+  - first:
+      213: 5443565232563909566
+    second: Unlocks-powerup_11
+  - first:
+      213: 8535033934629419854
+    second: Unlocks-powerup_12
+  - first:
+      213: 6804467359153522667
+    second: Unlocks-powerup_13
+  - first:
+      213: -88270062840698227
+    second: Unlocks-powerup_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unlocks-powerup_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 136
+        width: 110
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71fd5eccd1da0b50800000000000000
+      internalID: 6560286553503822204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 124
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8f8e81e241b9b50800000000000000
+      internalID: 6600891867060566177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 124
+        width: 121
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475e375a56c6b4a20800000000000000
+      internalID: 3047648756669605236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 120
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5075426d5a38f27d0800000000000000
+      internalID: -2940987283364096251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 134
+        width: 117
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50ce6bdc6601efe0800000000000000
+      internalID: -1161640164277174179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_5
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 124
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43af2a8a035c2cfe0800000000000000
+      internalID: -1170156140384552396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_6
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 0
+        width: 134
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e0a2bdbbc7dbf80800000000000000
+      internalID: -8089172209409847767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_7
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 132
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c07117385623c60800000000000000
+      internalID: 7796405520144206928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3b09ecffee2f880800000000000000
+      internalID: -8578531557737712644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808bd08e114e38ad0800000000000000
+      internalID: -2701064585933375480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 3
+        width: 121
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79236f095f74c58e0800000000000000
+      internalID: -1703407439028276585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 114
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb373aedcbd6b8b40800000000000000
+      internalID: 5443565232563909566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_12
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 5
+        width: 117
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bbd7b9428827670800000000000000
+      internalID: 8535033934629419854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_13
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be70614f2035e6e50800000000000000
+      internalID: 6804467359153522667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-powerup_14
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 5
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a241478d666cef0800000000000000
+      internalID: -88270062840698227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Unlocks-powerup_0: 6560286553503822204
+      Unlocks-powerup_1: 6600891867060566177
+      Unlocks-powerup_10: -1703407439028276585
+      Unlocks-powerup_11: 5443565232563909566
+      Unlocks-powerup_12: 8535033934629419854
+      Unlocks-powerup_13: 6804467359153522667
+      Unlocks-powerup_14: -88270062840698227
+      Unlocks-powerup_2: 3047648756669605236
+      Unlocks-powerup_3: -2940987283364096251
+      Unlocks-powerup_4: -1161640164277174179
+      Unlocks-powerup_5: -1170156140384552396
+      Unlocks-powerup_6: -8089172209409847767
+      Unlocks-powerup_7: 7796405520144206928
+      Unlocks-powerup_8: -8578531557737712644
+      Unlocks-powerup_9: -2701064585933375480
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

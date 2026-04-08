@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 653846eb50e83bc47982e54eaf5a954c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3212376328720687701
+    second: boostacoke_platform_0
+  - first:
+      213: 3260067818959595459
+    second: boostacoke_platform_1
+  - first:
+      213: -6712119485083103538
+    second: boostacoke_platform_2
+  - first:
+      213: -6181737733792229517
+    second: boostacoke_platform_3
+  - first:
+      213: -5103616340536503253
+    second: boostacoke_platform_4
+  - first:
+      213: 8900032957224237844
+    second: boostacoke_platform_5
+  - first:
+      213: 2700437542830619879
+    second: boostacoke_platform_6
+  - first:
+      213: 6870803702846252580
+    second: boostacoke_platform_7
+  - first:
+      213: -3127837009676263355
+    second: boostacoke_platform_8
+  - first:
+      213: -8415843205999762687
+    second: boostacoke_platform_9
+  - first:
+      213: -5923883807817426109
+    second: boostacoke_platform_10
+  - first:
+      213: -1235089633807192066
+    second: boostacoke_platform_11
+  - first:
+      213: 6796971756305866763
+    second: boostacoke_platform_12
+  - first:
+      213: 1784390912195541298
+    second: boostacoke_platform_13
+  - first:
+      213: 5705188477768488702
+    second: boostacoke_platform_14
+  - first:
+      213: 2967341236045425959
+    second: boostacoke_platform_15
+  - first:
+      213: 6709403880372585235
+    second: boostacoke_platform_16
+  - first:
+      213: -925041009857913544
+    second: boostacoke_platform_17
+  - first:
+      213: -3435810799585912759
+    second: boostacoke_platform_18
+  - first:
+      213: 6301800832644408585
+    second: boostacoke_platform_19
+  - first:
+      213: 4322090506750435715
+    second: boostacoke_platform_20
+  - first:
+      213: -4143705624867127566
+    second: boostacoke_platform_21
+  - first:
+      213: 8716784762455812271
+    second: boostacoke_platform_22
+  - first:
+      213: 7574322524343278593
+    second: boostacoke_platform_23
+  - first:
+      213: 5504516819613045985
+    second: boostacoke_platform_24
+  - first:
+      213: -6823203781693505363
+    second: boostacoke_platform_25
+  - first:
+      213: 5346142556299483324
+    second: boostacoke_platform_26
+  - first:
+      213: 5773180201634933023
+    second: boostacoke_platform_27
+  - first:
+      213: 8243718464977376288
+    second: boostacoke_platform_28
+  - first:
+      213: 6479173345569251586
+    second: boostacoke_platform_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boostacoke_platform_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baddab9bfb85b63d0800000000000000
+      internalID: -3212376328720687701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7e4c4a8661e3d20800000000000000
+      internalID: 3260067818959595459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 57
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecec4a104e2c9d2a0800000000000000
+      internalID: -6712119485083103538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3779faa884e063aa0800000000000000
+      internalID: -6181737733792229517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2451787aff4c29b0800000000000000
+      internalID: -5103616340536503253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bbe98f1d4438b70800000000000000
+      internalID: 8900032957224237844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_6
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec3c8e33a1e97520800000000000000
+      internalID: 2700437542830619879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_7
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426e69d809ff95f50800000000000000
+      internalID: 6870803702846252580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5402deacfc0b794d0800000000000000
+      internalID: -3127837009676263355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_9
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 57
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103eff4713be43b80800000000000000
+      internalID: -8415843205999762687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b9a5810132acda0800000000000000
+      internalID: -5923883807817426109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_11
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effa72795841cdee0800000000000000
+      internalID: -1235089633807192066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_12
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0069faecc1b35e50800000000000000
+      internalID: 6796971756305866763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_13
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239b9dd941e63c810800000000000000
+      internalID: 1784390912195541298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_14
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6da0271b6ec2f40800000000000000
+      internalID: 5705188477768488702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d2bdde12d1e2920800000000000000
+      internalID: 2967341236045425959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_16
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3134c3008479c1d50800000000000000
+      internalID: 6709403880372585235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d10c44a189923f0800000000000000
+      internalID: -925041009857913544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9481b3f084c8150d0800000000000000
+      internalID: -3435810799585912759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_19
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905e70b087e747750800000000000000
+      internalID: 6301800832644408585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_20
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381a2fd9a662bfb30800000000000000
+      internalID: 4322090506750435715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2feb10040b99e76c0800000000000000
+      internalID: -4143705624867127566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_22
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa867b5de8d38f870800000000000000
+      internalID: 8716784762455812271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_23
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c98b594366d1960800000000000000
+      internalID: 7574322524343278593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_24
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4d23d12e8f36c40800000000000000
+      internalID: 5504516819613045985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_25
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 3
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da08e0abf4c1f41a0800000000000000
+      internalID: -6823203781693505363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_26
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb854d27450513a40800000000000000
+      internalID: 5346142556299483324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_27
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19a4c64ec47e1050800000000000000
+      internalID: 5773180201634933023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_28
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0241e4d4442976270800000000000000
+      internalID: 8243718464977376288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boostacoke_platform_29
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 3
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201a5d464d5aae950800000000000000
+      internalID: 6479173345569251586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boostacoke_platform_0: -3212376328720687701
+      boostacoke_platform_1: 3260067818959595459
+      boostacoke_platform_10: -5923883807817426109
+      boostacoke_platform_11: -1235089633807192066
+      boostacoke_platform_12: 6796971756305866763
+      boostacoke_platform_13: 1784390912195541298
+      boostacoke_platform_14: 5705188477768488702
+      boostacoke_platform_15: 2967341236045425959
+      boostacoke_platform_16: 6709403880372585235
+      boostacoke_platform_17: -925041009857913544
+      boostacoke_platform_18: -3435810799585912759
+      boostacoke_platform_19: 6301800832644408585
+      boostacoke_platform_2: -6712119485083103538
+      boostacoke_platform_20: 4322090506750435715
+      boostacoke_platform_21: -4143705624867127566
+      boostacoke_platform_22: 8716784762455812271
+      boostacoke_platform_23: 7574322524343278593
+      boostacoke_platform_24: 5504516819613045985
+      boostacoke_platform_25: -6823203781693505363
+      boostacoke_platform_26: 5346142556299483324
+      boostacoke_platform_27: 5773180201634933023
+      boostacoke_platform_28: 8243718464977376288
+      boostacoke_platform_29: 6479173345569251586
+      boostacoke_platform_3: -6181737733792229517
+      boostacoke_platform_4: -5103616340536503253
+      boostacoke_platform_5: 8900032957224237844
+      boostacoke_platform_6: 2700437542830619879
+      boostacoke_platform_7: 6870803702846252580
+      boostacoke_platform_8: -3127837009676263355
+      boostacoke_platform_9: -8415843205999762687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

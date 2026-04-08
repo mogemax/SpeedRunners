@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: a4bac80ff305a0041aadb602fa7fa5eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2649561548454874707
+    second: IceBeamStartup_0
+  - first:
+      213: -4515383804860761076
+    second: IceBeamStartup_1
+  - first:
+      213: 3217104096093548492
+    second: IceBeamStartup_2
+  - first:
+      213: 66713753145371836
+    second: IceBeamStartup_3
+  - first:
+      213: -6595078814406897591
+    second: IceBeamStartup_4
+  - first:
+      213: -3420580255813942751
+    second: IceBeamStartup_5
+  - first:
+      213: -8509133438670381642
+    second: IceBeamStartup_6
+  - first:
+      213: 1132056912713853535
+    second: IceBeamStartup_7
+  - first:
+      213: 1009649311393926891
+    second: IceBeamStartup_8
+  - first:
+      213: -2672802509126841226
+    second: IceBeamStartup_9
+  - first:
+      213: -2924199243425453441
+    second: IceBeamStartup_10
+  - first:
+      213: -799440078641217562
+    second: IceBeamStartup_11
+  - first:
+      213: 8979313287719460437
+    second: IceBeamStartup_12
+  - first:
+      213: -7003066349147024714
+    second: IceBeamStartup_13
+  - first:
+      213: 3889841873604664382
+    second: IceBeamStartup_14
+  - first:
+      213: 1359674439312460662
+    second: IceBeamStartup_15
+  - first:
+      213: 738398368224725235
+    second: IceBeamStartup_16
+  - first:
+      213: 7920403133795335679
+    second: IceBeamStartup_17
+  - first:
+      213: 4030550142228274375
+    second: IceBeamStartup_18
+  - first:
+      213: 6593795223271389029
+    second: IceBeamStartup_19
+  - first:
+      213: 1400680023275485722
+    second: IceBeamStartup_20
+  - first:
+      213: 8715944425044874383
+    second: IceBeamStartup_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IceBeamStartup_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 701
+        width: 130
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da130d54fcdda3bd0800000000000000
+      internalID: -2649561548454874707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 703
+        width: 121
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cf8be5a522651c0800000000000000
+      internalID: -4515383804860761076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_2
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 711
+        width: 107
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf2c15612375ac20800000000000000
+      internalID: 3217104096093548492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_3
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 729
+        width: 91
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcecd51ec30de000800000000000000
+      internalID: 66713753145371836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_4
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 734
+        width: 160
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9409291b2c29974a0800000000000000
+      internalID: -6595078814406897591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_5
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 763
+        width: 165
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122ce7e5168a780d0800000000000000
+      internalID: -3420580255813942751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_6
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 771
+        width: 165
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd57a9883c79e980800000000000000
+      internalID: -8509133438670381642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_7
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 763
+        width: 65
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5aa5d3a3cfd5bf00800000000000000
+      internalID: 1132056912713853535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_8
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1016
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee4a5903bef20e00800000000000000
+      internalID: 1009649311393926891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 381
+        width: 141
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cc8b0774c48ead0800000000000000
+      internalID: -2672802509126841226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 390
+        width: 151
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ae82bf7482b67d0800000000000000
+      internalID: -2924199243425453441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_11
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 413
+        width: 161
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef316deb71d7e4f0800000000000000
+      internalID: -799440078641217562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_12
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 463
+        width: 167
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e96795cddec9c70800000000000000
+      internalID: 8979313287719460437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_13
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 583
+        width: 161
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b29990624c10de90800000000000000
+      internalID: -7003066349147024714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_14
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 529
+        width: 164
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c55a4239e7bf530800000000000000
+      internalID: 3889841873604664382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_15
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 619
+        width: 31
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bc56dd2b88ed210800000000000000
+      internalID: 1359674439312460662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_16
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 639
+        width: 13
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f843c857615f3a00800000000000000
+      internalID: 738398368224725235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_17
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 439
+        width: 154
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdf2c3afaceaed60800000000000000
+      internalID: 7920403133795335679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 148
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc9ae4eff36fe730800000000000000
+      internalID: 4030550142228274375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 83
+        width: 157
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56732c4f1ddd18b50800000000000000
+      internalID: 6593795223271389029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_20
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 133
+        width: 166
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a325f5f07307310800000000000000
+      internalID: 1400680023275485722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBeamStartup_21
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1
+        width: 150
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8498d8864145f870800000000000000
+      internalID: 8715944425044874383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IceBeamStartup_0: -2649561548454874707
+      IceBeamStartup_1: -4515383804860761076
+      IceBeamStartup_10: -2924199243425453441
+      IceBeamStartup_11: -799440078641217562
+      IceBeamStartup_12: 8979313287719460437
+      IceBeamStartup_13: -7003066349147024714
+      IceBeamStartup_14: 3889841873604664382
+      IceBeamStartup_15: 1359674439312460662
+      IceBeamStartup_16: 738398368224725235
+      IceBeamStartup_17: 7920403133795335679
+      IceBeamStartup_18: 4030550142228274375
+      IceBeamStartup_19: 6593795223271389029
+      IceBeamStartup_2: 3217104096093548492
+      IceBeamStartup_20: 1400680023275485722
+      IceBeamStartup_21: 8715944425044874383
+      IceBeamStartup_3: 66713753145371836
+      IceBeamStartup_4: -6595078814406897591
+      IceBeamStartup_5: -3420580255813942751
+      IceBeamStartup_6: -8509133438670381642
+      IceBeamStartup_7: 1132056912713853535
+      IceBeamStartup_8: 1009649311393926891
+      IceBeamStartup_9: -2672802509126841226
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

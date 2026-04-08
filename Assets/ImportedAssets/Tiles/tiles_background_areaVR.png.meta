@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 891f05e787bd33542af5c3792159404c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7184686498153658385
+    second: tiles_background_areaVR_0
+  - first:
+      213: -2391548030567707842
+    second: tiles_background_areaVR_1
+  - first:
+      213: -326750009729750624
+    second: tiles_background_areaVR_2
+  - first:
+      213: -6393538138383838338
+    second: tiles_background_areaVR_3
+  - first:
+      213: -5404655931948059067
+    second: tiles_background_areaVR_4
+  - first:
+      213: 843386783535190539
+    second: tiles_background_areaVR_5
+  - first:
+      213: 3809821611688185814
+    second: tiles_background_areaVR_6
+  - first:
+      213: -1850677780925192347
+    second: tiles_background_areaVR_7
+  - first:
+      213: 7382224200549117713
+    second: tiles_background_areaVR_8
+  - first:
+      213: 732547089742954617
+    second: tiles_background_areaVR_9
+  - first:
+      213: 6976120364558070794
+    second: tiles_background_areaVR_10
+  - first:
+      213: 2602971127017358256
+    second: tiles_background_areaVR_11
+  - first:
+      213: -1776460470694792320
+    second: tiles_background_areaVR_12
+  - first:
+      213: -5592092894777034011
+    second: tiles_background_areaVR_13
+  - first:
+      213: -7111325166126544158
+    second: tiles_background_areaVR_14
+  - first:
+      213: -733396049953253159
+    second: tiles_background_areaVR_15
+  - first:
+      213: -5265546774302713357
+    second: tiles_background_areaVR_16
+  - first:
+      213: -2940810552652716232
+    second: tiles_background_areaVR_17
+  - first:
+      213: -4493557037152818936
+    second: tiles_background_areaVR_18
+  - first:
+      213: -3527994196386515200
+    second: tiles_background_areaVR_19
+  - first:
+      213: 5112340227066472858
+    second: tiles_background_areaVR_20
+  - first:
+      213: -5731069427550811613
+    second: tiles_background_areaVR_21
+  - first:
+      213: 1335432090935115296
+    second: tiles_background_areaVR_22
+  - first:
+      213: 3776233155769364558
+    second: tiles_background_areaVR_23
+  - first:
+      213: -8667264145772381935
+    second: tiles_background_areaVR_24
+  - first:
+      213: -7713061704827083214
+    second: tiles_background_areaVR_25
+  - first:
+      213: 4913856848908662970
+    second: tiles_background_areaVR_26
+  - first:
+      213: -194693017742322344
+    second: tiles_background_areaVR_27
+  - first:
+      213: 1508524317302498798
+    second: tiles_background_areaVR_28
+  - first:
+      213: -1127427236592836139
+    second: tiles_background_areaVR_29
+  - first:
+      213: -6056759514106438765
+    second: tiles_background_areaVR_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_background_areaVR_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1187ef0dd4225b360800000000000000
+      internalID: 7184686498153658385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 66
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b0ab6bcb38fced0800000000000000
+      internalID: -2391548030567707842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 11
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9e3bbe896277bf0800000000000000
+      internalID: -326750009729750624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7318b300f69547a0800000000000000
+      internalID: -6393538138383838338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 66
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5463703a01ecef4b0800000000000000
+      internalID: -5404655931948059067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02dfd8afcf44bb00800000000000000
+      internalID: 843386783535190539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfc74e02943fd430800000000000000
+      internalID: 3809821611688185814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_7
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567ee321d521156e0800000000000000
+      internalID: -1850677780925192347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fa5063ccde27660800000000000000
+      internalID: 7382224200549117713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 0
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970006962b78a2a00800000000000000
+      internalID: 732547089742954617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_10
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 114
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a043adfa28820d060800000000000000
+      internalID: 6976120364558070794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_11
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 0
+        width: 134
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3c77ae27c9f1420800000000000000
+      internalID: 2602971127017358256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_12
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 0
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083b6be2d9eb857e0800000000000000
+      internalID: -1776460470694792320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_13
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 146
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea34dfe325e462b0800000000000000
+      internalID: -5592092894777034011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_14
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea4bb6507f7f4d90800000000000000
+      internalID: -7111325166126544158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_15
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d89cd2ad2472d5f0800000000000000
+      internalID: -733396049953253159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_16
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 0
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f99b795b150de6b0800000000000000
+      internalID: -5265546774302713357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_17
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8372a6922642037d0800000000000000
+      internalID: -2940810552652716232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_18
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 0
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809ac8ebeada3a1c0800000000000000
+      internalID: -4493557037152818936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_19
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007fdb278fb0a0fc0800000000000000
+      internalID: -3527994196386515200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_20
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 0
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99ac35a95ea2f640800000000000000
+      internalID: 5112340227066472858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_21
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 5
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a8bbb58b62770b0800000000000000
+      internalID: -5731069427550811613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_22
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 0
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e38d94968688210800000000000000
+      internalID: 1335432090935115296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_23
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e407fae3c00e76430800000000000000
+      internalID: 3776233155769364558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_24
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 0
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119f1c83e21b7b780800000000000000
+      internalID: -8667264145772381935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_25
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236ec19be33b5f490800000000000000
+      internalID: -7713061704827083214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_26
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab83254f4c6813440800000000000000
+      internalID: 4913856848908662970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_27
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855583d5bbf4c4df0800000000000000
+      internalID: -194693017742322344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_28
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5aad3cfda5fe410800000000000000
+      internalID: 1508524317302498798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_29
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 0
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1a8c4d6e29a50f0800000000000000
+      internalID: -1127427236592836139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_background_areaVR_30
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 0
+        width: 113
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bd7bfdf4112fba0800000000000000
+      internalID: -6056759514106438765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tiles_background_areaVR_0: 7184686498153658385
+      tiles_background_areaVR_1: -2391548030567707842
+      tiles_background_areaVR_10: 6976120364558070794
+      tiles_background_areaVR_11: 2602971127017358256
+      tiles_background_areaVR_12: -1776460470694792320
+      tiles_background_areaVR_13: -5592092894777034011
+      tiles_background_areaVR_14: -7111325166126544158
+      tiles_background_areaVR_15: -733396049953253159
+      tiles_background_areaVR_16: -5265546774302713357
+      tiles_background_areaVR_17: -2940810552652716232
+      tiles_background_areaVR_18: -4493557037152818936
+      tiles_background_areaVR_19: -3527994196386515200
+      tiles_background_areaVR_2: -326750009729750624
+      tiles_background_areaVR_20: 5112340227066472858
+      tiles_background_areaVR_21: -5731069427550811613
+      tiles_background_areaVR_22: 1335432090935115296
+      tiles_background_areaVR_23: 3776233155769364558
+      tiles_background_areaVR_24: -8667264145772381935
+      tiles_background_areaVR_25: -7713061704827083214
+      tiles_background_areaVR_26: 4913856848908662970
+      tiles_background_areaVR_27: -194693017742322344
+      tiles_background_areaVR_28: 1508524317302498798
+      tiles_background_areaVR_29: -1127427236592836139
+      tiles_background_areaVR_3: -6393538138383838338
+      tiles_background_areaVR_30: -6056759514106438765
+      tiles_background_areaVR_4: -5404655931948059067
+      tiles_background_areaVR_5: 843386783535190539
+      tiles_background_areaVR_6: 3809821611688185814
+      tiles_background_areaVR_7: -1850677780925192347
+      tiles_background_areaVR_8: 7382224200549117713
+      tiles_background_areaVR_9: 732547089742954617
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

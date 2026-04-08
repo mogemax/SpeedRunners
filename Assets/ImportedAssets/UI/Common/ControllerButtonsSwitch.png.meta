@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 2d484f12b0446cd4ebba6f3d26d95d9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3448820462439183562
+    second: ControllerButtonsSwitch_0
+  - first:
+      213: 6752433406137442045
+    second: ControllerButtonsSwitch_1
+  - first:
+      213: -3177033613055194992
+    second: ControllerButtonsSwitch_2
+  - first:
+      213: -7187343867499243808
+    second: ControllerButtonsSwitch_3
+  - first:
+      213: 3934306069310561269
+    second: ControllerButtonsSwitch_4
+  - first:
+      213: -1147235145032247743
+    second: ControllerButtonsSwitch_5
+  - first:
+      213: 4816391300589868735
+    second: ControllerButtonsSwitch_6
+  - first:
+      213: 1675439044405060973
+    second: ControllerButtonsSwitch_7
+  - first:
+      213: 155975898287043302
+    second: ControllerButtonsSwitch_8
+  - first:
+      213: -8596855041903406100
+    second: ControllerButtonsSwitch_9
+  - first:
+      213: -1786963184616673336
+    second: ControllerButtonsSwitch_10
+  - first:
+      213: -3750461428199360339
+    second: ControllerButtonsSwitch_11
+  - first:
+      213: 1609681730719027468
+    second: ControllerButtonsSwitch_12
+  - first:
+      213: 4643028375136038415
+    second: ControllerButtonsSwitch_13
+  - first:
+      213: -6343253376495635596
+    second: ControllerButtonsSwitch_14
+  - first:
+      213: -2860639722044105258
+    second: ControllerButtonsSwitch_15
+  - first:
+      213: 4190566019192785039
+    second: ControllerButtonsSwitch_16
+  - first:
+      213: -3903025592590938815
+    second: ControllerButtonsSwitch_17
+  - first:
+      213: -4058063217689011805
+    second: ControllerButtonsSwitch_18
+  - first:
+      213: 1402782733265339288
+    second: ControllerButtonsSwitch_19
+  - first:
+      213: -907959068448900244
+    second: ControllerButtonsSwitch_20
+  - first:
+      213: -5699382516152889704
+    second: ControllerButtonsSwitch_21
+  - first:
+      213: -2305440886017329320
+    second: ControllerButtonsSwitch_22
+  - first:
+      213: 7794381786068675953
+    second: ControllerButtonsSwitch_23
+  - first:
+      213: 3270486537206005844
+    second: ControllerButtonsSwitch_24
+  - first:
+      213: 4782900500737798892
+    second: ControllerButtonsSwitch_25
+  - first:
+      213: 3725059417382941769
+    second: ControllerButtonsSwitch_26
+  - first:
+      213: -8459127803897666419
+    second: ControllerButtonsSwitch_27
+  - first:
+      213: -4196387873997823850
+    second: ControllerButtonsSwitch_28
+  - first:
+      213: 3561493673861711083
+    second: ControllerButtonsSwitch_29
+  - first:
+      213: -5834437657369744104
+    second: ControllerButtonsSwitch_30
+  - first:
+      213: -1718750763100343680
+    second: ControllerButtonsSwitch_31
+  - first:
+      213: 8183607500959747958
+    second: ControllerButtonsSwitch_32
+  - first:
+      213: -4852198725033587905
+    second: ControllerButtonsSwitch_33
+  - first:
+      213: -3770468827697984367
+    second: ControllerButtonsSwitch_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 197
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac439cd10fbacdf20800000000000000
+      internalID: 3448820462439183562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 197
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe9d4e286675bd50800000000000000
+      internalID: 6752433406137442045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 197
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0988e56f2c8e8e3d0800000000000000
+      internalID: -3177033613055194992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 197
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6102b25dc614c90800000000000000
+      internalID: -7187343867499243808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 200
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb5be27686799630800000000000000
+      internalID: 3934306069310561269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_5
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 200
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1465282c6b33410f0800000000000000
+      internalID: -1147235145032247743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 200
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6d0fa9e5247d240800000000000000
+      internalID: 4816391300589868735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_7
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 200
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65659c1fea504710800000000000000
+      internalID: 1675439044405060973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_8
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 197
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2fbeac0432a2200800000000000000
+      internalID: 155975898287043302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_9
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 197
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce352d133e5d1b880800000000000000
+      internalID: -8596855041903406100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_10
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 197
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfe83a837e6337e0800000000000000
+      internalID: -1786963184616673336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 93
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da87f5ca33fa3fbc0800000000000000
+      internalID: -3750461428199360339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_12
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0191f0710db65610800000000000000
+      internalID: 1609681730719027468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 107
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0eea0615b95f6040800000000000000
+      internalID: 4643028375136038415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_14
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 107
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4733ead79ac38f7a0800000000000000
+      internalID: -6343253376495635596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_15
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd50314457fc48d0800000000000000
+      internalID: -2860639722044105258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 107
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f880fc58791e72a30800000000000000
+      internalID: 4190566019192785039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_17
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 93
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dcb5417eaa5d9c0800000000000000
+      internalID: -3903025592590938815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_18
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a95199010ddea7c0800000000000000
+      internalID: -4058063217689011805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 107
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8930551b67fa77310800000000000000
+      internalID: 1402782733265339288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_20
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 107
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b328ea9084663f0800000000000000
+      internalID: -907959068448900244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_21
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 128
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e82a55cc9b7e0b0800000000000000
+      internalID: -5699382516152889704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_22
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 107
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857764a9abd6100e0800000000000000
+      internalID: -2305440886017329320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_23
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 107
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17de56220f43b2c60800000000000000
+      internalID: 7794381786068675953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_24
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 107
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4508cd48d2a136d20800000000000000
+      internalID: 3270486537206005844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_25
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 107
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2b38e1aa6406240800000000000000
+      internalID: 4782900500737798892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944755ccdc112b330800000000000000
+      internalID: 3725059417382941769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_27
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 17
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84ac0ba4142b9a80800000000000000
+      internalID: -8459127803897666419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 20
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6906a96467f63c5c0800000000000000
+      internalID: -4196387873997823850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_29
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 20
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4045470a7fc6130800000000000000
+      internalID: 3561493673861711083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_30
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 17
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d6050ecd9e70fa0800000000000000
+      internalID: -5834437657369744104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_31
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 17
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082f8fb8945c528e0800000000000000
+      internalID: -1718750763100343680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_32
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 17
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f8debd9a3029170800000000000000
+      internalID: 8183607500959747958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_33
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 17
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b05c6b7f689acb0800000000000000
+      internalID: -4852198725033587905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerButtonsSwitch_34
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 16
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cc068f39a9cabc0800000000000000
+      internalID: -3770468827697984367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ControllerButtonsSwitch_0: 3448820462439183562
+      ControllerButtonsSwitch_1: 6752433406137442045
+      ControllerButtonsSwitch_10: -1786963184616673336
+      ControllerButtonsSwitch_11: -3750461428199360339
+      ControllerButtonsSwitch_12: 1609681730719027468
+      ControllerButtonsSwitch_13: 4643028375136038415
+      ControllerButtonsSwitch_14: -6343253376495635596
+      ControllerButtonsSwitch_15: -2860639722044105258
+      ControllerButtonsSwitch_16: 4190566019192785039
+      ControllerButtonsSwitch_17: -3903025592590938815
+      ControllerButtonsSwitch_18: -4058063217689011805
+      ControllerButtonsSwitch_19: 1402782733265339288
+      ControllerButtonsSwitch_2: -3177033613055194992
+      ControllerButtonsSwitch_20: -907959068448900244
+      ControllerButtonsSwitch_21: -5699382516152889704
+      ControllerButtonsSwitch_22: -2305440886017329320
+      ControllerButtonsSwitch_23: 7794381786068675953
+      ControllerButtonsSwitch_24: 3270486537206005844
+      ControllerButtonsSwitch_25: 4782900500737798892
+      ControllerButtonsSwitch_26: 3725059417382941769
+      ControllerButtonsSwitch_27: -8459127803897666419
+      ControllerButtonsSwitch_28: -4196387873997823850
+      ControllerButtonsSwitch_29: 3561493673861711083
+      ControllerButtonsSwitch_3: -7187343867499243808
+      ControllerButtonsSwitch_30: -5834437657369744104
+      ControllerButtonsSwitch_31: -1718750763100343680
+      ControllerButtonsSwitch_32: 8183607500959747958
+      ControllerButtonsSwitch_33: -4852198725033587905
+      ControllerButtonsSwitch_34: -3770468827697984367
+      ControllerButtonsSwitch_4: 3934306069310561269
+      ControllerButtonsSwitch_5: -1147235145032247743
+      ControllerButtonsSwitch_6: 4816391300589868735
+      ControllerButtonsSwitch_7: 1675439044405060973
+      ControllerButtonsSwitch_8: 155975898287043302
+      ControllerButtonsSwitch_9: -8596855041903406100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

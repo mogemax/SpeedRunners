@@ -1,0 +1,4719 @@
+fileFormatVersion: 2
+guid: 74776baf08fec1846b9bc49237474d98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3350401446001213910
+    second: Glitter_0
+  - first:
+      213: 3917345293381545671
+    second: Glitter_1
+  - first:
+      213: 6991624741427336095
+    second: Glitter_2
+  - first:
+      213: -3757987599149286953
+    second: Glitter_3
+  - first:
+      213: 799926632996125024
+    second: Glitter_4
+  - first:
+      213: -6727013668573420899
+    second: Glitter_5
+  - first:
+      213: 3781228355273145420
+    second: Glitter_6
+  - first:
+      213: 821353223066427394
+    second: Glitter_7
+  - first:
+      213: -6473714428802434842
+    second: Glitter_8
+  - first:
+      213: 6052448450064388595
+    second: Glitter_9
+  - first:
+      213: -2461873245390370029
+    second: Glitter_10
+  - first:
+      213: 5052730563866944983
+    second: Glitter_11
+  - first:
+      213: 6163645851701554477
+    second: Glitter_12
+  - first:
+      213: 8354125614939180821
+    second: Glitter_13
+  - first:
+      213: -3813274276272863266
+    second: Glitter_14
+  - first:
+      213: 9192896149339646486
+    second: Glitter_15
+  - first:
+      213: -2322612864273424099
+    second: Glitter_16
+  - first:
+      213: -4010626311235081073
+    second: Glitter_17
+  - first:
+      213: -2028927105037351133
+    second: Glitter_18
+  - first:
+      213: -980776777279392120
+    second: Glitter_19
+  - first:
+      213: 4743703683420450018
+    second: Glitter_20
+  - first:
+      213: -3183620042282374596
+    second: Glitter_21
+  - first:
+      213: -4641193676590356106
+    second: Glitter_22
+  - first:
+      213: -2440569789281407686
+    second: Glitter_23
+  - first:
+      213: 8732971733039200236
+    second: Glitter_24
+  - first:
+      213: 5866511402385719775
+    second: Glitter_25
+  - first:
+      213: 2694770210437156307
+    second: Glitter_26
+  - first:
+      213: -3546334169604306902
+    second: Glitter_27
+  - first:
+      213: -8640220912938683332
+    second: Glitter_28
+  - first:
+      213: -1641871946701916146
+    second: Glitter_29
+  - first:
+      213: -9136616735879533873
+    second: Glitter_30
+  - first:
+      213: -8264130326231600142
+    second: Glitter_31
+  - first:
+      213: 7824228222043905512
+    second: Glitter_32
+  - first:
+      213: -5185442569438824762
+    second: Glitter_33
+  - first:
+      213: 600627679930745578
+    second: Glitter_34
+  - first:
+      213: -1915456929028439540
+    second: Glitter_35
+  - first:
+      213: -5455200050684089324
+    second: Glitter_36
+  - first:
+      213: -8726953722131824038
+    second: Glitter_37
+  - first:
+      213: 1634977306335254008
+    second: Glitter_38
+  - first:
+      213: -8867457845868466500
+    second: Glitter_39
+  - first:
+      213: -7899056830134652067
+    second: Glitter_40
+  - first:
+      213: -6759310212695527066
+    second: Glitter_41
+  - first:
+      213: 1876344178935815077
+    second: Glitter_42
+  - first:
+      213: 1949658778812487735
+    second: Glitter_43
+  - first:
+      213: -2603174301276605008
+    second: Glitter_44
+  - first:
+      213: -1095753417940063414
+    second: Glitter_45
+  - first:
+      213: 6596114165799315584
+    second: Glitter_46
+  - first:
+      213: -1981797732581771508
+    second: Glitter_47
+  - first:
+      213: -2366561082011194240
+    second: Glitter_48
+  - first:
+      213: 2518031128216464270
+    second: Glitter_49
+  - first:
+      213: -963205469213541421
+    second: Glitter_50
+  - first:
+      213: -6079490262847828921
+    second: Glitter_51
+  - first:
+      213: 1427564657973398320
+    second: Glitter_52
+  - first:
+      213: 324198880777269264
+    second: Glitter_53
+  - first:
+      213: -242326126540543239
+    second: Glitter_54
+  - first:
+      213: 5001636608834802458
+    second: Glitter_55
+  - first:
+      213: 783650260939001177
+    second: Glitter_56
+  - first:
+      213: -7868836207258751358
+    second: Glitter_57
+  - first:
+      213: 4098806338131346590
+    second: Glitter_58
+  - first:
+      213: 3400089895058151738
+    second: Glitter_59
+  - first:
+      213: -3046286693685813304
+    second: Glitter_60
+  - first:
+      213: -8984832979220424991
+    second: Glitter_61
+  - first:
+      213: 7769740978103271669
+    second: Glitter_62
+  - first:
+      213: -8896141242509477194
+    second: Glitter_63
+  - first:
+      213: -6441514903667313616
+    second: Glitter_64
+  - first:
+      213: -1988220375207338161
+    second: Glitter_65
+  - first:
+      213: -3284210098038093053
+    second: Glitter_66
+  - first:
+      213: 6716282770432963745
+    second: Glitter_67
+  - first:
+      213: 3262457097432918265
+    second: Glitter_68
+  - first:
+      213: 6642710591910823476
+    second: Glitter_69
+  - first:
+      213: 9207096769742638064
+    second: Glitter_70
+  - first:
+      213: 8235735691544690202
+    second: Glitter_71
+  - first:
+      213: 7531511252831454149
+    second: Glitter_72
+  - first:
+      213: 3290805430157410270
+    second: Glitter_73
+  - first:
+      213: 703315155787440842
+    second: Glitter_74
+  - first:
+      213: 904945334951142588
+    second: Glitter_75
+  - first:
+      213: -1842648685035780044
+    second: Glitter_76
+  - first:
+      213: -2192778410565209239
+    second: Glitter_77
+  - first:
+      213: -7062792623677910289
+    second: Glitter_78
+  - first:
+      213: 4243701054456908148
+    second: Glitter_79
+  - first:
+      213: 6953591328039305048
+    second: Glitter_80
+  - first:
+      213: 6679933429033811109
+    second: Glitter_81
+  - first:
+      213: 1531829873800826830
+    second: Glitter_82
+  - first:
+      213: 6718186184938425349
+    second: Glitter_83
+  - first:
+      213: -2249228645935333564
+    second: Glitter_84
+  - first:
+      213: 7416006055691202781
+    second: Glitter_85
+  - first:
+      213: -1504093276361199728
+    second: Glitter_86
+  - first:
+      213: 8548223737354515391
+    second: Glitter_87
+  - first:
+      213: -2941831431431008718
+    second: Glitter_88
+  - first:
+      213: 8838271257355890693
+    second: Glitter_89
+  - first:
+      213: -1912795301137094142
+    second: Glitter_90
+  - first:
+      213: 5660262076300312892
+    second: Glitter_91
+  - first:
+      213: -6767703671041082079
+    second: Glitter_92
+  - first:
+      213: -4864411272847938570
+    second: Glitter_93
+  - first:
+      213: -5843067282702518855
+    second: Glitter_94
+  - first:
+      213: 1760882493231428475
+    second: Glitter_95
+  - first:
+      213: -5190028248580970802
+    second: Glitter_96
+  - first:
+      213: -7550755943324267414
+    second: Glitter_97
+  - first:
+      213: -5286333602967568810
+    second: Glitter_98
+  - first:
+      213: 96253830840538269
+    second: Glitter_99
+  - first:
+      213: 6380915426094493009
+    second: Glitter_100
+  - first:
+      213: 7822517618093910252
+    second: Glitter_101
+  - first:
+      213: -2133990527703440662
+    second: Glitter_102
+  - first:
+      213: 8917062551677101172
+    second: Glitter_103
+  - first:
+      213: 4867973937744806234
+    second: Glitter_104
+  - first:
+      213: 1113844905039105848
+    second: Glitter_105
+  - first:
+      213: -4279218562613478140
+    second: Glitter_106
+  - first:
+      213: 2157724810313821644
+    second: Glitter_107
+  - first:
+      213: -8215543656878145568
+    second: Glitter_108
+  - first:
+      213: 8035542607191287374
+    second: Glitter_109
+  - first:
+      213: 664693866906166519
+    second: Glitter_110
+  - first:
+      213: 3139812239906017840
+    second: Glitter_111
+  - first:
+      213: -8305608169175238966
+    second: Glitter_112
+  - first:
+      213: 90146096428725953
+    second: Glitter_113
+  - first:
+      213: -719276298975952138
+    second: Glitter_114
+  - first:
+      213: -5849252242399405714
+    second: Glitter_115
+  - first:
+      213: 6832460382690257488
+    second: Glitter_116
+  - first:
+      213: -509185289541002315
+    second: Glitter_117
+  - first:
+      213: -7214748275199393585
+    second: Glitter_118
+  - first:
+      213: 1813798402856682874
+    second: Glitter_119
+  - first:
+      213: 2020646534432016152
+    second: Glitter_120
+  - first:
+      213: -6285426837129881691
+    second: Glitter_121
+  - first:
+      213: 7917141824625845847
+    second: Glitter_122
+  - first:
+      213: -2692793666707928172
+    second: Glitter_123
+  - first:
+      213: 3358287118552231733
+    second: Glitter_124
+  - first:
+      213: -8198409706698224406
+    second: Glitter_125
+  - first:
+      213: -904889575643267364
+    second: Glitter_126
+  - first:
+      213: 4390745571831066074
+    second: Glitter_127
+  - first:
+      213: 7206718909230315461
+    second: Glitter_128
+  - first:
+      213: -2517586763844065466
+    second: Glitter_129
+  - first:
+      213: 5922013191458173515
+    second: Glitter_130
+  - first:
+      213: 2174065452835244423
+    second: Glitter_131
+  - first:
+      213: 1082578584576091050
+    second: Glitter_132
+  - first:
+      213: 3269098486791971758
+    second: Glitter_133
+  - first:
+      213: 8291279247030297632
+    second: Glitter_134
+  - first:
+      213: -3525314007800016341
+    second: Glitter_135
+  - first:
+      213: -101891661042372528
+    second: Glitter_136
+  - first:
+      213: 6872383172221486653
+    second: Glitter_137
+  - first:
+      213: -4623711194537646797
+    second: Glitter_138
+  - first:
+      213: -9193702346216559559
+    second: Glitter_139
+  - first:
+      213: 5905196200892837966
+    second: Glitter_140
+  - first:
+      213: -1562267678893728767
+    second: Glitter_141
+  - first:
+      213: 2180145495414721403
+    second: Glitter_142
+  - first:
+      213: 1294303985154831404
+    second: Glitter_143
+  - first:
+      213: 7575082458537186194
+    second: Glitter_144
+  - first:
+      213: 4880928943871040245
+    second: Glitter_145
+  - first:
+      213: -1613074929857542494
+    second: Glitter_146
+  - first:
+      213: -2307136938227283600
+    second: Glitter_147
+  - first:
+      213: 6224013981805169662
+    second: Glitter_148
+  - first:
+      213: 6720114922226674810
+    second: Glitter_149
+  - first:
+      213: -5740151397108719165
+    second: Glitter_150
+  - first:
+      213: 7314307831746160721
+    second: Glitter_151
+  - first:
+      213: -8794216826718814693
+    second: Glitter_152
+  - first:
+      213: 2349338946538235480
+    second: Glitter_153
+  - first:
+      213: 2851768467245048214
+    second: Glitter_154
+  - first:
+      213: -3978410653145254195
+    second: Glitter_155
+  - first:
+      213: -8386584902566726716
+    second: Glitter_156
+  - first:
+      213: 9080342844181694348
+    second: Glitter_157
+  - first:
+      213: -3557573316209783575
+    second: Glitter_158
+  - first:
+      213: 1094038783831394013
+    second: Glitter_159
+  - first:
+      213: -131297917890393055
+    second: Glitter_160
+  - first:
+      213: -3719721366070427017
+    second: Glitter_161
+  - first:
+      213: -8866520793269301784
+    second: Glitter_162
+  - first:
+      213: -5116410180783230877
+    second: Glitter_163
+  - first:
+      213: -8987742872078885640
+    second: Glitter_164
+  - first:
+      213: -1436244698408013294
+    second: Glitter_165
+  - first:
+      213: -5952072638412736289
+    second: Glitter_166
+  - first:
+      213: -925614238554366401
+    second: Glitter_167
+  - first:
+      213: -6765182558683130475
+    second: Glitter_168
+  - first:
+      213: 4147806560678927011
+    second: Glitter_169
+  - first:
+      213: -7895512006589522831
+    second: Glitter_170
+  - first:
+      213: 2823198988962694922
+    second: Glitter_171
+  - first:
+      213: -8843034938469726434
+    second: Glitter_172
+  - first:
+      213: 7400493339510724497
+    second: Glitter_173
+  - first:
+      213: -8832972385621121486
+    second: Glitter_174
+  - first:
+      213: 5125258372039841554
+    second: Glitter_175
+  - first:
+      213: -7823965454532299958
+    second: Glitter_176
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Glitter_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 309
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e7424d2abf081d0800000000000000
+      internalID: -3350401446001213910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 288
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce2e821ac43d5630800000000000000
+      internalID: 3917345293381545671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 302
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93db9bb8ad370160800000000000000
+      internalID: 6991624741427336095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 287
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d932627032f8dbc0800000000000000
+      internalID: -3757987599149286953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 227
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069bb16d809e91b00800000000000000
+      internalID: 799926632996125024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 307
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92eb7da5b8d4a2a0800000000000000
+      internalID: -6727013668573420899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 313
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cb0b2c72f997430800000000000000
+      internalID: 3781228355273145420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_7
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 284
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2002ff79768066b00800000000000000
+      internalID: 821353223066427394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 329
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8f8e5b60fb826a0800000000000000
+      internalID: -6473714428802434842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 315
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1937f4ccd9ef350800000000000000
+      internalID: 6052448450064388595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_10
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 300
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b087ea35ba5ddd0800000000000000
+      internalID: -2461873245390370029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 333
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d56c056da7ee1640800000000000000
+      internalID: 5052730563866944983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 112
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d2bf7ee3ba98550800000000000000
+      internalID: 6163645851701554477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_13
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 324
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f01771cf0dfe370800000000000000
+      internalID: 8354125614939180821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_14
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 298
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed70f93df37841bc0800000000000000
+      internalID: -3813274276272863266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_15
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 339
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a227e775ab39f70800000000000000
+      internalID: 9192896149339646486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 269
+        width: 57
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11ea3ad7eb64cfd0800000000000000
+      internalID: -2322612864273424099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 327
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c6fff7e946758c0800000000000000
+      internalID: -4010626311235081073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_18
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 310
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32746153c8dc7d3e0800000000000000
+      internalID: -2028927105037351133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_19
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 293
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8863f4aa7b49362f0800000000000000
+      internalID: -980776777279392120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_20
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 289
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ececf9ed5505d140800000000000000
+      internalID: 4743703683420450018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_21
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 305
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ae1f7607281d3d0800000000000000
+      internalID: -3183620042282374596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_22
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 316
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679ea05f0fa279fb0800000000000000
+      internalID: -4641193676590356106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 306
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3de45415ba512ed0800000000000000
+      internalID: -2440569789281407686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 16
+        width: 111
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7345d958fb13970800000000000000
+      internalID: 8732971733039200236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_25
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 272
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1caf1d9090a6150800000000000000
+      internalID: 5866511402385719775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_26
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 308
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd49689a3fb56520800000000000000
+      internalID: 2694770210437156307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_27
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 310
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28c7edacd3e8cec0800000000000000
+      internalID: -3546334169604306902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_28
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 285
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3473678bd4c71880800000000000000
+      internalID: -8640220912938683332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 292
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08372ad926e639e0800000000000000
+      internalID: -1641871946701916146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 280
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcae2019c77343180800000000000000
+      internalID: -9136616735879533873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 288
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3be67e049ef4d80800000000000000
+      internalID: -8264130326231600142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_32
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 286
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed53880d1e359c60800000000000000
+      internalID: 7824228222043905512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_33
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 287
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6f86de47b9908b0800000000000000
+      internalID: -5185442569438824762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_34
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 276
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae20a8051bbd55800800000000000000
+      internalID: 600627679930745578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_35
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 280
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0203b2521eea65e0800000000000000
+      internalID: -1915456929028439540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_36
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 277
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c2840f47c3b44b0800000000000000
+      internalID: -5455200050684089324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_37
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 284
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a524f0db3d1a3e680800000000000000
+      internalID: -8726953722131824038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_38
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 278
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f510f7923b90b610800000000000000
+      internalID: 1634977306335254008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_39
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 280
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe624c221670f480800000000000000
+      internalID: -8867457845868466500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_40
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 279
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53733bf9a9e06290800000000000000
+      internalID: -7899056830134652067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_41
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 264
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661fc958c2b1232a0800000000000000
+      internalID: -6759310212695527066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_42
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 255
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab57d5e61d1a0a10800000000000000
+      internalID: 1876344178935815077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_43
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 271
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738175064549e0b10800000000000000
+      internalID: 1949658778812487735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_44
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 272
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b57bf3e3caafdbd0800000000000000
+      internalID: -2603174301276605008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_45
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 270
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b234a621a1bc0f0800000000000000
+      internalID: -1095753417940063414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_46
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 275
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088e366d2ea1a8b50800000000000000
+      internalID: 6596114165799315584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_47
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 256
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07f9c4567d3f74e0800000000000000
+      internalID: -1981797732581771508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_48
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 211
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c65770c39482fd0800000000000000
+      internalID: -2366561082011194240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_49
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 267
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8be7b258f7d1f220800000000000000
+      internalID: 2518031128216464270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_50
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 259
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db30d1aab102a2f0800000000000000
+      internalID: -963205469213541421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_51
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 257
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c428301df41aba0800000000000000
+      internalID: -6079490262847828921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 62
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b086c2e7abfc310800000000000000
+      internalID: 1427564657973398320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_53
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 258
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010fe451a29cf7400800000000000000
+      internalID: 324198880777269264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_54
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 252
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa21cbfba513acf0800000000000000
+      internalID: -242326126540543239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_55
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 258
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a131035fef1696540800000000000000
+      internalID: 5001636608834802458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_56
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 252
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d4967a2c510ea00800000000000000
+      internalID: 783650260939001177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_57
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 243
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e2c9e09274cc290800000000000000
+      internalID: -7868836207258751358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_58
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 257
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94407be5a2e1e830800000000000000
+      internalID: 4098806338131346590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_59
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 230
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39165fbebb8f2f20800000000000000
+      internalID: 3400089895058151738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 247
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf9bda546a69b5d0800000000000000
+      internalID: -3046286693685813304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 109
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e61a5352067f4380800000000000000
+      internalID: -8984832979220424991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_62
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 213
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f044a4f04aa3db60800000000000000
+      internalID: 7769740978103271669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_63
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 233
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba35887cae8a8480800000000000000
+      internalID: -8896141242509477194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_64
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 240
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034768fd2542b96a0800000000000000
+      internalID: -6441514903667313616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_65
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 209
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f92905a1c6864e0800000000000000
+      internalID: -1988220375207338161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_66
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 244
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b40baf0542c62d0800000000000000
+      internalID: -3284210098038093053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 238
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4bbb66897053d50800000000000000
+      internalID: 6716282770432963745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_68
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 222
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8e073e173964d20800000000000000
+      internalID: 3262457097432918265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_69
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 225
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436c198b616af2c50800000000000000
+      internalID: 6642710591910823476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_70
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 213
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb08251bbd26cf70800000000000000
+      internalID: 9207096769742638064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_71
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 135
+        width: 60
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ef6860af53b4270800000000000000
+      internalID: 8235735691544690202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_72
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 230
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c340eea49d458860800000000000000
+      internalID: 7531511252831454149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_73
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 218
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf75717a1a4bad20800000000000000
+      internalID: 3290805430157410270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_74
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 233
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2ebd9686da2c900800000000000000
+      internalID: 703315155787440842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_75
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 228
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4e8eeccf20f8c00800000000000000
+      internalID: 904945334951142588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_76
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 213
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4380a92a8c89d66e0800000000000000
+      internalID: -1842648685035780044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_77
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 208
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9637d1747afa191e0800000000000000
+      internalID: -2192778410565209239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_78
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 212
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2dd6f678bebfd90800000000000000
+      internalID: -7062792623677910289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_79
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479cadbff97a4ea30800000000000000
+      internalID: 4243701054456908148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 200
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ff40d987e108060800000000000000
+      internalID: 6953591328039305048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_81
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 194
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac31d8df04e3bc50800000000000000
+      internalID: 6679933429033811109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_82
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 189
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfca3c7727224510800000000000000
+      internalID: 1531829873800826830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_83
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 189
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c0130adbacb3d50800000000000000
+      internalID: 6718186184938425349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_84
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 191
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f3464a67229c0e0800000000000000
+      internalID: -2249228645935333564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_85
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 200
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0be994732fae660800000000000000
+      internalID: 7416006055691202781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_86
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 196
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fef695223602be0800000000000000
+      internalID: -1504093276361199728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_87
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 189
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3f39dd23461a670800000000000000
+      internalID: 8548223737354515391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_88
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ec97c46e38c27d0800000000000000
+      internalID: -2941831431431008718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_89
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 164
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5003e33a1e8d7aa70800000000000000
+      internalID: 8838271257355890693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_90
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20aefabdec26475e0800000000000000
+      internalID: -1912795301137094142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_91
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 186
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31ce797e5a4d8e40800000000000000
+      internalID: 5660262076300312892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_92
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 179
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d3d763e594412a0800000000000000
+      internalID: -6767703671041082079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_93
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 180
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb2e7858b32e7cb0800000000000000
+      internalID: -4864411272847938570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_94
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 153
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b53fc7a34149eea0800000000000000
+      internalID: -5843067282702518855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_95
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73734c4c49ef6810800000000000000
+      internalID: 1760882493231428475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_96
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 173
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6a61d4ec059f7b0800000000000000
+      internalID: -5190028248580970802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_97
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 166
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ccc74a973563790800000000000000
+      internalID: -7550755943324267414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_98
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 167
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e38e6a89b23a6b0800000000000000
+      internalID: -5286333602967568810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_99
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 160
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9455836956f55100800000000000000
+      internalID: 96253830840538269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_100
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d2c22c5c09d8850800000000000000
+      internalID: 6380915426094493009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_101
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 165
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8e8b3045a2f8c60800000000000000
+      internalID: 7822517618093910252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae22032ebea8262e0800000000000000
+      internalID: -2133990527703440662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_103
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 141
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474e6a86525cfbb70800000000000000
+      internalID: 8917062551677101172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_104
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 153
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51832731848e8340800000000000000
+      internalID: 4867973937744806234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_105
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 151
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f0cbb2a0c257f00800000000000000
+      internalID: 1113844905039105848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_106
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 155
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d7a2bb3692d94c0800000000000000
+      internalID: -4279218562613478140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_107
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 146
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd6dc96847c1fd10800000000000000
+      internalID: 2157724810313821644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_108
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 145
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef701762968cfd80800000000000000
+      internalID: -8215543656878145568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_109
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 140
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4627275d6bf38f60800000000000000
+      internalID: 8035542607191287374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_110
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 144
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4a25ddc87793900800000000000000
+      internalID: 664693866906166519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_111
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 131
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0329505c89ad29b20800000000000000
+      internalID: 3139812239906017840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_112
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac63ab8006d8cbc80800000000000000
+      internalID: -8305608169175238966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_113
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 136
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6b587a563404100800000000000000
+      internalID: 90146096428725953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_114
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f24e28540e9406f0800000000000000
+      internalID: -719276298975952138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_115
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 122
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e695022831843dea0800000000000000
+      internalID: -5849252242399405714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_116
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 123
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05aae24a486c1de50800000000000000
+      internalID: 6832460382690257488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_117
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 116
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbdd0c4da20fe8f0800000000000000
+      internalID: -509185289541002315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_118
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 122
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0c0e84ba010eb90800000000000000
+      internalID: -7214748275199393585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_119
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 125
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7581789908eb2910800000000000000
+      internalID: 1813798402856682874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_120
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 114
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817c1753157ca0c10800000000000000
+      internalID: 2020646534432016152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_121
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 126
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a79a2fd79da5c8a0800000000000000
+      internalID: -6285426837129881691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_122
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756263dea865fdd60800000000000000
+      internalID: 7917141824625845847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_123
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 126
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bc37a5d6641aad0800000000000000
+      internalID: -2692793666707928172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f631367580b9e20800000000000000
+      internalID: 3358287118552231733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_125
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 116
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec432d0fc5693e80800000000000000
+      internalID: -8198409706698224406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_126
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 108
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde34daa9bf2173f0800000000000000
+      internalID: -904889575643267364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_127
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 110
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add2c1c95df0fec30800000000000000
+      internalID: 4390745571831066074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_128
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 112
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c773c44aa8630460800000000000000
+      internalID: 7206718909230315461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_129
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 110
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64769d15d2cbf0dd0800000000000000
+      internalID: -2517586763844065466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_130
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 102
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42ba081f973f2250800000000000000
+      internalID: 5922013191458173515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_131
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 100
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78981bab205db2e10800000000000000
+      internalID: 2174065452835244423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_132
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 104
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa36a17ac77160f00800000000000000
+      internalID: 1082578584576091050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_133
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 104
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3a009d0cb2e5d20800000000000000
+      internalID: 3269098486791971758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_134
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 104
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0242fcccb8a801370800000000000000
+      internalID: 8291279247030297632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_135
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 93
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b221f5b7691931fc0800000000000000
+      internalID: -3525314007800016341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_136
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 104
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050bef9f212069ef0800000000000000
+      internalID: -101891661042372528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_137
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 97
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3642ac651c9f5f50800000000000000
+      internalID: 6872383172221486653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_138
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33526918a2745dfb0800000000000000
+      internalID: -4623711194537646797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_139
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 102
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c261b2d68696080800000000000000
+      internalID: -9193702346216559559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_140
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 83
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40343b58a873f150800000000000000
+      internalID: 5905196200892837966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_141
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 83
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c1773c2d5b15ae0800000000000000
+      internalID: -1562267678893728767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_142
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 70
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bccd4f6ce614e10800000000000000
+      internalID: 2180145495414721403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_143
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 77
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24b682fd9a46f110800000000000000
+      internalID: 1294303985154831404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_144
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 51
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293d66d8c59102960800000000000000
+      internalID: 7575082458537186194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_145
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 90
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa1b51a30b8cb340800000000000000
+      internalID: 4880928943871040245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_146
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 79
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6c0c1d5e43d99e0800000000000000
+      internalID: -1613074929857542494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_147
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 87
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079c7ccad276bffd0800000000000000
+      internalID: -2307136938227283600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_148
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 63
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbcf8e7db3206650800000000000000
+      internalID: 6224013981805169662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_149
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 77
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c6f15cae4a24d50800000000000000
+      internalID: 6720114922226674810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_150
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 75
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c16f5a87b2e650b0800000000000000
+      internalID: -5740151397108719165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_151
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 72
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15866195834a18560800000000000000
+      internalID: 7314307831746160721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_152
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 73
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e79adc36aa4f580800000000000000
+      internalID: -8794216826718814693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_153
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 67
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856e66513578a9020800000000000000
+      internalID: 2349338946538235480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_154
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6912dc7cf44839720800000000000000
+      internalID: 2851768467245048214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_155
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 60
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6b5a8e698d9c8c0800000000000000
+      internalID: -3978410653145254195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_156
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 61
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c33bd3177ddc9b80800000000000000
+      internalID: -8386584902566726716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_157
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 64
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87c53205bbd30e70800000000000000
+      internalID: 9080342844181694348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_158
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 55
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec48e0fae5f0aec0800000000000000
+      internalID: -3557573316209783575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_159
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 63
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd645c83a7ece2f00800000000000000
+      internalID: 1094038783831394013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_160
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 55
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c05644d398d2ef0800000000000000
+      internalID: -131297917890393055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_161
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 41
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77201ff1025e06cc0800000000000000
+      internalID: -3719721366070427017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_162
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 49
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed819bb05ac3f480800000000000000
+      internalID: -8866520793269301784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_163
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 43
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36039396c0cdef8b0800000000000000
+      internalID: -5116410180783230877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_164
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 44
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc50391a7f154380800000000000000
+      internalID: -8987742872078885640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_165
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 50
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2123adc6e0f611ce0800000000000000
+      internalID: -1436244698408013294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_166
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd83616887df56da0800000000000000
+      internalID: -5952072638412736289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_167
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 30
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e5cef01ce8723f0800000000000000
+      internalID: -925614238554366401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_168
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 28
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595160d6e4e3d12a0800000000000000
+      internalID: -6765182558683130475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_169
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 24
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa5d464718ff8930800000000000000
+      internalID: 4147806560678927011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_170
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 39
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c566789a18d6290800000000000000
+      internalID: -7895512006589522831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_171
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a070d53c5840e2720800000000000000
+      internalID: 2823198988962694922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_172
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17c42c639a374580800000000000000
+      internalID: -8843034938469726434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_173
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 35
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1975e289b75d3b660800000000000000
+      internalID: 7400493339510724497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_174
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 19
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236e7341a6afa6580800000000000000
+      internalID: -8832972385621121486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_175
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 23
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2171887a553902740800000000000000
+      internalID: 5125258372039841554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glitter_176
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 27
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43bcab4fd0bb6390800000000000000
+      internalID: -7823965454532299958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Glitter_0: -3350401446001213910
+      Glitter_1: 3917345293381545671
+      Glitter_10: -2461873245390370029
+      Glitter_100: 6380915426094493009
+      Glitter_101: 7822517618093910252
+      Glitter_102: -2133990527703440662
+      Glitter_103: 8917062551677101172
+      Glitter_104: 4867973937744806234
+      Glitter_105: 1113844905039105848
+      Glitter_106: -4279218562613478140
+      Glitter_107: 2157724810313821644
+      Glitter_108: -8215543656878145568
+      Glitter_109: 8035542607191287374
+      Glitter_11: 5052730563866944983
+      Glitter_110: 664693866906166519
+      Glitter_111: 3139812239906017840
+      Glitter_112: -8305608169175238966
+      Glitter_113: 90146096428725953
+      Glitter_114: -719276298975952138
+      Glitter_115: -5849252242399405714
+      Glitter_116: 6832460382690257488
+      Glitter_117: -509185289541002315
+      Glitter_118: -7214748275199393585
+      Glitter_119: 1813798402856682874
+      Glitter_12: 6163645851701554477
+      Glitter_120: 2020646534432016152
+      Glitter_121: -6285426837129881691
+      Glitter_122: 7917141824625845847
+      Glitter_123: -2692793666707928172
+      Glitter_124: 3358287118552231733
+      Glitter_125: -8198409706698224406
+      Glitter_126: -904889575643267364
+      Glitter_127: 4390745571831066074
+      Glitter_128: 7206718909230315461
+      Glitter_129: -2517586763844065466
+      Glitter_13: 8354125614939180821
+      Glitter_130: 5922013191458173515
+      Glitter_131: 2174065452835244423
+      Glitter_132: 1082578584576091050
+      Glitter_133: 3269098486791971758
+      Glitter_134: 8291279247030297632
+      Glitter_135: -3525314007800016341
+      Glitter_136: -101891661042372528
+      Glitter_137: 6872383172221486653
+      Glitter_138: -4623711194537646797
+      Glitter_139: -9193702346216559559
+      Glitter_14: -3813274276272863266
+      Glitter_140: 5905196200892837966
+      Glitter_141: -1562267678893728767
+      Glitter_142: 2180145495414721403
+      Glitter_143: 1294303985154831404
+      Glitter_144: 7575082458537186194
+      Glitter_145: 4880928943871040245
+      Glitter_146: -1613074929857542494
+      Glitter_147: -2307136938227283600
+      Glitter_148: 6224013981805169662
+      Glitter_149: 6720114922226674810
+      Glitter_15: 9192896149339646486
+      Glitter_150: -5740151397108719165
+      Glitter_151: 7314307831746160721
+      Glitter_152: -8794216826718814693
+      Glitter_153: 2349338946538235480
+      Glitter_154: 2851768467245048214
+      Glitter_155: -3978410653145254195
+      Glitter_156: -8386584902566726716
+      Glitter_157: 9080342844181694348
+      Glitter_158: -3557573316209783575
+      Glitter_159: 1094038783831394013
+      Glitter_16: -2322612864273424099
+      Glitter_160: -131297917890393055
+      Glitter_161: -3719721366070427017
+      Glitter_162: -8866520793269301784
+      Glitter_163: -5116410180783230877
+      Glitter_164: -8987742872078885640
+      Glitter_165: -1436244698408013294
+      Glitter_166: -5952072638412736289
+      Glitter_167: -925614238554366401
+      Glitter_168: -6765182558683130475
+      Glitter_169: 4147806560678927011
+      Glitter_17: -4010626311235081073
+      Glitter_170: -7895512006589522831
+      Glitter_171: 2823198988962694922
+      Glitter_172: -8843034938469726434
+      Glitter_173: 7400493339510724497
+      Glitter_174: -8832972385621121486
+      Glitter_175: 5125258372039841554
+      Glitter_176: -7823965454532299958
+      Glitter_18: -2028927105037351133
+      Glitter_19: -980776777279392120
+      Glitter_2: 6991624741427336095
+      Glitter_20: 4743703683420450018
+      Glitter_21: -3183620042282374596
+      Glitter_22: -4641193676590356106
+      Glitter_23: -2440569789281407686
+      Glitter_24: 8732971733039200236
+      Glitter_25: 5866511402385719775
+      Glitter_26: 2694770210437156307
+      Glitter_27: -3546334169604306902
+      Glitter_28: -8640220912938683332
+      Glitter_29: -1641871946701916146
+      Glitter_3: -3757987599149286953
+      Glitter_30: -9136616735879533873
+      Glitter_31: -8264130326231600142
+      Glitter_32: 7824228222043905512
+      Glitter_33: -5185442569438824762
+      Glitter_34: 600627679930745578
+      Glitter_35: -1915456929028439540
+      Glitter_36: -5455200050684089324
+      Glitter_37: -8726953722131824038
+      Glitter_38: 1634977306335254008
+      Glitter_39: -8867457845868466500
+      Glitter_4: 799926632996125024
+      Glitter_40: -7899056830134652067
+      Glitter_41: -6759310212695527066
+      Glitter_42: 1876344178935815077
+      Glitter_43: 1949658778812487735
+      Glitter_44: -2603174301276605008
+      Glitter_45: -1095753417940063414
+      Glitter_46: 6596114165799315584
+      Glitter_47: -1981797732581771508
+      Glitter_48: -2366561082011194240
+      Glitter_49: 2518031128216464270
+      Glitter_5: -6727013668573420899
+      Glitter_50: -963205469213541421
+      Glitter_51: -6079490262847828921
+      Glitter_52: 1427564657973398320
+      Glitter_53: 324198880777269264
+      Glitter_54: -242326126540543239
+      Glitter_55: 5001636608834802458
+      Glitter_56: 783650260939001177
+      Glitter_57: -7868836207258751358
+      Glitter_58: 4098806338131346590
+      Glitter_59: 3400089895058151738
+      Glitter_6: 3781228355273145420
+      Glitter_60: -3046286693685813304
+      Glitter_61: -8984832979220424991
+      Glitter_62: 7769740978103271669
+      Glitter_63: -8896141242509477194
+      Glitter_64: -6441514903667313616
+      Glitter_65: -1988220375207338161
+      Glitter_66: -3284210098038093053
+      Glitter_67: 6716282770432963745
+      Glitter_68: 3262457097432918265
+      Glitter_69: 6642710591910823476
+      Glitter_7: 821353223066427394
+      Glitter_70: 9207096769742638064
+      Glitter_71: 8235735691544690202
+      Glitter_72: 7531511252831454149
+      Glitter_73: 3290805430157410270
+      Glitter_74: 703315155787440842
+      Glitter_75: 904945334951142588
+      Glitter_76: -1842648685035780044
+      Glitter_77: -2192778410565209239
+      Glitter_78: -7062792623677910289
+      Glitter_79: 4243701054456908148
+      Glitter_8: -6473714428802434842
+      Glitter_80: 6953591328039305048
+      Glitter_81: 6679933429033811109
+      Glitter_82: 1531829873800826830
+      Glitter_83: 6718186184938425349
+      Glitter_84: -2249228645935333564
+      Glitter_85: 7416006055691202781
+      Glitter_86: -1504093276361199728
+      Glitter_87: 8548223737354515391
+      Glitter_88: -2941831431431008718
+      Glitter_89: 8838271257355890693
+      Glitter_9: 6052448450064388595
+      Glitter_90: -1912795301137094142
+      Glitter_91: 5660262076300312892
+      Glitter_92: -6767703671041082079
+      Glitter_93: -4864411272847938570
+      Glitter_94: -5843067282702518855
+      Glitter_95: 1760882493231428475
+      Glitter_96: -5190028248580970802
+      Glitter_97: -7550755943324267414
+      Glitter_98: -5286333602967568810
+      Glitter_99: 96253830840538269
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 5f5ebcf6a03ac574e87b1569dcaf3371
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6241764278559506641
+    second: switchBlock_0
+  - first:
+      213: -9067818371133661549
+    second: switchBlock_1
+  - first:
+      213: -3458318715164979077
+    second: switchBlock_2
+  - first:
+      213: -3949729036236140048
+    second: switchBlock_3
+  - first:
+      213: 2165450453490998629
+    second: switchBlock_4
+  - first:
+      213: -837731832185374682
+    second: switchBlock_5
+  - first:
+      213: 8862233731069552556
+    second: switchBlock_6
+  - first:
+      213: 4422149972448843006
+    second: switchBlock_7
+  - first:
+      213: -4736733101897353331
+    second: switchBlock_8
+  - first:
+      213: 534985884673103500
+    second: switchBlock_9
+  - first:
+      213: -4416550394937893774
+    second: switchBlock_10
+  - first:
+      213: 7962024309618745726
+    second: switchBlock_11
+  - first:
+      213: -3048219140820140364
+    second: switchBlock_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: switchBlock_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 949
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d003438a833f9650800000000000000
+      internalID: 6241764278559506641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 875
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e11dc1c33a82280800000000000000
+      internalID: -9067818371133661549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 801
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70918693759100d0800000000000000
+      internalID: -3458318715164979077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 727
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1591c3e5ebf29c0800000000000000
+      internalID: -3949729036236140048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 653
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d1a03e6b93d0e10800000000000000
+      internalID: 2165450453490998629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 579
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628bd8d4657cf54f0800000000000000
+      internalID: -837731832185374682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 505
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7a2e0df9afcfa70800000000000000
+      internalID: 8862233731069552556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 431
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4115b68f1ae5d30800000000000000
+      internalID: 4422149972448843006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 357
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87f291175eb34eb0800000000000000
+      internalID: -4736733101897353331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86d9cfd3d6ac6700800000000000000
+      internalID: 534985884673103500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 209
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c9d11d0d245b2c0800000000000000
+      internalID: -4416550394937893774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 135
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71a9dbcceace7e60800000000000000
+      internalID: 7962024309618745726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchBlock_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 343
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be7ed177dc82b5d0800000000000000
+      internalID: -3048219140820140364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      switchBlock_0: 6241764278559506641
+      switchBlock_1: -9067818371133661549
+      switchBlock_10: -4416550394937893774
+      switchBlock_11: 7962024309618745726
+      switchBlock_12: -3048219140820140364
+      switchBlock_2: -3458318715164979077
+      switchBlock_3: -3949729036236140048
+      switchBlock_4: 2165450453490998629
+      switchBlock_5: -837731832185374682
+      switchBlock_6: 8862233731069552556
+      switchBlock_7: 4422149972448843006
+      switchBlock_8: -4736733101897353331
+      switchBlock_9: 534985884673103500
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

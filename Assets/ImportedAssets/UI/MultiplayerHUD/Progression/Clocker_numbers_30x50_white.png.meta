@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 288cd4d78c10ed7498f35d3a1e1548e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -448476816540033065
+    second: Clocker_numbers_30x50_white_0
+  - first:
+      213: -5200694426670733843
+    second: Clocker_numbers_30x50_white_1
+  - first:
+      213: 7443951943915721093
+    second: Clocker_numbers_30x50_white_2
+  - first:
+      213: 3886580016206042200
+    second: Clocker_numbers_30x50_white_3
+  - first:
+      213: 5567757619079507683
+    second: Clocker_numbers_30x50_white_4
+  - first:
+      213: -2896422334369883515
+    second: Clocker_numbers_30x50_white_5
+  - first:
+      213: 4395897991781657305
+    second: Clocker_numbers_30x50_white_6
+  - first:
+      213: -7388228262060412970
+    second: Clocker_numbers_30x50_white_7
+  - first:
+      213: 2868886749615166472
+    second: Clocker_numbers_30x50_white_8
+  - first:
+      213: 4437108618230738466
+    second: Clocker_numbers_30x50_white_9
+  - first:
+      213: 8116087347213517118
+    second: Clocker_numbers_30x50_white_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 510
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df122426b0b6c9f0800000000000000
+      internalID: -448476816540033065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 461
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5efe039fb63d7b0800000000000000
+      internalID: -5200694426670733843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 411
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581dc2e6ada3e4760800000000000000
+      internalID: 7443951943915721093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 360
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854d719cee7efe530800000000000000
+      internalID: 3886580016206042200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 311
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee65b82e06a44d40800000000000000
+      internalID: 5567757619079507683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 260
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a10689b37ddc7d0800000000000000
+      internalID: -2896422334369883515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 210
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daaffcdeed510d30800000000000000
+      internalID: 4395897991781657305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 161
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df23684a8db77990800000000000000
+      internalID: -7388228262060412970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 110
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80413ab7c4550d720800000000000000
+      internalID: 2868886749615166472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 60
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ea77b87c6c39d30800000000000000
+      internalID: 4437108618230738466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clocker_numbers_30x50_white_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 10
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3144b0017222a070800000000000000
+      internalID: 8116087347213517118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Clocker_numbers_30x50_white_0: -448476816540033065
+      Clocker_numbers_30x50_white_1: -5200694426670733843
+      Clocker_numbers_30x50_white_10: 8116087347213517118
+      Clocker_numbers_30x50_white_2: 7443951943915721093
+      Clocker_numbers_30x50_white_3: 3886580016206042200
+      Clocker_numbers_30x50_white_4: 5567757619079507683
+      Clocker_numbers_30x50_white_5: -2896422334369883515
+      Clocker_numbers_30x50_white_6: 4395897991781657305
+      Clocker_numbers_30x50_white_7: -7388228262060412970
+      Clocker_numbers_30x50_white_8: 2868886749615166472
+      Clocker_numbers_30x50_white_9: 4437108618230738466
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

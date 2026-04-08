@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: f17e6e2866633b8458683c314dd00fc9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7676991391735653536
+    second: Anim_Furnace_0
+  - first:
+      213: 1374439267403979934
+    second: Anim_Furnace_1
+  - first:
+      213: -2765418274831212760
+    second: Anim_Furnace_2
+  - first:
+      213: 1741499415924105693
+    second: Anim_Furnace_3
+  - first:
+      213: 3327893461528250861
+    second: Anim_Furnace_4
+  - first:
+      213: -4167152332490208793
+    second: Anim_Furnace_5
+  - first:
+      213: -989670748586371640
+    second: Anim_Furnace_6
+  - first:
+      213: -6069429258173894897
+    second: Anim_Furnace_7
+  - first:
+      213: 8151361876545249953
+    second: Anim_Furnace_8
+  - first:
+      213: 4411447505230249574
+    second: Anim_Furnace_9
+  - first:
+      213: -4868424281849724646
+    second: Anim_Furnace_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Anim_Furnace_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1576
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b5ddfe009d57590800000000000000
+      internalID: -7676991391735653536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1576
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c56fa4b3df21310800000000000000
+      internalID: 1374439267403979934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_2
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1576
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fdf491bb24f99d0800000000000000
+      internalID: -2765418274831212760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1104
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1e4beed7c0b2810800000000000000
+      internalID: 1741499415924105693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1104
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de98cb8a87d0f2e20800000000000000
+      internalID: 3327893461528250861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_5
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1104
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e90bf8380d4b26c0800000000000000
+      internalID: -4167152332490208793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 632
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c51ae992bbf342f0800000000000000
+      internalID: -989670748586371640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_7
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 632
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fae253f3e05cba0800000000000000
+      internalID: -6069429258173894897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_8
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 632
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2242f50747f1170800000000000000
+      internalID: 8151361876545249953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 160
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e3886122c983d30800000000000000
+      internalID: 4411447505230249574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Furnace_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 160
+        width: 610
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a110670e8e1ef6cb0800000000000000
+      internalID: -4868424281849724646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Anim_Furnace_0: -7676991391735653536
+      Anim_Furnace_1: 1374439267403979934
+      Anim_Furnace_10: -4868424281849724646
+      Anim_Furnace_2: -2765418274831212760
+      Anim_Furnace_3: 1741499415924105693
+      Anim_Furnace_4: 3327893461528250861
+      Anim_Furnace_5: -4167152332490208793
+      Anim_Furnace_6: -989670748586371640
+      Anim_Furnace_7: -6069429258173894897
+      Anim_Furnace_8: 8151361876545249953
+      Anim_Furnace_9: 4411447505230249574
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

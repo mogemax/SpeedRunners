@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 5b94a9b9c1d81b34ca422fa66920d068
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4416576427026922135
+    second: Boost_OverDrill_130x110_0
+  - first:
+      213: 8008431725827825332
+    second: Boost_OverDrill_130x110_1
+  - first:
+      213: -172435614154815693
+    second: Boost_OverDrill_130x110_2
+  - first:
+      213: -6384781937904403580
+    second: Boost_OverDrill_130x110_3
+  - first:
+      213: -3592774021826881982
+    second: Boost_OverDrill_130x110_4
+  - first:
+      213: 4826097871118587894
+    second: Boost_OverDrill_130x110_5
+  - first:
+      213: 2069589614597920412
+    second: Boost_OverDrill_130x110_6
+  - first:
+      213: -1291888133864942743
+    second: Boost_OverDrill_130x110_7
+  - first:
+      213: 6629895885675058592
+    second: Boost_OverDrill_130x110_8
+  - first:
+      213: -1629172553415618644
+    second: Boost_OverDrill_130x110_9
+  - first:
+      213: -6772104003449178947
+    second: Boost_OverDrill_130x110_10
+  - first:
+      213: -5840569923709018944
+    second: Boost_OverDrill_130x110_11
+  - first:
+      213: -3444080458333206569
+    second: Boost_OverDrill_130x110_12
+  - first:
+      213: -8523687358663418105
+    second: Boost_OverDrill_130x110_13
+  - first:
+      213: 4147447223888899822
+    second: Boost_OverDrill_130x110_14
+  - first:
+      213: 8564243278617802459
+    second: Boost_OverDrill_130x110_15
+  - first:
+      213: -1913037298641072271
+    second: Boost_OverDrill_130x110_16
+  - first:
+      213: 2378164345751250404
+    second: Boost_OverDrill_130x110_17
+  - first:
+      213: -3858494936617397715
+    second: Boost_OverDrill_130x110_18
+  - first:
+      213: -329967089892454137
+    second: Boost_OverDrill_130x110_19
+  - first:
+      213: -1274942449785136596
+    second: Boost_OverDrill_130x110_20
+  - first:
+      213: -3589990382584310636
+    second: Boost_OverDrill_130x110_21
+  - first:
+      213: 5365012815580777549
+    second: Boost_OverDrill_130x110_22
+  - first:
+      213: 3895217304512125565
+    second: Boost_OverDrill_130x110_23
+  - first:
+      213: -7544560062532908719
+    second: Boost_OverDrill_130x110_24
+  - first:
+      213: -3813224126577328661
+    second: Boost_OverDrill_130x110_25
+  - first:
+      213: -1511092279509859703
+    second: Boost_OverDrill_130x110_26
+  - first:
+      213: -2012589546181519864
+    second: Boost_OverDrill_130x110_27
+  - first:
+      213: 6000850580578169977
+    second: Boost_OverDrill_130x110_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 118
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79abd404cd4da4d30800000000000000
+      internalID: 4416576427026922135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 125
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be9fe1693aa32f60800000000000000
+      internalID: 8008431725827825332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 140
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3370da7f8b26b9df0800000000000000
+      internalID: -172435614154815693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 158
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bb0eec7a2b467a0800000000000000
+      internalID: -6384781937904403580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 118
+        width: 55
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246d1ceff07e32ec0800000000000000
+      internalID: -3592774021826881982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 123
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7da4ba17eb9f240800000000000000
+      internalID: 4826097871118587894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_6
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 155
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9652f01ac8a8bc10800000000000000
+      internalID: 2069589614597920412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 118
+        width: 50
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9631073469a421ee0800000000000000
+      internalID: -1291888133864942743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 121
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a55c7b6e2f120c50800000000000000
+      internalID: 6629895885675058592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_9
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 152
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf88d3c1340469e0800000000000000
+      internalID: -1629172553415618644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 118
+        width: 41
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4396cf947a402a0800000000000000
+      internalID: -6772104003449178947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_11
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 120
+        width: 75
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc5e7b599022fea0800000000000000
+      internalID: -5840569923709018944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_12
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 147
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d74f27121b2430d0800000000000000
+      internalID: -3444080458333206569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_13
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 118
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f116af187c5b980800000000000000
+      internalID: -8523687358663418105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_14
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 142
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeee398a641be8930800000000000000
+      internalID: 4147447223888899822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd67a08f2ed4ad670800000000000000
+      internalID: 8564243278617802459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 9
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f0d6c66b68375e0800000000000000
+      internalID: -1913037298641072271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 30
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5a0065fdfe00120800000000000000
+      internalID: 2378164345751250404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 8
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22d64f5c4fd37ac0800000000000000
+      internalID: -3858494936617397715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 27
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70114631ea8bb6bf0800000000000000
+      internalID: -329967089892454137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_20
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 50
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a9d7bc89e7e4ee0800000000000000
+      internalID: -1274942449785136596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 9
+        width: 84
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4945ef284cacd2ec0800000000000000
+      internalID: -3589990382584310636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 24
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c4c101bba547a40800000000000000
+      internalID: 5365012815580777549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_23
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 43
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a566e20879e0630800000000000000
+      internalID: 3895217304512125565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_24
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 9
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159802e88965c4790800000000000000
+      internalID: -7544560062532908719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_25
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 21
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedb8663cd4b41bc0800000000000000
+      internalID: -3813224126577328661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_26
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 38
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982caf0f395870be0800000000000000
+      internalID: -1511092279509859703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_27
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 9
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8069f2d8878d114e0800000000000000
+      internalID: -2012589546181519864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boost_OverDrill_130x110_28
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 17
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974fe852fcd474350800000000000000
+      internalID: 6000850580578169977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boost_OverDrill_130x110_0: 4416576427026922135
+      Boost_OverDrill_130x110_1: 8008431725827825332
+      Boost_OverDrill_130x110_10: -6772104003449178947
+      Boost_OverDrill_130x110_11: -5840569923709018944
+      Boost_OverDrill_130x110_12: -3444080458333206569
+      Boost_OverDrill_130x110_13: -8523687358663418105
+      Boost_OverDrill_130x110_14: 4147447223888899822
+      Boost_OverDrill_130x110_15: 8564243278617802459
+      Boost_OverDrill_130x110_16: -1913037298641072271
+      Boost_OverDrill_130x110_17: 2378164345751250404
+      Boost_OverDrill_130x110_18: -3858494936617397715
+      Boost_OverDrill_130x110_19: -329967089892454137
+      Boost_OverDrill_130x110_2: -172435614154815693
+      Boost_OverDrill_130x110_20: -1274942449785136596
+      Boost_OverDrill_130x110_21: -3589990382584310636
+      Boost_OverDrill_130x110_22: 5365012815580777549
+      Boost_OverDrill_130x110_23: 3895217304512125565
+      Boost_OverDrill_130x110_24: -7544560062532908719
+      Boost_OverDrill_130x110_25: -3813224126577328661
+      Boost_OverDrill_130x110_26: -1511092279509859703
+      Boost_OverDrill_130x110_27: -2012589546181519864
+      Boost_OverDrill_130x110_28: 6000850580578169977
+      Boost_OverDrill_130x110_3: -6384781937904403580
+      Boost_OverDrill_130x110_4: -3592774021826881982
+      Boost_OverDrill_130x110_5: 4826097871118587894
+      Boost_OverDrill_130x110_6: 2069589614597920412
+      Boost_OverDrill_130x110_7: -1291888133864942743
+      Boost_OverDrill_130x110_8: 6629895885675058592
+      Boost_OverDrill_130x110_9: -1629172553415618644
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

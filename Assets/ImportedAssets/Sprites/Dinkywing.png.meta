@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 9f5650e543229db4f92ca28eb1625d06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5646220977920788986
+    second: Dinkywing_0
+  - first:
+      213: -6411952551808344076
+    second: Dinkywing_1
+  - first:
+      213: 1512316381871901379
+    second: Dinkywing_2
+  - first:
+      213: 1503215972714181929
+    second: Dinkywing_3
+  - first:
+      213: -1093381879567204441
+    second: Dinkywing_4
+  - first:
+      213: -2835857773798874834
+    second: Dinkywing_5
+  - first:
+      213: 148658066932396768
+    second: Dinkywing_6
+  - first:
+      213: -6404979334923775160
+    second: Dinkywing_7
+  - first:
+      213: 4527118862874367808
+    second: Dinkywing_8
+  - first:
+      213: 7678142740098723929
+    second: Dinkywing_9
+  - first:
+      213: 1130864152102926882
+    second: Dinkywing_10
+  - first:
+      213: 2572206163547561165
+    second: Dinkywing_11
+  - first:
+      213: 2164173232240982112
+    second: Dinkywing_12
+  - first:
+      213: 3626697899774668735
+    second: Dinkywing_13
+  - first:
+      213: 8706412158911000116
+    second: Dinkywing_14
+  - first:
+      213: 1051048858221098550
+    second: Dinkywing_15
+  - first:
+      213: -1206220875213644093
+    second: Dinkywing_16
+  - first:
+      213: 3245716686635887877
+    second: Dinkywing_17
+  - first:
+      213: 4748353794925718414
+    second: Dinkywing_18
+  - first:
+      213: -4308961220036014079
+    second: Dinkywing_19
+  - first:
+      213: 8013092241080649082
+    second: Dinkywing_20
+  - first:
+      213: -965157123566157232
+    second: Dinkywing_21
+  - first:
+      213: -424827757400583466
+    second: Dinkywing_22
+  - first:
+      213: -426599083487765282
+    second: Dinkywing_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dinkywing_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 150
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6063caf7fe794a1b0800000000000000
+      internalID: -5646220977920788986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 150
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffddc8402b2407a0800000000000000
+      internalID: -6411952551808344076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 150
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca8a799cb3dcf410800000000000000
+      internalID: 1512316381871901379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 150
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925725a76fe7cd410800000000000000
+      internalID: 1503215972714181929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 150
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af3c8839f683d0f0800000000000000
+      internalID: -1093381879567204441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 150
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e212037316205a8d0800000000000000
+      internalID: -2835857773798874834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 100
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2708869b3201200800000000000000
+      internalID: 148658066932396768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 100
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843962cda31fc17a0800000000000000
+      internalID: -6404979334923775160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 100
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047d89dbe9e83de30800000000000000
+      internalID: 4527118862874367808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 100
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950345e342e3e8a60800000000000000
+      internalID: 7678142740098723929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 100
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a715b64f2a1bf00800000000000000
+      internalID: 1130864152102926882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 100
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc925ba0ef42b320800000000000000
+      internalID: 2572206163547561165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 51
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068f124a610b80e10800000000000000
+      internalID: 2164173232240982112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 51
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf69b7568e945230800000000000000
+      internalID: 3626697899774668735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 51
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e2800eab363d870800000000000000
+      internalID: 8706412158911000116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 51
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63639db2e53169e00800000000000000
+      internalID: 1051048858221098550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 51
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceda3c3184a24fe0800000000000000
+      internalID: -1206220875213644093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 51
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d6d74412a1b0d20800000000000000
+      internalID: 3245716686635887877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bec6e5e9a85e140800000000000000
+      internalID: 4748353794925718414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100d1d8a99e7334c0800000000000000
+      internalID: -4308961220036014079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a750d0620f8343f60800000000000000
+      internalID: 8013092241080649082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 17
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052c661b5b21b92f0800000000000000
+      internalID: -965157123566157232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 14
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2996dc765ba1af0800000000000000
+      internalID: -424827757400583466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dinkywing_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 13
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc543fc46a641af0800000000000000
+      internalID: -426599083487765282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dinkywing_0: -5646220977920788986
+      Dinkywing_1: -6411952551808344076
+      Dinkywing_10: 1130864152102926882
+      Dinkywing_11: 2572206163547561165
+      Dinkywing_12: 2164173232240982112
+      Dinkywing_13: 3626697899774668735
+      Dinkywing_14: 8706412158911000116
+      Dinkywing_15: 1051048858221098550
+      Dinkywing_16: -1206220875213644093
+      Dinkywing_17: 3245716686635887877
+      Dinkywing_18: 4748353794925718414
+      Dinkywing_19: -4308961220036014079
+      Dinkywing_2: 1512316381871901379
+      Dinkywing_20: 8013092241080649082
+      Dinkywing_21: -965157123566157232
+      Dinkywing_22: -424827757400583466
+      Dinkywing_23: -426599083487765282
+      Dinkywing_3: 1503215972714181929
+      Dinkywing_4: -1093381879567204441
+      Dinkywing_5: -2835857773798874834
+      Dinkywing_6: 148658066932396768
+      Dinkywing_7: -6404979334923775160
+      Dinkywing_8: 4527118862874367808
+      Dinkywing_9: 7678142740098723929
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

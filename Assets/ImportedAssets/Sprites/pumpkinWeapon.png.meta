@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 0508b24a66bed0246815acc56bcadb6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6327898511406362949
+    second: pumpkinWeapon_0
+  - first:
+      213: -7239796619025588887
+    second: pumpkinWeapon_1
+  - first:
+      213: -5847530356844555937
+    second: pumpkinWeapon_2
+  - first:
+      213: -6063992801815639609
+    second: pumpkinWeapon_3
+  - first:
+      213: -5876317707366976760
+    second: pumpkinWeapon_4
+  - first:
+      213: -7182477011197014281
+    second: pumpkinWeapon_5
+  - first:
+      213: -5421754555424786212
+    second: pumpkinWeapon_6
+  - first:
+      213: -3649923082535577724
+    second: pumpkinWeapon_7
+  - first:
+      213: 8134695816206406770
+    second: pumpkinWeapon_8
+  - first:
+      213: 5217911934607814565
+    second: pumpkinWeapon_9
+  - first:
+      213: -422588216095845960
+    second: pumpkinWeapon_10
+  - first:
+      213: 1814931197852616263
+    second: pumpkinWeapon_11
+  - first:
+      213: -949243093735016862
+    second: pumpkinWeapon_12
+  - first:
+      213: -7152694559971265210
+    second: pumpkinWeapon_13
+  - first:
+      213: 5540219897911159828
+    second: pumpkinWeapon_14
+  - first:
+      213: 7315550428361931786
+    second: pumpkinWeapon_15
+  - first:
+      213: -533053326047296928
+    second: pumpkinWeapon_16
+  - first:
+      213: -6328840163586934397
+    second: pumpkinWeapon_17
+  - first:
+      213: 7423549880648849187
+    second: pumpkinWeapon_18
+  - first:
+      213: -7343183015153858223
+    second: pumpkinWeapon_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pumpkinWeapon_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 158
+        width: 119
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe86ec94d9ce28a0800000000000000
+      internalID: -6327898511406362949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 158
+        width: 121
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96dd7e44553178b90800000000000000
+      internalID: -7239796619025588887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 158
+        width: 122
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5197fa3f1669dea0800000000000000
+      internalID: -5847530356844555937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_3
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 158
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9c047dcae58dba0800000000000000
+      internalID: -6063992801815639609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_4
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 157
+        width: 127
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803bd01ed20237ea0800000000000000
+      internalID: -5876317707366976760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_5
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 157
+        width: 127
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe41347637b25c90800000000000000
+      internalID: -7182477011197014281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_6
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 157
+        width: 128
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8bc8025fe02c4b0800000000000000
+      internalID: -5421754555424786212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_7
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 157
+        width: 127
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487d7f76b4ed85dc0800000000000000
+      internalID: -3649923082535577724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_8
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 157
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274d6d0debe34e070800000000000000
+      internalID: 8134695816206406770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_9
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 157
+        width: 123
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afe193424fb96840800000000000000
+      internalID: 5217911934607814565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2
+        width: 122
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b15755a14aa22af0800000000000000
+      internalID: -422588216095845960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 123
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74687cbfe4eef2910800000000000000
+      internalID: 1814931197852616263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_12
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 0
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2667e608f6c93d2f0800000000000000
+      internalID: -949243093735016862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_13
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6453b0eb1368cbc90800000000000000
+      internalID: -7152694559971265210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_14
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 7
+        width: 123
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cab80d4a0d2ec40800000000000000
+      internalID: 5540219897911159828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_15
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 8
+        width: 123
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c38faea5e068560800000000000000
+      internalID: 7315550428361931786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_16
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 8
+        width: 125
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0624c9ef2d63a98f0800000000000000
+      internalID: -533053326047296928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_17
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 7
+        width: 125
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389fc2127617b28a0800000000000000
+      internalID: -6328840163586934397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_18
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 8
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327d778e84fb50760800000000000000
+      internalID: 7423549880648849187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinWeapon_19
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 8
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159821d14f5c71a90800000000000000
+      internalID: -7343183015153858223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pumpkinWeapon_0: -6327898511406362949
+      pumpkinWeapon_1: -7239796619025588887
+      pumpkinWeapon_10: -422588216095845960
+      pumpkinWeapon_11: 1814931197852616263
+      pumpkinWeapon_12: -949243093735016862
+      pumpkinWeapon_13: -7152694559971265210
+      pumpkinWeapon_14: 5540219897911159828
+      pumpkinWeapon_15: 7315550428361931786
+      pumpkinWeapon_16: -533053326047296928
+      pumpkinWeapon_17: -6328840163586934397
+      pumpkinWeapon_18: 7423549880648849187
+      pumpkinWeapon_19: -7343183015153858223
+      pumpkinWeapon_2: -5847530356844555937
+      pumpkinWeapon_3: -6063992801815639609
+      pumpkinWeapon_4: -5876317707366976760
+      pumpkinWeapon_5: -7182477011197014281
+      pumpkinWeapon_6: -5421754555424786212
+      pumpkinWeapon_7: -3649923082535577724
+      pumpkinWeapon_8: 8134695816206406770
+      pumpkinWeapon_9: 5217911934607814565
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

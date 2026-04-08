@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: e1d250328782f224ba0dc742d720b504
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2578242144405927585
+    second: boxPop_310x310_0
+  - first:
+      213: -1309088998166777025
+    second: boxPop_310x310_1
+  - first:
+      213: 7781044675136102754
+    second: boxPop_310x310_2
+  - first:
+      213: -3271762270682282652
+    second: boxPop_310x310_3
+  - first:
+      213: 4484358554447237240
+    second: boxPop_310x310_4
+  - first:
+      213: -2138371545494476851
+    second: boxPop_310x310_5
+  - first:
+      213: -8483007987021271503
+    second: boxPop_310x310_6
+  - first:
+      213: 5041212574186873916
+    second: boxPop_310x310_7
+  - first:
+      213: 911244289019818340
+    second: boxPop_310x310_8
+  - first:
+      213: -6429824498987209623
+    second: boxPop_310x310_9
+  - first:
+      213: 7550147988368237398
+    second: boxPop_310x310_10
+  - first:
+      213: -8945453456646570201
+    second: boxPop_310x310_11
+  - first:
+      213: -3541670846554389075
+    second: boxPop_310x310_12
+  - first:
+      213: -8805694192762086497
+    second: boxPop_310x310_13
+  - first:
+      213: 5588521249533150325
+    second: boxPop_310x310_14
+  - first:
+      213: -1971946169282896901
+    second: boxPop_310x310_15
+  - first:
+      213: 3160241743755277841
+    second: boxPop_310x310_16
+  - first:
+      213: -7528999230085702223
+    second: boxPop_310x310_17
+  - first:
+      213: -1382603226722924550
+    second: boxPop_310x310_18
+  - first:
+      213: 7641330811946304730
+    second: boxPop_310x310_19
+  - first:
+      213: -2439837940870515060
+    second: boxPop_310x310_20
+  - first:
+      213: -4026251227521957060
+    second: boxPop_310x310_21
+  - first:
+      213: 1060712502087629255
+    second: boxPop_310x310_22
+  - first:
+      213: -7077652162388911625
+    second: boxPop_310x310_23
+  - first:
+      213: 8624933966509311545
+    second: boxPop_310x310_24
+  - first:
+      213: 2437886564670868593
+    second: boxPop_310x310_25
+  - first:
+      213: -8697344893772185569
+    second: boxPop_310x310_26
+  - first:
+      213: -3813737793517610424
+    second: boxPop_310x310_27
+  - first:
+      213: 6613230122626264471
+    second: boxPop_310x310_28
+  - first:
+      213: -1485218383241628382
+    second: boxPop_310x310_29
+  - first:
+      213: -1228965816992942094
+    second: boxPop_310x310_30
+  - first:
+      213: 4573251348076658503
+    second: boxPop_310x310_31
+  - first:
+      213: -9061157339097558783
+    second: boxPop_310x310_32
+  - first:
+      213: 8080459252426900974
+    second: boxPop_310x310_33
+  - first:
+      213: 635265210795403671
+    second: boxPop_310x310_34
+  - first:
+      213: -8858756742625853288
+    second: boxPop_310x310_35
+  - first:
+      213: 250751908032376407
+    second: boxPop_310x310_36
+  - first:
+      213: -2998735559429957715
+    second: boxPop_310x310_37
+  - first:
+      213: -3738778406102080110
+    second: boxPop_310x310_38
+  - first:
+      213: -854533928573616090
+    second: boxPop_310x310_39
+  - first:
+      213: -8567237098018205016
+    second: boxPop_310x310_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boxPop_310x310_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1639
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6b14af191c7c320800000000000000
+      internalID: 2578242144405927585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1615
+        width: 171
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33b5e4fd7e25dde0800000000000000
+      internalID: -1309088998166777025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_2
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1615
+        width: 170
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261aee208e2dbfb60800000000000000
+      internalID: 7781044675136102754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_3
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1578
+        width: 226
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4650572ac8d5892d0800000000000000
+      internalID: -3271762270682282652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_4
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1578
+        width: 227
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870df4b9854ab3e30800000000000000
+      internalID: 4484358554447237240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1266
+        width: 237
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7aff0b86af252e0800000000000000
+      internalID: -2138371545494476851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1258
+        width: 272
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13eabc24e2d464a80800000000000000
+      internalID: -8483007987021271503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_7
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1255
+        width: 243
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3424a1702cf5f540800000000000000
+      internalID: 5041212574186873916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_8
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1351
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46131a65ad365ac00800000000000000
+      internalID: 911244289019818340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_9
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1253
+        width: 248
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c63c15faca4c6a0800000000000000
+      internalID: -6429824498987209623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_10
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1353
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653a150d79387c860800000000000000
+      internalID: 7550147988368237398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_11
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1251
+        width: 253
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f7ac9e97d5bd380800000000000000
+      internalID: -8945453456646570201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 939
+        width: 257
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5c4cf212579dec0800000000000000
+      internalID: -3541670846554389075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_13
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 938
+        width: 260
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b12b749c3ebc580800000000000000
+      internalID: -8805694192762086497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_14
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 937
+        width: 263
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574452a977a6e8d40800000000000000
+      internalID: 5588521249533150325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_15
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 936
+        width: 265
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb53b7286d32a4e0800000000000000
+      internalID: -1971946169282896901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_16
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 935
+        width: 267
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116f4ec4f1f6bdb20800000000000000
+      internalID: 3160241743755277841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 624
+        width: 268
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd5d80371f938790800000000000000
+      internalID: -7528999230085702223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_18
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 624
+        width: 268
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af70fddc0b100dce0800000000000000
+      internalID: -1382603226722924550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_19
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 623
+        width: 271
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad48e4153e57b0a60800000000000000
+      internalID: 7641330811946304730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_20
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 307
+        width: 283
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8674e0d154f32ed0800000000000000
+      internalID: -2439837940870515060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_21
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 621
+        width: 274
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33c21f27d1ef18c0800000000000000
+      internalID: -4026251227521957060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_22
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 307
+        width: 283
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9bfb7966868be00800000000000000
+      internalID: 1060712502087629255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_23
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 620
+        width: 277
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f998097bd027cd90800000000000000
+      internalID: -7077652162388911625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 279
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9360df4eebbe1b770800000000000000
+      internalID: 8624933966509311545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 280
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c87e10aec15d120800000000000000
+      internalID: 2437886564670868593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_26
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 308
+        width: 281
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10c6ad46e2dc4780800000000000000
+      internalID: -8697344893772185569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_27
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 308
+        width: 282
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a96eecea1e21bc0800000000000000
+      internalID: -3813737793517610424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_28
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 228
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d2d0512c9e6cb50800000000000000
+      internalID: 6613230122626264471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_29
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 229
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225b00ddfb1736be0800000000000000
+      internalID: -1485218383241628382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_30
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 232
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7b90dc916d1fee0800000000000000
+      internalID: -1228965816992942094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_31
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 53
+        width: 123
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f7fa6fed3777f30800000000000000
+      internalID: 4573251348076658503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_32
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 53
+        width: 170
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1019a2d786d404280800000000000000
+      internalID: -9061157339097558783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_33
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 53
+        width: 170
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee58ce2c0ee832070800000000000000
+      internalID: 8080459252426900974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_34
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 53
+        width: 124
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799af9be75ae0d800800000000000000
+      internalID: 635265210795403671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_35
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 197
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8908034adaf5f0580800000000000000
+      internalID: -8858756742625853288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_36
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 103
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e65052889da7300800000000000000
+      internalID: 250751908032376407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_37
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 109
+        width: 61
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da758dc85e95266d0800000000000000
+      internalID: -2998735559429957715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_38
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 183
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295626a39d03d1cc0800000000000000
+      internalID: -3738778406102080110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_39
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 102
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620c9d26be51424f0800000000000000
+      internalID: -854533928573616090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxPop_310x310_40
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 105
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a29312204f0b1980800000000000000
+      internalID: -8567237098018205016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boxPop_310x310_0: 2578242144405927585
+      boxPop_310x310_1: -1309088998166777025
+      boxPop_310x310_10: 7550147988368237398
+      boxPop_310x310_11: -8945453456646570201
+      boxPop_310x310_12: -3541670846554389075
+      boxPop_310x310_13: -8805694192762086497
+      boxPop_310x310_14: 5588521249533150325
+      boxPop_310x310_15: -1971946169282896901
+      boxPop_310x310_16: 3160241743755277841
+      boxPop_310x310_17: -7528999230085702223
+      boxPop_310x310_18: -1382603226722924550
+      boxPop_310x310_19: 7641330811946304730
+      boxPop_310x310_2: 7781044675136102754
+      boxPop_310x310_20: -2439837940870515060
+      boxPop_310x310_21: -4026251227521957060
+      boxPop_310x310_22: 1060712502087629255
+      boxPop_310x310_23: -7077652162388911625
+      boxPop_310x310_24: 8624933966509311545
+      boxPop_310x310_25: 2437886564670868593
+      boxPop_310x310_26: -8697344893772185569
+      boxPop_310x310_27: -3813737793517610424
+      boxPop_310x310_28: 6613230122626264471
+      boxPop_310x310_29: -1485218383241628382
+      boxPop_310x310_3: -3271762270682282652
+      boxPop_310x310_30: -1228965816992942094
+      boxPop_310x310_31: 4573251348076658503
+      boxPop_310x310_32: -9061157339097558783
+      boxPop_310x310_33: 8080459252426900974
+      boxPop_310x310_34: 635265210795403671
+      boxPop_310x310_35: -8858756742625853288
+      boxPop_310x310_36: 250751908032376407
+      boxPop_310x310_37: -2998735559429957715
+      boxPop_310x310_38: -3738778406102080110
+      boxPop_310x310_39: -854533928573616090
+      boxPop_310x310_4: 4484358554447237240
+      boxPop_310x310_40: -8567237098018205016
+      boxPop_310x310_5: -2138371545494476851
+      boxPop_310x310_6: -8483007987021271503
+      boxPop_310x310_7: 5041212574186873916
+      boxPop_310x310_8: 911244289019818340
+      boxPop_310x310_9: -6429824498987209623
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

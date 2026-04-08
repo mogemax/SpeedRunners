@@ -1,0 +1,1989 @@
+fileFormatVersion: 2
+guid: cf28b85372df45f4f9062cc45ead1c5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5092099841158589409
+    second: Anim_HangingRobot_0
+  - first:
+      213: 4099843605311246091
+    second: Anim_HangingRobot_1
+  - first:
+      213: 5244447636357863013
+    second: Anim_HangingRobot_2
+  - first:
+      213: 4605656665454143181
+    second: Anim_HangingRobot_3
+  - first:
+      213: 4935641966914474954
+    second: Anim_HangingRobot_4
+  - first:
+      213: 9165834635015026571
+    second: Anim_HangingRobot_5
+  - first:
+      213: -3856011515653499500
+    second: Anim_HangingRobot_6
+  - first:
+      213: -5647228677959564399
+    second: Anim_HangingRobot_7
+  - first:
+      213: 289882599796295868
+    second: Anim_HangingRobot_8
+  - first:
+      213: -7972723824230358603
+    second: Anim_HangingRobot_9
+  - first:
+      213: -3176902501914287835
+    second: Anim_HangingRobot_10
+  - first:
+      213: 7422008932491514697
+    second: Anim_HangingRobot_11
+  - first:
+      213: 3699620089008660757
+    second: Anim_HangingRobot_12
+  - first:
+      213: 6861935235126080379
+    second: Anim_HangingRobot_13
+  - first:
+      213: 2666386688268489064
+    second: Anim_HangingRobot_14
+  - first:
+      213: -8475443648714247606
+    second: Anim_HangingRobot_15
+  - first:
+      213: -6070834667299457368
+    second: Anim_HangingRobot_16
+  - first:
+      213: -1829243139188292575
+    second: Anim_HangingRobot_17
+  - first:
+      213: 993835395457168333
+    second: Anim_HangingRobot_18
+  - first:
+      213: 4861552669924787603
+    second: Anim_HangingRobot_19
+  - first:
+      213: -3477517876124768289
+    second: Anim_HangingRobot_20
+  - first:
+      213: 696958062842750886
+    second: Anim_HangingRobot_21
+  - first:
+      213: -6323977423975019294
+    second: Anim_HangingRobot_22
+  - first:
+      213: 3783087015931353427
+    second: Anim_HangingRobot_23
+  - first:
+      213: -1471217824839995636
+    second: Anim_HangingRobot_24
+  - first:
+      213: 5498183000721350969
+    second: Anim_HangingRobot_25
+  - first:
+      213: -2861946943383218085
+    second: Anim_HangingRobot_26
+  - first:
+      213: -6408319509478030249
+    second: Anim_HangingRobot_27
+  - first:
+      213: -1566001657652622170
+    second: Anim_HangingRobot_28
+  - first:
+      213: 913948773927026914
+    second: Anim_HangingRobot_29
+  - first:
+      213: -6725173453767113118
+    second: Anim_HangingRobot_30
+  - first:
+      213: 920292595912331720
+    second: Anim_HangingRobot_31
+  - first:
+      213: 2921802611587561943
+    second: Anim_HangingRobot_32
+  - first:
+      213: -4244875078789653855
+    second: Anim_HangingRobot_33
+  - first:
+      213: 9157275393979435269
+    second: Anim_HangingRobot_34
+  - first:
+      213: -8655941561619578250
+    second: Anim_HangingRobot_35
+  - first:
+      213: -2757092411779357367
+    second: Anim_HangingRobot_36
+  - first:
+      213: 1449198295437517055
+    second: Anim_HangingRobot_37
+  - first:
+      213: -1173637137635665542
+    second: Anim_HangingRobot_38
+  - first:
+      213: 2462672299423601944
+    second: Anim_HangingRobot_39
+  - first:
+      213: -2666549257057295347
+    second: Anim_HangingRobot_40
+  - first:
+      213: 6449543424169777010
+    second: Anim_HangingRobot_41
+  - first:
+      213: 4266904375368802665
+    second: Anim_HangingRobot_42
+  - first:
+      213: -3930918633025477175
+    second: Anim_HangingRobot_43
+  - first:
+      213: 2005928384560824652
+    second: Anim_HangingRobot_44
+  - first:
+      213: -4617368668714649963
+    second: Anim_HangingRobot_45
+  - first:
+      213: -2276774912442597284
+    second: Anim_HangingRobot_46
+  - first:
+      213: -4408926082108227079
+    second: Anim_HangingRobot_47
+  - first:
+      213: -7161669767423521483
+    second: Anim_HangingRobot_48
+  - first:
+      213: 7472493296049679515
+    second: Anim_HangingRobot_49
+  - first:
+      213: 2466443748654015785
+    second: Anim_HangingRobot_50
+  - first:
+      213: -6349562359220507401
+    second: Anim_HangingRobot_51
+  - first:
+      213: -8514358077846861795
+    second: Anim_HangingRobot_52
+  - first:
+      213: 5011339019481936298
+    second: Anim_HangingRobot_53
+  - first:
+      213: -4166007865444837391
+    second: Anim_HangingRobot_54
+  - first:
+      213: -1127150787611382061
+    second: Anim_HangingRobot_55
+  - first:
+      213: 6491431947844457125
+    second: Anim_HangingRobot_56
+  - first:
+      213: 3925827599780302726
+    second: Anim_HangingRobot_57
+  - first:
+      213: 3279506319182420937
+    second: Anim_HangingRobot_58
+  - first:
+      213: -4507058404886906044
+    second: Anim_HangingRobot_59
+  - first:
+      213: 7847605552147356653
+    second: Anim_HangingRobot_60
+  - first:
+      213: 4507670671537321821
+    second: Anim_HangingRobot_61
+  - first:
+      213: -4995187057205462857
+    second: Anim_HangingRobot_62
+  - first:
+      213: -7140316669751108804
+    second: Anim_HangingRobot_63
+  - first:
+      213: 6813555687320691588
+    second: Anim_HangingRobot_64
+  - first:
+      213: 4993543308657504822
+    second: Anim_HangingRobot_65
+  - first:
+      213: 7593217326221442600
+    second: Anim_HangingRobot_66
+  - first:
+      213: -7569469907903543984
+    second: Anim_HangingRobot_67
+  - first:
+      213: -7698619743552588665
+    second: Anim_HangingRobot_68
+  - first:
+      213: -3676350153281069592
+    second: Anim_HangingRobot_69
+  - first:
+      213: 7732878969699690708
+    second: Anim_HangingRobot_70
+  - first:
+      213: 8032892225199223564
+    second: Anim_HangingRobot_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Anim_HangingRobot_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1878
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f145bee6c2a3559b0800000000000000
+      internalID: -5092099841158589409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_1
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1878
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fcb31890295e830800000000000000
+      internalID: 4099843605311246091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1878
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5665f38c65508c840800000000000000
+      internalID: 5244447636357863013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_3
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1878
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6edcdd5549aef30800000000000000
+      internalID: 4605656665454143181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_4
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1878
+        width: 506
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac39270083cee7440800000000000000
+      internalID: 4935641966914474954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_5
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1878
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87fa02b906933f70800000000000000
+      internalID: 9165834635015026571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1709
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49558afd4f1bc7ac0800000000000000
+      internalID: -3856011515653499500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1709
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19342dc007301a1b0800000000000000
+      internalID: -5647228677959564399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1709
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8cc6b40bed50400800000000000000
+      internalID: 289882599796295868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_9
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1709
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1a4745ce13b5190800000000000000
+      internalID: -7972723824230358603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_10
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1709
+        width: 506
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5216957a10069e3d0800000000000000
+      internalID: -3176902501914287835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_11
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1709
+        width: 64
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943dee4fcc5400760800000000000000
+      internalID: 7422008932491514697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1540
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511a2499ed0b75330800000000000000
+      internalID: 3699620089008660757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_13
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1540
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b733d618dbd7a3f50800000000000000
+      internalID: 6861935235126080379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1540
+        width: 506
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861d21cd098e00520800000000000000
+      internalID: 2666386688268489064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_15
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1540
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42fb8408ec216a80800000000000000
+      internalID: -8475443648714247606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_16
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1540
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a63d75e80010cba0800000000000000
+      internalID: -6070834667299457368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_17
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1540
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1248cd08e093d96e0800000000000000
+      internalID: -1829243139188292575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1371
+        width: 504
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc33f6fc600dacd00800000000000000
+      internalID: 993835395457168333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_19
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1371
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39508bb4564b77340800000000000000
+      internalID: 4861552669924787603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_20
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1371
+        width: 506
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd723859aef5dbfc0800000000000000
+      internalID: -3477517876124768289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_21
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1371
+        width: 59
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7261f5aa71ca900800000000000000
+      internalID: 696958062842750886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_22
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1371
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec016ce908bc38a0800000000000000
+      internalID: -6323977423975019294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_23
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1371
+        width: 56
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3591bfae899308430800000000000000
+      internalID: 3783087015931353427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1202
+        width: 499
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f6033ee2f259be0800000000000000
+      internalID: -1471217824839995636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_25
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1202
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931661cfe487d4c40800000000000000
+      internalID: 5498183000721350969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_26
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1202
+        width: 506
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d0a11b625848d0800000000000000
+      internalID: -2861946943383218085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_27
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1202
+        width: 52
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7544b5edb531117a0800000000000000
+      internalID: -6408319509478030249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_28
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1202
+        width: 496
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac41f51ac1744ae0800000000000000
+      internalID: -1566001657652622170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_29
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 1202
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e003dc419ffeac00800000000000000
+      internalID: 913948773927026914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1033
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266035310626ba2a0800000000000000
+      internalID: -6725173453767113118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_31
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1033
+        width: 48
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1d6c47d3985cc00800000000000000
+      internalID: 920292595912331720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_32
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1033
+        width: 492
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d93c7faef35c8820800000000000000
+      internalID: 2921802611587561943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_33
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1033
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa95dc2b9c2715c0800000000000000
+      internalID: -4244875078789653855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_34
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1033
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509c198147d251f70800000000000000
+      internalID: 9157275393979435269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_35
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1033
+        width: 45
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6720027c20befd780800000000000000
+      internalID: -8655941561619578250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 864
+        width: 489
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94567f62f07dcb9d0800000000000000
+      internalID: -2757092411779357367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_37
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 864
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0a7a8eb269c1410800000000000000
+      internalID: 1449198295437517055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_38
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 864
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a791504dd3766bfe0800000000000000
+      internalID: -1173637137635665542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_39
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 864
+        width: 41
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8159655986b2d2220800000000000000
+      internalID: 2462672299423601944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_40
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 864
+        width: 485
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04a40524938efad0800000000000000
+      internalID: -2666549257057295347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_41
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 864
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2779819b291618950800000000000000
+      internalID: 6449543424169777010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 695
+        width: 481
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961ea602ce6173b30800000000000000
+      internalID: 4266904375368802665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_43
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 695
+        width: 64
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c56d8584529279c0800000000000000
+      internalID: -3930918633025477175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_44
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 695
+        width: 533
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c410f96ec3d76db10800000000000000
+      internalID: 2005928384560824652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_45
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 695
+        width: 37
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596be30e8afcbefb0800000000000000
+      internalID: -4617368668714649963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_46
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 695
+        width: 478
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50865ea7454760e0800000000000000
+      internalID: -2276774912442597284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_47
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 695
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f10cfa761950d2c0800000000000000
+      internalID: -4408926082108227079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 526
+        width: 529
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d011a6a43ac9c90800000000000000
+      internalID: -7161669767423521483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_49
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 526
+        width: 33
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c6781df01a3b760800000000000000
+      internalID: 7472493296049679515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_50
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 526
+        width: 526
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925610985819a3220800000000000000
+      internalID: 2466443748654015785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_51
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 526
+        width: 30
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc687bfca2d1e7a0800000000000000
+      internalID: -6349562359220507401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_52
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 526
+        width: 473
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18c57f607ce6d980800000000000000
+      internalID: -8514358077846861795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_53
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 526
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa17649794adb8540800000000000000
+      internalID: 5011339019481936298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 357
+        width: 522
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f75da83bed5f26c0800000000000000
+      internalID: -4166007865444837391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_55
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 357
+        width: 26
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de2f10a45e8b50f0800000000000000
+      internalID: -1127150787611382061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_56
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 357
+        width: 510
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a214e6a6f2361a50800000000000000
+      internalID: 6491431947844457125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_57
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 387
+        width: 15
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f445ee6675b7630800000000000000
+      internalID: 3925827599780302726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_58
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 357
+        width: 500
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb54892f95238d20800000000000000
+      internalID: 3279506319182420937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_59
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 357
+        width: 489
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bf6ca9246b371c0800000000000000
+      internalID: -4507058404886906044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 188
+        width: 470
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb5029dbab48ec60800000000000000
+      internalID: 7847605552147356653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_61
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 188
+        width: 63
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57bd65d7967e8e30800000000000000
+      internalID: 4507670671537321821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_62
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 188
+        width: 507
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8b3ac46d78daab0800000000000000
+      internalID: -4995187057205462857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_63
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 188
+        width: 504
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b5fa3e1df78ec90800000000000000
+      internalID: -7140316669751108804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_64
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 188
+        width: 485
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483a7104ccc9e8e50800000000000000
+      internalID: 6813555687320691588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 19
+        width: 518
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6323f0bae21ac4540800000000000000
+      internalID: 4993543308657504822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_66
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 49
+        width: 22
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e35c77de6806960800000000000000
+      internalID: 7593217326221442600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_67
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 19
+        width: 515
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05586693937d3f690800000000000000
+      internalID: -7569469907903543984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_68
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 49
+        width: 19
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7843dbcd122092590800000000000000
+      internalID: -7698619743552588665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_69
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 19
+        width: 496
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed9ab3830bfafcc0800000000000000
+      internalID: -3676350153281069592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_70
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 19
+        width: 492
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8e900d374b05b60800000000000000
+      internalID: 7732878969699690708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_HangingRobot_71
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 20
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c033ff13be09a7f60800000000000000
+      internalID: 8032892225199223564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Anim_HangingRobot_0: -5092099841158589409
+      Anim_HangingRobot_1: 4099843605311246091
+      Anim_HangingRobot_10: -3176902501914287835
+      Anim_HangingRobot_11: 7422008932491514697
+      Anim_HangingRobot_12: 3699620089008660757
+      Anim_HangingRobot_13: 6861935235126080379
+      Anim_HangingRobot_14: 2666386688268489064
+      Anim_HangingRobot_15: -8475443648714247606
+      Anim_HangingRobot_16: -6070834667299457368
+      Anim_HangingRobot_17: -1829243139188292575
+      Anim_HangingRobot_18: 993835395457168333
+      Anim_HangingRobot_19: 4861552669924787603
+      Anim_HangingRobot_2: 5244447636357863013
+      Anim_HangingRobot_20: -3477517876124768289
+      Anim_HangingRobot_21: 696958062842750886
+      Anim_HangingRobot_22: -6323977423975019294
+      Anim_HangingRobot_23: 3783087015931353427
+      Anim_HangingRobot_24: -1471217824839995636
+      Anim_HangingRobot_25: 5498183000721350969
+      Anim_HangingRobot_26: -2861946943383218085
+      Anim_HangingRobot_27: -6408319509478030249
+      Anim_HangingRobot_28: -1566001657652622170
+      Anim_HangingRobot_29: 913948773927026914
+      Anim_HangingRobot_3: 4605656665454143181
+      Anim_HangingRobot_30: -6725173453767113118
+      Anim_HangingRobot_31: 920292595912331720
+      Anim_HangingRobot_32: 2921802611587561943
+      Anim_HangingRobot_33: -4244875078789653855
+      Anim_HangingRobot_34: 9157275393979435269
+      Anim_HangingRobot_35: -8655941561619578250
+      Anim_HangingRobot_36: -2757092411779357367
+      Anim_HangingRobot_37: 1449198295437517055
+      Anim_HangingRobot_38: -1173637137635665542
+      Anim_HangingRobot_39: 2462672299423601944
+      Anim_HangingRobot_4: 4935641966914474954
+      Anim_HangingRobot_40: -2666549257057295347
+      Anim_HangingRobot_41: 6449543424169777010
+      Anim_HangingRobot_42: 4266904375368802665
+      Anim_HangingRobot_43: -3930918633025477175
+      Anim_HangingRobot_44: 2005928384560824652
+      Anim_HangingRobot_45: -4617368668714649963
+      Anim_HangingRobot_46: -2276774912442597284
+      Anim_HangingRobot_47: -4408926082108227079
+      Anim_HangingRobot_48: -7161669767423521483
+      Anim_HangingRobot_49: 7472493296049679515
+      Anim_HangingRobot_5: 9165834635015026571
+      Anim_HangingRobot_50: 2466443748654015785
+      Anim_HangingRobot_51: -6349562359220507401
+      Anim_HangingRobot_52: -8514358077846861795
+      Anim_HangingRobot_53: 5011339019481936298
+      Anim_HangingRobot_54: -4166007865444837391
+      Anim_HangingRobot_55: -1127150787611382061
+      Anim_HangingRobot_56: 6491431947844457125
+      Anim_HangingRobot_57: 3925827599780302726
+      Anim_HangingRobot_58: 3279506319182420937
+      Anim_HangingRobot_59: -4507058404886906044
+      Anim_HangingRobot_6: -3856011515653499500
+      Anim_HangingRobot_60: 7847605552147356653
+      Anim_HangingRobot_61: 4507670671537321821
+      Anim_HangingRobot_62: -4995187057205462857
+      Anim_HangingRobot_63: -7140316669751108804
+      Anim_HangingRobot_64: 6813555687320691588
+      Anim_HangingRobot_65: 4993543308657504822
+      Anim_HangingRobot_66: 7593217326221442600
+      Anim_HangingRobot_67: -7569469907903543984
+      Anim_HangingRobot_68: -7698619743552588665
+      Anim_HangingRobot_69: -3676350153281069592
+      Anim_HangingRobot_7: -5647228677959564399
+      Anim_HangingRobot_70: 7732878969699690708
+      Anim_HangingRobot_71: 8032892225199223564
+      Anim_HangingRobot_8: 289882599796295868
+      Anim_HangingRobot_9: -7972723824230358603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

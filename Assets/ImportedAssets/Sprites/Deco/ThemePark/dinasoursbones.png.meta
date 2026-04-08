@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 9cf15c0c0b5d30047806290d50a50884
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6687605496026665506
+    second: dinasoursbones_0
+  - first:
+      213: -8107203398355207520
+    second: dinasoursbones_1
+  - first:
+      213: 722167861279335688
+    second: dinasoursbones_2
+  - first:
+      213: -1345858416682979564
+    second: dinasoursbones_3
+  - first:
+      213: 8657265039525300930
+    second: dinasoursbones_4
+  - first:
+      213: 3547495234470067697
+    second: dinasoursbones_5
+  - first:
+      213: -6441069606966420932
+    second: dinasoursbones_6
+  - first:
+      213: -3644493436294200628
+    second: dinasoursbones_7
+  - first:
+      213: -4975341300934025936
+    second: dinasoursbones_8
+  - first:
+      213: 7600472051575142822
+    second: dinasoursbones_9
+  - first:
+      213: 1752843348143130414
+    second: dinasoursbones_10
+  - first:
+      213: 5878393697115552812
+    second: dinasoursbones_11
+  - first:
+      213: -6968484065800962569
+    second: dinasoursbones_12
+  - first:
+      213: 6786857484922328641
+    second: dinasoursbones_13
+  - first:
+      213: -611324107374534909
+    second: dinasoursbones_14
+  - first:
+      213: -715919344510174612
+    second: dinasoursbones_15
+  - first:
+      213: -4739302993868668826
+    second: dinasoursbones_16
+  - first:
+      213: -7322563434354288102
+    second: dinasoursbones_17
+  - first:
+      213: 7163410688983018560
+    second: dinasoursbones_18
+  - first:
+      213: -6418469564632827773
+    second: dinasoursbones_19
+  - first:
+      213: -5925969612138301215
+    second: dinasoursbones_20
+  - first:
+      213: 2062505899450700839
+    second: dinasoursbones_21
+  - first:
+      213: 2813513696615867119
+    second: dinasoursbones_22
+  - first:
+      213: 6162368049102333205
+    second: dinasoursbones_23
+  - first:
+      213: -1171205545109398196
+    second: dinasoursbones_24
+  - first:
+      213: 8605005424209440162
+    second: dinasoursbones_25
+  - first:
+      213: -3675891649407426996
+    second: dinasoursbones_26
+  - first:
+      213: -8695979224651389664
+    second: dinasoursbones_27
+  - first:
+      213: -1091032120947862477
+    second: dinasoursbones_28
+  - first:
+      213: 2169740449286866643
+    second: dinasoursbones_29
+  - first:
+      213: 8729909301640015026
+    second: dinasoursbones_30
+  - first:
+      213: 1890759969169067394
+    second: dinasoursbones_31
+  - first:
+      213: -5988891051393469427
+    second: dinasoursbones_32
+  - first:
+      213: 2915995248005862344
+    second: dinasoursbones_33
+  - first:
+      213: 893651270139830793
+    second: dinasoursbones_34
+  - first:
+      213: 1283263957122902870
+    second: dinasoursbones_35
+  - first:
+      213: -4138137467213414924
+    second: dinasoursbones_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dinasoursbones_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2229e9424c52fcc50800000000000000
+      internalID: 6687605496026665506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 55
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aab237867d6d7f80800000000000000
+      internalID: -8107203398355207520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 99
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80522c7f7d7a50a00800000000000000
+      internalID: 722167861279335688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 85
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f24a396ec825de0800000000000000
+      internalID: -1345858416682979564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 85
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca405f6fa8c42870800000000000000
+      internalID: 8657265039525300930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 63
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdbafcce1c3b3130800000000000000
+      internalID: 3547495234470067697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 98
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a93379159bc96a0800000000000000
+      internalID: -6441069606966420932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 79
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2017f67882c6dc0800000000000000
+      internalID: -3644493436294200628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 84
+        width: 49
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d5f71827904fab0800000000000000
+      internalID: -4975341300934025936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 78
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9bb67df0d4a7960800000000000000
+      internalID: 7600472051575142822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 74
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e274af8fcb9535810800000000000000
+      internalID: 1752843348143130414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 74
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cb7762cef349150800000000000000
+      internalID: 5878393697115552812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 58
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdb6faa9a8fa4f90800000000000000
+      internalID: -6968484065800962569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 84
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1461ff99ce2cf2e50800000000000000
+      internalID: 6786857484922328641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 79
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fde4996f32487f0800000000000000
+      internalID: -611324107374534909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 60
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6af3a6362b8016f0800000000000000
+      internalID: -715919344510174612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6604387790d9a3eb0800000000000000
+      internalID: -4739302993868668826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_17
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 68
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a5c026a57016a90800000000000000
+      internalID: -7322563434354288102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_18
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 65
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ca119711c896360800000000000000
+      internalID: 7163410688983018560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388776effe30de6a0800000000000000
+      internalID: -6418469564632827773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 63
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8bcbee80ab2cda0800000000000000
+      internalID: -5925969612138301215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 4
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72418eb103e7f9c10800000000000000
+      internalID: 2062505899450700839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 66
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe22c79eccb9b0720800000000000000
+      internalID: 2813513696615867119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_23
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 69
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51526fd4711258550800000000000000
+      internalID: 6162368049102333205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_24
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 67
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d59c413ca0fbfe0800000000000000
+      internalID: -1171205545109398196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_25
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 60
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad205097de1b6770800000000000000
+      internalID: 8605005424209440162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_26
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ede34450c9cfcc0800000000000000
+      internalID: -3675891649407426996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 70
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0252a7ce7fca15780800000000000000
+      internalID: -8695979224651389664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_28
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 49
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3349c580110ebd0f0800000000000000
+      internalID: -1091032120947862477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_29
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d64a8e51777c1e10800000000000000
+      internalID: 2169740449286866643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 35
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bca1adb14ed62970800000000000000
+      internalID: 8729909301640015026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_31
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dc9dd9c245d3a10800000000000000
+      internalID: 1890759969169067394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_32
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 45
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d043d2bb15f23eca0800000000000000
+      internalID: -5988891051393469427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_33
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 32
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3dd1c7a32b77820800000000000000
+      internalID: 2915995248005862344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_34
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 6
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902e2cd6813e66c00800000000000000
+      internalID: 893651270139830793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_35
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b6f5d15c11fc110800000000000000
+      internalID: 1283263957122902870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dinasoursbones_36
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd720bf5e16296c0800000000000000
+      internalID: -4138137467213414924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dinasoursbones_0: 6687605496026665506
+      dinasoursbones_1: -8107203398355207520
+      dinasoursbones_10: 1752843348143130414
+      dinasoursbones_11: 5878393697115552812
+      dinasoursbones_12: -6968484065800962569
+      dinasoursbones_13: 6786857484922328641
+      dinasoursbones_14: -611324107374534909
+      dinasoursbones_15: -715919344510174612
+      dinasoursbones_16: -4739302993868668826
+      dinasoursbones_17: -7322563434354288102
+      dinasoursbones_18: 7163410688983018560
+      dinasoursbones_19: -6418469564632827773
+      dinasoursbones_2: 722167861279335688
+      dinasoursbones_20: -5925969612138301215
+      dinasoursbones_21: 2062505899450700839
+      dinasoursbones_22: 2813513696615867119
+      dinasoursbones_23: 6162368049102333205
+      dinasoursbones_24: -1171205545109398196
+      dinasoursbones_25: 8605005424209440162
+      dinasoursbones_26: -3675891649407426996
+      dinasoursbones_27: -8695979224651389664
+      dinasoursbones_28: -1091032120947862477
+      dinasoursbones_29: 2169740449286866643
+      dinasoursbones_3: -1345858416682979564
+      dinasoursbones_30: 8729909301640015026
+      dinasoursbones_31: 1890759969169067394
+      dinasoursbones_32: -5988891051393469427
+      dinasoursbones_33: 2915995248005862344
+      dinasoursbones_34: 893651270139830793
+      dinasoursbones_35: 1283263957122902870
+      dinasoursbones_36: -4138137467213414924
+      dinasoursbones_4: 8657265039525300930
+      dinasoursbones_5: 3547495234470067697
+      dinasoursbones_6: -6441069606966420932
+      dinasoursbones_7: -3644493436294200628
+      dinasoursbones_8: -4975341300934025936
+      dinasoursbones_9: 7600472051575142822
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

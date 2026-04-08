@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: f650cf697a9e4614597a742621d1e434
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2382593414236350596
+    second: Piston_0
+  - first:
+      213: 7837250280612287058
+    second: Piston_1
+  - first:
+      213: -7082591476375684140
+    second: Piston_2
+  - first:
+      213: 8928332204581227231
+    second: Piston_3
+  - first:
+      213: -2035635539725592559
+    second: Piston_4
+  - first:
+      213: 1988765220637427828
+    second: Piston_5
+  - first:
+      213: 8794923599487374923
+    second: Piston_6
+  - first:
+      213: 6668504337799605918
+    second: Piston_7
+  - first:
+      213: 7924599916081247477
+    second: Piston_8
+  - first:
+      213: -8575337209436405379
+    second: Piston_9
+  - first:
+      213: 2434442103134687717
+    second: Piston_10
+  - first:
+      213: 4993916842961905308
+    second: Piston_11
+  - first:
+      213: -4062984029161281685
+    second: Piston_12
+  - first:
+      213: -2938969832393007535
+    second: Piston_13
+  - first:
+      213: 42008412103616132
+    second: Piston_14
+  - first:
+      213: -4071001022206052362
+    second: Piston_15
+  - first:
+      213: -6398559458247878482
+    second: Piston_16
+  - first:
+      213: -3223388650534566069
+    second: Piston_17
+  - first:
+      213: -3248285911051905149
+    second: Piston_18
+  - first:
+      213: -2385912546530266538
+    second: Piston_19
+  - first:
+      213: -4981489274928885392
+    second: Piston_20
+  - first:
+      213: 744049635283784875
+    second: Piston_21
+  - first:
+      213: 6292419290073047432
+    second: Piston_22
+  - first:
+      213: 2869098239027633292
+    second: Piston_23
+  - first:
+      213: -4653991443443783329
+    second: Piston_24
+  - first:
+      213: -818209850372130235
+    second: Piston_25
+  - first:
+      213: -1945716328865615703
+    second: Piston_26
+  - first:
+      213: 6124228328809090675
+    second: Piston_27
+  - first:
+      213: -977568865625011905
+    second: Piston_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Piston_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 19
+        width: 47
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4882eb3361ca01120800000000000000
+      internalID: 2382593414236350596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 19
+        width: 47
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252d9bf4b9183cc60800000000000000
+      internalID: 7837250280612287058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 105
+        width: 45
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbfa61d39495bd90800000000000000
+      internalID: -7082591476375684140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 19
+        width: 47
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda8eb2f5dec7eb70800000000000000
+      internalID: 8928332204581227231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 19
+        width: 47
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118de7a0348ffb3e0800000000000000
+      internalID: -2035635539725592559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 19
+        width: 47
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478ceb56e63899b10800000000000000
+      internalID: 1988765220637427828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 19
+        width: 47
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46152e8a68dd0a70800000000000000
+      internalID: 8794923599487374923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 19
+        width: 47
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e62bd2d594b8c50800000000000000
+      internalID: 6668504337799605918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_8
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 19
+        width: 47
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4fc1923a5d9fd60800000000000000
+      internalID: 7924599916081247477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_9
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 19
+        width: 47
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d718a5afd384ef880800000000000000
+      internalID: -8575337209436405379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_10
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 19
+        width: 47
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1199fc130e8c120800000000000000
+      internalID: 2434442103134687717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_11
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 19
+        width: 47
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96a596e8e4fd4540800000000000000
+      internalID: 4993916842961905308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_12
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 19
+        width: 47
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67a1c55d816d97c0800000000000000
+      internalID: -4062984029161281685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_13
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 19
+        width: 47
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e10ae328ea637d0800000000000000
+      internalID: -2938969832393007535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_14
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 19
+        width: 47
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486a301ad6e359000800000000000000
+      internalID: 42008412103616132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7f72fa326e087c0800000000000000
+      internalID: -4071001022206052362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea85be0e210c337a0800000000000000
+      internalID: -6398559458247878482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b478cdfb9193443d0800000000000000
+      internalID: -3223388650534566069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38758de8c25cbe2d0800000000000000
+      internalID: -3248285911051905149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_19
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6527ae61e2983eed0800000000000000
+      internalID: -2385912546530266538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_20
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0711273c5e13edab0800000000000000
+      internalID: -4981489274928885392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_21
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4595e7335635a00800000000000000
+      internalID: 744049635283784875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_22
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881ae92710a235750800000000000000
+      internalID: 6292419290073047432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_23
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cd0f2b5a511d720800000000000000
+      internalID: 2869098239027633292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_24
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5963d9a073b96fb0800000000000000
+      internalID: -4653991443443783329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_25
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54af7d4e97225a4f0800000000000000
+      internalID: -818209850372130235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_26
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0b948ce4d6ff4e0800000000000000
+      internalID: -1945716328865615703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_27
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ecc0ea731adf450800000000000000
+      internalID: 6124228328809090675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piston_28
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 9
+        width: 53
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3980fccb4afe62f0800000000000000
+      internalID: -977568865625011905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Piston_0: 2382593414236350596
+      Piston_1: 7837250280612287058
+      Piston_10: 2434442103134687717
+      Piston_11: 4993916842961905308
+      Piston_12: -4062984029161281685
+      Piston_13: -2938969832393007535
+      Piston_14: 42008412103616132
+      Piston_15: -4071001022206052362
+      Piston_16: -6398559458247878482
+      Piston_17: -3223388650534566069
+      Piston_18: -3248285911051905149
+      Piston_19: -2385912546530266538
+      Piston_2: -7082591476375684140
+      Piston_20: -4981489274928885392
+      Piston_21: 744049635283784875
+      Piston_22: 6292419290073047432
+      Piston_23: 2869098239027633292
+      Piston_24: -4653991443443783329
+      Piston_25: -818209850372130235
+      Piston_26: -1945716328865615703
+      Piston_27: 6124228328809090675
+      Piston_28: -977568865625011905
+      Piston_3: 8928332204581227231
+      Piston_4: -2035635539725592559
+      Piston_5: 1988765220637427828
+      Piston_6: 8794923599487374923
+      Piston_7: 6668504337799605918
+      Piston_8: 7924599916081247477
+      Piston_9: -8575337209436405379
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

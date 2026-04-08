@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: a60340ac2734a2444b4340506be94505
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2831133545044971161
+    second: Award_lightning_0
+  - first:
+      213: 5204966226779683585
+    second: Award_lightning_1
+  - first:
+      213: -8927525689209838246
+    second: Award_lightning_2
+  - first:
+      213: 2256915366220010684
+    second: Award_lightning_3
+  - first:
+      213: -9165916222895757501
+    second: Award_lightning_4
+  - first:
+      213: -7674423157864515317
+    second: Award_lightning_5
+  - first:
+      213: -8734204476354594835
+    second: Award_lightning_6
+  - first:
+      213: 8458507118231307329
+    second: Award_lightning_7
+  - first:
+      213: -1515434540122484040
+    second: Award_lightning_8
+  - first:
+      213: -2691175434340311082
+    second: Award_lightning_9
+  - first:
+      213: 5514301263844979934
+    second: Award_lightning_10
+  - first:
+      213: -1872848501583168774
+    second: Award_lightning_11
+  - first:
+      213: -5599699374258318058
+    second: Award_lightning_12
+  - first:
+      213: 9136107573031513428
+    second: Award_lightning_13
+  - first:
+      213: 2436428572722349633
+    second: Award_lightning_14
+  - first:
+      213: 8753835467252157578
+    second: Award_lightning_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Award_lightning_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 419
+        width: 107
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761f6ef6a0bc5b8d0800000000000000
+      internalID: -2831133545044971161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 419
+        width: 107
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bbb17c431cb3840800000000000000
+      internalID: 5204966226779683585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 497
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55297b8fae0b1480800000000000000
+      internalID: -8927525689209838246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 447
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb41aa3619c225f10800000000000000
+      internalID: 2256915366220010684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 343
+        width: 106
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347ee4522cf1cc080800000000000000
+      internalID: -9165916222895757501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 311
+        width: 107
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09347b7cc8fe7590800000000000000
+      internalID: -7674423157864515317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 359
+        width: 106
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7f147fd4fd9c680800000000000000
+      internalID: -8734204476354594835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 297
+        width: 106
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1444a40b867a26570800000000000000
+      internalID: 8458507118231307329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 265
+        width: 106
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b254ab905818fae0800000000000000
+      internalID: -1515434540122484040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 253
+        width: 106
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df53ef633607aad0800000000000000
+      internalID: -2691175434340311082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 227
+        width: 106
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4b7ff88cbb68c40800000000000000
+      internalID: 5514301263844979934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 183
+        width: 73
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa3309e53e4206e0800000000000000
+      internalID: -1872848501583168774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 215
+        width: 106
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6151b5c661fd942b0800000000000000
+      internalID: -5599699374258318058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_13
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 183
+        width: 100
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dac48be69f9ce70800000000000000
+      internalID: 9136107573031513428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 87
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1464abdc0eeefc120800000000000000
+      internalID: 2436428572722349633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Award_lightning_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 109
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cc7c74afedb7970800000000000000
+      internalID: 8753835467252157578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Award_lightning_0: -2831133545044971161
+      Award_lightning_1: 5204966226779683585
+      Award_lightning_10: 5514301263844979934
+      Award_lightning_11: -1872848501583168774
+      Award_lightning_12: -5599699374258318058
+      Award_lightning_13: 9136107573031513428
+      Award_lightning_14: 2436428572722349633
+      Award_lightning_15: 8753835467252157578
+      Award_lightning_2: -8927525689209838246
+      Award_lightning_3: 2256915366220010684
+      Award_lightning_4: -9165916222895757501
+      Award_lightning_5: -7674423157864515317
+      Award_lightning_6: -8734204476354594835
+      Award_lightning_7: 8458507118231307329
+      Award_lightning_8: -1515434540122484040
+      Award_lightning_9: -2691175434340311082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

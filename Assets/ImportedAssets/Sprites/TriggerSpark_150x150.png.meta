@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: d6a90cdc5939ba34090bd10f104b94fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7830294686016564710
+    second: TriggerSpark_150x150_0
+  - first:
+      213: -1843228007481941055
+    second: TriggerSpark_150x150_1
+  - first:
+      213: 423872971773740047
+    second: TriggerSpark_150x150_2
+  - first:
+      213: -6411472603489401741
+    second: TriggerSpark_150x150_3
+  - first:
+      213: 4495257693253827867
+    second: TriggerSpark_150x150_4
+  - first:
+      213: -8283364924379121735
+    second: TriggerSpark_150x150_5
+  - first:
+      213: -5286297743180855178
+    second: TriggerSpark_150x150_6
+  - first:
+      213: -4649949933303707922
+    second: TriggerSpark_150x150_7
+  - first:
+      213: -1420214095624944093
+    second: TriggerSpark_150x150_8
+  - first:
+      213: -5373554669445597297
+    second: TriggerSpark_150x150_9
+  - first:
+      213: 2442280584374068551
+    second: TriggerSpark_150x150_10
+  - first:
+      213: -4280312699347019496
+    second: TriggerSpark_150x150_11
+  - first:
+      213: -934295754310027426
+    second: TriggerSpark_150x150_12
+  - first:
+      213: -8926973655831318162
+    second: TriggerSpark_150x150_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 308
+        width: 136
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a129a514874355390800000000000000
+      internalID: -7830294686016564710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 344
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3ecfd94e98b66e0800000000000000
+      internalID: -1843228007481941055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 344
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f048678d836e1e500800000000000000
+      internalID: 423872971773740047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_3
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 360
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3748dd5f2afd507a0800000000000000
+      internalID: -6411472603489401741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_4
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 357
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d7c3c1e0d526e30800000000000000
+      internalID: 4495257693253827867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 183
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7b3790d739b0d80800000000000000
+      internalID: -8283364924379121735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 183
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67881c8e53c43a6b0800000000000000
+      internalID: -5286297743180855178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 200
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6c4121c2f087fb0800000000000000
+      internalID: -4649949933303707922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 200
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326c54dfdc26a4ce0800000000000000
+      internalID: -1420214095624944093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 199
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87bd8a9f7c4d65b0800000000000000
+      internalID: -5373554669445597297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 35
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74523717049b4e120800000000000000
+      internalID: 2442280584374068551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 35
+        width: 82
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819d3db27464994c0800000000000000
+      internalID: -4280312699347019496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_12
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 48
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57f13926f6b803f0800000000000000
+      internalID: -934295754310027426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TriggerSpark_150x150_13
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 47
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6177e4d1c40d1480800000000000000
+      internalID: -8926973655831318162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TriggerSpark_150x150_0: -7830294686016564710
+      TriggerSpark_150x150_1: -1843228007481941055
+      TriggerSpark_150x150_10: 2442280584374068551
+      TriggerSpark_150x150_11: -4280312699347019496
+      TriggerSpark_150x150_12: -934295754310027426
+      TriggerSpark_150x150_13: -8926973655831318162
+      TriggerSpark_150x150_2: 423872971773740047
+      TriggerSpark_150x150_3: -6411472603489401741
+      TriggerSpark_150x150_4: 4495257693253827867
+      TriggerSpark_150x150_5: -8283364924379121735
+      TriggerSpark_150x150_6: -5286297743180855178
+      TriggerSpark_150x150_7: -4649949933303707922
+      TriggerSpark_150x150_8: -1420214095624944093
+      TriggerSpark_150x150_9: -5373554669445597297
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

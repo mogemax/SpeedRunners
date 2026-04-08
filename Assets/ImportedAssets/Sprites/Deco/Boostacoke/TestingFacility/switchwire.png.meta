@@ -1,0 +1,4381 @@
+fileFormatVersion: 2
+guid: f66fe2dc8b437e14ea66316df07369bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2154571654836440907
+    second: switchwire_0
+  - first:
+      213: -2131774652628728542
+    second: switchwire_1
+  - first:
+      213: -450759027906974450
+    second: switchwire_2
+  - first:
+      213: -4994213408429872671
+    second: switchwire_3
+  - first:
+      213: 5495628567055840756
+    second: switchwire_4
+  - first:
+      213: 8572689314432007799
+    second: switchwire_5
+  - first:
+      213: -6911032358237449001
+    second: switchwire_6
+  - first:
+      213: 5601561236209224170
+    second: switchwire_7
+  - first:
+      213: -6268494487583745901
+    second: switchwire_8
+  - first:
+      213: -7774357474443976676
+    second: switchwire_9
+  - first:
+      213: -5767344690223822330
+    second: switchwire_10
+  - first:
+      213: -286448905118761081
+    second: switchwire_11
+  - first:
+      213: -507004916671275893
+    second: switchwire_12
+  - first:
+      213: 62828549140106459
+    second: switchwire_13
+  - first:
+      213: -7063658172080783859
+    second: switchwire_14
+  - first:
+      213: 6821758225286345185
+    second: switchwire_15
+  - first:
+      213: 5554223174045024254
+    second: switchwire_16
+  - first:
+      213: -4539946581364071201
+    second: switchwire_17
+  - first:
+      213: 5194503137465652520
+    second: switchwire_18
+  - first:
+      213: 6916626454754667742
+    second: switchwire_19
+  - first:
+      213: 1510195504653754159
+    second: switchwire_20
+  - first:
+      213: -2670695568273189513
+    second: switchwire_21
+  - first:
+      213: -4252367575098048714
+    second: switchwire_22
+  - first:
+      213: -6286807664724476580
+    second: switchwire_23
+  - first:
+      213: -6814121177256660866
+    second: switchwire_24
+  - first:
+      213: -4383008316440616137
+    second: switchwire_25
+  - first:
+      213: -4473203388825910295
+    second: switchwire_26
+  - first:
+      213: -581524911247889702
+    second: switchwire_27
+  - first:
+      213: -2004572917190646966
+    second: switchwire_28
+  - first:
+      213: -8027291098077252815
+    second: switchwire_29
+  - first:
+      213: -2793321071499559019
+    second: switchwire_30
+  - first:
+      213: 6177411698025216893
+    second: switchwire_31
+  - first:
+      213: 8692801293226451536
+    second: switchwire_32
+  - first:
+      213: 8636162403535365686
+    second: switchwire_33
+  - first:
+      213: -1112122019066012617
+    second: switchwire_34
+  - first:
+      213: 4176531961905480990
+    second: switchwire_35
+  - first:
+      213: -4413610988058625175
+    second: switchwire_36
+  - first:
+      213: 9129830176556968787
+    second: switchwire_37
+  - first:
+      213: -6073784639369702630
+    second: switchwire_38
+  - first:
+      213: -4541370764682878666
+    second: switchwire_39
+  - first:
+      213: -9180120150056965380
+    second: switchwire_40
+  - first:
+      213: -7056778123507369812
+    second: switchwire_41
+  - first:
+      213: -985518543295753439
+    second: switchwire_42
+  - first:
+      213: 663182503404896612
+    second: switchwire_43
+  - first:
+      213: 5872545553198322379
+    second: switchwire_44
+  - first:
+      213: -3359985093149945745
+    second: switchwire_45
+  - first:
+      213: -3632715796124691684
+    second: switchwire_46
+  - first:
+      213: 3457953513388317770
+    second: switchwire_47
+  - first:
+      213: -4504653364487489711
+    second: switchwire_48
+  - first:
+      213: 2753838185055017284
+    second: switchwire_49
+  - first:
+      213: -6931997090338634004
+    second: switchwire_50
+  - first:
+      213: 1650587793083536574
+    second: switchwire_51
+  - first:
+      213: 8280760416553936559
+    second: switchwire_52
+  - first:
+      213: 1920620264602557775
+    second: switchwire_53
+  - first:
+      213: -6254370959643600756
+    second: switchwire_54
+  - first:
+      213: 2299504479001514575
+    second: switchwire_55
+  - first:
+      213: -5933443323190242176
+    second: switchwire_56
+  - first:
+      213: -6221683797893061172
+    second: switchwire_57
+  - first:
+      213: 3199997346491530353
+    second: switchwire_58
+  - first:
+      213: 797690416505220772
+    second: switchwire_59
+  - first:
+      213: -7452949545912033388
+    second: switchwire_60
+  - first:
+      213: -2165624926828746282
+    second: switchwire_61
+  - first:
+      213: -6350085566450363742
+    second: switchwire_62
+  - first:
+      213: 2285648937841557601
+    second: switchwire_63
+  - first:
+      213: 5329008356597001030
+    second: switchwire_64
+  - first:
+      213: 7535270435492635327
+    second: switchwire_65
+  - first:
+      213: -219500389618992283
+    second: switchwire_66
+  - first:
+      213: -5375340379889141479
+    second: switchwire_67
+  - first:
+      213: -1192728097999976128
+    second: switchwire_68
+  - first:
+      213: 6753985233681627897
+    second: switchwire_69
+  - first:
+      213: -2754823168974731605
+    second: switchwire_70
+  - first:
+      213: 4461044013838245553
+    second: switchwire_71
+  - first:
+      213: -7268354514922766058
+    second: switchwire_72
+  - first:
+      213: -7804230964357407847
+    second: switchwire_73
+  - first:
+      213: 1945618737592962195
+    second: switchwire_74
+  - first:
+      213: 7144407467078552225
+    second: switchwire_75
+  - first:
+      213: 8680883422075653609
+    second: switchwire_76
+  - first:
+      213: 7287361069720183188
+    second: switchwire_77
+  - first:
+      213: -7842883893019502453
+    second: switchwire_78
+  - first:
+      213: 7149716006845429438
+    second: switchwire_79
+  - first:
+      213: -534725665086532057
+    second: switchwire_80
+  - first:
+      213: -1964050297002187663
+    second: switchwire_81
+  - first:
+      213: -5806547009752699162
+    second: switchwire_82
+  - first:
+      213: 6782957524850233762
+    second: switchwire_83
+  - first:
+      213: -6166332219908301334
+    second: switchwire_84
+  - first:
+      213: 5729669668699386540
+    second: switchwire_85
+  - first:
+      213: 5123307678039035631
+    second: switchwire_86
+  - first:
+      213: -7787997769897393117
+    second: switchwire_87
+  - first:
+      213: -7741195780038214041
+    second: switchwire_88
+  - first:
+      213: 1273689544784411760
+    second: switchwire_89
+  - first:
+      213: -2662453680627468337
+    second: switchwire_90
+  - first:
+      213: -2899919417940274445
+    second: switchwire_91
+  - first:
+      213: 8716265920029992091
+    second: switchwire_92
+  - first:
+      213: -3116122191908942903
+    second: switchwire_93
+  - first:
+      213: 1841258386722512821
+    second: switchwire_94
+  - first:
+      213: -7472142165845600650
+    second: switchwire_95
+  - first:
+      213: 3319160887558814965
+    second: switchwire_96
+  - first:
+      213: 2928441181520683375
+    second: switchwire_97
+  - first:
+      213: 7793394404518367621
+    second: switchwire_98
+  - first:
+      213: -2246361342613392914
+    second: switchwire_99
+  - first:
+      213: 8730760956011862022
+    second: switchwire_100
+  - first:
+      213: 3763021371834217664
+    second: switchwire_101
+  - first:
+      213: 6582629272890159378
+    second: switchwire_102
+  - first:
+      213: -5581199520180085790
+    second: switchwire_103
+  - first:
+      213: 8036008459467571813
+    second: switchwire_104
+  - first:
+      213: -9151087486544534598
+    second: switchwire_105
+  - first:
+      213: -7407310062053994931
+    second: switchwire_106
+  - first:
+      213: -4210843409751256439
+    second: switchwire_107
+  - first:
+      213: 8284949779273436762
+    second: switchwire_108
+  - first:
+      213: 6717651098021476509
+    second: switchwire_109
+  - first:
+      213: 1602528959364550563
+    second: switchwire_110
+  - first:
+      213: 680051783853338529
+    second: switchwire_111
+  - first:
+      213: -1383403232041013600
+    second: switchwire_112
+  - first:
+      213: -1512534863710605757
+    second: switchwire_113
+  - first:
+      213: 1087511096376326365
+    second: switchwire_114
+  - first:
+      213: 2925720820868514177
+    second: switchwire_115
+  - first:
+      213: 8990315589971327067
+    second: switchwire_116
+  - first:
+      213: 4940559696313162482
+    second: switchwire_117
+  - first:
+      213: -2202899190324534800
+    second: switchwire_118
+  - first:
+      213: 7203141648635614164
+    second: switchwire_119
+  - first:
+      213: -3744133964818960626
+    second: switchwire_120
+  - first:
+      213: -8444321761271642610
+    second: switchwire_121
+  - first:
+      213: -484043906394026283
+    second: switchwire_122
+  - first:
+      213: -6747379011397947701
+    second: switchwire_123
+  - first:
+      213: -4915323551844197475
+    second: switchwire_124
+  - first:
+      213: -6890772157510137832
+    second: switchwire_125
+  - first:
+      213: 3769434076710204868
+    second: switchwire_126
+  - first:
+      213: 5690974028826009498
+    second: switchwire_127
+  - first:
+      213: 5773501219344394508
+    second: switchwire_128
+  - first:
+      213: -1917675798849004188
+    second: switchwire_129
+  - first:
+      213: -6252079683414137034
+    second: switchwire_130
+  - first:
+      213: 2540334000496281939
+    second: switchwire_131
+  - first:
+      213: -8009412026381497020
+    second: switchwire_132
+  - first:
+      213: 4288118532751362731
+    second: switchwire_133
+  - first:
+      213: 2549442651531850935
+    second: switchwire_134
+  - first:
+      213: -1623742682395667242
+    second: switchwire_135
+  - first:
+      213: -3316668101341341201
+    second: switchwire_136
+  - first:
+      213: 1279125419719730719
+    second: switchwire_137
+  - first:
+      213: -7713111181300950530
+    second: switchwire_138
+  - first:
+      213: 6933385584538508668
+    second: switchwire_139
+  - first:
+      213: 8185872007413966955
+    second: switchwire_140
+  - first:
+      213: -2641292578794748940
+    second: switchwire_141
+  - first:
+      213: -47245785086223845
+    second: switchwire_142
+  - first:
+      213: 5443951794102310183
+    second: switchwire_143
+  - first:
+      213: -7684443717724639448
+    second: switchwire_144
+  - first:
+      213: -1315614578467210250
+    second: switchwire_145
+  - first:
+      213: 3179503466532611732
+    second: switchwire_146
+  - first:
+      213: 948562519186424005
+    second: switchwire_147
+  - first:
+      213: 380658928467905260
+    second: switchwire_148
+  - first:
+      213: 477680995247673185
+    second: switchwire_149
+  - first:
+      213: -8627060936717651993
+    second: switchwire_150
+  - first:
+      213: 15078644625109914
+    second: switchwire_151
+  - first:
+      213: -502682085496439392
+    second: switchwire_152
+  - first:
+      213: -4775767221836353726
+    second: switchwire_153
+  - first:
+      213: 7445237857074142648
+    second: switchwire_154
+  - first:
+      213: 5570531099160426023
+    second: switchwire_155
+  - first:
+      213: -1761603154606623481
+    second: switchwire_156
+  - first:
+      213: -1836327496541253202
+    second: switchwire_157
+  - first:
+      213: -4597476218547599224
+    second: switchwire_158
+  - first:
+      213: -1930676334275660306
+    second: switchwire_159
+  - first:
+      213: 3644828620043548769
+    second: switchwire_160
+  - first:
+      213: 2641313102954760305
+    second: switchwire_161
+  - first:
+      213: -481911260865272506
+    second: switchwire_162
+  - first:
+      213: 1286738223211493726
+    second: switchwire_163
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: switchwire_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 76
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0395ece7c6912e0800000000000000
+      internalID: -2154571654836440907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22502e08f3a6a62e0800000000000000
+      internalID: -2131774652628728542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ded466d059eb9f0800000000000000
+      internalID: -450759027906974450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e96b029d5df0bab0800000000000000
+      internalID: -4994213408429872671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f53adc8015644c40800000000000000
+      internalID: 5495628567055840756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77eb18ce28f48f670800000000000000
+      internalID: 8572689314432007799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4d608bfa41710a0800000000000000
+      internalID: -6911032358237449001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae949d7144ebcbd40800000000000000
+      internalID: 5601561236209224170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3989317b975d109a0800000000000000
+      internalID: -6268494487583745901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_9
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c102dda311feb1490800000000000000
+      internalID: -7774357474443976676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a49f99f8646ffa0800000000000000
+      internalID: -5767344690223822330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fb81c0d34560cf0800000000000000
+      internalID: -286448905118761081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c9e6ae6b1c6f8f0800000000000000
+      internalID: -507004916671275893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdccf398b363fd000800000000000000
+      internalID: 62828549140106459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_14
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ef65e3158d8fd90800000000000000
+      internalID: -7063658172080783859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_15
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1bac176f0cbae50800000000000000
+      internalID: 6821758225286345185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff323c9c80941d40800000000000000
+      internalID: 5554223174045024254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_17
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4ab8e43aedef0c0800000000000000
+      internalID: -4539946581364071201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_18
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825da45f415961840800000000000000
+      internalID: 5194503137465652520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_19
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edca8bf5d1bccff50800000000000000
+      internalID: 6916626454754667742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f57446fca45f410800000000000000
+      internalID: 1510195504653754159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_21
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775ddd5d788cfead0800000000000000
+      internalID: -2670695568273189513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_22
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f34ef683e8cf4c0800000000000000
+      internalID: -4252367575098048714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5df4e4ecb5c0c8a0800000000000000
+      internalID: -6286807664724476580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_24
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70762d54e06f61a0800000000000000
+      internalID: -6814121177256660866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73369fa882d6c23c0800000000000000
+      internalID: -4383008316440616137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e345f8c73dfbe1c0800000000000000
+      internalID: -4473203388825910295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_27
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada670d9c220ee7f0800000000000000
+      internalID: -581524911247889702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_28
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43ab707d835e24e0800000000000000
+      internalID: -2004572917190646966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_29
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1333376d645599090800000000000000
+      internalID: -8027291098077252815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_30
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fb7adf8412c39d0800000000000000
+      internalID: -2793321071499559019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_31
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bb224c5339ab550800000000000000
+      internalID: 6177411698025216893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_32
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052a1d148b803a870800000000000000
+      internalID: 8692801293226451536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_33
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6362f4d13ffc9d770800000000000000
+      internalID: 8636162403535365686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_34
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c1eaa7ae2f090f0800000000000000
+      internalID: -1112122019066012617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_35
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15017ee0b506f930800000000000000
+      internalID: 4176531961905480990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_36
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b3100d034bfb2c0800000000000000
+      internalID: -4413610988058625175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_37
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35be1557c2ca3be70800000000000000
+      internalID: 9129830176556968787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_38
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1315200d0595bba0800000000000000
+      internalID: -6073784639369702630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_39
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631abb9c95fc9f0c0800000000000000
+      internalID: -4541370764682878666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_40
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfae274ac59a99080800000000000000
+      internalID: -9180120150056965380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_41
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca878916fa9411e90800000000000000
+      internalID: -7056778123507369812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_42
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123db4b3b1cb252f0800000000000000
+      internalID: -985518543295753439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_43
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46104b029f8143900800000000000000
+      internalID: 663182503404896612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_44
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc29fa901197f7150800000000000000
+      internalID: 5872545553198322379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_45
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6090381c5fee51d0800000000000000
+      internalID: -3359985093149945745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_46
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13990afa30069dc0800000000000000
+      internalID: -3632715796124691684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_47
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c135f366e1dff20800000000000000
+      internalID: 3457953513388317770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_48
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1577475b1a14c71c0800000000000000
+      internalID: -4504653364487489711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_49
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4495c152d39973620800000000000000
+      internalID: 2753838185055017284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_50
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce60356af599ccf90800000000000000
+      internalID: -6931997090338634004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_51
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb417554ad018e610800000000000000
+      internalID: 1650587793083536574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_52
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa620dab9bb2be270800000000000000
+      internalID: 8280760416553936559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_53
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d5d0c64f967aa10800000000000000
+      internalID: 1920620264602557775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_54
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c889ce0dfb20439a0800000000000000
+      internalID: -6254370959643600756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_55
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f421e4ee32b79ef10800000000000000
+      internalID: 2299504479001514575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_56
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084155afbbc28ada0800000000000000
+      internalID: -5933443323190242176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_57
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5e7c9bc8328a9a0800000000000000
+      internalID: -6221683797893061172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_58
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cf1dfd1aca86c20800000000000000
+      internalID: 3199997346491530353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_59
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aee68c1537f11b00800000000000000
+      internalID: 797690416505220772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_60
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f110b10edc19890800000000000000
+      internalID: -7452949545912033388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_61
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d924af5a9722f1e0800000000000000
+      internalID: -2165624926828746282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_62
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2146e42d6ffd7a0800000000000000
+      internalID: -6350085566450363742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_63
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1608b4d599148bf10800000000000000
+      internalID: 2285648937841557601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_64
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b6d04bdd074f940800000000000000
+      internalID: 5329008356597001030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_65
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2aa0a9988a29860800000000000000
+      internalID: 7535270435492635327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_66
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b33b00f8d24fcf0800000000000000
+      internalID: -219500389618992283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_67
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919f4ed7764f665b0800000000000000
+      internalID: -5375340379889141479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_68
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049851d3d14927fe0800000000000000
+      internalID: -1192728097999976128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_69
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fab3df29c9fabd50800000000000000
+      internalID: 6753985233681627897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_70
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6ce3a6ce6e4c9d0800000000000000
+      internalID: -2754823168974731605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_71
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be163c15efc8ed30800000000000000
+      internalID: 4461044013838245553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_72
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6110c6cf31e912b90800000000000000
+      internalID: -7268354514922766058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_73
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b5f58594dc1b390800000000000000
+      internalID: -7804230964357407847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_74
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c829afee9300b10800000000000000
+      internalID: 1945618737592962195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_75
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa8dd51db8062360800000000000000
+      internalID: 7144407467078552225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_76
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed8565aa71b87870800000000000000
+      internalID: 8680883422075653609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_77
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491aea66848e12560800000000000000
+      internalID: 7287361069720183188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_78
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 80
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8890f517aa782390800000000000000
+      internalID: -7842883893019502453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_79
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb632f0d3d4e83360800000000000000
+      internalID: 7149716006845429438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_80
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 76
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7269b3837d54498f0800000000000000
+      internalID: -534725665086532057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_81
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 57
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1742f2e29aa4eb4e0800000000000000
+      internalID: -1964050297002187663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_82
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee651052400b6fa0800000000000000
+      internalID: -5806547009752699162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_83
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 40
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1d2436ee7e12e50800000000000000
+      internalID: 6782957524850233762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_84
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 31
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedd1514489cc6aa0800000000000000
+      internalID: -6166332219908301334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_85
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 22
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca23823e430e38f40800000000000000
+      internalID: 5729669668699386540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_86
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee4c805035a91740800000000000000
+      internalID: 5123307678039035631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_87
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3244bb57a497be390800000000000000
+      internalID: -7787997769897393117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_88
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76eb112e37fb19490800000000000000
+      internalID: -7741195780038214041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_89
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf00784ed0da110800000000000000
+      internalID: 1273689544784411760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_90
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7b447db701d0bd0800000000000000
+      internalID: -2662453680627468337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_91
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2996067aa61c7d0800000000000000
+      internalID: -2899919417940274445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_92
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b942b3b6ca566f870800000000000000
+      internalID: 8716265920029992091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_93
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb4e8a506f41c4d0800000000000000
+      internalID: -3116122191908942903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_94
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfdd405fb67d8910800000000000000
+      internalID: 1841258386722512821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_95
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6761e8d0a4e9d4890800000000000000
+      internalID: -7472142165845600650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_96
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc3057dd37001e20800000000000000
+      internalID: 3319160887558814965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_97
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f616a223db9e3a820800000000000000
+      internalID: 2928441181520683375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_98
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58195d37be2b72c60800000000000000
+      internalID: 7793394404518367621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_99
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1fb58b24253d0e0800000000000000
+      internalID: -2246361342613392914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_100
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608dfe9f4d4e92970800000000000000
+      internalID: 8730760956011862022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_101
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4b1661000f83430800000000000000
+      internalID: 3763021371834217664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_102
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211b4ba82723a5b50800000000000000
+      internalID: 6582629272890159378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_103
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebd51b5b989b82b0800000000000000
+      internalID: -5581199520180085790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_104
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56249960e13a58f60800000000000000
+      internalID: 8036008459467571813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_105
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3adff5a6ec00180800000000000000
+      internalID: -9151087486544534598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_106
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e48128eb2f33990800000000000000
+      internalID: -7407310062053994931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_107
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9825bf49a341095c0800000000000000
+      internalID: -4210843409751256439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_108
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e4b8fbded0af270800000000000000
+      internalID: 8284949779273436762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_109
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98359ef414e93d50800000000000000
+      internalID: 6717651098021476509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_110
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af433519935d3610800000000000000
+      internalID: 1602528959364550563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_111
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afe27d8e77007900800000000000000
+      internalID: 680051783853338529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_112
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae611d071a2dcce0800000000000000
+      internalID: -1383403232041013600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_113
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ea2222e85620be0800000000000000
+      internalID: -1512534863710605757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_114
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd87ecc849d971f00800000000000000
+      internalID: 1087511096376326365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_115
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18105dfd59f3a9820800000000000000
+      internalID: 2925720820868514177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_116
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58b5e6756404cc70800000000000000
+      internalID: 8990315589971327067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_117
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa9b5a1ed4609440800000000000000
+      internalID: 4940559696313162482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_118
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1e5bc9bdabd61e0800000000000000
+      internalID: -2202899190324534800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_119
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d35fb16a23b6f360800000000000000
+      internalID: 7203141648635614164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_120
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fad7b0ff92a0cc0800000000000000
+      internalID: -3744133964818960626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_121
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e068d4a191ebfca80800000000000000
+      internalID: -8444321761271642610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_122
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de01b7b1a45849f0800000000000000
+      internalID: -484043906394026283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_123
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcee2bcc98e7c52a0800000000000000
+      internalID: -6747379011397947701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_124
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b1738a54349cbb0800000000000000
+      internalID: -4915323551844197475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_125
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818c47b4b3f0f50a0800000000000000
+      internalID: -6890772157510137832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_126
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5709a4258bf4430800000000000000
+      internalID: 3769434076710204868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_127
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fd5262ab66afe40800000000000000
+      internalID: 5690974028826009498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_128
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09ae4905c89f1050800000000000000
+      internalID: 5773501219344394508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_129
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ddd3f650c0365e0800000000000000
+      internalID: -1917675798849004188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_130
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637e9a227a62c39a0800000000000000
+      internalID: -6252079683414137034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_131
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3598d6e6054114320800000000000000
+      internalID: 2540334000496281939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_132
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d0acb923ad8d090800000000000000
+      internalID: -8009412026381497020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_133
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa0a6b0615728b30800000000000000
+      internalID: 4288118532751362731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_134
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b439c38590716320800000000000000
+      internalID: 2549442651531850935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_135
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d49a2122ae4779e0800000000000000
+      internalID: -1623742682395667242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_136
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe91ead2fe3d8f1d0800000000000000
+      internalID: -3316668101341341201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_137
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f162199cacd50c110800000000000000
+      internalID: 1279125419719730719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_138
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef996751f3685f490800000000000000
+      internalID: -7713111181300950530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_139
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d5b395475583060800000000000000
+      internalID: 6933385584538508668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_140
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6829ba583f0a9170800000000000000
+      internalID: 8185872007413966955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_141
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3401dc46e385bd0800000000000000
+      internalID: -2641292578794748940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_142
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a1dc27536285ff0800000000000000
+      internalID: -47245785086223845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_143
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72591dd305dcc8b40800000000000000
+      internalID: 5443951794102310183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_144
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f6a84172f5b5590800000000000000
+      internalID: -7684443717724639448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_145
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbf225e28ffdbde0800000000000000
+      internalID: -1315614578467210250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_146
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496accc9e8ddf1c20800000000000000
+      internalID: 3179503466532611732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_147
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c04b53e598f92d00800000000000000
+      internalID: 948562519186424005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_148
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea09e3574f584500800000000000000
+      internalID: 380658928467905260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_149
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f41b5955011a600800000000000000
+      internalID: 477680995247673185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_150
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efab4349c5864880800000000000000
+      internalID: -8627060936717651993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_151
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93f29882f1953000800000000000000
+      internalID: 15078644625109914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_152
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad380b7e4d1609f0800000000000000
+      internalID: -502682085496439392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_153
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f6d7cc30119bdb0800000000000000
+      internalID: -4775767221836353726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_154
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdd13b626cc25760800000000000000
+      internalID: 7445237857074142648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_155
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72639bf45808e4d40800000000000000
+      internalID: 5570531099160426023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_156
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705f676a3478d87e0800000000000000
+      internalID: -1761603154606623481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_157
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea150650fdd0486e0800000000000000
+      internalID: -1836327496541253202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_158
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8880a2adcbb7230c0800000000000000
+      internalID: -4597476218547599224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_159
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5fe376a1cd435e0800000000000000
+      internalID: -1930676334275660306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_160
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1687fdc9158059230800000000000000
+      internalID: 3644828620043548769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_161
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 5
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178043ad544d7a420800000000000000
+      internalID: 2641313102954760305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_162
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 5
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6456dd2f248ef49f0800000000000000
+      internalID: -481911260865272506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: switchwire_163
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e593079b8996bd110800000000000000
+      internalID: 1286738223211493726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      switchwire_0: -2154571654836440907
+      switchwire_1: -2131774652628728542
+      switchwire_10: -5767344690223822330
+      switchwire_100: 8730760956011862022
+      switchwire_101: 3763021371834217664
+      switchwire_102: 6582629272890159378
+      switchwire_103: -5581199520180085790
+      switchwire_104: 8036008459467571813
+      switchwire_105: -9151087486544534598
+      switchwire_106: -7407310062053994931
+      switchwire_107: -4210843409751256439
+      switchwire_108: 8284949779273436762
+      switchwire_109: 6717651098021476509
+      switchwire_11: -286448905118761081
+      switchwire_110: 1602528959364550563
+      switchwire_111: 680051783853338529
+      switchwire_112: -1383403232041013600
+      switchwire_113: -1512534863710605757
+      switchwire_114: 1087511096376326365
+      switchwire_115: 2925720820868514177
+      switchwire_116: 8990315589971327067
+      switchwire_117: 4940559696313162482
+      switchwire_118: -2202899190324534800
+      switchwire_119: 7203141648635614164
+      switchwire_12: -507004916671275893
+      switchwire_120: -3744133964818960626
+      switchwire_121: -8444321761271642610
+      switchwire_122: -484043906394026283
+      switchwire_123: -6747379011397947701
+      switchwire_124: -4915323551844197475
+      switchwire_125: -6890772157510137832
+      switchwire_126: 3769434076710204868
+      switchwire_127: 5690974028826009498
+      switchwire_128: 5773501219344394508
+      switchwire_129: -1917675798849004188
+      switchwire_13: 62828549140106459
+      switchwire_130: -6252079683414137034
+      switchwire_131: 2540334000496281939
+      switchwire_132: -8009412026381497020
+      switchwire_133: 4288118532751362731
+      switchwire_134: 2549442651531850935
+      switchwire_135: -1623742682395667242
+      switchwire_136: -3316668101341341201
+      switchwire_137: 1279125419719730719
+      switchwire_138: -7713111181300950530
+      switchwire_139: 6933385584538508668
+      switchwire_14: -7063658172080783859
+      switchwire_140: 8185872007413966955
+      switchwire_141: -2641292578794748940
+      switchwire_142: -47245785086223845
+      switchwire_143: 5443951794102310183
+      switchwire_144: -7684443717724639448
+      switchwire_145: -1315614578467210250
+      switchwire_146: 3179503466532611732
+      switchwire_147: 948562519186424005
+      switchwire_148: 380658928467905260
+      switchwire_149: 477680995247673185
+      switchwire_15: 6821758225286345185
+      switchwire_150: -8627060936717651993
+      switchwire_151: 15078644625109914
+      switchwire_152: -502682085496439392
+      switchwire_153: -4775767221836353726
+      switchwire_154: 7445237857074142648
+      switchwire_155: 5570531099160426023
+      switchwire_156: -1761603154606623481
+      switchwire_157: -1836327496541253202
+      switchwire_158: -4597476218547599224
+      switchwire_159: -1930676334275660306
+      switchwire_16: 5554223174045024254
+      switchwire_160: 3644828620043548769
+      switchwire_161: 2641313102954760305
+      switchwire_162: -481911260865272506
+      switchwire_163: 1286738223211493726
+      switchwire_17: -4539946581364071201
+      switchwire_18: 5194503137465652520
+      switchwire_19: 6916626454754667742
+      switchwire_2: -450759027906974450
+      switchwire_20: 1510195504653754159
+      switchwire_21: -2670695568273189513
+      switchwire_22: -4252367575098048714
+      switchwire_23: -6286807664724476580
+      switchwire_24: -6814121177256660866
+      switchwire_25: -4383008316440616137
+      switchwire_26: -4473203388825910295
+      switchwire_27: -581524911247889702
+      switchwire_28: -2004572917190646966
+      switchwire_29: -8027291098077252815
+      switchwire_3: -4994213408429872671
+      switchwire_30: -2793321071499559019
+      switchwire_31: 6177411698025216893
+      switchwire_32: 8692801293226451536
+      switchwire_33: 8636162403535365686
+      switchwire_34: -1112122019066012617
+      switchwire_35: 4176531961905480990
+      switchwire_36: -4413610988058625175
+      switchwire_37: 9129830176556968787
+      switchwire_38: -6073784639369702630
+      switchwire_39: -4541370764682878666
+      switchwire_4: 5495628567055840756
+      switchwire_40: -9180120150056965380
+      switchwire_41: -7056778123507369812
+      switchwire_42: -985518543295753439
+      switchwire_43: 663182503404896612
+      switchwire_44: 5872545553198322379
+      switchwire_45: -3359985093149945745
+      switchwire_46: -3632715796124691684
+      switchwire_47: 3457953513388317770
+      switchwire_48: -4504653364487489711
+      switchwire_49: 2753838185055017284
+      switchwire_5: 8572689314432007799
+      switchwire_50: -6931997090338634004
+      switchwire_51: 1650587793083536574
+      switchwire_52: 8280760416553936559
+      switchwire_53: 1920620264602557775
+      switchwire_54: -6254370959643600756
+      switchwire_55: 2299504479001514575
+      switchwire_56: -5933443323190242176
+      switchwire_57: -6221683797893061172
+      switchwire_58: 3199997346491530353
+      switchwire_59: 797690416505220772
+      switchwire_6: -6911032358237449001
+      switchwire_60: -7452949545912033388
+      switchwire_61: -2165624926828746282
+      switchwire_62: -6350085566450363742
+      switchwire_63: 2285648937841557601
+      switchwire_64: 5329008356597001030
+      switchwire_65: 7535270435492635327
+      switchwire_66: -219500389618992283
+      switchwire_67: -5375340379889141479
+      switchwire_68: -1192728097999976128
+      switchwire_69: 6753985233681627897
+      switchwire_7: 5601561236209224170
+      switchwire_70: -2754823168974731605
+      switchwire_71: 4461044013838245553
+      switchwire_72: -7268354514922766058
+      switchwire_73: -7804230964357407847
+      switchwire_74: 1945618737592962195
+      switchwire_75: 7144407467078552225
+      switchwire_76: 8680883422075653609
+      switchwire_77: 7287361069720183188
+      switchwire_78: -7842883893019502453
+      switchwire_79: 7149716006845429438
+      switchwire_8: -6268494487583745901
+      switchwire_80: -534725665086532057
+      switchwire_81: -1964050297002187663
+      switchwire_82: -5806547009752699162
+      switchwire_83: 6782957524850233762
+      switchwire_84: -6166332219908301334
+      switchwire_85: 5729669668699386540
+      switchwire_86: 5123307678039035631
+      switchwire_87: -7787997769897393117
+      switchwire_88: -7741195780038214041
+      switchwire_89: 1273689544784411760
+      switchwire_9: -7774357474443976676
+      switchwire_90: -2662453680627468337
+      switchwire_91: -2899919417940274445
+      switchwire_92: 8716265920029992091
+      switchwire_93: -3116122191908942903
+      switchwire_94: 1841258386722512821
+      switchwire_95: -7472142165845600650
+      switchwire_96: 3319160887558814965
+      switchwire_97: 2928441181520683375
+      switchwire_98: 7793394404518367621
+      switchwire_99: -2246361342613392914
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

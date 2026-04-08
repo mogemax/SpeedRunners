@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: d585a4f48cac7d9448e2edeb09928dac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6712867237303649479
+    second: tiles_windows_0
+  - first:
+      213: -3806621136629044989
+    second: tiles_windows_1
+  - first:
+      213: 3129681947872054860
+    second: tiles_windows_2
+  - first:
+      213: 3599961329594238411
+    second: tiles_windows_3
+  - first:
+      213: -8009135664313606960
+    second: tiles_windows_4
+  - first:
+      213: -865498331537422650
+    second: tiles_windows_5
+  - first:
+      213: -1312436537243439689
+    second: tiles_windows_6
+  - first:
+      213: -6979440354993466977
+    second: tiles_windows_7
+  - first:
+      213: -2167718936030650692
+    second: tiles_windows_8
+  - first:
+      213: 9044381417258664786
+    second: tiles_windows_9
+  - first:
+      213: -1120900889482566089
+    second: tiles_windows_10
+  - first:
+      213: 6048299302616657618
+    second: tiles_windows_11
+  - first:
+      213: 8161750029277123562
+    second: tiles_windows_12
+  - first:
+      213: -8567505777746513312
+    second: tiles_windows_13
+  - first:
+      213: -4549684745142886722
+    second: tiles_windows_14
+  - first:
+      213: 9193028493695560467
+    second: tiles_windows_15
+  - first:
+      213: 1788756985562746791
+    second: tiles_windows_16
+  - first:
+      213: 3673343226405483746
+    second: tiles_windows_17
+  - first:
+      213: -5076131813518303250
+    second: tiles_windows_18
+  - first:
+      213: 556045429599010814
+    second: tiles_windows_19
+  - first:
+      213: 6125132657886738797
+    second: tiles_windows_20
+  - first:
+      213: 7300065858061543140
+    second: tiles_windows_21
+  - first:
+      213: -3215407034843812989
+    second: tiles_windows_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_windows_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b782060da17d2a0800000000000000
+      internalID: -6712867237303649479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 3
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3096bbc9e3a2c2bc0800000000000000
+      internalID: -3806621136629044989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 48
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ecdda562dde6b20800000000000000
+      internalID: 3129681947872054860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_3
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 55
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc58b9f71c1a5f130800000000000000
+      internalID: 3599961329594238411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 54
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcdcaa2c85d9d090800000000000000
+      internalID: -8009135664313606960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 51
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6c4036ad12df3f0800000000000000
+      internalID: -865498331537422650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_6
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd6c574ce949cde0800000000000000
+      internalID: -1312436537243439689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_7
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 643
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91969dc9fb042f90800000000000000
+      internalID: -6979440354993466977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 21
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe510ddc17bae1e0800000000000000
+      internalID: -2167718936030650692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 41
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253c8d4daf8148d70800000000000000
+      internalID: 9044381417258664786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 35
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736e8fd6492c170f0800000000000000
+      internalID: -1120900889482566089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_11
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 44
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de65b3ab20efe350800000000000000
+      internalID: 6048299302616657618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_12
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 23
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3d898a86c544170800000000000000
+      internalID: 8161750029277123562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_13
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 31
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062ff4243ea1a1980800000000000000
+      internalID: -8567505777746513312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 27
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe9ebd54d54cd0c0800000000000000
+      internalID: -4549684745142886722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_15
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 30
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ba4c055b2349f70800000000000000
+      internalID: 9193028493695560467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 12
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af47f94001f2d810800000000000000
+      internalID: 1788756985562746791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_17
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 22
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e47cf3c3365af230800000000000000
+      internalID: 3673343226405483746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_18
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 20
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef9e269205fd89b0800000000000000
+      internalID: -5076131813518303250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_19
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 19
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff7a364f5877b700800000000000000
+      internalID: 556045429599010814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_20
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 15
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69bb7333b7d00550800000000000000
+      internalID: 6125132657886738797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 6
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e627b2783b0f4560800000000000000
+      internalID: 7300065858061543140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_windows_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 4
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ba7d776549063d0800000000000000
+      internalID: -3215407034843812989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tiles_windows_0: -6712867237303649479
+      tiles_windows_1: -3806621136629044989
+      tiles_windows_10: -1120900889482566089
+      tiles_windows_11: 6048299302616657618
+      tiles_windows_12: 8161750029277123562
+      tiles_windows_13: -8567505777746513312
+      tiles_windows_14: -4549684745142886722
+      tiles_windows_15: 9193028493695560467
+      tiles_windows_16: 1788756985562746791
+      tiles_windows_17: 3673343226405483746
+      tiles_windows_18: -5076131813518303250
+      tiles_windows_19: 556045429599010814
+      tiles_windows_2: 3129681947872054860
+      tiles_windows_20: 6125132657886738797
+      tiles_windows_21: 7300065858061543140
+      tiles_windows_22: -3215407034843812989
+      tiles_windows_3: 3599961329594238411
+      tiles_windows_4: -8009135664313606960
+      tiles_windows_5: -865498331537422650
+      tiles_windows_6: -1312436537243439689
+      tiles_windows_7: -6979440354993466977
+      tiles_windows_8: -2167718936030650692
+      tiles_windows_9: 9044381417258664786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

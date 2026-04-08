@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 8d3e15ede19191e4586b52140d1a9d29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4973224463556641211
+    second: Reward_medal_0
+  - first:
+      213: 917587182825640515
+    second: Reward_medal_1
+  - first:
+      213: -5952811009676691534
+    second: Reward_medal_2
+  - first:
+      213: -1562440903758571120
+    second: Reward_medal_3
+  - first:
+      213: -4093413013803786511
+    second: Reward_medal_4
+  - first:
+      213: -4583011597259939818
+    second: Reward_medal_5
+  - first:
+      213: 1500713418214694541
+    second: Reward_medal_6
+  - first:
+      213: -1092684321264863417
+    second: Reward_medal_7
+  - first:
+      213: 4979621090828343162
+    second: Reward_medal_8
+  - first:
+      213: 8748768483118512655
+    second: Reward_medal_9
+  - first:
+      213: -4191055817015802422
+    second: Reward_medal_10
+  - first:
+      213: -1059251188143979641
+    second: Reward_medal_11
+  - first:
+      213: 65312759142143246
+    second: Reward_medal_12
+  - first:
+      213: 6195455800216065253
+    second: Reward_medal_13
+  - first:
+      213: -2586542353611265455
+    second: Reward_medal_14
+  - first:
+      213: 4343476135102395534
+    second: Reward_medal_15
+  - first:
+      213: -5666584533713274527
+    second: Reward_medal_16
+  - first:
+      213: -3913412716373296446
+    second: Reward_medal_17
+  - first:
+      213: -8770235602126095584
+    second: Reward_medal_18
+  - first:
+      213: -8835384413538637059
+    second: Reward_medal_19
+  - first:
+      213: 7583865925705677774
+    second: Reward_medal_20
+  - first:
+      213: 8912327994957589191
+    second: Reward_medal_21
+  - first:
+      213: -7406430512797823956
+    second: Reward_medal_22
+  - first:
+      213: 870734590815237263
+    second: Reward_medal_23
+  - first:
+      213: 1999713457677364236
+    second: Reward_medal_24
+  - first:
+      213: 7920412110755906653
+    second: Reward_medal_25
+  - first:
+      213: 7057675829259250956
+    second: Reward_medal_26
+  - first:
+      213: -3618975366380494237
+    second: Reward_medal_27
+  - first:
+      213: 1586745239897214936
+    second: Reward_medal_28
+  - first:
+      213: -8402320298351397024
+    second: Reward_medal_29
+  - first:
+      213: 4470090508622783082
+    second: Reward_medal_30
+  - first:
+      213: -5488849907158713402
+    second: Reward_medal_31
+  - first:
+      213: -7413587173420962480
+    second: Reward_medal_32
+  - first:
+      213: 422259748257383636
+    second: Reward_medal_33
+  - first:
+      213: 173500096376123985
+    second: Reward_medal_34
+  - first:
+      213: 5261712088247049979
+    second: Reward_medal_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reward_medal_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1628
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e7c6d13be8bfab0800000000000000
+      internalID: -4973224463556641211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1880
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34216c26eacebbc00800000000000000
+      internalID: 917587182825640515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1628
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7bf211ded536da0800000000000000
+      internalID: -5952811009676691534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_3
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1880
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0991ee4b648115ae0800000000000000
+      internalID: -1562440903758571120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_4
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1628
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe93414d864137c0800000000000000
+      internalID: -4093413013803786511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_5
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1880
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61063dfeb3fd560c0800000000000000
+      internalID: -4583011597259939818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_6
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1628
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e595a17ea93d410800000000000000
+      internalID: 1500713418214694541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_7
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1880
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7477e5b266106d0f0800000000000000
+      internalID: -1092684321264863417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_8
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1628
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77dddabffa2b1540800000000000000
+      internalID: 4979621090828343162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_9
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1880
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a796a159ed96970800000000000000
+      internalID: 8748768483118512655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_10
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1628
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac540f880f066d5c0800000000000000
+      internalID: -4191055817015802422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_11
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1880
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78384c218a8cc41f0800000000000000
+      internalID: -1059251188143979641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_12
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1628
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05d7ffbb9908e000800000000000000
+      internalID: 65312759142143246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_13
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1880
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e41381b93eaaf550800000000000000
+      internalID: 6195455800216065253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1209
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a6f78fe61ca1cd0800000000000000
+      internalID: -2586542353611265455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1461
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e843a2b3880274c30800000000000000
+      internalID: 4343476135102395534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_16
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1209
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1693c42b36f3c51b0800000000000000
+      internalID: -5666584533713274527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_17
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1461
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cab21d5ed3c0b9c0800000000000000
+      internalID: -3913412716373296446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_18
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1209
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b3ac2cf2dd94680800000000000000
+      internalID: -8770235602126095584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_19
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1461
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfaa10110b8626580800000000000000
+      internalID: -8835384413538637059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_20
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1209
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb30edd0ed4f3960800000000000000
+      internalID: 7583865925705677774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_21
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1461
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca67358713feab70800000000000000
+      internalID: 8912327994957589191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_22
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1209
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c421780b2173990800000000000000
+      internalID: -7406430512797823956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_23
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1461
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84ff2b3f78751c00800000000000000
+      internalID: 870734590815237263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 790
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c6d697bc860cb10800000000000000
+      internalID: 1999713457677364236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1042
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54ce40c9d4faed60800000000000000
+      internalID: 7920412110755906653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_26
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 790
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dabd606c6e1f160800000000000000
+      internalID: 7057675829259250956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1042
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36260041411d6cdc0800000000000000
+      internalID: -3618975366380494237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_28
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 790
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df8d158360450610800000000000000
+      internalID: 1586745239897214936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_29
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1042
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067f5bfb436f46b80800000000000000
+      internalID: -8402320298351397024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 371
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a626e4052a3f80e30800000000000000
+      internalID: 4470090508622783082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_31
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 623
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb7e523710b3d3b0800000000000000
+      internalID: -5488849907158713402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 371
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05de9d0aeb5ad1990800000000000000
+      internalID: -7413587173420962480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_33
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 623
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4c3d9f00b2cd500800000000000000
+      internalID: 422259748257383636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_34
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 371
+        width: 274
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152befc1b65686200800000000000000
+      internalID: 173500096376123985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_medal_35
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 623
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe185a344b550940800000000000000
+      internalID: 5261712088247049979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Reward_medal_0: -4973224463556641211
+      Reward_medal_1: 917587182825640515
+      Reward_medal_10: -4191055817015802422
+      Reward_medal_11: -1059251188143979641
+      Reward_medal_12: 65312759142143246
+      Reward_medal_13: 6195455800216065253
+      Reward_medal_14: -2586542353611265455
+      Reward_medal_15: 4343476135102395534
+      Reward_medal_16: -5666584533713274527
+      Reward_medal_17: -3913412716373296446
+      Reward_medal_18: -8770235602126095584
+      Reward_medal_19: -8835384413538637059
+      Reward_medal_2: -5952811009676691534
+      Reward_medal_20: 7583865925705677774
+      Reward_medal_21: 8912327994957589191
+      Reward_medal_22: -7406430512797823956
+      Reward_medal_23: 870734590815237263
+      Reward_medal_24: 1999713457677364236
+      Reward_medal_25: 7920412110755906653
+      Reward_medal_26: 7057675829259250956
+      Reward_medal_27: -3618975366380494237
+      Reward_medal_28: 1586745239897214936
+      Reward_medal_29: -8402320298351397024
+      Reward_medal_3: -1562440903758571120
+      Reward_medal_30: 4470090508622783082
+      Reward_medal_31: -5488849907158713402
+      Reward_medal_32: -7413587173420962480
+      Reward_medal_33: 422259748257383636
+      Reward_medal_34: 173500096376123985
+      Reward_medal_35: 5261712088247049979
+      Reward_medal_4: -4093413013803786511
+      Reward_medal_5: -4583011597259939818
+      Reward_medal_6: 1500713418214694541
+      Reward_medal_7: -1092684321264863417
+      Reward_medal_8: 4979621090828343162
+      Reward_medal_9: 8748768483118512655
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

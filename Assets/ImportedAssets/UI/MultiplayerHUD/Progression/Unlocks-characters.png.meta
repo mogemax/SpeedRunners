@@ -1,0 +1,3315 @@
+fileFormatVersion: 2
+guid: 192f04cf88431264b9a0352ec5fac6be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 303553265365588369
+    second: Unlocks-characters_0
+  - first:
+      213: -8502596608157892652
+    second: Unlocks-characters_1
+  - first:
+      213: -4284164952925345181
+    second: Unlocks-characters_2
+  - first:
+      213: 7566738205855288416
+    second: Unlocks-characters_3
+  - first:
+      213: 586563685472685832
+    second: Unlocks-characters_4
+  - first:
+      213: -8292078407706514761
+    second: Unlocks-characters_5
+  - first:
+      213: -2904915208484948968
+    second: Unlocks-characters_6
+  - first:
+      213: 8247861780912315253
+    second: Unlocks-characters_7
+  - first:
+      213: 6610205731676947603
+    second: Unlocks-characters_8
+  - first:
+      213: -1441752841900830402
+    second: Unlocks-characters_9
+  - first:
+      213: 4590737394912204167
+    second: Unlocks-characters_10
+  - first:
+      213: -1900481301196856919
+    second: Unlocks-characters_11
+  - first:
+      213: 1837080430762820362
+    second: Unlocks-characters_12
+  - first:
+      213: 513959580761127308
+    second: Unlocks-characters_13
+  - first:
+      213: 207080004135294929
+    second: Unlocks-characters_14
+  - first:
+      213: 9099832680458170788
+    second: Unlocks-characters_15
+  - first:
+      213: -169641167616872970
+    second: Unlocks-characters_16
+  - first:
+      213: -4406975650053871057
+    second: Unlocks-characters_17
+  - first:
+      213: 8523140018881914413
+    second: Unlocks-characters_18
+  - first:
+      213: 648610667706792863
+    second: Unlocks-characters_19
+  - first:
+      213: 3620413931917585529
+    second: Unlocks-characters_20
+  - first:
+      213: -5922878297182804802
+    second: Unlocks-characters_21
+  - first:
+      213: 7636930530701734201
+    second: Unlocks-characters_22
+  - first:
+      213: -5135018262506010942
+    second: Unlocks-characters_23
+  - first:
+      213: 8426353923546500861
+    second: Unlocks-characters_24
+  - first:
+      213: 4120494934325579364
+    second: Unlocks-characters_25
+  - first:
+      213: 3737421380515558498
+    second: Unlocks-characters_26
+  - first:
+      213: 7843901839204228188
+    second: Unlocks-characters_27
+  - first:
+      213: 1014972117652618042
+    second: Unlocks-characters_28
+  - first:
+      213: 8944182481055657440
+    second: Unlocks-characters_29
+  - first:
+      213: -1153357144679905993
+    second: Unlocks-characters_30
+  - first:
+      213: 861907857640015530
+    second: Unlocks-characters_31
+  - first:
+      213: 105172356367968262
+    second: Unlocks-characters_32
+  - first:
+      213: 7600294731530857928
+    second: Unlocks-characters_33
+  - first:
+      213: 2448498080029194525
+    second: Unlocks-characters_34
+  - first:
+      213: 2255518690653645945
+    second: Unlocks-characters_35
+  - first:
+      213: -7344914473081104477
+    second: Unlocks-characters_36
+  - first:
+      213: 123025894164933223
+    second: Unlocks-characters_37
+  - first:
+      213: 5821391369723075217
+    second: Unlocks-characters_38
+  - first:
+      213: 1965468390197155510
+    second: Unlocks-characters_39
+  - first:
+      213: -8620809404950167245
+    second: Unlocks-characters_40
+  - first:
+      213: 900604402549896734
+    second: Unlocks-characters_41
+  - first:
+      213: -8450623556068589681
+    second: Unlocks-characters_42
+  - first:
+      213: 8477493601558071234
+    second: Unlocks-characters_43
+  - first:
+      213: 5865457537032213827
+    second: Unlocks-characters_44
+  - first:
+      213: 9024539020703914294
+    second: Unlocks-characters_45
+  - first:
+      213: -6489966267974625483
+    second: Unlocks-characters_46
+  - first:
+      213: 3749924189673095362
+    second: Unlocks-characters_47
+  - first:
+      213: 3265181605458138355
+    second: Unlocks-characters_48
+  - first:
+      213: -4479754565334522979
+    second: Unlocks-characters_49
+  - first:
+      213: -4490495676743610202
+    second: Unlocks-characters_50
+  - first:
+      213: 1177099943870064923
+    second: Unlocks-characters_51
+  - first:
+      213: 5276677078843533819
+    second: Unlocks-characters_52
+  - first:
+      213: 165933388940037697
+    second: Unlocks-characters_53
+  - first:
+      213: -3561985240403605516
+    second: Unlocks-characters_54
+  - first:
+      213: 1707960418327793622
+    second: Unlocks-characters_55
+  - first:
+      213: -6720379026375810592
+    second: Unlocks-characters_56
+  - first:
+      213: -6869346133256526328
+    second: Unlocks-characters_57
+  - first:
+      213: 5221956037905221912
+    second: Unlocks-characters_58
+  - first:
+      213: 3387300577093890991
+    second: Unlocks-characters_59
+  - first:
+      213: 2019546972062659887
+    second: Unlocks-characters_60
+  - first:
+      213: -4245930883204690622
+    second: Unlocks-characters_61
+  - first:
+      213: 8299603741723881630
+    second: Unlocks-characters_62
+  - first:
+      213: -2289351008308473855
+    second: Unlocks-characters_63
+  - first:
+      213: -8777285394531535068
+    second: Unlocks-characters_64
+  - first:
+      213: -4759309358407360043
+    second: Unlocks-characters_65
+  - first:
+      213: -7052717603601279613
+    second: Unlocks-characters_66
+  - first:
+      213: -3383330801971895142
+    second: Unlocks-characters_67
+  - first:
+      213: 2927155446184172912
+    second: Unlocks-characters_68
+  - first:
+      213: -8880968673987242591
+    second: Unlocks-characters_69
+  - first:
+      213: 7515910059698937704
+    second: Unlocks-characters_70
+  - first:
+      213: 8303157323365718935
+    second: Unlocks-characters_71
+  - first:
+      213: -2016433833247707609
+    second: Unlocks-characters_72
+  - first:
+      213: -7156980079917560732
+    second: Unlocks-characters_73
+  - first:
+      213: -6283748718177872509
+    second: Unlocks-characters_74
+  - first:
+      213: -7423398023590442204
+    second: Unlocks-characters_75
+  - first:
+      213: 8012260237562458988
+    second: Unlocks-characters_76
+  - first:
+      213: 633266159110916949
+    second: Unlocks-characters_77
+  - first:
+      213: -6905535668447779715
+    second: Unlocks-characters_78
+  - first:
+      213: -8036311971682708355
+    second: Unlocks-characters_79
+  - first:
+      213: 5496567525485396048
+    second: Unlocks-characters_80
+  - first:
+      213: -6591580050960986170
+    second: Unlocks-characters_81
+  - first:
+      213: -5472443176687931169
+    second: Unlocks-characters_82
+  - first:
+      213: 6896408925723670119
+    second: Unlocks-characters_83
+  - first:
+      213: 3985281973033576254
+    second: Unlocks-characters_84
+  - first:
+      213: 3452110172697608020
+    second: Unlocks-characters_85
+  - first:
+      213: 945339468540359298
+    second: Unlocks-characters_86
+  - first:
+      213: -8188099748932678251
+    second: Unlocks-characters_87
+  - first:
+      213: -7495870590952756410
+    second: Unlocks-characters_88
+  - first:
+      213: 5807235666389863322
+    second: Unlocks-characters_89
+  - first:
+      213: -4417511578772512582
+    second: Unlocks-characters_90
+  - first:
+      213: 675077367825478468
+    second: Unlocks-characters_91
+  - first:
+      213: 2927811449467759899
+    second: Unlocks-characters_92
+  - first:
+      213: 6868153943229702390
+    second: Unlocks-characters_93
+  - first:
+      213: -6608873445039844590
+    second: Unlocks-characters_94
+  - first:
+      213: -3262339687252817204
+    second: Unlocks-characters_95
+  - first:
+      213: 2823023719885995627
+    second: Unlocks-characters_96
+  - first:
+      213: 6016320452309226263
+    second: Unlocks-characters_97
+  - first:
+      213: -8323882569519429294
+    second: Unlocks-characters_98
+  - first:
+      213: 2209168366708959425
+    second: Unlocks-characters_99
+  - first:
+      213: -7069601325230884113
+    second: Unlocks-characters_100
+  - first:
+      213: 7137266159119567560
+    second: Unlocks-characters_101
+  - first:
+      213: -6942145940612689667
+    second: Unlocks-characters_102
+  - first:
+      213: 7857797825229651738
+    second: Unlocks-characters_103
+  - first:
+      213: -2386175353387951612
+    second: Unlocks-characters_104
+  - first:
+      213: -7717796566847736683
+    second: Unlocks-characters_105
+  - first:
+      213: 8315698629787557457
+    second: Unlocks-characters_106
+  - first:
+      213: 570014170542375319
+    second: Unlocks-characters_107
+  - first:
+      213: -7062450333799597027
+    second: Unlocks-characters_108
+  - first:
+      213: 3919909483289284210
+    second: Unlocks-characters_109
+  - first:
+      213: -2819285475194502409
+    second: Unlocks-characters_110
+  - first:
+      213: -4852786833619852554
+    second: Unlocks-characters_111
+  - first:
+      213: 7938308100953225933
+    second: Unlocks-characters_112
+  - first:
+      213: 7588323087827070451
+    second: Unlocks-characters_113
+  - first:
+      213: 1992939142649218281
+    second: Unlocks-characters_114
+  - first:
+      213: 2481048693801611806
+    second: Unlocks-characters_115
+  - first:
+      213: -6301881813950777993
+    second: Unlocks-characters_116
+  - first:
+      213: -652847867793231996
+    second: Unlocks-characters_117
+  - first:
+      213: 5294870548026722937
+    second: Unlocks-characters_118
+  - first:
+      213: 9022890796929015882
+    second: Unlocks-characters_119
+  - first:
+      213: -5134993258736809907
+    second: Unlocks-characters_120
+  - first:
+      213: -7685255592076325302
+    second: Unlocks-characters_121
+  - first:
+      213: -724222960378863915
+    second: Unlocks-characters_122
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Unlocks-characters_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 847
+        width: 117
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19996882610763400800000000000000
+      internalID: 303553265365588369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 852
+        width: 117
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfbe4efe65b00a80800000000000000
+      internalID: -8502596608157892652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 850
+        width: 117
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ae4bd7ca69b84c0800000000000000
+      internalID: -4284164952925345181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 852
+        width: 117
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c8164de44720960800000000000000
+      internalID: 7566738205855288416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_4
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 852
+        width: 118
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f4ebe6094e32800800000000000000
+      internalID: 586563685472685832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_5
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 853
+        width: 117
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba67fa1f9e9cec80800000000000000
+      internalID: -8292078407706514761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_6
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 847
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814ff9f320bafa7d0800000000000000
+      internalID: -2904915208484948968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_7
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 853
+        width: 107
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b9cc7379a467270800000000000000
+      internalID: 8247861780912315253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_8
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 853
+        width: 107
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3940bd0371b2cbb50800000000000000
+      internalID: 6610205731676947603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_9
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 853
+        width: 107
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e315794dd6dddfbe0800000000000000
+      internalID: -1441752841900830402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_10
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 853
+        width: 107
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78518d0865395bf30800000000000000
+      internalID: 4590737394912204167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_11
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 852
+        width: 109
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1a3e3635220a5e0800000000000000
+      internalID: -1900481301196856919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_12
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 847
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0380732bee9e7910800000000000000
+      internalID: 1837080430762820362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_13
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 861
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89fc200483f12700800000000000000
+      internalID: 513959580761127308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_14
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 861
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d71296aa22bfd200800000000000000
+      internalID: 207080004135294929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_15
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 861
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a133322c99194e70800000000000000
+      internalID: 9099832680458170788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 741
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fde9e0c14055adf0800000000000000
+      internalID: -169641167616872970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 739
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a2eb4def647d2c0800000000000000
+      internalID: -4406975650053871057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 727
+        width: 112
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d266f5c80b6484670800000000000000
+      internalID: 8523140018881914413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 735
+        width: 112
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b313e37f3500900800000000000000
+      internalID: 648610667706792863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_20
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 735
+        width: 112
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ca2df0a4b4e3230800000000000000
+      internalID: 3620413931917585529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_21
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 735
+        width: 112
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb46c88c195bdcda0800000000000000
+      internalID: -5922878297182804802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_22
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 735
+        width: 112
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931ffc00bd3dbf960800000000000000
+      internalID: 7636930530701734201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_23
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 735
+        width: 114
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c68f24c810ccb8b0800000000000000
+      internalID: -5135018262506010942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_24
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 727
+        width: 89
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe45bcaf3c60f470800000000000000
+      internalID: 8426353923546500861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_25
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 737
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ec54bbf40fe2930800000000000000
+      internalID: 4120494934325579364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_26
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 737
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2647491a1fcfdd330800000000000000
+      internalID: 3737421380515558498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_27
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 737
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c1dcaf9232bdc60800000000000000
+      internalID: 7843901839204228188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_28
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 737
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b3c9173c7e51e00800000000000000
+      internalID: 1014972117652618042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_29
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 727
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed2895049e102c70800000000000000
+      internalID: 8944182481055657440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_30
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 737
+        width: 118
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7350234a9c37effe0800000000000000
+      internalID: -1153357144679905993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_31
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 737
+        width: 118
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa640c341ac16fb00800000000000000
+      internalID: 861907857640015530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 617
+        width: 118
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608e08d63b5a57100800000000000000
+      internalID: 105172356367968262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_33
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 617
+        width: 118
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd6b2d4acba97960800000000000000
+      internalID: 7600294731530857928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 607
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19bd55f700daf120800000000000000
+      internalID: 2448498080029194525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_35
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 620
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c2aa48c463d4f10800000000000000
+      internalID: 2255518690653645945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_36
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 620
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a71066a33f911a90800000000000000
+      internalID: -7344914473081104477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_37
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 620
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a20ef166315b100800000000000000
+      internalID: 123025894164933223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_38
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 620
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a5ed29b9cb9c050800000000000000
+      internalID: 5821391369723075217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_39
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 607
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6d5fe561fb64b10800000000000000
+      internalID: 1965468390197155510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_40
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 625
+        width: 97
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331499d658bbc5880800000000000000
+      internalID: -8620809404950167245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_41
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 625
+        width: 97
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16b329bee69f7c00800000000000000
+      internalID: 900604402549896734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_42
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 625
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fbbf926aa59ba80800000000000000
+      internalID: -8450623556068589681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_43
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 625
+        width: 97
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c70482d38b16a570800000000000000
+      internalID: 8477493601558071234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_44
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 607
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34551fbad8a466150800000000000000
+      internalID: 5865457537032213827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_45
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 621
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63955bedc6a9d3d70800000000000000
+      internalID: 9024539020703914294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_46
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 621
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537da1980120fe5a0800000000000000
+      internalID: -6489966267974625483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_47
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 621
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c00c1cbe286a0430800000000000000
+      internalID: 3749924189673095362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 501
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4d878de51405d20800000000000000
+      internalID: 3265181605458138355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_49
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 501
+        width: 97
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d932d4425f6b4d1c0800000000000000
+      internalID: -4479754565334522979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_50
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 487
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0154249fd8ea1c0800000000000000
+      internalID: -4490495676743610202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_51
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 501
+        width: 100
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19e1839926e55010800000000000000
+      internalID: 1177099943870064923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_52
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 501
+        width: 100
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf92aee98d58a3940800000000000000
+      internalID: 5276677078843533819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_53
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 501
+        width: 100
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ec520c9838d4200800000000000000
+      internalID: 165933388940037697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_54
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 501
+        width: 100
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f70f8acb49419ec0800000000000000
+      internalID: -3561985240403605516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_55
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 487
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df0bd883f4e3b710800000000000000
+      internalID: 1707960418327793622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_56
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 500
+        width: 100
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e162e0b1ea6cb2a0800000000000000
+      internalID: -6720379026375810592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_57
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 500
+        width: 101
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806aa00561e2ba0a0800000000000000
+      internalID: -6869346133256526328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_58
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 500
+        width: 101
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8190c00795d187840800000000000000
+      internalID: 5221956037905221912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_59
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 499
+        width: 100
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3382d9deb120f20800000000000000
+      internalID: 3387300577093890991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_60
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 487
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25b205654fd60c10800000000000000
+      internalID: 2019546972062659887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_61
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 505
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d49bd8b5c6315c0800000000000000
+      internalID: -4245930883204690622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_62
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 505
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9074f141ad1e2370800000000000000
+      internalID: 8299603741723881630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_63
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 505
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100579f23679a30e0800000000000000
+      internalID: -2289351008308473855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_64
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 385
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42739be0071d03680800000000000000
+      internalID: -8777285394531535068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_65
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 367
+        width: 90
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1efebba5983fdb0800000000000000
+      internalID: -4759309358407360043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_66
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 382
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3859338d4b6bf1e90800000000000000
+      internalID: -7052717603601279613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_67
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 382
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94e3deaf8efb01d0800000000000000
+      internalID: -3383330801971895142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_68
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 382
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d582c9e585f9820800000000000000
+      internalID: 2927155446184172912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_69
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 382
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a55e9d5b0670c480800000000000000
+      internalID: -8880968673987242591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_70
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 367
+        width: 87
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fd328d060ed4860800000000000000
+      internalID: 7515910059698937704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_71
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 385
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b9565f79dba3370800000000000000
+      internalID: 8303157323365718935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_72
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 385
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ee038bc103404e0800000000000000
+      internalID: -2016433833247707609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_73
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 385
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c87ff598c4dac90800000000000000
+      internalID: -7156980079917560732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_74
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 385
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385113365d3abc8a0800000000000000
+      internalID: -6283748718177872509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_75
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 367
+        width: 79
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b0e8114dacaf890800000000000000
+      internalID: -7423398023590442204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_76
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 382
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63b5eb3c34413f60800000000000000
+      internalID: 8012260237562458988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_77
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 382
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b051e6730d9c800800000000000000
+      internalID: 633266159110916949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_78
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 382
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74616a85eb9a20a0800000000000000
+      internalID: -6905535668447779715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_79
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 382
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7412a707d8497090800000000000000
+      internalID: -8036311971682708355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_80
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 247
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0504188da0bb74c40800000000000000
+      internalID: 5496567525485396048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_81
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 266
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf4be90ed00684a0800000000000000
+      internalID: -6591580050960986170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_82
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 266
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd07100dce9fd04b0800000000000000
+      internalID: -5472443176687931169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_83
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 266
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766b7931167f4bf50800000000000000
+      internalID: 6896408925723670119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_84
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 267
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e372f6ce6d09e4730800000000000000
+      internalID: 3985281973033576254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_85
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 247
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f372979eb58ef20800000000000000
+      internalID: 3452110172697608020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_86
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 261
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282318eec358e1d00800000000000000
+      internalID: 945339468540359298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_87
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 261
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d076729a60e5e80800000000000000
+      internalID: -8188099748932678251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_88
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 261
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ba6ff896159f790800000000000000
+      internalID: -7495870590952756410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_89
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 262
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b852e0212779050800000000000000
+      internalID: 5807235666389863322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_90
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 247
+        width: 87
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0e614cf98d1b2c0800000000000000
+      internalID: -4417511578772512582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_91
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 261
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443b4211a4b5e5900800000000000000
+      internalID: 675077367825478468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_92
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 261
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1de8d6400da1a820800000000000000
+      internalID: 2927811449467759899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_93
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 261
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0a7e05f95905f50800000000000000
+      internalID: 6868153943229702390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_94
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 261
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21353e6fd909844a0800000000000000
+      internalID: -6608873445039844590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_95
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 247
+        width: 83
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca03acc657d9b2d0800000000000000
+      internalID: -3262339687252817204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_96
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 138
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e7e40cd156d2720800000000000000
+      internalID: 2823023719885995627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_97
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 138
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7131fc653934e7350800000000000000
+      internalID: 6016320452309226263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_98
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 138
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2598ab3a7e0ab7c80800000000000000
+      internalID: -8323882569519429294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_99
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 138
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8a7b2ccea88ae10800000000000000
+      internalID: 2209168366708959425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_100
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 127
+        width: 104
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea7bf11d0bb3ed90800000000000000
+      internalID: -7069601325230884113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_101
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 144
+        width: 104
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca0db1c1c9ac0360800000000000000
+      internalID: 7137266159119567560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_102
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 144
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df05cde4c0b88af90800000000000000
+      internalID: -6942145940612689667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_103
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 144
+        width: 104
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f76a95d718c0d60800000000000000
+      internalID: 7857797825229651738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_104
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 144
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ad489982a92eed0800000000000000
+      internalID: -2386175353387951612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_105
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 127
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594bf40c9e0e4e490800000000000000
+      internalID: -7717796566847736683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_106
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 144
+        width: 102
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e90b768db476370800000000000000
+      internalID: 8315698629787557457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_107
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 144
+        width: 102
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7910e183ed819e700800000000000000
+      internalID: 570014170542375319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_108
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 144
+        width: 102
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c390207d22dfd90800000000000000
+      internalID: -7062450333799597027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_109
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 144
+        width: 102
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e842f08e0566630800000000000000
+      internalID: 3919909483289284210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_110
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 127
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f20d9a2cc2efd8d0800000000000000
+      internalID: -2819285475194502409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_111
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 140
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f26563061077acb0800000000000000
+      internalID: -4852786833619852554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_112
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 20
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca3ceaa8298a2e60800000000000000
+      internalID: 7938308100953225933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_113
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 20
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fde3dac4a32f4960800000000000000
+      internalID: 7588323087827070451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_114
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 20
+        width: 93
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e40498579758ab10800000000000000
+      internalID: 1992939142649218281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_115
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 7
+        width: 116
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12fd7054a47e6220800000000000000
+      internalID: 2481048693801611806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_116
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 18
+        width: 116
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77538f601e73b88a0800000000000000
+      internalID: -6301881813950777993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_117
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 17
+        width: 116
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f20dbb25e90f6f0800000000000000
+      internalID: -652847867793231996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_118
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 17
+        width: 116
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a8fc2c5b82b7940800000000000000
+      internalID: 5294870548026722937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_119
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 17
+        width: 116
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40681edf5fb73d70800000000000000
+      internalID: 9022890796929015882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_120
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 7
+        width: 79
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4887f866d6dcb8b0800000000000000
+      internalID: -5134993258736809907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_121
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 21
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ec43ad1cc785590800000000000000
+      internalID: -7685255592076325302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unlocks-characters_122
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 21
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de9f6cfd0b03f5f0800000000000000
+      internalID: -724222960378863915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Unlocks-characters_0: 303553265365588369
+      Unlocks-characters_1: -8502596608157892652
+      Unlocks-characters_10: 4590737394912204167
+      Unlocks-characters_100: -7069601325230884113
+      Unlocks-characters_101: 7137266159119567560
+      Unlocks-characters_102: -6942145940612689667
+      Unlocks-characters_103: 7857797825229651738
+      Unlocks-characters_104: -2386175353387951612
+      Unlocks-characters_105: -7717796566847736683
+      Unlocks-characters_106: 8315698629787557457
+      Unlocks-characters_107: 570014170542375319
+      Unlocks-characters_108: -7062450333799597027
+      Unlocks-characters_109: 3919909483289284210
+      Unlocks-characters_11: -1900481301196856919
+      Unlocks-characters_110: -2819285475194502409
+      Unlocks-characters_111: -4852786833619852554
+      Unlocks-characters_112: 7938308100953225933
+      Unlocks-characters_113: 7588323087827070451
+      Unlocks-characters_114: 1992939142649218281
+      Unlocks-characters_115: 2481048693801611806
+      Unlocks-characters_116: -6301881813950777993
+      Unlocks-characters_117: -652847867793231996
+      Unlocks-characters_118: 5294870548026722937
+      Unlocks-characters_119: 9022890796929015882
+      Unlocks-characters_12: 1837080430762820362
+      Unlocks-characters_120: -5134993258736809907
+      Unlocks-characters_121: -7685255592076325302
+      Unlocks-characters_122: -724222960378863915
+      Unlocks-characters_13: 513959580761127308
+      Unlocks-characters_14: 207080004135294929
+      Unlocks-characters_15: 9099832680458170788
+      Unlocks-characters_16: -169641167616872970
+      Unlocks-characters_17: -4406975650053871057
+      Unlocks-characters_18: 8523140018881914413
+      Unlocks-characters_19: 648610667706792863
+      Unlocks-characters_2: -4284164952925345181
+      Unlocks-characters_20: 3620413931917585529
+      Unlocks-characters_21: -5922878297182804802
+      Unlocks-characters_22: 7636930530701734201
+      Unlocks-characters_23: -5135018262506010942
+      Unlocks-characters_24: 8426353923546500861
+      Unlocks-characters_25: 4120494934325579364
+      Unlocks-characters_26: 3737421380515558498
+      Unlocks-characters_27: 7843901839204228188
+      Unlocks-characters_28: 1014972117652618042
+      Unlocks-characters_29: 8944182481055657440
+      Unlocks-characters_3: 7566738205855288416
+      Unlocks-characters_30: -1153357144679905993
+      Unlocks-characters_31: 861907857640015530
+      Unlocks-characters_32: 105172356367968262
+      Unlocks-characters_33: 7600294731530857928
+      Unlocks-characters_34: 2448498080029194525
+      Unlocks-characters_35: 2255518690653645945
+      Unlocks-characters_36: -7344914473081104477
+      Unlocks-characters_37: 123025894164933223
+      Unlocks-characters_38: 5821391369723075217
+      Unlocks-characters_39: 1965468390197155510
+      Unlocks-characters_4: 586563685472685832
+      Unlocks-characters_40: -8620809404950167245
+      Unlocks-characters_41: 900604402549896734
+      Unlocks-characters_42: -8450623556068589681
+      Unlocks-characters_43: 8477493601558071234
+      Unlocks-characters_44: 5865457537032213827
+      Unlocks-characters_45: 9024539020703914294
+      Unlocks-characters_46: -6489966267974625483
+      Unlocks-characters_47: 3749924189673095362
+      Unlocks-characters_48: 3265181605458138355
+      Unlocks-characters_49: -4479754565334522979
+      Unlocks-characters_5: -8292078407706514761
+      Unlocks-characters_50: -4490495676743610202
+      Unlocks-characters_51: 1177099943870064923
+      Unlocks-characters_52: 5276677078843533819
+      Unlocks-characters_53: 165933388940037697
+      Unlocks-characters_54: -3561985240403605516
+      Unlocks-characters_55: 1707960418327793622
+      Unlocks-characters_56: -6720379026375810592
+      Unlocks-characters_57: -6869346133256526328
+      Unlocks-characters_58: 5221956037905221912
+      Unlocks-characters_59: 3387300577093890991
+      Unlocks-characters_6: -2904915208484948968
+      Unlocks-characters_60: 2019546972062659887
+      Unlocks-characters_61: -4245930883204690622
+      Unlocks-characters_62: 8299603741723881630
+      Unlocks-characters_63: -2289351008308473855
+      Unlocks-characters_64: -8777285394531535068
+      Unlocks-characters_65: -4759309358407360043
+      Unlocks-characters_66: -7052717603601279613
+      Unlocks-characters_67: -3383330801971895142
+      Unlocks-characters_68: 2927155446184172912
+      Unlocks-characters_69: -8880968673987242591
+      Unlocks-characters_7: 8247861780912315253
+      Unlocks-characters_70: 7515910059698937704
+      Unlocks-characters_71: 8303157323365718935
+      Unlocks-characters_72: -2016433833247707609
+      Unlocks-characters_73: -7156980079917560732
+      Unlocks-characters_74: -6283748718177872509
+      Unlocks-characters_75: -7423398023590442204
+      Unlocks-characters_76: 8012260237562458988
+      Unlocks-characters_77: 633266159110916949
+      Unlocks-characters_78: -6905535668447779715
+      Unlocks-characters_79: -8036311971682708355
+      Unlocks-characters_8: 6610205731676947603
+      Unlocks-characters_80: 5496567525485396048
+      Unlocks-characters_81: -6591580050960986170
+      Unlocks-characters_82: -5472443176687931169
+      Unlocks-characters_83: 6896408925723670119
+      Unlocks-characters_84: 3985281973033576254
+      Unlocks-characters_85: 3452110172697608020
+      Unlocks-characters_86: 945339468540359298
+      Unlocks-characters_87: -8188099748932678251
+      Unlocks-characters_88: -7495870590952756410
+      Unlocks-characters_89: 5807235666389863322
+      Unlocks-characters_9: -1441752841900830402
+      Unlocks-characters_90: -4417511578772512582
+      Unlocks-characters_91: 675077367825478468
+      Unlocks-characters_92: 2927811449467759899
+      Unlocks-characters_93: 6868153943229702390
+      Unlocks-characters_94: -6608873445039844590
+      Unlocks-characters_95: -3262339687252817204
+      Unlocks-characters_96: 2823023719885995627
+      Unlocks-characters_97: 6016320452309226263
+      Unlocks-characters_98: -8323882569519429294
+      Unlocks-characters_99: 2209168366708959425
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

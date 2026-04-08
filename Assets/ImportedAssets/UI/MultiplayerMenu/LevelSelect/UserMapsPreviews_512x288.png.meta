@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: fcbfdf36cc477024db7cbada0945b85d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3400855572816492492
+    second: UserMapsPreviews_512x288_0
+  - first:
+      213: -4116360344134442685
+    second: UserMapsPreviews_512x288_1
+  - first:
+      213: 8650532509863300538
+    second: UserMapsPreviews_512x288_2
+  - first:
+      213: 2574827001399863580
+    second: UserMapsPreviews_512x288_3
+  - first:
+      213: -2544609827711911053
+    second: UserMapsPreviews_512x288_4
+  - first:
+      213: -9012678115104917543
+    second: UserMapsPreviews_512x288_5
+  - first:
+      213: -4447582593872652151
+    second: UserMapsPreviews_512x288_6
+  - first:
+      213: -7343784717988142733
+    second: UserMapsPreviews_512x288_7
+  - first:
+      213: 9156831292503129028
+    second: UserMapsPreviews_512x288_8
+  - first:
+      213: -1214397391533206917
+    second: UserMapsPreviews_512x288_9
+  - first:
+      213: 4680732022698486024
+    second: UserMapsPreviews_512x288_10
+  - first:
+      213: -5370000779878315298
+    second: UserMapsPreviews_512x288_11
+  - first:
+      213: -4737233456975044625
+    second: UserMapsPreviews_512x288_12
+  - first:
+      213: -2908995627862777386
+    second: UserMapsPreviews_512x288_13
+  - first:
+      213: -5765372362422823060
+    second: UserMapsPreviews_512x288_14
+  - first:
+      213: 9183761124111537683
+    second: UserMapsPreviews_512x288_15
+  - first:
+      213: -8525670136521076921
+    second: UserMapsPreviews_512x288_16
+  - first:
+      213: 4490443251163021827
+    second: UserMapsPreviews_512x288_17
+  - first:
+      213: -4899788952427784784
+    second: UserMapsPreviews_512x288_18
+  - first:
+      213: -7694424369354641001
+    second: UserMapsPreviews_512x288_19
+  - first:
+      213: -2019403477996508865
+    second: UserMapsPreviews_512x288_20
+  - first:
+      213: -7950061405667303629
+    second: UserMapsPreviews_512x288_21
+  - first:
+      213: 7267618811427377097
+    second: UserMapsPreviews_512x288_22
+  - first:
+      213: -4584672366271665242
+    second: UserMapsPreviews_512x288_23
+  - first:
+      213: 3349131238283745977
+    second: UserMapsPreviews_512x288_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1763
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4388dd100ebbdc0d0800000000000000
+      internalID: -3400855572816492492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_1
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1763
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341ac509310cfd6c0800000000000000
+      internalID: -4116360344134442685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_2
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1763
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdce583c7ddc0870800000000000000
+      internalID: 8650532509863300538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_3
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1763
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19e588048f9bb320800000000000000
+      internalID: 2574827001399863580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1475
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b7347f7dabfacd0800000000000000
+      internalID: -2544609827711911053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1475
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7fb3a61098ce280800000000000000
+      internalID: -9012678115104917543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_6
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1475
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9889207f1330742c0800000000000000
+      internalID: -4447582593872652151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_7
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1475
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371ef5145b2a51a90800000000000000
+      internalID: -7343784717988142733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1187
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb74d9ab89931f70800000000000000
+      internalID: 9156831292503129028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_9
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1187
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72908da108952fe0800000000000000
+      internalID: -1214397391533206917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_10
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1187
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8092dbd99fc45f040800000000000000
+      internalID: 4680732022698486024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_11
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1187
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda48cffdbce975b0800000000000000
+      internalID: -5370000779878315298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 901
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef18e21547f14eb0800000000000000
+      internalID: -4737233456975044625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_13
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 901
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1231493eb21a7d0800000000000000
+      internalID: -2908995627862777386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_14
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 901
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67dee3f1684dffa0800000000000000
+      internalID: -5765372362422823060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_15
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 901
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316d5b0b516437f70800000000000000
+      internalID: 9183761124111537683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 613
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f41888e2cbea980800000000000000
+      internalID: -8525670136521076921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_17
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 613
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3024f957852415e30800000000000000
+      internalID: 4490443251163021827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_18
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 613
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5982078e3700cb0800000000000000
+      internalID: -4899788952427784784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_19
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 613
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791f1898dc9e73590800000000000000
+      internalID: -7694424369354641001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 325
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3964db6c33a9f3e0800000000000000
+      internalID: -2019403477996508865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_21
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 325
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f58a4d545bba190800000000000000
+      internalID: -7950061405667303629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_22
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 325
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf4312bdc4cbd460800000000000000
+      internalID: 7267618811427377097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_23
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 325
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abe3d406c8ff50c0800000000000000
+      internalID: -4584672366271665242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UserMapsPreviews_512x288_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 37
+        width: 504
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba1114ed118a7e20800000000000000
+      internalID: 3349131238283745977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UserMapsPreviews_512x288_0: -3400855572816492492
+      UserMapsPreviews_512x288_1: -4116360344134442685
+      UserMapsPreviews_512x288_10: 4680732022698486024
+      UserMapsPreviews_512x288_11: -5370000779878315298
+      UserMapsPreviews_512x288_12: -4737233456975044625
+      UserMapsPreviews_512x288_13: -2908995627862777386
+      UserMapsPreviews_512x288_14: -5765372362422823060
+      UserMapsPreviews_512x288_15: 9183761124111537683
+      UserMapsPreviews_512x288_16: -8525670136521076921
+      UserMapsPreviews_512x288_17: 4490443251163021827
+      UserMapsPreviews_512x288_18: -4899788952427784784
+      UserMapsPreviews_512x288_19: -7694424369354641001
+      UserMapsPreviews_512x288_2: 8650532509863300538
+      UserMapsPreviews_512x288_20: -2019403477996508865
+      UserMapsPreviews_512x288_21: -7950061405667303629
+      UserMapsPreviews_512x288_22: 7267618811427377097
+      UserMapsPreviews_512x288_23: -4584672366271665242
+      UserMapsPreviews_512x288_24: 3349131238283745977
+      UserMapsPreviews_512x288_3: 2574827001399863580
+      UserMapsPreviews_512x288_4: -2544609827711911053
+      UserMapsPreviews_512x288_5: -9012678115104917543
+      UserMapsPreviews_512x288_6: -4447582593872652151
+      UserMapsPreviews_512x288_7: -7343784717988142733
+      UserMapsPreviews_512x288_8: 9156831292503129028
+      UserMapsPreviews_512x288_9: -1214397391533206917
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

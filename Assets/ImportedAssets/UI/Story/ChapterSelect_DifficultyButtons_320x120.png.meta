@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c3dc0bf171589834bbd59cb1ad984b92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8760931338743219770
+    second: ChapterSelect_DifficultyButtons_320x120_0
+  - first:
+      213: 930487876312230838
+    second: ChapterSelect_DifficultyButtons_320x120_1
+  - first:
+      213: 7678356737044236973
+    second: ChapterSelect_DifficultyButtons_320x120_2
+  - first:
+      213: 7688494814430611418
+    second: ChapterSelect_DifficultyButtons_320x120_3
+  - first:
+      213: -1488021861374643575
+    second: ChapterSelect_DifficultyButtons_320x120_4
+  - first:
+      213: 5383867650854483040
+    second: ChapterSelect_DifficultyButtons_320x120_5
+  - first:
+      213: -5696690964579964211
+    second: ChapterSelect_DifficultyButtons_320x120_6
+  - first:
+      213: -8297876113531032192
+    second: ChapterSelect_DifficultyButtons_320x120_7
+  - first:
+      213: 4189268260211020436
+    second: ChapterSelect_DifficultyButtons_320x120_8
+  - first:
+      213: 8279440038841834900
+    second: ChapterSelect_DifficultyButtons_320x120_9
+  - first:
+      213: 1907052732073723404
+    second: ChapterSelect_DifficultyButtons_320x120_10
+  - first:
+      213: -3672063095473501131
+    second: ChapterSelect_DifficultyButtons_320x120_11
+  - first:
+      213: 7163907703188022815
+    second: ChapterSelect_DifficultyButtons_320x120_12
+  - first:
+      213: -5234908586263137174
+    second: ChapterSelect_DifficultyButtons_320x120_13
+  - first:
+      213: 8368125032400183755
+    second: ChapterSelect_DifficultyButtons_320x120_14
+  - first:
+      213: -2161296210790376141
+    second: ChapterSelect_DifficultyButtons_320x120_15
+  - first:
+      213: 5444831810573705797
+    second: ChapterSelect_DifficultyButtons_320x120_16
+  - first:
+      213: -8691562695646732083
+    second: ChapterSelect_DifficultyButtons_320x120_17
+  - first:
+      213: -4864763996948241304
+    second: ChapterSelect_DifficultyButtons_320x120_18
+  - first:
+      213: 4492738879415028935
+    second: ChapterSelect_DifficultyButtons_320x120_19
+  - first:
+      213: 5763525398347493283
+    second: ChapterSelect_DifficultyButtons_320x120_20
+  - first:
+      213: -4928938325680842621
+    second: ChapterSelect_DifficultyButtons_320x120_21
+  - first:
+      213: -2259928634184063291
+    second: ChapterSelect_DifficultyButtons_320x120_22
+  - first:
+      213: 711812292696929215
+    second: ChapterSelect_DifficultyButtons_320x120_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 615
+        width: 302
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c97f946d5bea6680800000000000000
+      internalID: -8760931338743219770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 615
+        width: 302
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbe5672bc1c9ec00800000000000000
+      internalID: 930487876312230838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_2
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 615
+        width: 302
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daacf3a45c00f8a60800000000000000
+      internalID: 7678356737044236973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_3
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 615
+        width: 302
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7c19f5c4503ba60800000000000000
+      internalID: 7688494814430611418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 495
+        width: 302
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982bfbe300c795be0800000000000000
+      internalID: -1488021861374643575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 495
+        width: 302
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064f5ee7a1757ba40800000000000000
+      internalID: 5383867650854483040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_6
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 495
+        width: 302
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaa80500c941f0b0800000000000000
+      internalID: -5696690964579964211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_7
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 495
+        width: 302
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08da8c683a508dc80800000000000000
+      internalID: -8297876113531032192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 375
+        width: 304
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49252b67945432a30800000000000000
+      internalID: 4189268260211020436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 375
+        width: 304
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d505659da76e270800000000000000
+      internalID: 8279440038841834900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_10
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 375
+        width: 304
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0641371b56377a10800000000000000
+      internalID: 1907052732073723404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_11
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 375
+        width: 304
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c0b71f1163a0dc0800000000000000
+      internalID: -3672063095473501131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 255
+        width: 304
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16e43c99105b6360800000000000000
+      internalID: 7163907703188022815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 255
+        width: 304
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64b424606ed957b0800000000000000
+      internalID: -5234908586263137174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_14
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 255
+        width: 304
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc16448716d812470800000000000000
+      internalID: 8368125032400183755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_15
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 255
+        width: 304
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d117d1c888102e0800000000000000
+      internalID: -2161296210790376141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 139
+        width: 300
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5422efa0fadef8b40800000000000000
+      internalID: 5444831810573705797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_17
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 139
+        width: 300
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0a0f637cd516780800000000000000
+      internalID: -8691562695646732083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_18
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 139
+        width: 300
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8646acd5be2ec7cb0800000000000000
+      internalID: -4864763996948241304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_19
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 139
+        width: 300
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc8e10153a695e30800000000000000
+      internalID: 4492738879415028935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 19
+        width: 300
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afa17630d72cff40800000000000000
+      internalID: 5763525398347493283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_21
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 19
+        width: 300
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3881cf915b4e89bb0800000000000000
+      internalID: -4928938325680842621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_22
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 19
+        width: 300
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6a9bd71ee13a0e0800000000000000
+      internalID: -2259928634184063291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChapterSelect_DifficultyButtons_320x120_23
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 19
+        width: 300
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3f4f4428dd0e900800000000000000
+      internalID: 711812292696929215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChapterSelect_DifficultyButtons_320x120_0: -8760931338743219770
+      ChapterSelect_DifficultyButtons_320x120_1: 930487876312230838
+      ChapterSelect_DifficultyButtons_320x120_10: 1907052732073723404
+      ChapterSelect_DifficultyButtons_320x120_11: -3672063095473501131
+      ChapterSelect_DifficultyButtons_320x120_12: 7163907703188022815
+      ChapterSelect_DifficultyButtons_320x120_13: -5234908586263137174
+      ChapterSelect_DifficultyButtons_320x120_14: 8368125032400183755
+      ChapterSelect_DifficultyButtons_320x120_15: -2161296210790376141
+      ChapterSelect_DifficultyButtons_320x120_16: 5444831810573705797
+      ChapterSelect_DifficultyButtons_320x120_17: -8691562695646732083
+      ChapterSelect_DifficultyButtons_320x120_18: -4864763996948241304
+      ChapterSelect_DifficultyButtons_320x120_19: 4492738879415028935
+      ChapterSelect_DifficultyButtons_320x120_2: 7678356737044236973
+      ChapterSelect_DifficultyButtons_320x120_20: 5763525398347493283
+      ChapterSelect_DifficultyButtons_320x120_21: -4928938325680842621
+      ChapterSelect_DifficultyButtons_320x120_22: -2259928634184063291
+      ChapterSelect_DifficultyButtons_320x120_23: 711812292696929215
+      ChapterSelect_DifficultyButtons_320x120_3: 7688494814430611418
+      ChapterSelect_DifficultyButtons_320x120_4: -1488021861374643575
+      ChapterSelect_DifficultyButtons_320x120_5: 5383867650854483040
+      ChapterSelect_DifficultyButtons_320x120_6: -5696690964579964211
+      ChapterSelect_DifficultyButtons_320x120_7: -8297876113531032192
+      ChapterSelect_DifficultyButtons_320x120_8: 4189268260211020436
+      ChapterSelect_DifficultyButtons_320x120_9: 8279440038841834900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

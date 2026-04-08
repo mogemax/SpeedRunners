@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: f8798d5f0f91aff4e8c4c73d70796219
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7989269244183355452
+    second: LeagueBadges_0
+  - first:
+      213: -361091821157519812
+    second: LeagueBadges_1
+  - first:
+      213: -3622058864563444476
+    second: LeagueBadges_2
+  - first:
+      213: -3725059100071011905
+    second: LeagueBadges_3
+  - first:
+      213: -7210219167624772735
+    second: LeagueBadges_4
+  - first:
+      213: -1086879490534767228
+    second: LeagueBadges_5
+  - first:
+      213: 4808764009941088413
+    second: LeagueBadges_6
+  - first:
+      213: -7208015316626241505
+    second: LeagueBadges_7
+  - first:
+      213: 2016845053306866693
+    second: LeagueBadges_8
+  - first:
+      213: 8861054479937144545
+    second: LeagueBadges_9
+  - first:
+      213: -8908330315531570617
+    second: LeagueBadges_10
+  - first:
+      213: -3590778113959123069
+    second: LeagueBadges_11
+  - first:
+      213: 2924178099996639385
+    second: LeagueBadges_12
+  - first:
+      213: -8832430193397333609
+    second: LeagueBadges_13
+  - first:
+      213: 1423891595189093759
+    second: LeagueBadges_14
+  - first:
+      213: 7296970140749557430
+    second: LeagueBadges_15
+  - first:
+      213: 6628447937147830478
+    second: LeagueBadges_16
+  - first:
+      213: -5365236773577588358
+    second: LeagueBadges_17
+  - first:
+      213: -6408482423211321747
+    second: LeagueBadges_18
+  - first:
+      213: -2723896572276540101
+    second: LeagueBadges_19
+  - first:
+      213: 4320448259866435161
+    second: LeagueBadges_20
+  - first:
+      213: -3309440653789130071
+    second: LeagueBadges_21
+  - first:
+      213: -3089550386026494499
+    second: LeagueBadges_22
+  - first:
+      213: -3069489996783109067
+    second: LeagueBadges_23
+  - first:
+      213: 7777155836859607306
+    second: LeagueBadges_24
+  - first:
+      213: 2360543388509171013
+    second: LeagueBadges_25
+  - first:
+      213: 952418014071539947
+    second: LeagueBadges_26
+  - first:
+      213: -1476149579871507177
+    second: LeagueBadges_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeagueBadges_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 533
+        width: 112
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30a0827c069fde60800000000000000
+      internalID: 7989269244183355452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 529
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e6b9cd6e42dfaf0800000000000000
+      internalID: -361091821157519812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 535
+        width: 110
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405242637acdbbdc0800000000000000
+      internalID: -3622058864563444476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_3
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 528
+        width: 72
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb95ee41c7eed4cc0800000000000000
+      internalID: -3725059100071011905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_4
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 534
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18343015ed720fb90800000000000000
+      internalID: -7210219167624772735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_5
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 540
+        width: 108
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4858405acd0aae0f0800000000000000
+      internalID: -1086879490534767228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 361
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98b83d93692cb240800000000000000
+      internalID: 4808764009941088413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 367
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f180bec524cf7fb90800000000000000
+      internalID: -7208015316626241505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 373
+        width: 103
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c0c59e3e54dfb10800000000000000
+      internalID: 2016845053306866693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_9
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 373
+        width: 111
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e689040a1ac8fa70800000000000000
+      internalID: 8861054479937144545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_10
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 359
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742b5e0c6c04f5480800000000000000
+      internalID: -8908330315531570617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 373
+        width: 111
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3872832845efa2ec0800000000000000
+      internalID: -3590778113959123069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 191
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990c64e2d74c49820800000000000000
+      internalID: 2924178099996639385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 205
+        width: 111
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7910e1b0987ec6580800000000000000
+      internalID: -8832430193397333609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_14
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 195
+        width: 111
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7509e99cdda2c310800000000000000
+      internalID: 1423891595189093759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_15
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 286
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be62089eab044560800000000000000
+      internalID: 7296970140749557430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 267
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec00ed1a74afcfb50800000000000000
+      internalID: 6628447937147830478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_17
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 263
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a718b07a499da85b0800000000000000
+      internalID: -5365236773577588358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 266
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66972f803f7017a0800000000000000
+      internalID: -6408482423211321747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_19
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 263
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d7d84df76c23ad0800000000000000
+      internalID: -2723896572276540101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 177
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e1bc73dc055fb30800000000000000
+      internalID: 4320448259866435161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 245
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a299a172418212d0800000000000000
+      internalID: -3309440653789130071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_22
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 214
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd548350b46bf15d0800000000000000
+      internalID: -3089550386026494499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_23
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 210
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cb02c5c1bf665d0800000000000000
+      internalID: -3069489996783109067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_24
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 214
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a096fda47020eeb60800000000000000
+      internalID: 7777155836859607306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_25
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 188
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d6cf484b552c020800000000000000
+      internalID: 2360543388509171013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_26
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 64
+        width: 126
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8ca6e332ba73d00800000000000000
+      internalID: 952418014071539947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeagueBadges_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 45
+        width: 94
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71daa6037c9a38be0800000000000000
+      internalID: -1476149579871507177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LeagueBadges_0: 7989269244183355452
+      LeagueBadges_1: -361091821157519812
+      LeagueBadges_10: -8908330315531570617
+      LeagueBadges_11: -3590778113959123069
+      LeagueBadges_12: 2924178099996639385
+      LeagueBadges_13: -8832430193397333609
+      LeagueBadges_14: 1423891595189093759
+      LeagueBadges_15: 7296970140749557430
+      LeagueBadges_16: 6628447937147830478
+      LeagueBadges_17: -5365236773577588358
+      LeagueBadges_18: -6408482423211321747
+      LeagueBadges_19: -2723896572276540101
+      LeagueBadges_2: -3622058864563444476
+      LeagueBadges_20: 4320448259866435161
+      LeagueBadges_21: -3309440653789130071
+      LeagueBadges_22: -3089550386026494499
+      LeagueBadges_23: -3069489996783109067
+      LeagueBadges_24: 7777155836859607306
+      LeagueBadges_25: 2360543388509171013
+      LeagueBadges_26: 952418014071539947
+      LeagueBadges_27: -1476149579871507177
+      LeagueBadges_3: -3725059100071011905
+      LeagueBadges_4: -7210219167624772735
+      LeagueBadges_5: -1086879490534767228
+      LeagueBadges_6: 4808764009941088413
+      LeagueBadges_7: -7208015316626241505
+      LeagueBadges_8: 2016845053306866693
+      LeagueBadges_9: 8861054479937144545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

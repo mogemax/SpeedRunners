@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: f698c3665c59288499ffb548c32261d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5013860187825153612
+    second: PushWaveReaction_0
+  - first:
+      213: -3089909741012832444
+    second: PushWaveReaction_1
+  - first:
+      213: 4701359577582331721
+    second: PushWaveReaction_2
+  - first:
+      213: -3656994773396901
+    second: PushWaveReaction_3
+  - first:
+      213: 3871478434046272443
+    second: PushWaveReaction_4
+  - first:
+      213: -5590434147703663913
+    second: PushWaveReaction_5
+  - first:
+      213: -5544984048705623088
+    second: PushWaveReaction_6
+  - first:
+      213: 3362188256575054104
+    second: PushWaveReaction_7
+  - first:
+      213: -5582586725944014682
+    second: PushWaveReaction_8
+  - first:
+      213: 8976010197519130920
+    second: PushWaveReaction_9
+  - first:
+      213: 6453856892875247310
+    second: PushWaveReaction_10
+  - first:
+      213: -625926775381135383
+    second: PushWaveReaction_11
+  - first:
+      213: 4047957389310382892
+    second: PushWaveReaction_12
+  - first:
+      213: 6533414678533145259
+    second: PushWaveReaction_13
+  - first:
+      213: 6564556968686239187
+    second: PushWaveReaction_14
+  - first:
+      213: 8817438647066354274
+    second: PushWaveReaction_15
+  - first:
+      213: 7154355906269219910
+    second: PushWaveReaction_16
+  - first:
+      213: -6706847918120363683
+    second: PushWaveReaction_17
+  - first:
+      213: -2588880465179783286
+    second: PushWaveReaction_18
+  - first:
+      213: 3780861568851273062
+    second: PushWaveReaction_19
+  - first:
+      213: 4674109294682550878
+    second: PushWaveReaction_20
+  - first:
+      213: -7756313543900588292
+    second: PushWaveReaction_21
+  - first:
+      213: 169993629779159363
+    second: PushWaveReaction_22
+  - first:
+      213: -5181087196353824803
+    second: PushWaveReaction_23
+  - first:
+      213: -3352340992479878301
+    second: PushWaveReaction_24
+  - first:
+      213: -453420586624884495
+    second: PushWaveReaction_25
+  - first:
+      213: -5904714006575050588
+    second: PushWaveReaction_26
+  - first:
+      213: -4561629278504715184
+    second: PushWaveReaction_27
+  - first:
+      213: -9044930873768682580
+    second: PushWaveReaction_28
+  - first:
+      213: 1294233541526536230
+    second: PushWaveReaction_29
+  - first:
+      213: -1982499363719351895
+    second: PushWaveReaction_30
+  - first:
+      213: -8607556008612650868
+    second: PushWaveReaction_31
+  - first:
+      213: -7700647077186880123
+    second: PushWaveReaction_32
+  - first:
+      213: 771048261246684796
+    second: PushWaveReaction_33
+  - first:
+      213: -4322041207943214354
+    second: PushWaveReaction_34
+  - first:
+      213: 8811444942441513066
+    second: PushWaveReaction_35
+  - first:
+      213: -5985320710838401452
+    second: PushWaveReaction_36
+  - first:
+      213: -6464328431834839172
+    second: PushWaveReaction_37
+  - first:
+      213: -4973188265206191398
+    second: PushWaveReaction_38
+  - first:
+      213: -7903844779228141249
+    second: PushWaveReaction_39
+  - first:
+      213: 2029222998413906390
+    second: PushWaveReaction_40
+  - first:
+      213: 7878147016746271028
+    second: PushWaveReaction_41
+  - first:
+      213: 4662278436139260944
+    second: PushWaveReaction_42
+  - first:
+      213: -6749916292632279111
+    second: PushWaveReaction_43
+  - first:
+      213: -7497896273360340406
+    second: PushWaveReaction_44
+  - first:
+      213: 6813289886908390817
+    second: PushWaveReaction_45
+  - first:
+      213: -968530614053024192
+    second: PushWaveReaction_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PushWaveReaction_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 499
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46aac8b64fc49540800000000000000
+      internalID: 5013860187825153612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 479
+        width: 102
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f29ea267f6e15d0800000000000000
+      internalID: -3089909741012832444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 499
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947ec2f70a59e3140800000000000000
+      internalID: 4701359577582331721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 501
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52169d8bf103fff0800000000000000
+      internalID: -3656994773396901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 481
+        width: 102
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3e9e0bf114ab530800000000000000
+      internalID: 3871478434046272443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 500
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2d8e513c9ca62b0800000000000000
+      internalID: -5590434147703663913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 452
+        width: 90
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dba1b3e2624c03b0800000000000000
+      internalID: -5544984048705623088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 455
+        width: 90
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811652dd764e8ae20800000000000000
+      internalID: 3362188256575054104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 446
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8cb4853faa682b0800000000000000
+      internalID: -5582586725944014682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_9
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 446
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821696bb7b1319c70800000000000000
+      internalID: 8976010197519130920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 448
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece090b66a4b09950800000000000000
+      internalID: 6453856892875247310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 448
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef60020ae24057f0800000000000000
+      internalID: -625926775381135383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 425
+        width: 100
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2353cf6ccb3d2830800000000000000
+      internalID: 4047957389310382892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 430
+        width: 104
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba28a4cd80a5baa50800000000000000
+      internalID: 6533414678533145259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 392
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddbb5258cdf91b50800000000000000
+      internalID: 6564556968686239187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 405
+        width: 88
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262e0339bb5dd5a70800000000000000
+      internalID: 8817438647066354274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 392
+        width: 83
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c05e59ac0694360800000000000000
+      internalID: 7154355906269219910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 395
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d591ed55a5d7ce2a0800000000000000
+      internalID: -6706847918120363683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 401
+        width: 90
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fc203fee2721cd0800000000000000
+      internalID: -2588880465179783286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 395
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6656e44a091587430800000000000000
+      internalID: 3780861568851273062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 372
+        width: 96
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52b7e693a5cdd040800000000000000
+      internalID: 4674109294682550878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 375
+        width: 98
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf611413de90c5490800000000000000
+      internalID: -7756313543900588292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 343
+        width: 104
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349e01d3e40fb5200800000000000000
+      internalID: 169993629779159363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_23
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 355
+        width: 87
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7710f35a41918b0800000000000000
+      internalID: -5181087196353824803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 355
+        width: 88
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363a149f0a71a71d0800000000000000
+      internalID: -3352340992479878301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 344
+        width: 104
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0ef58f06025b9f0800000000000000
+      internalID: -453420586624884495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 324
+        width: 94
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a012d145ed3e0ea0800000000000000
+      internalID: -5904714006575050588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 309
+        width: 86
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c74b9f656d1b0c0800000000000000
+      internalID: -4561629278504715184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 321
+        width: 90
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabdd0bda43f97280800000000000000
+      internalID: -9044930873768682580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 295
+        width: 100
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620c5138c8a06f110800000000000000
+      internalID: 1294233541526536230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_30
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 309
+        width: 104
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1f11a155fbc74e0800000000000000
+      internalID: -1982499363719351895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_31
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 278
+        width: 91
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c802d5a3a61db8880800000000000000
+      internalID: -8607556008612650868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_32
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 273
+        width: 96
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d30a7784ec12590800000000000000
+      internalID: -7700647077186880123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 287
+        width: 91
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e8a44fe4053ba00800000000000000
+      internalID: 771048261246684796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 265
+        width: 85
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeac1f7ab660504c0800000000000000
+      internalID: -4322041207943214354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 258
+        width: 88
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6083287d7a884a70800000000000000
+      internalID: 8811444942441513066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 255
+        width: 92
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45640bb668edfeca0800000000000000
+      internalID: -5985320710838401452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_37
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 247
+        width: 81
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77c60d6a871a46a0800000000000000
+      internalID: -6464328431834839172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 238
+        width: 90
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada6e333f9fabfab0800000000000000
+      internalID: -4973188265206191398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_39
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 226
+        width: 85
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39e746bc07ef4290800000000000000
+      internalID: -7903844779228141249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_40
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 222
+        width: 85
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d19386d09f392c10800000000000000
+      internalID: 2029222998413906390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 229
+        width: 75
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4310775b8fcc45d60800000000000000
+      internalID: 7878147016746271028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 217
+        width: 77
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c5b0e298db3b040800000000000000
+      internalID: 4662278436139260944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_43
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 215
+        width: 73
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7080af4ea7352a0800000000000000
+      internalID: -6749916292632279111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_44
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 219
+        width: 69
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ab1af901f12f790800000000000000
+      internalID: -7497896273360340406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 196
+        width: 79
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad9fe4cd0bad8e50800000000000000
+      internalID: 6813289886908390817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveReaction_46
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 191
+        width: 69
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e474bb9861f82f0800000000000000
+      internalID: -968530614053024192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PushWaveReaction_0: 5013860187825153612
+      PushWaveReaction_1: -3089909741012832444
+      PushWaveReaction_10: 6453856892875247310
+      PushWaveReaction_11: -625926775381135383
+      PushWaveReaction_12: 4047957389310382892
+      PushWaveReaction_13: 6533414678533145259
+      PushWaveReaction_14: 6564556968686239187
+      PushWaveReaction_15: 8817438647066354274
+      PushWaveReaction_16: 7154355906269219910
+      PushWaveReaction_17: -6706847918120363683
+      PushWaveReaction_18: -2588880465179783286
+      PushWaveReaction_19: 3780861568851273062
+      PushWaveReaction_2: 4701359577582331721
+      PushWaveReaction_20: 4674109294682550878
+      PushWaveReaction_21: -7756313543900588292
+      PushWaveReaction_22: 169993629779159363
+      PushWaveReaction_23: -5181087196353824803
+      PushWaveReaction_24: -3352340992479878301
+      PushWaveReaction_25: -453420586624884495
+      PushWaveReaction_26: -5904714006575050588
+      PushWaveReaction_27: -4561629278504715184
+      PushWaveReaction_28: -9044930873768682580
+      PushWaveReaction_29: 1294233541526536230
+      PushWaveReaction_3: -3656994773396901
+      PushWaveReaction_30: -1982499363719351895
+      PushWaveReaction_31: -8607556008612650868
+      PushWaveReaction_32: -7700647077186880123
+      PushWaveReaction_33: 771048261246684796
+      PushWaveReaction_34: -4322041207943214354
+      PushWaveReaction_35: 8811444942441513066
+      PushWaveReaction_36: -5985320710838401452
+      PushWaveReaction_37: -6464328431834839172
+      PushWaveReaction_38: -4973188265206191398
+      PushWaveReaction_39: -7903844779228141249
+      PushWaveReaction_4: 3871478434046272443
+      PushWaveReaction_40: 2029222998413906390
+      PushWaveReaction_41: 7878147016746271028
+      PushWaveReaction_42: 4662278436139260944
+      PushWaveReaction_43: -6749916292632279111
+      PushWaveReaction_44: -7497896273360340406
+      PushWaveReaction_45: 6813289886908390817
+      PushWaveReaction_46: -968530614053024192
+      PushWaveReaction_5: -5590434147703663913
+      PushWaveReaction_6: -5544984048705623088
+      PushWaveReaction_7: 3362188256575054104
+      PushWaveReaction_8: -5582586725944014682
+      PushWaveReaction_9: 8976010197519130920
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

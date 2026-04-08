@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 66c081f8a74c62644817f62eaaae66e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2328741508665290100
+    second: ballWeapon-150x150_0
+  - first:
+      213: 7087059821716563150
+    second: ballWeapon-150x150_1
+  - first:
+      213: -8913746268676229287
+    second: ballWeapon-150x150_2
+  - first:
+      213: 2532295113497577501
+    second: ballWeapon-150x150_3
+  - first:
+      213: -8899018439345207681
+    second: ballWeapon-150x150_4
+  - first:
+      213: 7135521097776361210
+    second: ballWeapon-150x150_5
+  - first:
+      213: 3979429169837839112
+    second: ballWeapon-150x150_6
+  - first:
+      213: -2150933460238865891
+    second: ballWeapon-150x150_7
+  - first:
+      213: -8169099279998190757
+    second: ballWeapon-150x150_8
+  - first:
+      213: -4662866549326100684
+    second: ballWeapon-150x150_9
+  - first:
+      213: 8416603697767025315
+    second: ballWeapon-150x150_10
+  - first:
+      213: 5541198373950744304
+    second: ballWeapon-150x150_11
+  - first:
+      213: -3482331492403237543
+    second: ballWeapon-150x150_12
+  - first:
+      213: 5820856441447145996
+    second: ballWeapon-150x150_13
+  - first:
+      213: -8887736471474157494
+    second: ballWeapon-150x150_14
+  - first:
+      213: -4218536483889856419
+    second: ballWeapon-150x150_15
+  - first:
+      213: 769545484147320188
+    second: ballWeapon-150x150_16
+  - first:
+      213: -2331565784218336140
+    second: ballWeapon-150x150_17
+  - first:
+      213: -165779452623421709
+    second: ballWeapon-150x150_18
+  - first:
+      213: 4439611791485004020
+    second: ballWeapon-150x150_19
+  - first:
+      213: 7249278298179479763
+    second: ballWeapon-150x150_20
+  - first:
+      213: 4855452337480306058
+    second: ballWeapon-150x150_21
+  - first:
+      213: 7220980162482954521
+    second: ballWeapon-150x150_22
+  - first:
+      213: 2203211388883516512
+    second: ballWeapon-150x150_23
+  - first:
+      213: -2164343235973861287
+    second: ballWeapon-150x150_24
+  - first:
+      213: -4827084352146505074
+    second: ballWeapon-150x150_25
+  - first:
+      213: 7398325674560628422
+    second: ballWeapon-150x150_26
+  - first:
+      213: -381689728298858736
+    second: ballWeapon-150x150_27
+  - first:
+      213: 3943131520156241252
+    second: ballWeapon-150x150_28
+  - first:
+      213: -8915766563993454065
+    second: ballWeapon-150x150_29
+  - first:
+      213: -8804313696181524949
+    second: ballWeapon-150x150_30
+  - first:
+      213: 495880240085687200
+    second: ballWeapon-150x150_31
+  - first:
+      213: -2189990394026972631
+    second: ballWeapon-150x150_32
+  - first:
+      213: -7465289916439765683
+    second: ballWeapon-150x150_33
+  - first:
+      213: 2443555136810508005
+    second: ballWeapon-150x150_34
+  - first:
+      213: -2134455662952863144
+    second: ballWeapon-150x150_35
+  - first:
+      213: -173917418227908275
+    second: ballWeapon-150x150_36
+  - first:
+      213: 6214943775310533368
+    second: ballWeapon-150x150_37
+  - first:
+      213: 3007808880076810706
+    second: ballWeapon-150x150_38
+  - first:
+      213: 2263157074231092624
+    second: ballWeapon-150x150_39
+  - first:
+      213: -681111534550820766
+    second: ballWeapon-150x150_40
+  - first:
+      213: 6724320909279154797
+    second: ballWeapon-150x150_41
+  - first:
+      213: -3264237708247913719
+    second: ballWeapon-150x150_42
+  - first:
+      213: 4368543240480501375
+    second: ballWeapon-150x150_43
+  - first:
+      213: 5743250633097093790
+    second: ballWeapon-150x150_44
+  - first:
+      213: -923760129814204196
+    second: ballWeapon-150x150_45
+  - first:
+      213: -3255855947791609306
+    second: ballWeapon-150x150_46
+  - first:
+      213: -8580690563950835490
+    second: ballWeapon-150x150_47
+  - first:
+      213: 5276583008446469926
+    second: ballWeapon-150x150_48
+  - first:
+      213: -2251954938061566978
+    second: ballWeapon-150x150_49
+  - first:
+      213: -3876304205138547573
+    second: ballWeapon-150x150_50
+  - first:
+      213: -8703853739154191527
+    second: ballWeapon-150x150_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ballWeapon-150x150_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458
+        width: 136
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c825c42afe5aeafd0800000000000000
+      internalID: -2328741508665290100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 455
+        width: 135
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4eb57eb5b4a5260800000000000000
+      internalID: 7087059821716563150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 454
+        width: 144
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957f695eef20c4480800000000000000
+      internalID: -8913746268676229287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_3
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 458
+        width: 147
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d180b723df4842320800000000000000
+      internalID: 2532295113497577501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 466
+        width: 134
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f768d21e0e5508480800000000000000
+      internalID: -8899018439345207681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_5
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 456
+        width: 134
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afee34002a6760360800000000000000
+      internalID: 7135521097776361210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 461
+        width: 133
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803130dfeb5c93730800000000000000
+      internalID: 3979429169837839112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 466
+        width: 139
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ae5fef9695622e0800000000000000
+      internalID: -2150933460238865891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_8
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 466
+        width: 145
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bfec09c7781ae80800000000000000
+      internalID: -8169099279998190757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_9
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 466
+        width: 134
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437cd5c049b2a4fb0800000000000000
+      internalID: -4662866549326100684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 313
+        width: 144
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa84a45878cdc470800000000000000
+      internalID: 8416603697767025315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 307
+        width: 146
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f66e45009a46ec40800000000000000
+      internalID: 5541198373950744304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 308
+        width: 147
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d262535f54cafc0800000000000000
+      internalID: -3482331492403237543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 310
+        width: 146
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c026001e716d7c050800000000000000
+      internalID: 5820856441447145996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_14
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 305
+        width: 136
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48cf78b4ca68a480800000000000000
+      internalID: -8887736471474157494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_15
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 313
+        width: 137
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5048bd2b6fb475c0800000000000000
+      internalID: -4218536483889856419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_16
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 308
+        width: 140
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c756b156a89fdaa00800000000000000
+      internalID: 769545484147320188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_17
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 309
+        width: 146
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474063db54d94afd0800000000000000
+      internalID: -2331565784218336140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_18
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 311
+        width: 138
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe7257577803bdf0800000000000000
+      internalID: -165779452623421709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_19
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 311
+        width: 148
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8691cf66bac9d30800000000000000
+      internalID: 4439611791485004020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157
+        width: 144
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8afe0343c9a9460800000000000000
+      internalID: 7249278298179479763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 155
+        width: 144
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d8a57fc28026340800000000000000
+      internalID: 4855452337480306058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_22
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 154
+        width: 144
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91160fa0333163460800000000000000
+      internalID: 7220980162482954521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 158
+        width: 148
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c3f77c511639e10800000000000000
+      internalID: 2203211388883516512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_24
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 173
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95032c74b45b6f1e0800000000000000
+      internalID: -2164343235973861287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_25
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 159
+        width: 145
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8206715b50c20db0800000000000000
+      internalID: -4827084352146505074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_26
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 156
+        width: 142
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6a6d4c0022ca660800000000000000
+      internalID: 7398325674560628422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 157
+        width: 143
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017c452e637f3baf0800000000000000
+      internalID: -381689728298858736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_28
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 156
+        width: 144
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d0f89d931d8b630800000000000000
+      internalID: 3943131520156241252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_29
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 171
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a7ddc3c85d44480800000000000000
+      internalID: -8915766563993454065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_30
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 160
+        width: 144
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b266eff275bc0d580800000000000000
+      internalID: -8804313696181524949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_31
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 173
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab51797378b1e600800000000000000
+      internalID: 495880240085687200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_32
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 159
+        width: 146
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a2186f6579b91e0800000000000000
+      internalID: -2189990394026972631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_33
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 155
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d5d41bf56f56890800000000000000
+      internalID: -7465289916439765683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_34
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 157
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eedbae437049e120800000000000000
+      internalID: 2443555136810508005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_35
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 155
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85aafd422e3e062e0800000000000000
+      internalID: -2134455662952863144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_36
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 157
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41c542970f169df0800000000000000
+      internalID: -173917418227908275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 143
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2d86a7f6aef3650800000000000000
+      internalID: 6214943775310533368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_38
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 7
+        width: 146
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d96e398d32edb920800000000000000
+      internalID: 3007808880076810706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_39
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 6
+        width: 149
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095e4784e59586f10800000000000000
+      internalID: 2263157074231092624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_40
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 9
+        width: 147
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2685da20ba43c86f0800000000000000
+      internalID: -681111534550820766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_41
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 24
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62d0517d36915d50800000000000000
+      internalID: 6724320909279154797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_42
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 5
+        width: 147
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ba279591913b2d0800000000000000
+      internalID: -3264237708247913719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_43
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 7
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e26c28eee20ac30800000000000000
+      internalID: 4368543240480501375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_44
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 7
+        width: 144
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e922ac1950024bf40800000000000000
+      internalID: 5743250633097093790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_45
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 6
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd071c46e052e23f0800000000000000
+      internalID: -923760129814204196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_46
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 10
+        width: 147
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622d9080440e0d2d0800000000000000
+      internalID: -3255855947791609306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_47
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 24
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed80a2005634be880800000000000000
+      internalID: -8580690563950835490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_48
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 9
+        width: 148
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62750562a403a3940800000000000000
+      internalID: 5276583008446469926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_49
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 5
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb47aa4ae27fb0e0800000000000000
+      internalID: -2251954938061566978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_50
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 5
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c2d5becd9943ac0800000000000000
+      internalID: -3876304205138547573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballWeapon-150x150_51
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 8
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b42c4a323b53780800000000000000
+      internalID: -8703853739154191527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ballWeapon-150x150_0: -2328741508665290100
+      ballWeapon-150x150_1: 7087059821716563150
+      ballWeapon-150x150_10: 8416603697767025315
+      ballWeapon-150x150_11: 5541198373950744304
+      ballWeapon-150x150_12: -3482331492403237543
+      ballWeapon-150x150_13: 5820856441447145996
+      ballWeapon-150x150_14: -8887736471474157494
+      ballWeapon-150x150_15: -4218536483889856419
+      ballWeapon-150x150_16: 769545484147320188
+      ballWeapon-150x150_17: -2331565784218336140
+      ballWeapon-150x150_18: -165779452623421709
+      ballWeapon-150x150_19: 4439611791485004020
+      ballWeapon-150x150_2: -8913746268676229287
+      ballWeapon-150x150_20: 7249278298179479763
+      ballWeapon-150x150_21: 4855452337480306058
+      ballWeapon-150x150_22: 7220980162482954521
+      ballWeapon-150x150_23: 2203211388883516512
+      ballWeapon-150x150_24: -2164343235973861287
+      ballWeapon-150x150_25: -4827084352146505074
+      ballWeapon-150x150_26: 7398325674560628422
+      ballWeapon-150x150_27: -381689728298858736
+      ballWeapon-150x150_28: 3943131520156241252
+      ballWeapon-150x150_29: -8915766563993454065
+      ballWeapon-150x150_3: 2532295113497577501
+      ballWeapon-150x150_30: -8804313696181524949
+      ballWeapon-150x150_31: 495880240085687200
+      ballWeapon-150x150_32: -2189990394026972631
+      ballWeapon-150x150_33: -7465289916439765683
+      ballWeapon-150x150_34: 2443555136810508005
+      ballWeapon-150x150_35: -2134455662952863144
+      ballWeapon-150x150_36: -173917418227908275
+      ballWeapon-150x150_37: 6214943775310533368
+      ballWeapon-150x150_38: 3007808880076810706
+      ballWeapon-150x150_39: 2263157074231092624
+      ballWeapon-150x150_4: -8899018439345207681
+      ballWeapon-150x150_40: -681111534550820766
+      ballWeapon-150x150_41: 6724320909279154797
+      ballWeapon-150x150_42: -3264237708247913719
+      ballWeapon-150x150_43: 4368543240480501375
+      ballWeapon-150x150_44: 5743250633097093790
+      ballWeapon-150x150_45: -923760129814204196
+      ballWeapon-150x150_46: -3255855947791609306
+      ballWeapon-150x150_47: -8580690563950835490
+      ballWeapon-150x150_48: 5276583008446469926
+      ballWeapon-150x150_49: -2251954938061566978
+      ballWeapon-150x150_5: 7135521097776361210
+      ballWeapon-150x150_50: -3876304205138547573
+      ballWeapon-150x150_51: -8703853739154191527
+      ballWeapon-150x150_6: 3979429169837839112
+      ballWeapon-150x150_7: -2150933460238865891
+      ballWeapon-150x150_8: -8169099279998190757
+      ballWeapon-150x150_9: -4662866549326100684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

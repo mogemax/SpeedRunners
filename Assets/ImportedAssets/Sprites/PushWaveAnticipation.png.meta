@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 171f634df269e444ba8a54eebd986f58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5132150388178376211
+    second: PushWaveAnticipation_0
+  - first:
+      213: -4991353071588907739
+    second: PushWaveAnticipation_1
+  - first:
+      213: 6177113618053140480
+    second: PushWaveAnticipation_2
+  - first:
+      213: 9141359330887176094
+    second: PushWaveAnticipation_3
+  - first:
+      213: 2064839172633443819
+    second: PushWaveAnticipation_4
+  - first:
+      213: 6462847390865941953
+    second: PushWaveAnticipation_5
+  - first:
+      213: -5489337426388893214
+    second: PushWaveAnticipation_6
+  - first:
+      213: 3205138875145371642
+    second: PushWaveAnticipation_7
+  - first:
+      213: -7638008484130582404
+    second: PushWaveAnticipation_8
+  - first:
+      213: 5260580981087277367
+    second: PushWaveAnticipation_9
+  - first:
+      213: -6976586846377301563
+    second: PushWaveAnticipation_10
+  - first:
+      213: 5586601649120766904
+    second: PushWaveAnticipation_11
+  - first:
+      213: 3975561630581539078
+    second: PushWaveAnticipation_12
+  - first:
+      213: -3502565091069903349
+    second: PushWaveAnticipation_13
+  - first:
+      213: 4715221379977745670
+    second: PushWaveAnticipation_14
+  - first:
+      213: -7109527749693891310
+    second: PushWaveAnticipation_15
+  - first:
+      213: -5841217628584135555
+    second: PushWaveAnticipation_16
+  - first:
+      213: -3756407282119628732
+    second: PushWaveAnticipation_17
+  - first:
+      213: 6655184833557361968
+    second: PushWaveAnticipation_18
+  - first:
+      213: -4658380594964372249
+    second: PushWaveAnticipation_19
+  - first:
+      213: 6556202227599687882
+    second: PushWaveAnticipation_20
+  - first:
+      213: 5413232352405662430
+    second: PushWaveAnticipation_21
+  - first:
+      213: -1950995931905983333
+    second: PushWaveAnticipation_22
+  - first:
+      213: -8369754372612276254
+    second: PushWaveAnticipation_23
+  - first:
+      213: -3476226166096089539
+    second: PushWaveAnticipation_24
+  - first:
+      213: -2682486707173339307
+    second: PushWaveAnticipation_25
+  - first:
+      213: 6259229544132546196
+    second: PushWaveAnticipation_26
+  - first:
+      213: -6320420351822153122
+    second: PushWaveAnticipation_27
+  - first:
+      213: 7036489385886936125
+    second: PushWaveAnticipation_28
+  - first:
+      213: -6272581365678723026
+    second: PushWaveAnticipation_29
+  - first:
+      213: 6895908166235279759
+    second: PushWaveAnticipation_30
+  - first:
+      213: -7110063909662745451
+    second: PushWaveAnticipation_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PushWaveAnticipation_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 418
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3165145369f093740800000000000000
+      internalID: 5132150388178376211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 426
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5256363a3d62bbab0800000000000000
+      internalID: -4991353071588907739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 438
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000194d9b1489b550800000000000000
+      internalID: 6177113618053140480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 339
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f8bb1e0e1acde70800000000000000
+      internalID: 9141359330887176094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 345
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedb02b9948c7ac10800000000000000
+      internalID: 2064839172633443819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 371
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5ef1ad575a0b950800000000000000
+      internalID: 6462847390865941953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 259
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e145d7c1b4f1d3b0800000000000000
+      internalID: -5489337426388893214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 268
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affb5dc43d0fa7c20800000000000000
+      internalID: 3205138875145371642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 292
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c701af760c7500690800000000000000
+      internalID: -7638008484130582404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 265
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73112e1d786510940800000000000000
+      internalID: 5260580981087277367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_10
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 233
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9a40d0a3f2e2f90800000000000000
+      internalID: -6976586846377301563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 269
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb647dc998978d40800000000000000
+      internalID: 5586601649120766904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 253
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6014c755d380c2730800000000000000
+      internalID: 3975561630581539078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e38186b93646fc0800000000000000
+      internalID: -3502565091069903349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 224
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60596eedcd4df6140800000000000000
+      internalID: 4715221379977745670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 209
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d96b6fd22e55d90800000000000000
+      internalID: -7109527749693891310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 238
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d743e70d383dfeea0800000000000000
+      internalID: -5841217628584135555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 230
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448a19daa7f8edbc0800000000000000
+      internalID: -3756407282119628732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 219
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035f0ce6857fb5c50800000000000000
+      internalID: 6655184833557361968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 199
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e46390b78b1a5fb0800000000000000
+      internalID: -4658380594964372249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 208
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac044b3903f4cfa50800000000000000
+      internalID: 6556202227599687882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 203
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaaacbd42aaf1b40800000000000000
+      internalID: 5413232352405662430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_22
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 208
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cf288698bace4e0800000000000000
+      internalID: -1950995931905983333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_23
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 202
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef3c233eb8a8db80800000000000000
+      internalID: -8369754372612276254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3eace248b6f1cfc0800000000000000
+      internalID: -3476226166096089539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 193
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fc9306d84e5cad0800000000000000
+      internalID: -2682486707173339307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 173
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e86a98b104dd650800000000000000
+      internalID: 6259229544132546196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 181
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5abd725d2b5948a0800000000000000
+      internalID: -6320420351822153122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_28
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 171
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ce897c0d1a6a160800000000000000
+      internalID: 7036489385886936125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 173
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e203cf14b7053f8a0800000000000000
+      internalID: -6272581365678723026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 167
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f815b2ce0ff23bf50800000000000000
+      internalID: 6895908166235279759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PushWaveAnticipation_31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 166
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c1a3e7b8af35d90800000000000000
+      internalID: -7110063909662745451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PushWaveAnticipation_0: 5132150388178376211
+      PushWaveAnticipation_1: -4991353071588907739
+      PushWaveAnticipation_10: -6976586846377301563
+      PushWaveAnticipation_11: 5586601649120766904
+      PushWaveAnticipation_12: 3975561630581539078
+      PushWaveAnticipation_13: -3502565091069903349
+      PushWaveAnticipation_14: 4715221379977745670
+      PushWaveAnticipation_15: -7109527749693891310
+      PushWaveAnticipation_16: -5841217628584135555
+      PushWaveAnticipation_17: -3756407282119628732
+      PushWaveAnticipation_18: 6655184833557361968
+      PushWaveAnticipation_19: -4658380594964372249
+      PushWaveAnticipation_2: 6177113618053140480
+      PushWaveAnticipation_20: 6556202227599687882
+      PushWaveAnticipation_21: 5413232352405662430
+      PushWaveAnticipation_22: -1950995931905983333
+      PushWaveAnticipation_23: -8369754372612276254
+      PushWaveAnticipation_24: -3476226166096089539
+      PushWaveAnticipation_25: -2682486707173339307
+      PushWaveAnticipation_26: 6259229544132546196
+      PushWaveAnticipation_27: -6320420351822153122
+      PushWaveAnticipation_28: 7036489385886936125
+      PushWaveAnticipation_29: -6272581365678723026
+      PushWaveAnticipation_3: 9141359330887176094
+      PushWaveAnticipation_30: 6895908166235279759
+      PushWaveAnticipation_31: -7110063909662745451
+      PushWaveAnticipation_4: 2064839172633443819
+      PushWaveAnticipation_5: 6462847390865941953
+      PushWaveAnticipation_6: -5489337426388893214
+      PushWaveAnticipation_7: 3205138875145371642
+      PushWaveAnticipation_8: -7638008484130582404
+      PushWaveAnticipation_9: 5260580981087277367
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

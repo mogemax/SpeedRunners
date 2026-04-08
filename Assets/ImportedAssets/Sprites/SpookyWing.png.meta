@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: b16d13582c27e8a429e6eb41a51b7477
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5809129884366040126
+    second: SpookyWing_0
+  - first:
+      213: -16621161654084797
+    second: SpookyWing_1
+  - first:
+      213: -5351499938575008750
+    second: SpookyWing_2
+  - first:
+      213: -8443838032820468583
+    second: SpookyWing_3
+  - first:
+      213: -3980530614905443099
+    second: SpookyWing_4
+  - first:
+      213: -406150025763628892
+    second: SpookyWing_5
+  - first:
+      213: -3410516070938613958
+    second: SpookyWing_6
+  - first:
+      213: 3254185383911252722
+    second: SpookyWing_7
+  - first:
+      213: -8930273308482909435
+    second: SpookyWing_8
+  - first:
+      213: -8298225726392518679
+    second: SpookyWing_9
+  - first:
+      213: 687120709385944150
+    second: SpookyWing_10
+  - first:
+      213: 5168345577382439155
+    second: SpookyWing_11
+  - first:
+      213: -6033976977530308030
+    second: SpookyWing_12
+  - first:
+      213: -8830149723211850935
+    second: SpookyWing_13
+  - first:
+      213: 4915348986224488161
+    second: SpookyWing_14
+  - first:
+      213: 3838817660827111545
+    second: SpookyWing_15
+  - first:
+      213: -1452275366110204380
+    second: SpookyWing_16
+  - first:
+      213: 6905394139224013063
+    second: SpookyWing_17
+  - first:
+      213: 2804771972672276257
+    second: SpookyWing_18
+  - first:
+      213: 1564050953680963203
+    second: SpookyWing_19
+  - first:
+      213: 6569640949302122803
+    second: SpookyWing_20
+  - first:
+      213: 6479134193895205720
+    second: SpookyWing_21
+  - first:
+      213: 1501192060303275701
+    second: SpookyWing_22
+  - first:
+      213: -8257662853027591139
+    second: SpookyWing_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpookyWing_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 150
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c39144f523d16fa0800000000000000
+      internalID: -5809129884366040126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 150
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b9adb3423f4cff0800000000000000
+      internalID: -16621161654084797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 150
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c36b9c827abb5b0800000000000000
+      internalID: -5351499938575008750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 150
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9948dc8eb0671da80800000000000000
+      internalID: -8443838032820468583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 150
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec6ef8de7052c8c0800000000000000
+      internalID: -3980530614905443099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 150
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8d7d414b01d5af0800000000000000
+      internalID: -406150025763628892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 100
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3761f204b96ba0d0800000000000000
+      internalID: -3410516070938613958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 100
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f26c418d50392d20800000000000000
+      internalID: 3254185383911252722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 100
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b49b49dbb411480800000000000000
+      internalID: -8930273308482909435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 100
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7bd50faa7c6dc80800000000000000
+      internalID: -8298225726392518679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 100
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c73c805a4298900800000000000000
+      internalID: 687120709385944150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 100
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f867586be6a9b740800000000000000
+      internalID: 5168345577382439155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 51
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24abb6788e1034ca0800000000000000
+      internalID: -6033976977530308030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 51
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b91726c91057580800000000000000
+      internalID: -8830149723211850935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 51
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eeacfe3cd3d63440800000000000000
+      internalID: 4915348986224488161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 51
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9709817d258364530800000000000000
+      internalID: 3838817660827111545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 51
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e63febf3b78dbe0800000000000000
+      internalID: -1452275366110204380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 51
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709f28e1263e4df50800000000000000
+      internalID: 6905394139224013063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1274a13bf3d8ce620800000000000000
+      internalID: 2804771972672276257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386c3c04e00a4b510800000000000000
+      internalID: 1564050953680963203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339530dc2ad0c2b50800000000000000
+      internalID: 6569640949302122803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 17
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85be53fa8328ae950800000000000000
+      internalID: 6479134193895205720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 14
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b67306a93e45d410800000000000000
+      internalID: 1501192060303275701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpookyWing_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 13
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c0a5ad263e66d80800000000000000
+      internalID: -8257662853027591139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpookyWing_0: -5809129884366040126
+      SpookyWing_1: -16621161654084797
+      SpookyWing_10: 687120709385944150
+      SpookyWing_11: 5168345577382439155
+      SpookyWing_12: -6033976977530308030
+      SpookyWing_13: -8830149723211850935
+      SpookyWing_14: 4915348986224488161
+      SpookyWing_15: 3838817660827111545
+      SpookyWing_16: -1452275366110204380
+      SpookyWing_17: 6905394139224013063
+      SpookyWing_18: 2804771972672276257
+      SpookyWing_19: 1564050953680963203
+      SpookyWing_2: -5351499938575008750
+      SpookyWing_20: 6569640949302122803
+      SpookyWing_21: 6479134193895205720
+      SpookyWing_22: 1501192060303275701
+      SpookyWing_23: -8257662853027591139
+      SpookyWing_3: -8443838032820468583
+      SpookyWing_4: -3980530614905443099
+      SpookyWing_5: -406150025763628892
+      SpookyWing_6: -3410516070938613958
+      SpookyWing_7: 3254185383911252722
+      SpookyWing_8: -8930273308482909435
+      SpookyWing_9: -8298225726392518679
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

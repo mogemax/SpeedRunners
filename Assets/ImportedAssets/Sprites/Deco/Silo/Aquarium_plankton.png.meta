@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: 9c355325209447b4281ac883b0b45cfa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1465455462833868528
+    second: Aquarium_plankton_0
+  - first:
+      213: 4062639578332266555
+    second: Aquarium_plankton_1
+  - first:
+      213: -5309911614095129616
+    second: Aquarium_plankton_2
+  - first:
+      213: 4941490516047749782
+    second: Aquarium_plankton_3
+  - first:
+      213: 5222521874242878543
+    second: Aquarium_plankton_4
+  - first:
+      213: -4861062682336445597
+    second: Aquarium_plankton_5
+  - first:
+      213: 7986971148203233208
+    second: Aquarium_plankton_6
+  - first:
+      213: 6199956065587874634
+    second: Aquarium_plankton_7
+  - first:
+      213: -1179365927522367590
+    second: Aquarium_plankton_8
+  - first:
+      213: -5681187227290326016
+    second: Aquarium_plankton_9
+  - first:
+      213: 7586350924820318234
+    second: Aquarium_plankton_10
+  - first:
+      213: 5182276480590259580
+    second: Aquarium_plankton_11
+  - first:
+      213: -6688181420904287609
+    second: Aquarium_plankton_12
+  - first:
+      213: -73898943162277118
+    second: Aquarium_plankton_13
+  - first:
+      213: -3849457401696692561
+    second: Aquarium_plankton_14
+  - first:
+      213: 7800076635409327765
+    second: Aquarium_plankton_15
+  - first:
+      213: 523790932465207731
+    second: Aquarium_plankton_16
+  - first:
+      213: 5792798677720173654
+    second: Aquarium_plankton_17
+  - first:
+      213: 5173752714066443753
+    second: Aquarium_plankton_18
+  - first:
+      213: 7600204582700122542
+    second: Aquarium_plankton_19
+  - first:
+      213: -8786930845218864128
+    second: Aquarium_plankton_20
+  - first:
+      213: 5162694611410414530
+    second: Aquarium_plankton_21
+  - first:
+      213: -8537116029549260659
+    second: Aquarium_plankton_22
+  - first:
+      213: 8926617670991804525
+    second: Aquarium_plankton_23
+  - first:
+      213: 1482023731909448360
+    second: Aquarium_plankton_24
+  - first:
+      213: 484496660031712259
+    second: Aquarium_plankton_25
+  - first:
+      213: -6258849632715744625
+    second: Aquarium_plankton_26
+  - first:
+      213: -5369156695391675604
+    second: Aquarium_plankton_27
+  - first:
+      213: 6971547297414010016
+    second: Aquarium_plankton_28
+  - first:
+      213: 996602909547473904
+    second: Aquarium_plankton_29
+  - first:
+      213: -6797908200960203921
+    second: Aquarium_plankton_30
+  - first:
+      213: 294239699657153795
+    second: Aquarium_plankton_31
+  - first:
+      213: 47919195801417795
+    second: Aquarium_plankton_32
+  - first:
+      213: -8797756676818300016
+    second: Aquarium_plankton_33
+  - first:
+      213: -5906418913602685536
+    second: Aquarium_plankton_34
+  - first:
+      213: 6201682447622263237
+    second: Aquarium_plankton_35
+  - first:
+      213: 2536935889519707188
+    second: Aquarium_plankton_36
+  - first:
+      213: 1811417327676218971
+    second: Aquarium_plankton_37
+  - first:
+      213: -578312018468823698
+    second: Aquarium_plankton_38
+  - first:
+      213: -1581312866944361400
+    second: Aquarium_plankton_39
+  - first:
+      213: 174897771849496851
+    second: Aquarium_plankton_40
+  - first:
+      213: -6481907605241017647
+    second: Aquarium_plankton_41
+  - first:
+      213: -2279657332955019025
+    second: Aquarium_plankton_42
+  - first:
+      213: -793825026804733211
+    second: Aquarium_plankton_43
+  - first:
+      213: -5500062924180393089
+    second: Aquarium_plankton_44
+  - first:
+      213: 8149018954074278134
+    second: Aquarium_plankton_45
+  - first:
+      213: 3380985564991967130
+    second: Aquarium_plankton_46
+  - first:
+      213: -4985968883098656738
+    second: Aquarium_plankton_47
+  - first:
+      213: -6218406246978016013
+    second: Aquarium_plankton_48
+  - first:
+      213: -933098238846317288
+    second: Aquarium_plankton_49
+  - first:
+      213: 7721633739657092530
+    second: Aquarium_plankton_50
+  - first:
+      213: 3149183439922212735
+    second: Aquarium_plankton_51
+  - first:
+      213: 8775202425730745542
+    second: Aquarium_plankton_52
+  - first:
+      213: 7274250193588536000
+    second: Aquarium_plankton_53
+  - first:
+      213: -7215624470100879704
+    second: Aquarium_plankton_54
+  - first:
+      213: 534675969820661104
+    second: Aquarium_plankton_55
+  - first:
+      213: 8599291374987186085
+    second: Aquarium_plankton_56
+  - first:
+      213: 8880866255760895156
+    second: Aquarium_plankton_57
+  - first:
+      213: -6821281298383321502
+    second: Aquarium_plankton_58
+  - first:
+      213: -5578522574975691535
+    second: Aquarium_plankton_59
+  - first:
+      213: -1985632117849293036
+    second: Aquarium_plankton_60
+  - first:
+      213: 2420665110422827418
+    second: Aquarium_plankton_61
+  - first:
+      213: 212213929059151782
+    second: Aquarium_plankton_62
+  - first:
+      213: -2003756291189969817
+    second: Aquarium_plankton_63
+  - first:
+      213: -2440022348759231033
+    second: Aquarium_plankton_64
+  - first:
+      213: 7120643932748287021
+    second: Aquarium_plankton_65
+  - first:
+      213: 6502498384177451211
+    second: Aquarium_plankton_66
+  - first:
+      213: -6568613711769006728
+    second: Aquarium_plankton_67
+  - first:
+      213: -1932898572642118303
+    second: Aquarium_plankton_68
+  - first:
+      213: -6464596935226421803
+    second: Aquarium_plankton_69
+  - first:
+      213: -8183647094125792187
+    second: Aquarium_plankton_70
+  - first:
+      213: 8108205546649533264
+    second: Aquarium_plankton_71
+  - first:
+      213: -1662007452834427823
+    second: Aquarium_plankton_72
+  - first:
+      213: -2586277745359005701
+    second: Aquarium_plankton_73
+  - first:
+      213: 5672624032062045709
+    second: Aquarium_plankton_74
+  - first:
+      213: -1266846959259211996
+    second: Aquarium_plankton_75
+  - first:
+      213: 626145417572291522
+    second: Aquarium_plankton_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aquarium_plankton_0
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 453
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe4e58aaf7565410800000000000000
+      internalID: 1465455462833868528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_1
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 461
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3000f4fb25616830800000000000000
+      internalID: 4062639578332266555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 405
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3832525876f46b0800000000000000
+      internalID: -5309911614095129616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_3
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 417
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692ecf57173b39440800000000000000
+      internalID: 4941490516047749782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_4
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 407
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c34f979ff1a7840800000000000000
+      internalID: 5222521874242878543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_5
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 425
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bbd64de390a8cb0800000000000000
+      internalID: -4861062682336445597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_6
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 413
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf82f741fb67de60800000000000000
+      internalID: 7986971148203233208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_7
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 347
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bc460613baa0650800000000000000
+      internalID: 6199956065587874634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_8
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 371
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9784ddffec02afe0800000000000000
+      internalID: -1179365927522367590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 337
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cafd6215e5821b0800000000000000
+      internalID: -5681187227290326016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_10
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 335
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a180f5fc8f1284960800000000000000
+      internalID: 7586350924820318234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_11
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 339
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75a17190052be740800000000000000
+      internalID: 5182276480590259580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_12
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 341
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782f1a5ee6ece23a0800000000000000
+      internalID: -6688181420904287609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_13
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 319
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203298f7d4579fef0800000000000000
+      internalID: -73898943162277118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_14
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 347
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6ded173eaf39ac0800000000000000
+      internalID: -3849457401696692561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_15
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 343
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596a5629f507f3c60800000000000000
+      internalID: 7800076635409327765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_16
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 343
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9c822f311e44700800000000000000
+      internalID: 523790932465207731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 307
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c0dd0b4b7246050800000000000000
+      internalID: 5792798677720173654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_18
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 311
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edb4a58eacdcc740800000000000000
+      internalID: 5173752714066443753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_19
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 313
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea10324ecc9597960800000000000000
+      internalID: 7600204582700122542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_20
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 295
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0048ec093fc8e0680800000000000000
+      internalID: -8786930845218864128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_21
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 319
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbe0fc556395a740800000000000000
+      internalID: 5162694611410414530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_22
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 313
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d805c64e332168980800000000000000
+      internalID: -8537116029549260659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_23
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 267
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68f03df977b1eb70800000000000000
+      internalID: 8926617670991804525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_24
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 285
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a259296bb4319410800000000000000
+      internalID: 1482023731909448360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_25
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 271
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cad04352749b600800000000000000
+      internalID: 484496660031712259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_26
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 289
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ad46b7b691429a0800000000000000
+      internalID: -6258849632715744625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_27
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 293
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bd4cbbe6cec75b0800000000000000
+      internalID: -5369156695391675604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_28
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 265
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a452358459efb060800000000000000
+      internalID: 6971547297414010016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_29
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 293
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fba2b5e015a4dd00800000000000000
+      internalID: 996602909547473904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_30
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 275
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f636d02128af8a1a0800000000000000
+      internalID: -6797908200960203921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_31
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 239
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30dd1e8a279551400800000000000000
+      internalID: 294239699657153795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_32
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 255
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3487aa3314e3aa000800000000000000
+      internalID: 47919195801417795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_33
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 261
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0939ce93ae618e580800000000000000
+      internalID: -8797756676818300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_34
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 265
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a53018aa4f280ea0800000000000000
+      internalID: -5906418913602685536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_35
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 247
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1dc44045dc01650800000000000000
+      internalID: 6201682447622263237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_36
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 263
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43403c010c1053320800000000000000
+      internalID: 2536935889519707188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_37
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 247
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ed0245672732910800000000000000
+      internalID: 1811417327676218971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_38
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 247
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d93d1884c69f7f0800000000000000
+      internalID: -578312018468823698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_39
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 239
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cd60f535c0e0ae0800000000000000
+      internalID: -1581312866944361400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_40
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 239
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319b81bc89c5d6200800000000000000
+      internalID: 174897771849496851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_41
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 221
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dac4ba2063ab06a0800000000000000
+      internalID: -6481907605241017647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_42
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 239
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe80a9bdbb70d50e0800000000000000
+      internalID: -2279657332955019025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_43
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 213
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea2d7f0854cbf4f0800000000000000
+      internalID: -793825026804733211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_44
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 225
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f737ee939e9dba3b0800000000000000
+      internalID: -5500062924180393089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_45
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 223
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8c5893091271170800000000000000
+      internalID: 8149018954074278134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_46
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 193
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fc118457cabee20800000000000000
+      internalID: 3380985564991967130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_47
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 215
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10e0c5b7b74ecab0800000000000000
+      internalID: -4985968883098656738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_48
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 195
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc2ec30778c3b9a0800000000000000
+      internalID: -6218406246978016013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_49
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 193
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dc5057818fc03f0800000000000000
+      internalID: -933098238846317288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_50
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 193
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd9ee9a9f0c82b60800000000000000
+      internalID: 7721633739657092530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_51
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 209
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f2b1d47a524bb20800000000000000
+      internalID: 3149183439922212735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_52
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 193
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4c3d9fc18c7c970800000000000000
+      internalID: 8775202425730745542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_53
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 197
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2492ca20453f460800000000000000
+      internalID: 7274250193588536000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_54
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 201
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6550346c3fcdb90800000000000000
+      internalID: -7215624470100879704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_55
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 201
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075191336fc8b6700800000000000000
+      internalID: 534675969820661104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_56
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 175
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af013ec1f1d65770800000000000000
+      internalID: 8599291374987186085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_57
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 189
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bca1688ecc2f3b70800000000000000
+      internalID: 8880866255760895156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_58
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 169
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266c8d0ccc0f551a0800000000000000
+      internalID: -6821281298383321502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_59
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 167
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4931b364b1592b0800000000000000
+      internalID: -5578522574975691535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_60
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 183
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f7cf0fb1e9174e0800000000000000
+      internalID: -1985632117849293036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_61
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 155
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a913feab71ee79120800000000000000
+      internalID: 2420665110422827418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_62
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 147
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afe5f1b17fe1f200800000000000000
+      internalID: 212213929059151782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_63
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 149
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cea2ff44a3134e0800000000000000
+      internalID: -2003756291189969817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_64
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 143
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c511320a9c432ed0800000000000000
+      internalID: -2440022348759231033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_65
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 161
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c80871eeb91d260800000000000000
+      internalID: 7120643932748287021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_66
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 119
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0d27524d38d3a50800000000000000
+      internalID: 6502498384177451211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_67
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 129
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d8f3391a897d4a0800000000000000
+      internalID: -6568613711769006728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_68
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 109
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1659ec63df6fc25e0800000000000000
+      internalID: -1932898572642118303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_69
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 127
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd00cb96532946a0800000000000000
+      internalID: -6464596935226421803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_70
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 97
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5447973a358dd6e80800000000000000
+      internalID: -8183647094125792187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_71
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 105
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bb5ed4cf1268070800000000000000
+      internalID: 8108205546649533264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_72
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 51
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c80cff60d5fe8e0800000000000000
+      internalID: -1662007452834427823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_73
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 73
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7d061e712bb1cd0800000000000000
+      internalID: -2586277745359005701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_74
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 51
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ef667908539be40800000000000000
+      internalID: 5672624032062045709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_75
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 59
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427229017614b6ee0800000000000000
+      internalID: -1266846959259211996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aquarium_plankton_76
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 5
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3922890f380b800800000000000000
+      internalID: 626145417572291522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Aquarium_plankton_0: 1465455462833868528
+      Aquarium_plankton_1: 4062639578332266555
+      Aquarium_plankton_10: 7586350924820318234
+      Aquarium_plankton_11: 5182276480590259580
+      Aquarium_plankton_12: -6688181420904287609
+      Aquarium_plankton_13: -73898943162277118
+      Aquarium_plankton_14: -3849457401696692561
+      Aquarium_plankton_15: 7800076635409327765
+      Aquarium_plankton_16: 523790932465207731
+      Aquarium_plankton_17: 5792798677720173654
+      Aquarium_plankton_18: 5173752714066443753
+      Aquarium_plankton_19: 7600204582700122542
+      Aquarium_plankton_2: -5309911614095129616
+      Aquarium_plankton_20: -8786930845218864128
+      Aquarium_plankton_21: 5162694611410414530
+      Aquarium_plankton_22: -8537116029549260659
+      Aquarium_plankton_23: 8926617670991804525
+      Aquarium_plankton_24: 1482023731909448360
+      Aquarium_plankton_25: 484496660031712259
+      Aquarium_plankton_26: -6258849632715744625
+      Aquarium_plankton_27: -5369156695391675604
+      Aquarium_plankton_28: 6971547297414010016
+      Aquarium_plankton_29: 996602909547473904
+      Aquarium_plankton_3: 4941490516047749782
+      Aquarium_plankton_30: -6797908200960203921
+      Aquarium_plankton_31: 294239699657153795
+      Aquarium_plankton_32: 47919195801417795
+      Aquarium_plankton_33: -8797756676818300016
+      Aquarium_plankton_34: -5906418913602685536
+      Aquarium_plankton_35: 6201682447622263237
+      Aquarium_plankton_36: 2536935889519707188
+      Aquarium_plankton_37: 1811417327676218971
+      Aquarium_plankton_38: -578312018468823698
+      Aquarium_plankton_39: -1581312866944361400
+      Aquarium_plankton_4: 5222521874242878543
+      Aquarium_plankton_40: 174897771849496851
+      Aquarium_plankton_41: -6481907605241017647
+      Aquarium_plankton_42: -2279657332955019025
+      Aquarium_plankton_43: -793825026804733211
+      Aquarium_plankton_44: -5500062924180393089
+      Aquarium_plankton_45: 8149018954074278134
+      Aquarium_plankton_46: 3380985564991967130
+      Aquarium_plankton_47: -4985968883098656738
+      Aquarium_plankton_48: -6218406246978016013
+      Aquarium_plankton_49: -933098238846317288
+      Aquarium_plankton_5: -4861062682336445597
+      Aquarium_plankton_50: 7721633739657092530
+      Aquarium_plankton_51: 3149183439922212735
+      Aquarium_plankton_52: 8775202425730745542
+      Aquarium_plankton_53: 7274250193588536000
+      Aquarium_plankton_54: -7215624470100879704
+      Aquarium_plankton_55: 534675969820661104
+      Aquarium_plankton_56: 8599291374987186085
+      Aquarium_plankton_57: 8880866255760895156
+      Aquarium_plankton_58: -6821281298383321502
+      Aquarium_plankton_59: -5578522574975691535
+      Aquarium_plankton_6: 7986971148203233208
+      Aquarium_plankton_60: -1985632117849293036
+      Aquarium_plankton_61: 2420665110422827418
+      Aquarium_plankton_62: 212213929059151782
+      Aquarium_plankton_63: -2003756291189969817
+      Aquarium_plankton_64: -2440022348759231033
+      Aquarium_plankton_65: 7120643932748287021
+      Aquarium_plankton_66: 6502498384177451211
+      Aquarium_plankton_67: -6568613711769006728
+      Aquarium_plankton_68: -1932898572642118303
+      Aquarium_plankton_69: -6464596935226421803
+      Aquarium_plankton_7: 6199956065587874634
+      Aquarium_plankton_70: -8183647094125792187
+      Aquarium_plankton_71: 8108205546649533264
+      Aquarium_plankton_72: -1662007452834427823
+      Aquarium_plankton_73: -2586277745359005701
+      Aquarium_plankton_74: 5672624032062045709
+      Aquarium_plankton_75: -1266846959259211996
+      Aquarium_plankton_76: 626145417572291522
+      Aquarium_plankton_8: -1179365927522367590
+      Aquarium_plankton_9: -5681187227290326016
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3835 @@
+fileFormatVersion: 2
+guid: e71af898f8b266249b2007142e86f112
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7049314841173876634
+    second: fireParticle_140x140_0
+  - first:
+      213: 463291327848779202
+    second: fireParticle_140x140_1
+  - first:
+      213: -8208418593442405642
+    second: fireParticle_140x140_2
+  - first:
+      213: 4338079957754892777
+    second: fireParticle_140x140_3
+  - first:
+      213: 4582642259670072965
+    second: fireParticle_140x140_4
+  - first:
+      213: 2496718898828519629
+    second: fireParticle_140x140_5
+  - first:
+      213: 1335054805576180384
+    second: fireParticle_140x140_6
+  - first:
+      213: 1793112375806720963
+    second: fireParticle_140x140_7
+  - first:
+      213: 8146197859128745503
+    second: fireParticle_140x140_8
+  - first:
+      213: 3003064995863300019
+    second: fireParticle_140x140_9
+  - first:
+      213: -3570127938051415307
+    second: fireParticle_140x140_10
+  - first:
+      213: 7769499667078036908
+    second: fireParticle_140x140_11
+  - first:
+      213: -7451686794283508425
+    second: fireParticle_140x140_12
+  - first:
+      213: 4015164702761621929
+    second: fireParticle_140x140_13
+  - first:
+      213: -1846892250152723933
+    second: fireParticle_140x140_14
+  - first:
+      213: 2288337293605270052
+    second: fireParticle_140x140_15
+  - first:
+      213: 923541731379855178
+    second: fireParticle_140x140_16
+  - first:
+      213: 8788008379256361316
+    second: fireParticle_140x140_17
+  - first:
+      213: -2662500915959196717
+    second: fireParticle_140x140_18
+  - first:
+      213: 8467495903376349988
+    second: fireParticle_140x140_19
+  - first:
+      213: 3301545177063083583
+    second: fireParticle_140x140_20
+  - first:
+      213: 7033988655782897667
+    second: fireParticle_140x140_21
+  - first:
+      213: -8052525470040118709
+    second: fireParticle_140x140_22
+  - first:
+      213: 8834296710437147150
+    second: fireParticle_140x140_23
+  - first:
+      213: 11286418782692076
+    second: fireParticle_140x140_24
+  - first:
+      213: 790758977011337961
+    second: fireParticle_140x140_25
+  - first:
+      213: 1790324592642503129
+    second: fireParticle_140x140_26
+  - first:
+      213: -8107155720437987529
+    second: fireParticle_140x140_27
+  - first:
+      213: -3906994606800441816
+    second: fireParticle_140x140_28
+  - first:
+      213: 6892373875768781231
+    second: fireParticle_140x140_29
+  - first:
+      213: 1216652614140334739
+    second: fireParticle_140x140_30
+  - first:
+      213: -8587684108269609620
+    second: fireParticle_140x140_31
+  - first:
+      213: 5569107939933675912
+    second: fireParticle_140x140_32
+  - first:
+      213: -1100144921647988550
+    second: fireParticle_140x140_33
+  - first:
+      213: -7377260329941677425
+    second: fireParticle_140x140_34
+  - first:
+      213: -6204564727030780437
+    second: fireParticle_140x140_35
+  - first:
+      213: 9133659471912133448
+    second: fireParticle_140x140_36
+  - first:
+      213: -304306428964542187
+    second: fireParticle_140x140_37
+  - first:
+      213: -4372507274518236783
+    second: fireParticle_140x140_38
+  - first:
+      213: -7475744082061123601
+    second: fireParticle_140x140_39
+  - first:
+      213: -1972803174656046007
+    second: fireParticle_140x140_40
+  - first:
+      213: 3971169658742118298
+    second: fireParticle_140x140_41
+  - first:
+      213: 4662317473088492983
+    second: fireParticle_140x140_42
+  - first:
+      213: 499492249712860030
+    second: fireParticle_140x140_43
+  - first:
+      213: -7184244708546207849
+    second: fireParticle_140x140_44
+  - first:
+      213: -4037088860219969891
+    second: fireParticle_140x140_45
+  - first:
+      213: 4144302004244995925
+    second: fireParticle_140x140_46
+  - first:
+      213: 2950747102942368091
+    second: fireParticle_140x140_47
+  - first:
+      213: -6404318661760194077
+    second: fireParticle_140x140_48
+  - first:
+      213: 4230721317339585248
+    second: fireParticle_140x140_49
+  - first:
+      213: 7196905037134029456
+    second: fireParticle_140x140_50
+  - first:
+      213: -6840186499697136807
+    second: fireParticle_140x140_51
+  - first:
+      213: 8973066621718014915
+    second: fireParticle_140x140_52
+  - first:
+      213: 4441016107141475253
+    second: fireParticle_140x140_53
+  - first:
+      213: 9118203956445806670
+    second: fireParticle_140x140_54
+  - first:
+      213: 7149698489344832613
+    second: fireParticle_140x140_55
+  - first:
+      213: -7011846097793689296
+    second: fireParticle_140x140_56
+  - first:
+      213: -6706833278913085589
+    second: fireParticle_140x140_57
+  - first:
+      213: -7443079741086092920
+    second: fireParticle_140x140_58
+  - first:
+      213: -2823452419023283108
+    second: fireParticle_140x140_59
+  - first:
+      213: -5431512331754221512
+    second: fireParticle_140x140_60
+  - first:
+      213: -6943054009120279111
+    second: fireParticle_140x140_61
+  - first:
+      213: -1779454127683286009
+    second: fireParticle_140x140_62
+  - first:
+      213: 5715311681480545803
+    second: fireParticle_140x140_63
+  - first:
+      213: -1763941828751605842
+    second: fireParticle_140x140_64
+  - first:
+      213: 8842986805826231635
+    second: fireParticle_140x140_65
+  - first:
+      213: 7919037461573820198
+    second: fireParticle_140x140_66
+  - first:
+      213: -2691081727720863718
+    second: fireParticle_140x140_67
+  - first:
+      213: -2764302635503753335
+    second: fireParticle_140x140_68
+  - first:
+      213: -9118845766026596900
+    second: fireParticle_140x140_69
+  - first:
+      213: 4392059086647374598
+    second: fireParticle_140x140_70
+  - first:
+      213: -4135266063218584551
+    second: fireParticle_140x140_71
+  - first:
+      213: 14949480039645091
+    second: fireParticle_140x140_72
+  - first:
+      213: -6384363125435594539
+    second: fireParticle_140x140_73
+  - first:
+      213: -4158366290202657046
+    second: fireParticle_140x140_74
+  - first:
+      213: 8859056769021234820
+    second: fireParticle_140x140_75
+  - first:
+      213: -5125017276912422877
+    second: fireParticle_140x140_76
+  - first:
+      213: 4992636634203842205
+    second: fireParticle_140x140_77
+  - first:
+      213: 518229123430629246
+    second: fireParticle_140x140_78
+  - first:
+      213: -8969452056964538705
+    second: fireParticle_140x140_79
+  - first:
+      213: -8974271408688305326
+    second: fireParticle_140x140_80
+  - first:
+      213: -4428993133601573285
+    second: fireParticle_140x140_81
+  - first:
+      213: -1722602075759612349
+    second: fireParticle_140x140_82
+  - first:
+      213: 2250265429139898715
+    second: fireParticle_140x140_83
+  - first:
+      213: -9121741585137732861
+    second: fireParticle_140x140_84
+  - first:
+      213: -4142151139688179180
+    second: fireParticle_140x140_85
+  - first:
+      213: -3174977808580078106
+    second: fireParticle_140x140_86
+  - first:
+      213: -5381554168876846878
+    second: fireParticle_140x140_87
+  - first:
+      213: 7586477705953687654
+    second: fireParticle_140x140_88
+  - first:
+      213: -1530192620882119513
+    second: fireParticle_140x140_89
+  - first:
+      213: 2354135839529550617
+    second: fireParticle_140x140_90
+  - first:
+      213: 2631892866330303926
+    second: fireParticle_140x140_91
+  - first:
+      213: 6622268697763591941
+    second: fireParticle_140x140_92
+  - first:
+      213: -1865136994634091086
+    second: fireParticle_140x140_93
+  - first:
+      213: -1683879988749677384
+    second: fireParticle_140x140_94
+  - first:
+      213: 3728051359446287886
+    second: fireParticle_140x140_95
+  - first:
+      213: 1830938357602671456
+    second: fireParticle_140x140_96
+  - first:
+      213: 8176396731390899247
+    second: fireParticle_140x140_97
+  - first:
+      213: 7582319854651502854
+    second: fireParticle_140x140_98
+  - first:
+      213: -6719047208121266919
+    second: fireParticle_140x140_99
+  - first:
+      213: -6069944421015827696
+    second: fireParticle_140x140_100
+  - first:
+      213: -3222217391525046129
+    second: fireParticle_140x140_101
+  - first:
+      213: -2838575084658369645
+    second: fireParticle_140x140_102
+  - first:
+      213: 2728832036647076370
+    second: fireParticle_140x140_103
+  - first:
+      213: -5673963996713015660
+    second: fireParticle_140x140_104
+  - first:
+      213: 2722253971798579896
+    second: fireParticle_140x140_105
+  - first:
+      213: -750049413341237706
+    second: fireParticle_140x140_106
+  - first:
+      213: 2275736812413433901
+    second: fireParticle_140x140_107
+  - first:
+      213: 9087248325643340447
+    second: fireParticle_140x140_108
+  - first:
+      213: 5296357603258940013
+    second: fireParticle_140x140_109
+  - first:
+      213: -2810645263500514114
+    second: fireParticle_140x140_110
+  - first:
+      213: -321618931173577045
+    second: fireParticle_140x140_111
+  - first:
+      213: -2742957246238735536
+    second: fireParticle_140x140_112
+  - first:
+      213: 6352960345148141946
+    second: fireParticle_140x140_113
+  - first:
+      213: -3950077257980005188
+    second: fireParticle_140x140_114
+  - first:
+      213: 2496613486262191062
+    second: fireParticle_140x140_115
+  - first:
+      213: -1610283775337476314
+    second: fireParticle_140x140_116
+  - first:
+      213: -4972392644588336920
+    second: fireParticle_140x140_117
+  - first:
+      213: 981970764412552235
+    second: fireParticle_140x140_118
+  - first:
+      213: 475298920844627353
+    second: fireParticle_140x140_119
+  - first:
+      213: 4104697483988833914
+    second: fireParticle_140x140_120
+  - first:
+      213: 3523039524933742231
+    second: fireParticle_140x140_121
+  - first:
+      213: 320052875343766435
+    second: fireParticle_140x140_122
+  - first:
+      213: 7016912171077835568
+    second: fireParticle_140x140_123
+  - first:
+      213: -5168243353518681447
+    second: fireParticle_140x140_124
+  - first:
+      213: 8053803038396330720
+    second: fireParticle_140x140_125
+  - first:
+      213: -868394824198755515
+    second: fireParticle_140x140_126
+  - first:
+      213: -7719587889251471047
+    second: fireParticle_140x140_127
+  - first:
+      213: -5488127034756738370
+    second: fireParticle_140x140_128
+  - first:
+      213: 9201675877359135061
+    second: fireParticle_140x140_129
+  - first:
+      213: 3154133632381141795
+    second: fireParticle_140x140_130
+  - first:
+      213: -1859910363700715242
+    second: fireParticle_140x140_131
+  - first:
+      213: -2781816909408241400
+    second: fireParticle_140x140_132
+  - first:
+      213: 2508968602230478849
+    second: fireParticle_140x140_133
+  - first:
+      213: -4586100202348249301
+    second: fireParticle_140x140_134
+  - first:
+      213: 5684846981255546031
+    second: fireParticle_140x140_135
+  - first:
+      213: 2706240488655849210
+    second: fireParticle_140x140_136
+  - first:
+      213: -3219516333593615214
+    second: fireParticle_140x140_137
+  - first:
+      213: -1761665691065495148
+    second: fireParticle_140x140_138
+  - first:
+      213: 6858701715676697142
+    second: fireParticle_140x140_139
+  - first:
+      213: -94880238869415065
+    second: fireParticle_140x140_140
+  - first:
+      213: -3603509969405711743
+    second: fireParticle_140x140_141
+  - first:
+      213: 5953747941368787038
+    second: fireParticle_140x140_142
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireParticle_140x140_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 289
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66021f5308dcb2e90800000000000000
+      internalID: -7049314841173876634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 291
+        width: 92
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd02ff0201fd6600800000000000000
+      internalID: 463291327848779202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 292
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2672287c6d51e80800000000000000
+      internalID: -8208418593442405642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 292
+        width: 110
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1d839ccb4f33c30800000000000000
+      internalID: 4338079957754892777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_4
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 291
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ef354fad0d89f30800000000000000
+      internalID: 4582642259670072965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_5
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 291
+        width: 123
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8adac3c9026a220800000000000000
+      internalID: 2496718898828519629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_6
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 298
+        width: 125
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2eb02b541178210800000000000000
+      internalID: 1335054805576180384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 181
+        width: 126
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbf05a943a62e810800000000000000
+      internalID: 1793112375806720963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 181
+        width: 129
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e9a6fdacb1d0170800000000000000
+      internalID: 8146197859128745503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 226
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b787dbe3b70da920800000000000000
+      internalID: 3003064995863300019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 265
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f26fb14e8b547ec0800000000000000
+      internalID: -3570127938051415307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_11
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 218
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadb3ba58cec2db60800000000000000
+      internalID: 7769499667078036908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_12
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 226
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d1341675a469890800000000000000
+      internalID: -7451686794283508425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_13
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 265
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a91bce160bb8b730800000000000000
+      internalID: 4015164702761621929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 218
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a9933a8458e56e0800000000000000
+      internalID: -1846892250152723933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 265
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422fe97f4aec1cf10800000000000000
+      internalID: 2288337293605270052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_16
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 265
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f3522cf4411dc00800000000000000
+      internalID: 923541731379855178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_17
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 266
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4615bb06f0745f970800000000000000
+      internalID: 8788008379256361316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_18
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 228
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d399120685ec0bd0800000000000000
+      internalID: -2662500915959196717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_19
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 232
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b92d159a6928570800000000000000
+      internalID: 8467495903376349988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_20
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 242
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ecfb0a8d171dd20800000000000000
+      internalID: 3301545177063083583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_21
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 243
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308211e2a6fbd9160800000000000000
+      internalID: 7033988655782897667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_22
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 228
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a2975cfbeaf3090800000000000000
+      internalID: -8052525470040118709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_23
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 232
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0212025d0ab99a70800000000000000
+      internalID: 8834296710437147150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_24
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 242
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2245620f8182000800000000000000
+      internalID: 11286418782692076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_25
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 243
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea46b7991759fa00800000000000000
+      internalID: 790758977011337961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_26
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 227
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d13a114bb288d810800000000000000
+      internalID: 1790324592642503129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_27
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 232
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737848863d89d7f80800000000000000
+      internalID: -8107155720437987529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_28
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 232
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82eea42fa1197c9c0800000000000000
+      internalID: -3906994606800441816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_29
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 245
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9616cc581a6af50800000000000000
+      internalID: 6892373875768781231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_30
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 245
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39292e04b1b62e010800000000000000
+      internalID: 1216652614140334739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_31
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 218
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d92539dca62d880800000000000000
+      internalID: -8587684108269609620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_32
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 232
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881ed8b3a22794d40800000000000000
+      internalID: 5569107939933675912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_33
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 218
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0c8b7c5008bb0f0800000000000000
+      internalID: -1100144921647988550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_34
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 232
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ace3af0d4be9990800000000000000
+      internalID: -7377260329941677425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_35
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 227
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed69630145f4e9a0800000000000000
+      internalID: -6204564727030780437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_36
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 218
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84364b2c5e641ce70800000000000000
+      internalID: 9133659471912133448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_37
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 161
+        width: 94
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51963b64ae2e6cbf0800000000000000
+      internalID: -304306428964542187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_38
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 163
+        width: 95
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1917784eccbb153c0800000000000000
+      internalID: -4372507274518236783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_39
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 176
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef94059d52d04890800000000000000
+      internalID: -7475744082061123601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_40
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 196
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c0dda07f13f94e0800000000000000
+      internalID: -1972803174656046007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_41
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a971224b3cd6c1730800000000000000
+      internalID: 3971169658742118298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_42
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 211
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5598d2a01e3b040800000000000000
+      internalID: 4662317473088492983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_43
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 176
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b12300e8d8ee600800000000000000
+      internalID: 499492249712860030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_44
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 196
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f9f97508f6c4c90800000000000000
+      internalID: -7184244708546207849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_45
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ee6ef221169f7c0800000000000000
+      internalID: -4037088860219969891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_46
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 211
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f56f427b4838930800000000000000
+      internalID: 4144302004244995925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_47
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 178
+        width: 68
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5194ec3bd823f820800000000000000
+      internalID: 2950747102942368091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_48
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 217
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9e061db1a4f17a0800000000000000
+      internalID: -6404318661760194077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_49
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 210
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ead2bf6f9a86ba30800000000000000
+      internalID: 4230721317339585248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_50
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 201
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092e79c100b80e360800000000000000
+      internalID: 7196905037134029456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_51
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 210
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b21209e96c211a0800000000000000
+      internalID: -6840186499697136807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_52
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 214
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbaa651d8cb68c70800000000000000
+      internalID: 8973066621718014915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_53
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 178
+        width: 68
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bba4f3be98a1ad30800000000000000
+      internalID: 4441016107141475253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_54
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 217
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e408385203e5a8e70800000000000000
+      internalID: 9118203956445806670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_55
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 210
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564bb8435e4d83360800000000000000
+      internalID: 7149698489344832613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_56
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 201
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0395c49df1be0be90800000000000000
+      internalID: -7011846097793689296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_57
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 210
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ffd9acaaa8ce2a0800000000000000
+      internalID: -6706833278913085589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_58
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 214
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88138ad196ed4b890800000000000000
+      internalID: -7443079741086092920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_59
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 194
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c56e3fbf411d8d0800000000000000
+      internalID: -2823452419023283108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_60
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 210
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830d2a8cf446f94b0800000000000000
+      internalID: -5431512331754221512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_61
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 203
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5b8022a2155af90800000000000000
+      internalID: -6943054009120279111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_62
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cc55916eb1e47e0800000000000000
+      internalID: -1779454127683286009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_63
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 217
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06d94b71bdd05f40800000000000000
+      internalID: 5715311681480545803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_64
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 202
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafbec4a0483587e0800000000000000
+      internalID: -1763941828751605842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_65
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 188
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d1db2d5a998ba70800000000000000
+      internalID: 8842986805826231635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_66
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 181
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f5e1c4d9216ed60800000000000000
+      internalID: 7919037461573820198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_67
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 181
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1847a53d6b57aad0800000000000000
+      internalID: -2691081727720863718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_68
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 181
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9876f1f166933a9d0800000000000000
+      internalID: -2764302635503753335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_69
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 181
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdde86ae61a537180800000000000000
+      internalID: -9118845766026596900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_70
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 186
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603b42c187ab3fc30800000000000000
+      internalID: 4392059086647374598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_71
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 191
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914d022dc659c96c0800000000000000
+      internalID: -4135266063218584551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_72
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 182
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aff65f097c153000800000000000000
+      internalID: 14949480039645091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_73
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 168
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d80f4f209f2667a0800000000000000
+      internalID: -6384363125435594539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_74
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 168
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeef28a14e38a46c0800000000000000
+      internalID: -4158366290202657046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_75
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 174
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ec782b131b1fa70800000000000000
+      internalID: 8859056769021234820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_76
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 174
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32035eda0f740e8b0800000000000000
+      internalID: -5125017276912422877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_77
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 179
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9662521198694540800000000000000
+      internalID: 4992636634203842205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_78
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f385e54ae113700800000000000000
+      internalID: 518229123430629246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_79
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 126
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae5bba50ea168380800000000000000
+      internalID: -8969452056964538705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_80
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 126
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b603793bbf47380800000000000000
+      internalID: -8974271408688305326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_81
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 126
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56b807f53e0982c0800000000000000
+      internalID: -4428993133601573285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_82
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 87
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e6ff0f9861818e0800000000000000
+      internalID: -1722602075759612349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_83
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 92
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51c9324c7c8a3f10800000000000000
+      internalID: 2250265429139898715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_84
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 92
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303f4fc7b50196180800000000000000
+      internalID: -9121741585137732861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_85
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 105
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a18e80c7f1486c0800000000000000
+      internalID: -4142151139688179180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_86
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 105
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e516dd318630f3d0800000000000000
+      internalID: -3174977808580078106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_87
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 91
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0b2900ff0e055b0800000000000000
+      internalID: -5381554168876846878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_88
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 96
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6683ac75745984960800000000000000
+      internalID: 7586477705953687654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_89
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 99
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4b56a2be9a3cae0800000000000000
+      internalID: -1530192620882119513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_90
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 76
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913cc24c2129ba020800000000000000
+      internalID: 2354135839529550617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_91
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 91
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd90881e9c568420800000000000000
+      internalID: 2631892866330303926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_92
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 96
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50733695b4607eb50800000000000000
+      internalID: 6622268697763591941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_93
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 99
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5356909c3bd16e0800000000000000
+      internalID: -1865136994634091086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_94
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 76
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bccf226218a1a8e0800000000000000
+      internalID: -1683879988749677384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_95
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 99
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06453895f2bcb330800000000000000
+      internalID: 3728051359446287886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_96
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 99
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b5b8a4cbcc86910800000000000000
+      internalID: 1830938357602671456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_97
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 99
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24383db185687170800000000000000
+      internalID: 8176396731390899247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_98
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 99
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601f4e52cbfc93960800000000000000
+      internalID: 7582319854651502854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_99
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 48
+        width: 88
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d0adac92621c2a0800000000000000
+      internalID: -6719047208121266919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_100
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 48
+        width: 88
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bccf285b933cba0800000000000000
+      internalID: -6069944421015827696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_101
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 54
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88501dba526843d0800000000000000
+      internalID: -3222217391525046129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 70
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bd9aafffa5b98d0800000000000000
+      internalID: -2838575084658369645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_103
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 62
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2120e048742ced520800000000000000
+      internalID: 2728832036647076370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_104
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496a0939ec70241b0800000000000000
+      internalID: -5673963996713015660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_105
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba5371709367c520800000000000000
+      internalID: 2722253971798579896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_106
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 63
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e2ec1580a4795f0800000000000000
+      internalID: -750049413341237706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_107
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 78
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28be22d29a059f10800000000000000
+      internalID: 2275736812413433901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_108
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a0cb3b4346c1e70800000000000000
+      internalID: 9087248325643340447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_109
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 77
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a30b9cd21708940800000000000000
+      internalID: 5296357603258940013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_110
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 66
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcea6736059ef8d0800000000000000
+      internalID: -2810645263500514114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_111
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 54
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baeab5e3941698bf0800000000000000
+      internalID: -321618931173577045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_112
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 67
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0534bd7daee0fe9d0800000000000000
+      internalID: -2742957246238735536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_113
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 79
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71b2b446cf3a2850800000000000000
+      internalID: 6352960345148141946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_114
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 66
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4b0ca89a18e29c0800000000000000
+      internalID: -3950077257980005188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_115
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 54
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d38b16fcb0c5a220800000000000000
+      internalID: 2496613486262191062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_116
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 67
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f4f6f107f17a9e0800000000000000
+      internalID: -1610283775337476314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_117
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 79
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e80c8f0c338efab0800000000000000
+      internalID: -4972392644588336920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_118
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2401a02539a0ad00800000000000000
+      internalID: 981970764412552235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_119
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 70
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d021ba9d9989600800000000000000
+      internalID: 475298920844627353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_120
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7618933d90d6f830800000000000000
+      internalID: 4104697483988833914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_121
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 70
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e265538c954e030800000000000000
+      internalID: 3523039524933742231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_122
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 46
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a32538f46e017400800000000000000
+      internalID: 320052875343766435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_123
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 51
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b95314174116160800000000000000
+      internalID: 7016912171077835568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_124
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 54
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992deb07d06b648b0800000000000000
+      internalID: -5168243353518681447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_125
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 50
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2339a413bd4cf60800000000000000
+      internalID: 8053803038396330720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_126
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 54
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b68d22287d2f3f0800000000000000
+      internalID: -868394824198755515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_127
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 50
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93132c007b38ed490800000000000000
+      internalID: -7719587889251471047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_128
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb25b1b0a8146d3b0800000000000000
+      internalID: -5488127034756738370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_129
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559a548357be2bf70800000000000000
+      internalID: 9201675877359135061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_130
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 56
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323c03cc3dbb5cb20800000000000000
+      internalID: 3154133632381141795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_131
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6112d81e0654036e0800000000000000
+      internalID: -1859910363700715242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_132
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809fb8472400569d0800000000000000
+      internalID: -2781816909408241400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_133
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 56
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1085e8096a5a1d220800000000000000
+      internalID: 2508968602230478849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_134
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 42
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f7fa60a26ea50c0800000000000000
+      internalID: -4586100202348249301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_135
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 49
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa44038b532a4ee40800000000000000
+      internalID: 5684846981255546031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_136
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 49
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af68c1bd26f7e8520800000000000000
+      internalID: 2706240488655849210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_137
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294a59bc3faf153d0800000000000000
+      internalID: -3219516333593615214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_138
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4915c0f336e4d87e0800000000000000
+      internalID: -1761665691065495148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_139
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 39
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63295471fd00f2f50800000000000000
+      internalID: 6858701715676697142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_140
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 41
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bfbf9eceaeeaef0800000000000000
+      internalID: -94880238869415065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_141
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 39
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a6ef866c2cdfdc0800000000000000
+      internalID: -3603509969405711743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireParticle_140x140_142
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 39
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50ff775536ff9250800000000000000
+      internalID: 5953747941368787038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fireParticle_140x140_0: -7049314841173876634
+      fireParticle_140x140_1: 463291327848779202
+      fireParticle_140x140_10: -3570127938051415307
+      fireParticle_140x140_100: -6069944421015827696
+      fireParticle_140x140_101: -3222217391525046129
+      fireParticle_140x140_102: -2838575084658369645
+      fireParticle_140x140_103: 2728832036647076370
+      fireParticle_140x140_104: -5673963996713015660
+      fireParticle_140x140_105: 2722253971798579896
+      fireParticle_140x140_106: -750049413341237706
+      fireParticle_140x140_107: 2275736812413433901
+      fireParticle_140x140_108: 9087248325643340447
+      fireParticle_140x140_109: 5296357603258940013
+      fireParticle_140x140_11: 7769499667078036908
+      fireParticle_140x140_110: -2810645263500514114
+      fireParticle_140x140_111: -321618931173577045
+      fireParticle_140x140_112: -2742957246238735536
+      fireParticle_140x140_113: 6352960345148141946
+      fireParticle_140x140_114: -3950077257980005188
+      fireParticle_140x140_115: 2496613486262191062
+      fireParticle_140x140_116: -1610283775337476314
+      fireParticle_140x140_117: -4972392644588336920
+      fireParticle_140x140_118: 981970764412552235
+      fireParticle_140x140_119: 475298920844627353
+      fireParticle_140x140_12: -7451686794283508425
+      fireParticle_140x140_120: 4104697483988833914
+      fireParticle_140x140_121: 3523039524933742231
+      fireParticle_140x140_122: 320052875343766435
+      fireParticle_140x140_123: 7016912171077835568
+      fireParticle_140x140_124: -5168243353518681447
+      fireParticle_140x140_125: 8053803038396330720
+      fireParticle_140x140_126: -868394824198755515
+      fireParticle_140x140_127: -7719587889251471047
+      fireParticle_140x140_128: -5488127034756738370
+      fireParticle_140x140_129: 9201675877359135061
+      fireParticle_140x140_13: 4015164702761621929
+      fireParticle_140x140_130: 3154133632381141795
+      fireParticle_140x140_131: -1859910363700715242
+      fireParticle_140x140_132: -2781816909408241400
+      fireParticle_140x140_133: 2508968602230478849
+      fireParticle_140x140_134: -4586100202348249301
+      fireParticle_140x140_135: 5684846981255546031
+      fireParticle_140x140_136: 2706240488655849210
+      fireParticle_140x140_137: -3219516333593615214
+      fireParticle_140x140_138: -1761665691065495148
+      fireParticle_140x140_139: 6858701715676697142
+      fireParticle_140x140_14: -1846892250152723933
+      fireParticle_140x140_140: -94880238869415065
+      fireParticle_140x140_141: -3603509969405711743
+      fireParticle_140x140_142: 5953747941368787038
+      fireParticle_140x140_15: 2288337293605270052
+      fireParticle_140x140_16: 923541731379855178
+      fireParticle_140x140_17: 8788008379256361316
+      fireParticle_140x140_18: -2662500915959196717
+      fireParticle_140x140_19: 8467495903376349988
+      fireParticle_140x140_2: -8208418593442405642
+      fireParticle_140x140_20: 3301545177063083583
+      fireParticle_140x140_21: 7033988655782897667
+      fireParticle_140x140_22: -8052525470040118709
+      fireParticle_140x140_23: 8834296710437147150
+      fireParticle_140x140_24: 11286418782692076
+      fireParticle_140x140_25: 790758977011337961
+      fireParticle_140x140_26: 1790324592642503129
+      fireParticle_140x140_27: -8107155720437987529
+      fireParticle_140x140_28: -3906994606800441816
+      fireParticle_140x140_29: 6892373875768781231
+      fireParticle_140x140_3: 4338079957754892777
+      fireParticle_140x140_30: 1216652614140334739
+      fireParticle_140x140_31: -8587684108269609620
+      fireParticle_140x140_32: 5569107939933675912
+      fireParticle_140x140_33: -1100144921647988550
+      fireParticle_140x140_34: -7377260329941677425
+      fireParticle_140x140_35: -6204564727030780437
+      fireParticle_140x140_36: 9133659471912133448
+      fireParticle_140x140_37: -304306428964542187
+      fireParticle_140x140_38: -4372507274518236783
+      fireParticle_140x140_39: -7475744082061123601
+      fireParticle_140x140_4: 4582642259670072965
+      fireParticle_140x140_40: -1972803174656046007
+      fireParticle_140x140_41: 3971169658742118298
+      fireParticle_140x140_42: 4662317473088492983
+      fireParticle_140x140_43: 499492249712860030
+      fireParticle_140x140_44: -7184244708546207849
+      fireParticle_140x140_45: -4037088860219969891
+      fireParticle_140x140_46: 4144302004244995925
+      fireParticle_140x140_47: 2950747102942368091
+      fireParticle_140x140_48: -6404318661760194077
+      fireParticle_140x140_49: 4230721317339585248
+      fireParticle_140x140_5: 2496718898828519629
+      fireParticle_140x140_50: 7196905037134029456
+      fireParticle_140x140_51: -6840186499697136807
+      fireParticle_140x140_52: 8973066621718014915
+      fireParticle_140x140_53: 4441016107141475253
+      fireParticle_140x140_54: 9118203956445806670
+      fireParticle_140x140_55: 7149698489344832613
+      fireParticle_140x140_56: -7011846097793689296
+      fireParticle_140x140_57: -6706833278913085589
+      fireParticle_140x140_58: -7443079741086092920
+      fireParticle_140x140_59: -2823452419023283108
+      fireParticle_140x140_6: 1335054805576180384
+      fireParticle_140x140_60: -5431512331754221512
+      fireParticle_140x140_61: -6943054009120279111
+      fireParticle_140x140_62: -1779454127683286009
+      fireParticle_140x140_63: 5715311681480545803
+      fireParticle_140x140_64: -1763941828751605842
+      fireParticle_140x140_65: 8842986805826231635
+      fireParticle_140x140_66: 7919037461573820198
+      fireParticle_140x140_67: -2691081727720863718
+      fireParticle_140x140_68: -2764302635503753335
+      fireParticle_140x140_69: -9118845766026596900
+      fireParticle_140x140_7: 1793112375806720963
+      fireParticle_140x140_70: 4392059086647374598
+      fireParticle_140x140_71: -4135266063218584551
+      fireParticle_140x140_72: 14949480039645091
+      fireParticle_140x140_73: -6384363125435594539
+      fireParticle_140x140_74: -4158366290202657046
+      fireParticle_140x140_75: 8859056769021234820
+      fireParticle_140x140_76: -5125017276912422877
+      fireParticle_140x140_77: 4992636634203842205
+      fireParticle_140x140_78: 518229123430629246
+      fireParticle_140x140_79: -8969452056964538705
+      fireParticle_140x140_8: 8146197859128745503
+      fireParticle_140x140_80: -8974271408688305326
+      fireParticle_140x140_81: -4428993133601573285
+      fireParticle_140x140_82: -1722602075759612349
+      fireParticle_140x140_83: 2250265429139898715
+      fireParticle_140x140_84: -9121741585137732861
+      fireParticle_140x140_85: -4142151139688179180
+      fireParticle_140x140_86: -3174977808580078106
+      fireParticle_140x140_87: -5381554168876846878
+      fireParticle_140x140_88: 7586477705953687654
+      fireParticle_140x140_89: -1530192620882119513
+      fireParticle_140x140_9: 3003064995863300019
+      fireParticle_140x140_90: 2354135839529550617
+      fireParticle_140x140_91: 2631892866330303926
+      fireParticle_140x140_92: 6622268697763591941
+      fireParticle_140x140_93: -1865136994634091086
+      fireParticle_140x140_94: -1683879988749677384
+      fireParticle_140x140_95: 3728051359446287886
+      fireParticle_140x140_96: 1830938357602671456
+      fireParticle_140x140_97: 8176396731390899247
+      fireParticle_140x140_98: 7582319854651502854
+      fireParticle_140x140_99: -6719047208121266919
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

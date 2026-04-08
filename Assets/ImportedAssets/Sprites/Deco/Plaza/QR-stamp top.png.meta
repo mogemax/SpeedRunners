@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: 1ad909a24f44d51488e91010e1bd854b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3284351173015377365
+    second: QR-stamp top_0
+  - first:
+      213: 1484804893821138593
+    second: QR-stamp top_1
+  - first:
+      213: 2054271918699426920
+    second: QR-stamp top_2
+  - first:
+      213: 1798665585678674481
+    second: QR-stamp top_3
+  - first:
+      213: 6453154895390260743
+    second: QR-stamp top_4
+  - first:
+      213: 3518960590996164346
+    second: QR-stamp top_5
+  - first:
+      213: -1282955731821796404
+    second: QR-stamp top_6
+  - first:
+      213: -8176963050445519476
+    second: QR-stamp top_7
+  - first:
+      213: -1473664365168039961
+    second: QR-stamp top_8
+  - first:
+      213: 2386386887823294539
+    second: QR-stamp top_9
+  - first:
+      213: -2941158911311994590
+    second: QR-stamp top_10
+  - first:
+      213: 4379924331792177923
+    second: QR-stamp top_11
+  - first:
+      213: -1219578710388351289
+    second: QR-stamp top_12
+  - first:
+      213: -7806217556656338407
+    second: QR-stamp top_13
+  - first:
+      213: -4976082641147161472
+    second: QR-stamp top_14
+  - first:
+      213: -6206802027994208383
+    second: QR-stamp top_15
+  - first:
+      213: 8465922004146436198
+    second: QR-stamp top_16
+  - first:
+      213: 3880185846527514579
+    second: QR-stamp top_17
+  - first:
+      213: 7187153747005569103
+    second: QR-stamp top_18
+  - first:
+      213: -2220060886345655928
+    second: QR-stamp top_19
+  - first:
+      213: 6501962431031111506
+    second: QR-stamp top_20
+  - first:
+      213: -440684332495331085
+    second: QR-stamp top_21
+  - first:
+      213: -1128181122241191172
+    second: QR-stamp top_22
+  - first:
+      213: -5825058688122111332
+    second: QR-stamp top_23
+  - first:
+      213: 8254959714289765311
+    second: QR-stamp top_24
+  - first:
+      213: -195795060917282994
+    second: QR-stamp top_25
+  - first:
+      213: -7335948526293074209
+    second: QR-stamp top_26
+  - first:
+      213: 7907007628264983918
+    second: QR-stamp top_27
+  - first:
+      213: 1807991649709187767
+    second: QR-stamp top_28
+  - first:
+      213: -2965171094200452124
+    second: QR-stamp top_29
+  - first:
+      213: 369946702778090677
+    second: QR-stamp top_30
+  - first:
+      213: -1660849482479356066
+    second: QR-stamp top_31
+  - first:
+      213: -6655785502222791887
+    second: QR-stamp top_32
+  - first:
+      213: -9086899967964177057
+    second: QR-stamp top_33
+  - first:
+      213: -8553646859991328637
+    second: QR-stamp top_34
+  - first:
+      213: 1673790516662275193
+    second: QR-stamp top_35
+  - first:
+      213: -2816306839264447278
+    second: QR-stamp top_36
+  - first:
+      213: -5522127520502728320
+    second: QR-stamp top_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QR-stamp top_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 234
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ae7c66204ab62d0800000000000000
+      internalID: -3284351173015377365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 103
+        width: 126
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a678f02f261b9410800000000000000
+      internalID: 1484804893821138593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 234
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864b3221d6d328c10800000000000000
+      internalID: 2054271918699426920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 193
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ae81802d426f810800000000000000
+      internalID: 1798665585678674481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 211
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e3f44ef263e8950800000000000000
+      internalID: 6453154895390260743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 168
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afecce4630cd5d030800000000000000
+      internalID: 3518960590996164346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 169
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3e53e2f86023ee0800000000000000
+      internalID: -1282955731821796404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 176
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8543b4dd67958e80800000000000000
+      internalID: -8176963050445519476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 154
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7e104511e7c8be0800000000000000
+      internalID: -1473664365168039961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 157
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b408b591b362e1120800000000000000
+      internalID: 2386386887823294539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_10
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 149
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22126479d87ee27d0800000000000000
+      internalID: -2941158911311994590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 150
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b109359fd98cc30800000000000000
+      internalID: 4379924331792177923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce5cafdf9f231fe0800000000000000
+      internalID: -1219578710388351289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 109
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ac418cd7ebaa390800000000000000
+      internalID: -7806217556656338407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 102
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0849f69c33761fab0800000000000000
+      internalID: -4976082641147161472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 116
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1872b3ac0720dd9a0800000000000000
+      internalID: -6206802027994208383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 137
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668bf49553ffc7570800000000000000
+      internalID: 8465922004146436198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 111
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d755c4287039d530800000000000000
+      internalID: 3880185846527514579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 128
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f487264f046edb360800000000000000
+      internalID: 7187153747005569103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 98
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889d0a1e262c031e0800000000000000
+      internalID: -2220060886345655928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_20
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 105
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f6b84d16c9b3a50800000000000000
+      internalID: 6501962431031111506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_21
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f029873fef52e9f0800000000000000
+      internalID: -440684332495331085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 88
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf223862f35e750f0800000000000000
+      internalID: -1128181122241191172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 92
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9abda25cfb392fa0800000000000000
+      internalID: -5825058688122111332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_24
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 49
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbc66d9f128f8270800000000000000
+      internalID: 8254959714289765311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 87
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47df31fd65684df0800000000000000
+      internalID: -195795060917282994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_26
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 82
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde30cfcea9713a90800000000000000
+      internalID: -7335948526293074209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_27
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dc9077b855bbd60800000000000000
+      internalID: 7907007628264983918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_28
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 69
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2e9c583d6471910800000000000000
+      internalID: 1807991649709187767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_29
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 78
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebfce7999899d6d0800000000000000
+      internalID: -2965171094200452124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_30
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 51
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b44aece090522500800000000000000
+      internalID: 369946702778090677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_31
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 42
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e573d6bf13a73f8e0800000000000000
+      internalID: -1660849482479356066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_32
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bc0de7956e1a3a0800000000000000
+      internalID: -6655785502222791887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_33
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 42
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d9cf3af98d4e180800000000000000
+      internalID: -9086899967964177057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388d41000875b4980800000000000000
+      internalID: -8553646859991328637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_35
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c82165b9f7a3710800000000000000
+      internalID: 1673790516662275193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_36
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 11
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4b323e9d77ae8d0800000000000000
+      internalID: -2816306839264447278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QR-stamp top_37
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089b60017467d53b0800000000000000
+      internalID: -5522127520502728320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      QR-stamp top_0: -3284351173015377365
+      QR-stamp top_1: 1484804893821138593
+      QR-stamp top_10: -2941158911311994590
+      QR-stamp top_11: 4379924331792177923
+      QR-stamp top_12: -1219578710388351289
+      QR-stamp top_13: -7806217556656338407
+      QR-stamp top_14: -4976082641147161472
+      QR-stamp top_15: -6206802027994208383
+      QR-stamp top_16: 8465922004146436198
+      QR-stamp top_17: 3880185846527514579
+      QR-stamp top_18: 7187153747005569103
+      QR-stamp top_19: -2220060886345655928
+      QR-stamp top_2: 2054271918699426920
+      QR-stamp top_20: 6501962431031111506
+      QR-stamp top_21: -440684332495331085
+      QR-stamp top_22: -1128181122241191172
+      QR-stamp top_23: -5825058688122111332
+      QR-stamp top_24: 8254959714289765311
+      QR-stamp top_25: -195795060917282994
+      QR-stamp top_26: -7335948526293074209
+      QR-stamp top_27: 7907007628264983918
+      QR-stamp top_28: 1807991649709187767
+      QR-stamp top_29: -2965171094200452124
+      QR-stamp top_3: 1798665585678674481
+      QR-stamp top_30: 369946702778090677
+      QR-stamp top_31: -1660849482479356066
+      QR-stamp top_32: -6655785502222791887
+      QR-stamp top_33: -9086899967964177057
+      QR-stamp top_34: -8553646859991328637
+      QR-stamp top_35: 1673790516662275193
+      QR-stamp top_36: -2816306839264447278
+      QR-stamp top_37: -5522127520502728320
+      QR-stamp top_4: 6453154895390260743
+      QR-stamp top_5: 3518960590996164346
+      QR-stamp top_6: -1282955731821796404
+      QR-stamp top_7: -8176963050445519476
+      QR-stamp top_8: -1473664365168039961
+      QR-stamp top_9: 2386386887823294539
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

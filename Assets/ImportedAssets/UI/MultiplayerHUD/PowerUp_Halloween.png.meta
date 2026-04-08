@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 08b70e34dfda014438287961409a9c42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7306572153500411183
+    second: PowerUp_Halloween_0
+  - first:
+      213: 1139482089544191100
+    second: PowerUp_Halloween_1
+  - first:
+      213: -2506932266813069665
+    second: PowerUp_Halloween_2
+  - first:
+      213: -3202856311566606090
+    second: PowerUp_Halloween_3
+  - first:
+      213: -6622791367082883243
+    second: PowerUp_Halloween_4
+  - first:
+      213: -2602991250439902218
+    second: PowerUp_Halloween_5
+  - first:
+      213: 8841372896410185182
+    second: PowerUp_Halloween_6
+  - first:
+      213: -2108195113489933834
+    second: PowerUp_Halloween_7
+  - first:
+      213: 2042745476467660245
+    second: PowerUp_Halloween_8
+  - first:
+      213: 6478811050694392662
+    second: PowerUp_Halloween_9
+  - first:
+      213: -1081126554839553185
+    second: PowerUp_Halloween_10
+  - first:
+      213: -7128069685798022663
+    second: PowerUp_Halloween_11
+  - first:
+      213: -609136421873037603
+    second: PowerUp_Halloween_12
+  - first:
+      213: 7053440191373594493
+    second: PowerUp_Halloween_13
+  - first:
+      213: 8742219262432253979
+    second: PowerUp_Halloween_14
+  - first:
+      213: 5063554067479726738
+    second: PowerUp_Halloween_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PowerUp_Halloween_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 7
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dad8d89657d99a90800000000000000
+      internalID: -7306572153500411183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 13
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c83375ce040df00800000000000000
+      internalID: 1139482089544191100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9664a8b266953dd0800000000000000
+      internalID: -2506932266813069665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_3
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f06472772b2d83d0800000000000000
+      internalID: -3202856311566606090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 7
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5574087375e1714a0800000000000000
+      internalID: -6622791367082883243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_5
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb641cbf3150ebd0800000000000000
+      internalID: -2602991250439902218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 7
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddab414ecdd2ba70800000000000000
+      internalID: 8841372896410185182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_7
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9d737c6bf2eb2e0800000000000000
+      internalID: -2108195113489933834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_8
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 16
+        width: 63
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5146b103a495c10800000000000000
+      internalID: 2042745476467660245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_9
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bb38b035c59e950800000000000000
+      internalID: 6478811050694392662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_10
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5beb8d50211ff0f0800000000000000
+      internalID: -1081126554839553185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_11
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f157cb0362041d90800000000000000
+      internalID: -7128069685798022663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_12
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde4182d6a9eb87f0800000000000000
+      internalID: -609136421873037603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f494bbb7ad2e160800000000000000
+      internalID: 7053440191373594493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_14
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b181ad5d91a925970800000000000000
+      internalID: 8742219262432253979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerUp_Halloween_15
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 2
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a0d15b89b554640800000000000000
+      internalID: 5063554067479726738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PowerUp_Halloween_0: -7306572153500411183
+      PowerUp_Halloween_1: 1139482089544191100
+      PowerUp_Halloween_10: -1081126554839553185
+      PowerUp_Halloween_11: -7128069685798022663
+      PowerUp_Halloween_12: -609136421873037603
+      PowerUp_Halloween_13: 7053440191373594493
+      PowerUp_Halloween_14: 8742219262432253979
+      PowerUp_Halloween_15: 5063554067479726738
+      PowerUp_Halloween_2: -2506932266813069665
+      PowerUp_Halloween_3: -3202856311566606090
+      PowerUp_Halloween_4: -6622791367082883243
+      PowerUp_Halloween_5: -2602991250439902218
+      PowerUp_Halloween_6: 8841372896410185182
+      PowerUp_Halloween_7: -2108195113489933834
+      PowerUp_Halloween_8: 2042745476467660245
+      PowerUp_Halloween_9: 6478811050694392662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 1eebdbbb54b9c2b4fa20337e59e1728b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 198488378539217912
+    second: Arcade_Hall_Lights_0
+  - first:
+      213: -1390827063953589858
+    second: Arcade_Hall_Lights_1
+  - first:
+      213: -2191297151778698394
+    second: Arcade_Hall_Lights_2
+  - first:
+      213: 901568738861008348
+    second: Arcade_Hall_Lights_3
+  - first:
+      213: 745285958458481809
+    second: Arcade_Hall_Lights_4
+  - first:
+      213: 2777299642204178246
+    second: Arcade_Hall_Lights_5
+  - first:
+      213: -1106468875757966781
+    second: Arcade_Hall_Lights_6
+  - first:
+      213: 8433589587807434495
+    second: Arcade_Hall_Lights_7
+  - first:
+      213: -7083228015872668677
+    second: Arcade_Hall_Lights_8
+  - first:
+      213: -6337746775899677926
+    second: Arcade_Hall_Lights_9
+  - first:
+      213: 57931772844380390
+    second: Arcade_Hall_Lights_10
+  - first:
+      213: -370433793294779474
+    second: Arcade_Hall_Lights_11
+  - first:
+      213: -4002269449009427483
+    second: Arcade_Hall_Lights_12
+  - first:
+      213: -8997352354609724915
+    second: Arcade_Hall_Lights_13
+  - first:
+      213: 791950843994380185
+    second: Arcade_Hall_Lights_14
+  - first:
+      213: -4038002230793452846
+    second: Arcade_Hall_Lights_15
+  - first:
+      213: -4670052812816983261
+    second: Arcade_Hall_Lights_16
+  - first:
+      213: -4432948133716986596
+    second: Arcade_Hall_Lights_17
+  - first:
+      213: 2331060151454043694
+    second: Arcade_Hall_Lights_18
+  - first:
+      213: 1309965597717007257
+    second: Arcade_Hall_Lights_19
+  - first:
+      213: -1635105019803412457
+    second: Arcade_Hall_Lights_20
+  - first:
+      213: -3721929611650296986
+    second: Arcade_Hall_Lights_21
+  - first:
+      213: 8844321210006117654
+    second: Arcade_Hall_Lights_22
+  - first:
+      213: 2068146370447674779
+    second: Arcade_Hall_Lights_23
+  - first:
+      213: -8147109939260407816
+    second: Arcade_Hall_Lights_24
+  - first:
+      213: 5619764572784168038
+    second: Arcade_Hall_Lights_25
+  - first:
+      213: -3639163869751018507
+    second: Arcade_Hall_Lights_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f39fdee02c21c200800000000000000
+      internalID: 198488378539217912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 110
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99fb0d772ac2bce0800000000000000
+      internalID: -1390827063953589858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 117
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bc7e6b9d2f691e0800000000000000
+      internalID: -2191297151778698394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 118
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd54864cdf3038c00800000000000000
+      internalID: 901568738861008348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 109
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c110a61a9c75a00800000000000000
+      internalID: 745285958458481809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 117
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64746605f43fa8620800000000000000
+      internalID: 2777299642204178246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 109
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34aab697b6805a0f0800000000000000
+      internalID: -1106468875757966781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6f1ba0c012a0570800000000000000
+      internalID: 8433589587807434495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 100
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb80dae5a153bd90800000000000000
+      internalID: -7083228015872668677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 91
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b5f1ad2eccb08a0800000000000000
+      internalID: -6337746775899677926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e01995f3a0ddc000800000000000000
+      internalID: 57931772844380390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 91
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab3dd97d64fbdaf0800000000000000
+      internalID: -370433793294779474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 91
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb056c14251578c0800000000000000
+      internalID: -4002269449009427483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02867814bbf22380800000000000000
+      internalID: -8997352354609724915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 73
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9971bdfb8139dfa00800000000000000
+      internalID: 791950843994380185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 83
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d242578d5226f7c0800000000000000
+      internalID: -4038002230793452846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bdab1b5b3a03fb0800000000000000
+      internalID: -4670052812816983261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 73
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15711eb8210b72c0800000000000000
+      internalID: -4432948133716986596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 83
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e8c757bd6995020800000000000000
+      internalID: 2331060151454043694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b87e745ceed2210800000000000000
+      internalID: 1309965597717007257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_20
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718d82cc5a0fe49e0800000000000000
+      internalID: -1635105019803412457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_21
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 73
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6639392ecbc095cc0800000000000000
+      internalID: -3721929611650296986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d1ed108475dba70800000000000000
+      internalID: 8844321210006117654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d0c0a9a2883bc10800000000000000
+      internalID: 2068146370447674779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff345ceca6afee80800000000000000
+      internalID: -8147109939260407816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c002aaa1a6dfd40800000000000000
+      internalID: 5619764572784168038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade_Hall_Lights_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbfd08ddb71f7dc0800000000000000
+      internalID: -3639163869751018507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Arcade_Hall_Lights_0: 198488378539217912
+      Arcade_Hall_Lights_1: -1390827063953589858
+      Arcade_Hall_Lights_10: 57931772844380390
+      Arcade_Hall_Lights_11: -370433793294779474
+      Arcade_Hall_Lights_12: -4002269449009427483
+      Arcade_Hall_Lights_13: -8997352354609724915
+      Arcade_Hall_Lights_14: 791950843994380185
+      Arcade_Hall_Lights_15: -4038002230793452846
+      Arcade_Hall_Lights_16: -4670052812816983261
+      Arcade_Hall_Lights_17: -4432948133716986596
+      Arcade_Hall_Lights_18: 2331060151454043694
+      Arcade_Hall_Lights_19: 1309965597717007257
+      Arcade_Hall_Lights_2: -2191297151778698394
+      Arcade_Hall_Lights_20: -1635105019803412457
+      Arcade_Hall_Lights_21: -3721929611650296986
+      Arcade_Hall_Lights_22: 8844321210006117654
+      Arcade_Hall_Lights_23: 2068146370447674779
+      Arcade_Hall_Lights_24: -8147109939260407816
+      Arcade_Hall_Lights_25: 5619764572784168038
+      Arcade_Hall_Lights_26: -3639163869751018507
+      Arcade_Hall_Lights_3: 901568738861008348
+      Arcade_Hall_Lights_4: 745285958458481809
+      Arcade_Hall_Lights_5: 2777299642204178246
+      Arcade_Hall_Lights_6: -1106468875757966781
+      Arcade_Hall_Lights_7: 8433589587807434495
+      Arcade_Hall_Lights_8: -7083228015872668677
+      Arcade_Hall_Lights_9: -6337746775899677926
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: c1eaec50abdd1c54c822b1ec2df283e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6349618441160201540
+    second: Reward_banner_0
+  - first:
+      213: 1445187560487682184
+    second: Reward_banner_1
+  - first:
+      213: 8358677041051107082
+    second: Reward_banner_2
+  - first:
+      213: 7223431577026179315
+    second: Reward_banner_3
+  - first:
+      213: 2237084932920432589
+    second: Reward_banner_4
+  - first:
+      213: 3024633077486416724
+    second: Reward_banner_5
+  - first:
+      213: -4880194440590912861
+    second: Reward_banner_6
+  - first:
+      213: 5181887363878018542
+    second: Reward_banner_7
+  - first:
+      213: 6076701128163807170
+    second: Reward_banner_8
+  - first:
+      213: 7143613488183889120
+    second: Reward_banner_9
+  - first:
+      213: 6571647715596611312
+    second: Reward_banner_10
+  - first:
+      213: -4666074002031809637
+    second: Reward_banner_11
+  - first:
+      213: -2207745096582478035
+    second: Reward_banner_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reward_banner_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1757
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba60636baf91e7a0800000000000000
+      internalID: -6349618441160201540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1467
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8808ea8ed665e0410800000000000000
+      internalID: 1445187560487682184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1757
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f70109b7cfff370800000000000000
+      internalID: 8358677041051107082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_3
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1467
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f03cf77fb8ce3460800000000000000
+      internalID: 7223431577026179315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1177
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7d917d4e8bb0f10800000000000000
+      internalID: 2237084932920432589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 887
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453797f32c7a9f920800000000000000
+      internalID: 3024633077486416724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_6
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1177
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a21ebd3301164cb0800000000000000
+      internalID: -4880194440590912861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_7
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 887
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedd8064a13c9e740800000000000000
+      internalID: 5181887363878018542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 597
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf4b66fa77c45450800000000000000
+      internalID: 6076701128163807170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecc3e77e96332360800000000000000
+      internalID: 7143613488183889120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_10
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 597
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fea42d77ce233b50800000000000000
+      internalID: 6571647715596611312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_11
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 307
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b6535ca66ce3fb0800000000000000
+      internalID: -4666074002031809637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward_banner_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 814
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27479328838c51e0800000000000000
+      internalID: -2207745096582478035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Reward_banner_0: -6349618441160201540
+      Reward_banner_1: 1445187560487682184
+      Reward_banner_10: 6571647715596611312
+      Reward_banner_11: -4666074002031809637
+      Reward_banner_12: -2207745096582478035
+      Reward_banner_2: 8358677041051107082
+      Reward_banner_3: 7223431577026179315
+      Reward_banner_4: 2237084932920432589
+      Reward_banner_5: 3024633077486416724
+      Reward_banner_6: -4880194440590912861
+      Reward_banner_7: 5181887363878018542
+      Reward_banner_8: 6076701128163807170
+      Reward_banner_9: 7143613488183889120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

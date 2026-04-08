@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: eb394c726da0f21428898231b70c84bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6297836068678196829
+    second: Vault_Alarm_0
+  - first:
+      213: -6799531355751526648
+    second: Vault_Alarm_1
+  - first:
+      213: -3066682861025805700
+    second: Vault_Alarm_2
+  - first:
+      213: 4552279028853654188
+    second: Vault_Alarm_3
+  - first:
+      213: -5339446159221738240
+    second: Vault_Alarm_4
+  - first:
+      213: 7088476702224144882
+    second: Vault_Alarm_5
+  - first:
+      213: -9075019831960834640
+    second: Vault_Alarm_6
+  - first:
+      213: -3066381961344210225
+    second: Vault_Alarm_7
+  - first:
+      213: 5742439987000327858
+    second: Vault_Alarm_8
+  - first:
+      213: -5795805833814973829
+    second: Vault_Alarm_9
+  - first:
+      213: -181194277033792484
+    second: Vault_Alarm_10
+  - first:
+      213: 7696607859413389502
+    second: Vault_Alarm_11
+  - first:
+      213: -7367406947308455736
+    second: Vault_Alarm_12
+  - first:
+      213: 2801645761119514623
+    second: Vault_Alarm_13
+  - first:
+      213: -7832401006846135081
+    second: Vault_Alarm_14
+  - first:
+      213: -1446851152553479953
+    second: Vault_Alarm_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vault_Alarm_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 389
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a12bc086779998a0800000000000000
+      internalID: -6297836068678196829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 389
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fcc45e14633a1a0800000000000000
+      internalID: -6799531355751526648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 386
+        width: 125
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a37c59f24f075d0800000000000000
+      internalID: -3066682861025805700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_3
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 387
+        width: 123
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2484168a1fc2f30800000000000000
+      internalID: 4552279028853654188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 262
+        width: 123
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005b34ef10a76e5b0800000000000000
+      internalID: -5339446159221738240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 263
+        width: 123
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9d3ba11045f5260800000000000000
+      internalID: 7088476702224144882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 264
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd695a5b8d0f0280800000000000000
+      internalID: -9075019831960834640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 264
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaa9604ad50275d0800000000000000
+      internalID: -3066381961344210225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 139
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be37215ebe31bf40800000000000000
+      internalID: 5742439987000327858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 139
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7262583d49219fa0800000000000000
+      internalID: -5795805833814973829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_10
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 136
+        width: 124
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c211ad3c44c7df0800000000000000
+      internalID: -181194277033792484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_11
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 137
+        width: 123
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb090dbd118dfca60800000000000000
+      internalID: 7696607859413389502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 12
+        width: 124
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c83fe56a66b1c990800000000000000
+      internalID: -7367406947308455736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_13
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 13
+        width: 124
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffe10ad9f171e620800000000000000
+      internalID: 2801645761119514623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_14
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 14
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4368838c8bd4390800000000000000
+      internalID: -7832401006846135081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vault_Alarm_15
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 14
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe07f21ea80cbebe0800000000000000
+      internalID: -1446851152553479953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vault_Alarm_0: -6297836068678196829
+      Vault_Alarm_1: -6799531355751526648
+      Vault_Alarm_10: -181194277033792484
+      Vault_Alarm_11: 7696607859413389502
+      Vault_Alarm_12: -7367406947308455736
+      Vault_Alarm_13: 2801645761119514623
+      Vault_Alarm_14: -7832401006846135081
+      Vault_Alarm_15: -1446851152553479953
+      Vault_Alarm_2: -3066682861025805700
+      Vault_Alarm_3: 4552279028853654188
+      Vault_Alarm_4: -5339446159221738240
+      Vault_Alarm_5: 7088476702224144882
+      Vault_Alarm_6: -9075019831960834640
+      Vault_Alarm_7: -3066381961344210225
+      Vault_Alarm_8: 5742439987000327858
+      Vault_Alarm_9: -5795805833814973829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

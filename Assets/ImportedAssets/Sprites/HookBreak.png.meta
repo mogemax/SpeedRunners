@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 1e50865576368e9418d417015da150ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2148489155771489530
+    second: HookBreak_0
+  - first:
+      213: -2978010565271702013
+    second: HookBreak_1
+  - first:
+      213: 8064025536183184533
+    second: HookBreak_2
+  - first:
+      213: -3460318594282955373
+    second: HookBreak_3
+  - first:
+      213: -6898255197360884561
+    second: HookBreak_4
+  - first:
+      213: 1122666239908370611
+    second: HookBreak_5
+  - first:
+      213: 3237129729141357472
+    second: HookBreak_6
+  - first:
+      213: -2896749550858287961
+    second: HookBreak_7
+  - first:
+      213: 59818536703321739
+    second: HookBreak_8
+  - first:
+      213: 2656249476572533921
+    second: HookBreak_9
+  - first:
+      213: 6454834821838217710
+    second: HookBreak_10
+  - first:
+      213: 688726737157947415
+    second: HookBreak_11
+  - first:
+      213: -2520807686396292774
+    second: HookBreak_12
+  - first:
+      213: 4941823233627912167
+    second: HookBreak_13
+  - first:
+      213: 7048686959962370215
+    second: HookBreak_14
+  - first:
+      213: -5456550181166980558
+    second: HookBreak_15
+  - first:
+      213: 7309332285331964317
+    second: HookBreak_16
+  - first:
+      213: -9197474495901350984
+    second: HookBreak_17
+  - first:
+      213: 3834515272181570962
+    second: HookBreak_18
+  - first:
+      213: 509282209992402131
+    second: HookBreak_19
+  - first:
+      213: 8501121013093212995
+    second: HookBreak_20
+  - first:
+      213: 8537133425154740925
+    second: HookBreak_21
+  - first:
+      213: 4416332336500961636
+    second: HookBreak_22
+  - first:
+      213: -5939797637766143216
+    second: HookBreak_23
+  - first:
+      213: -4407654455336168117
+    second: HookBreak_24
+  - first:
+      213: 4021562293660090346
+    second: HookBreak_25
+  - first:
+      213: -321064416029436594
+    second: HookBreak_26
+  - first:
+      213: 1208846067330690052
+    second: HookBreak_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HookBreak_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 334
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603267afe780f22e0800000000000000
+      internalID: -2148489155771489530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 365
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306be974b2bfba6d0800000000000000
+      internalID: -2978010565271702013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 370
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ca0e7008c29ef60800000000000000
+      internalID: 8064025536183184533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 369
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dd512729a7affc0800000000000000
+      internalID: -3460318594282955373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 312
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4ff4f42797440a0800000000000000
+      internalID: -6898255197360884561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 312
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8df0f3ff2849f00800000000000000
+      internalID: 1122666239908370611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 326
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abb35d66589cec20800000000000000
+      internalID: 3237129729141357472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 326
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4c1d191adacc7d0800000000000000
+      internalID: -2896749550858287961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 301
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b866f2764a484d000800000000000000
+      internalID: 59818536703321739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 304
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a45ce553d4ecd420800000000000000
+      internalID: 2656249476572533921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 251
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee12d7f321e249950800000000000000
+      internalID: 6454834821838217710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 251
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7100d938159de8900800000000000000
+      internalID: 688726737157947415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_12
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 255
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a515649d3ca440dd0800000000000000
+      internalID: -2520807686396292774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_13
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 255
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7f92f4c02e49440800000000000000
+      internalID: 4941823233627912167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 214
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a03c7dc177f1d160800000000000000
+      internalID: 7048686959962370215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 116
+        width: 133
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232e27035807644b0800000000000000
+      internalID: -5456550181166980558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 185
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91818cacf6ff6560800000000000000
+      internalID: 7309332285331964317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 169
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3c5112da10c5080800000000000000
+      internalID: -9197474495901350984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 184
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d513ce25fe63530800000000000000
+      internalID: 3834515272181570962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4e501c875511700800000000000000
+      internalID: 509282209992402131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 119
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343a702458c0af570800000000000000
+      internalID: 8501121013093212995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 119
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db256765e9df97670800000000000000
+      internalID: 8537133425154740925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 112
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461f53f7cd6f94d30800000000000000
+      internalID: 4416332336500961636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_23
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 72
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013ae33d489919da0800000000000000
+      internalID: -5939797637766143216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_24
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 73
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45150920add4d2c0800000000000000
+      internalID: -4407654455336168117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_25
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 50
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeff6b359957fc730800000000000000
+      internalID: 4021562293660090346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_26
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e451c8c5d995b8bf0800000000000000
+      internalID: -321064416029436594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HookBreak_27
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40caf5fe71fa6c010800000000000000
+      internalID: 1208846067330690052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HookBreak_0: -2148489155771489530
+      HookBreak_1: -2978010565271702013
+      HookBreak_10: 6454834821838217710
+      HookBreak_11: 688726737157947415
+      HookBreak_12: -2520807686396292774
+      HookBreak_13: 4941823233627912167
+      HookBreak_14: 7048686959962370215
+      HookBreak_15: -5456550181166980558
+      HookBreak_16: 7309332285331964317
+      HookBreak_17: -9197474495901350984
+      HookBreak_18: 3834515272181570962
+      HookBreak_19: 509282209992402131
+      HookBreak_2: 8064025536183184533
+      HookBreak_20: 8501121013093212995
+      HookBreak_21: 8537133425154740925
+      HookBreak_22: 4416332336500961636
+      HookBreak_23: -5939797637766143216
+      HookBreak_24: -4407654455336168117
+      HookBreak_25: 4021562293660090346
+      HookBreak_26: -321064416029436594
+      HookBreak_27: 1208846067330690052
+      HookBreak_3: -3460318594282955373
+      HookBreak_4: -6898255197360884561
+      HookBreak_5: 1122666239908370611
+      HookBreak_6: 3237129729141357472
+      HookBreak_7: -2896749550858287961
+      HookBreak_8: 59818536703321739
+      HookBreak_9: 2656249476572533921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
