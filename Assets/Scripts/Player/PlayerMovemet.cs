@@ -323,7 +323,7 @@ public class PlayerMovement : MonoBehaviour
         _rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
 
         bool isLongJump = Mathf.Abs(_rb.linearVelocity.x) > maxSpeed * 0.5f;
-        _anim.OnJump(isDoubleJump, isLongJump);
+        _anim.NotifyJump(isDoubleJump, isLongJump);
     }
 
     // ─────────────────────────────────────────────
