@@ -1,111 +1,57 @@
 using UnityEngine;
-
+ 
 /// <summary>
-/// Detecta cuándo un jugador sale de los límites de la cámara
-/// y le aplica muerte instantánea (TakeOutOfScreenDeath).
-///
-/// La cámara le notifica los bounds actuales cada frame (UpdateBounds).
-/// Este script solo comprueba la posición de los jugadores contra esos bounds.
-///
-/// Setup:
-///   - En el mismo GameObject que SpeedRunnersCamera
-///   - SpeedRunnersCamera arrastra esta referencia en el Inspector
+/// Elimina al jugador que lleve más de graceTime segundos
+/// fuera del área visible de la cámara.
+/// Usa WorldToViewportPoint para que los bordes coincidan
+/// exactamente con lo que se ve en pantalla, sin importar
+/// el zoom ni el offset de SpeedRunnersCamera.
 /// </summary>
 public class ScreenBoundaryKiller : MonoBehaviour
 {
-    // ─────────────────────────────────────────────
-    //  CONFIGURACIÓN
-    // ─────────────────────────────────────────────
-    [Header("Márgenes de gracia")]
-    [Tooltip("Píxeles de margen extra FUERA del borde antes de matar " +
-             "(evita muertes al borde justo del frame)")]
-    public float gracePaddingX = 0.5f;
-    public float gracePaddingY = 1f;
+    [Header("Configuración")]
+    [Tooltip("Segundos fuera de pantalla antes de morir")]
+    public float graceTime = 0.3f;
 
-    [Tooltip("Segundos que el jugador puede estar fuera antes de morir " +
-             "(0 = muerte inmediata)")]
-    public float outOfBoundsGraceTime = 0.1f;
+    [Tooltip("Margen extra en los bordes (0 = borde exacto de cámara)")]
+    [Range(0f, 0.1f)]
+    public float borderPadding = 0.02f;
 
-    // ─────────────────────────────────────────────
-    //  PRIVADOS
-    // ─────────────────────────────────────────────
-    private Bounds          _cameraBounds;
-    private RaceManager     _race;
+    private Camera _cam;
+    private float[] _deathTimers = new float[2];
 
-    // Temporizador por jugador (índice 0 y 1)
-    private float[] _outOfBoundsTimer;
+    private void Start() => _cam = GetComponent<Camera>();
 
-    // ─────────────────────────────────────────────
-    //  INIT
-    // ─────────────────────────────────────────────
-    private void Start()
+    private void Update()
     {
-        _race = RaceManager.Instance;
-        if (_race == null)
+        if (RaceManager.Instance == null || !RaceManager.Instance.raceIsActive) return;
+
+        var players = RaceManager.Instance.RaceData;
+
+        for (int i = 0; i < players.Count; i++)
         {
-            Debug.LogError("[ScreenBoundaryKiller] RaceManager no encontrado.");
-            return;
-        }
+            if (players[i].IsEliminated) continue;
 
-        _outOfBoundsTimer = new float[_race.RaceData.Count];
-    }
+            // Convertir posición del jugador a coordenadas de viewport:
+            // (0,0) = esquina inferior izquierda de la cámara
+            // (1,1) = esquina superior derecha de la cámara
+            Vector3 vp = _cam.WorldToViewportPoint(players[i].Transform.position);
 
-    // ─────────────────────────────────────────────
-    //  API — llamado por SpeedRunnersCamera cada LateUpdate
-    // ─────────────────────────────────────────────
-    public void UpdateBounds(Bounds newBounds)
-    {
-        _cameraBounds = newBounds;
-    }
+            bool outOfBounds = vp.x < -borderPadding || vp.x > 1f + borderPadding ||
+                                vp.y < -borderPadding || vp.y > 1f + borderPadding;
 
-    // ─────────────────────────────────────────────
-    //  UPDATE — comproba jugadores contra bounds
-    // ─────────────────────────────────────────────
-    private void LateUpdate()
-    {
-        if (_race == null || _race.RaceData == null) return;
-
-        // Bounds con padding de gracia (más generoso)
-        Bounds killBounds = new Bounds(
-            _cameraBounds.center,
-            _cameraBounds.size + new Vector3(gracePaddingX * 2f, gracePaddingY * 2f, 0f)
-        );
-
-        for (int i = 0; i < _race.RaceData.Count; i++)
-        {
-            var data = _race.RaceData[i];
-            if (data.IsEliminated || data.Health.IsDead) continue;
-
-            bool isOutside = !killBounds.Contains(data.Transform.position);
-
-            if (isOutside)
+            if (outOfBounds)
             {
-                _outOfBoundsTimer[i] += Time.deltaTime;
+                _deathTimers[i] += Time.deltaTime;
 
-                if (_outOfBoundsTimer[i] >= outOfBoundsGraceTime)
-                {
-                    _outOfBoundsTimer[i] = 0f;
-                    data.Health.TakeOutOfScreenDeath();
-                    Debug.Log($"[ScreenBoundaryKiller] {data.Transform.name} eliminado por salir de pantalla.");
-                }
+                if (_deathTimers[i] >= graceTime)
+                    players[i].Health.Die();
             }
             else
             {
-                // Reset del temporizador si volvió dentro
-                _outOfBoundsTimer[i] = 0f;
+                // Volvió a entrar antes del límite — resetear timer
+                _deathTimers[i] = 0f;
             }
         }
-    }
-
-    // ─────────────────────────────────────────────
-    //  DEBUG GIZMO — muestra la zona de muerte
-    // ─────────────────────────────────────────────
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = new Color(1f, 0f, 0f, 0.3f);
-        Gizmos.DrawWireCube(
-            _cameraBounds.center,
-            _cameraBounds.size + new Vector3(gracePaddingX * 2f, gracePaddingY * 2f, 0f)
-        );
     }
 }

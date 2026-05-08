@@ -1,69 +1,58 @@
 using UnityEngine;
 
 /// <summary>
-/// Coloca este script en un GameObject con Collider2D (trigger)
-/// en cada checkpoint del nivel.
+/// Checkpoint de carrera. Se registra en el RaceManager al iniciar
+/// y notifica cuando un jugador lo cruza.
 ///
-/// Setup:
-///   - Collider2D marcado como "Is Trigger"
-///   - checkpointIndex: número secuencial (1, 2, 3…)
-///   - El último checkpoint marca isFinishLine = true
+/// El SpawnPoint es el punto donde reaparecerán los jugadores
+/// al inicio de una nueva ronda. Si no se asigna, se usa la
+/// posición del propio checkpoint.
 /// </summary>
 public class Checkpoint : MonoBehaviour
 {
     [Header("Configuración")]
-    [Tooltip("Número de orden de este checkpoint (empieza en 1)")]
-    public int checkpointIndex = 1;
+    public int  checkpointIndex = 1;
+    public bool isFinishLine    = false;
 
-    [Tooltip("¿Es la línea de meta?")]
-    public bool isFinishLine = false;
+    [Header("Spawn")]
+    [Tooltip("Posición de respawn para este checkpoint. " +
+             "Si está vacío se usa transform.position de este objeto.")]
+    public Transform spawnPoint;
 
-    // ─────────────────────────────────────────────
-    //  INIT — auto-registro en RaceManager
-    // ─────────────────────────────────────────────
-    private void Awake()
-    {
-        // El RaceManager puede no existir todavía en Awake,
-        // así que usamos Start para registrarse.
-    }
+    /// <summary>
+    /// Posición donde deben aparecer los jugadores al reiniciar
+    /// la ronda desde este checkpoint.
+    /// </summary>
+    public Vector3 SpawnPosition => spawnPoint != null
+        ? spawnPoint.position
+        : transform.position;
 
     private void Start()
     {
         if (RaceManager.Instance != null)
             RaceManager.Instance.RegisterCheckpoint(this);
-        else
-            Debug.LogWarning($"[Checkpoint] RaceManager no encontrado en escena. " +
-                                $"Checkpoint {checkpointIndex} no registrado.");
     }
 
-    // ─────────────────────────────────────────────
-    //  TRIGGER
-    // ─────────────────────────────────────────────
     private void OnTriggerEnter2D(Collider2D other)
     {
-        var health = other.GetComponent<PlayerHealth>();
-        if (health == null) return;
+        PlayerHealth health = other.GetComponent<PlayerHealth>();
 
-        RaceManager.Instance?.NotifyCheckpointReached(health, checkpointIndex, isFinishLine);
-
-        // Visual debug — opcional, quitar en producción
-        Debug.Log($"[Checkpoint {checkpointIndex}] alcanzado por {other.name}" +
-                    (isFinishLine ? " — META" : ""));
+        if (health != null && RaceManager.Instance != null)
+        {
+            RaceManager.Instance.NotifyCheckpointReached(health, checkpointIndex, isFinishLine);
+            Debug.Log($"[Checkpoint] {other.name} pasó por el punto {checkpointIndex}");
+        }
     }
 
-    // ─────────────────────────────────────────────
-    //  GIZMO — visible en Scene View
-    // ─────────────────────────────────────────────
     private void OnDrawGizmos()
     {
+        // Checkpoint: cyan normal, meta: amarillo
         Gizmos.color = isFinishLine ? Color.yellow : Color.cyan;
-        Gizmos.DrawWireCube(transform.position, new Vector3(1f, 3f, 0f));
+        Gizmos.DrawWireCube(transform.position, new Vector3(1f, 4f, 0f));
 
-#if UNITY_EDITOR
-        UnityEditor.Handles.Label(
-            transform.position + Vector3.up * 1.8f,
-            isFinishLine ? "META" : $"CP {checkpointIndex}"
-        );
-#endif
+        // SpawnPoint: esfera verde, para ver dónde aparecerán los jugadores
+        Gizmos.color = Color.green;
+        Vector3 sp = spawnPoint != null ? spawnPoint.position : transform.position;
+        Gizmos.DrawWireSphere(sp, 0.3f);
     }
 }

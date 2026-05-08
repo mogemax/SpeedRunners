@@ -1,224 +1,239 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-/// <summary>
-/// Gestiona el estado de la carrera:
-///   - Registra los dos jugadores
-///   - Lleva la cuenta de checkpoints por jugador
-///   - Determina quién va en primer lugar
-///   - Expone eventos para que la cámara y la UI reaccionen
-///
-/// Setup en escena:
-///   - Un GameObject vacío con este script (singleton)
-///   - Los Checkpoint triggers en el nivel tienen el script Checkpoint.cs
-///     y se auto-registran aquí al despertar
-/// </summary>
 public class RaceManager : MonoBehaviour
 {
-    // ─────────────────────────────────────────────
-    //  SINGLETON
-    // ─────────────────────────────────────────────
     public static RaceManager Instance { get; private set; }
 
-    // ─────────────────────────────────────────────
-    //  CONFIGURACIÓN
-    // ─────────────────────────────────────────────
     [Header("Jugadores")]
-    [Tooltip("Arrastra aquí los dos GameObjects de jugador en el editor")]
     public PlayerHealth[] players = new PlayerHealth[2];
 
-    [Header("Carrera")]
-    [Tooltip("Número total de checkpoints en el nivel (se llena automáticamente)")]
-    [SerializeField] private int totalCheckpoints;
+    [Header("Configuración")]
+    public int  totalCheckpoints = 10;
+    public bool raceIsActive     = true;
+
+    [Header("Victorias")]
+    [Tooltip("Victorias necesarias para ganar la partida completa")]
+    public int winsToWin = 3;
+
+    [Header("Countdown entre rondas")]
+    [Tooltip("Segundos de cuenta regresiva antes de reiniciar la ronda")]
+    public int countdownSeconds = 3;
 
     // ─────────────────────────────────────────────
-    //  ESTADO DE CARRERA POR JUGADOR
+    //  PROGRESO POR JUGADOR
     // ─────────────────────────────────────────────
-    public class PlayerRaceData
+    [Serializable]
+    public class PlayerProgress
     {
         public PlayerHealth Health;
         public Transform    Transform;
-        public int          CheckpointIndex;   // último checkpoint alcanzado (0 = inicio)
-        public bool         IsEliminated;
-        public int          Place;             // 1 = primero, 2 = segundo
+        public int          CurrentCP    = 0;
+        public int          Laps         = 0;
+        public bool         IsEliminated = false;
+        public int          Wins         = 0;
+
+        // Referencia al ultimo checkpoint fisico que cruzo
+        public Checkpoint LastCheckpoint = null;
+
+        public float TotalScore => (Laps * 1000) + CurrentCP;
     }
 
-    private PlayerRaceData[] _raceData;
+    public List<PlayerProgress> RaceData = new List<PlayerProgress>();
 
-    // ─────────────────────────────────────────────
-    //  PROPIEDADES PÚBLICAS
-    // ─────────────────────────────────────────────
+    private Dictionary<PlayerHealth, PlayerProgress> _progressMap
+        = new Dictionary<PlayerHealth, PlayerProgress>();
 
-    /// <summary>Jugador que va en primer lugar (Transform). Null si no hay datos.</summary>
-    public Transform LeaderTransform =>
-        _raceData?.OrderBy(d => d.Place).FirstOrDefault(d => !d.IsEliminated)?.Transform;
-
-    /// <summary>Todos los datos de carrera, ordenados por puesto.</summary>
-    public IReadOnlyList<PlayerRaceData> RaceData => _raceData;
+    private List<Checkpoint> _checkpoints = new List<Checkpoint>();
 
     // ─────────────────────────────────────────────
     //  EVENTOS
     // ─────────────────────────────────────────────
-    public event System.Action<PlayerRaceData>   OnLeaderChanged;
-    public event System.Action<PlayerRaceData>   OnPlayerEliminated;
-    public event System.Action<PlayerRaceData>   OnRaceFinished;      // llegó a la meta
+    public event Action<int> OnRoundEnd;
+    public event Action<int> OnMatchEnd;
+    public event Action<int> OnCountdownTick;
+    public event Action      OnCountdownFinished;
 
     // ─────────────────────────────────────────────
-    //  PRIVADOS
+    //  CAMARA
     // ─────────────────────────────────────────────
-    private PlayerRaceData _lastLeader;
-    private List<Checkpoint> _checkpoints = new();
+    public Transform LeaderTransform
+    {
+        get {
+            var leader = RaceData.Where(d => !d.IsEliminated)
+                                 .OrderByDescending(d => d.TotalScore)
+                                 .FirstOrDefault();
+            return leader != null ? leader.Transform : null;
+        }
+    }
 
     // ─────────────────────────────────────────────
     //  INIT
     // ─────────────────────────────────────────────
-    private void Awake()
-    {
-        // Singleton simple — solo una instancia por escena
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        Instance = this;
-
-        InitRaceData();
-    }
-
-    private void InitRaceData()
-    {
-        _raceData = new PlayerRaceData[players.Length];
-        for (int i = 0; i < players.Length; i++)
-        {
-            _raceData[i] = new PlayerRaceData
-            {
-                Health          = players[i],
-                Transform       = players[i].transform,
-                CheckpointIndex = 0,
-                IsEliminated    = false,
-                Place           = i + 1
-            };
-
-            // Escuchar muerte del jugador
-            int captured = i;  // capturar para el closure
-            players[i].OnPlayerDied += () => HandlePlayerDied(captured);
-        }
-    }
+    private void Awake() => Instance = this;
 
     private void Start()
     {
-        UpdatePlaces();
+        foreach (var p in players)
+        {
+            if (p == null) continue;
+
+            var data = new PlayerProgress { Health = p, Transform = p.transform };
+            RaceData.Add(data);
+            _progressMap[p] = data;
+
+            PlayerHealth captured = p;
+            p.OnDied += () => HandleElimination(captured);
+        }
     }
 
     // ─────────────────────────────────────────────
-    //  REGISTRO DE CHECKPOINTS
-    //  Los Checkpoint.cs llaman esto en su Awake()
+    //  CHECKPOINTS
     // ─────────────────────────────────────────────
     public void RegisterCheckpoint(Checkpoint cp)
     {
         if (!_checkpoints.Contains(cp))
-        {
             _checkpoints.Add(cp);
-            totalCheckpoints = _checkpoints.Count;
+
+        if (cp.checkpointIndex > totalCheckpoints)
+            totalCheckpoints = cp.checkpointIndex;
+    }
+
+    public void NotifyCheckpointReached(PlayerHealth p, int idx, bool isMeta)
+    {
+        if (!raceIsActive) return;
+
+        if (!_progressMap.TryGetValue(p, out var data)) return;
+
+        var checkpoint = _checkpoints.FirstOrDefault(c => c.checkpointIndex == idx);
+        if (checkpoint != null)
+            data.LastCheckpoint = checkpoint;
+
+        if (isMeta && data.CurrentCP >= totalCheckpoints - 1)
+        {
+            data.Laps++;
+            data.CurrentCP = 0;
+            Debug.Log($"[RaceManager] {p.gameObject.name} completo la vuelta {data.Laps}.");
+        }
+        else if (idx > data.CurrentCP)
+        {
+            data.CurrentCP = idx;
         }
     }
 
     // ─────────────────────────────────────────────
-    //  CHECKPOINT ALCANZADO
-    //  Llamado por Checkpoint.cs cuando un jugador
-    //  pasa por el trigger.
+    //  ELIMINACION
     // ─────────────────────────────────────────────
-    public void NotifyCheckpointReached(PlayerHealth player, int checkpointIndex, bool isFinishLine)
+    private void HandleElimination(PlayerHealth eliminated)
     {
-        PlayerRaceData data = GetDataFor(player);
-        if (data == null || data.IsEliminated) return;
+        if (!raceIsActive) return;
 
-        // Solo avanzar hacia adelante — nunca retroceder
-        if (checkpointIndex <= data.CheckpointIndex) return;
+        if (_progressMap.TryGetValue(eliminated, out var eliminatedData))
+            eliminatedData.IsEliminated = true;
 
-        data.CheckpointIndex = checkpointIndex;
+        var winner = RaceData.FirstOrDefault(d => !d.IsEliminated);
 
-        if (isFinishLine)
+        if (winner == null)
         {
-            OnRaceFinished?.Invoke(data);
-            Debug.Log($"[RaceManager] {data.Transform.name} cruzó la meta en puesto {data.Place}.");
+            raceIsActive = false;
+            Debug.Log("[RaceManager] Empate — ambos eliminados simultaneamente.");
+            StartCoroutine(RoundEndSequence(winnerData: null));
+            return;
         }
 
-        UpdatePlaces();
-    }
+        winner.Wins++;
+        int winnerIndex = RaceData.IndexOf(winner);
 
-    // ─────────────────────────────────────────────
-    //  ACTUALIZAR PUESTOS
-    //  Criterio: más checkpoints = mejor puesto.
-    //  En empate de checkpoints, gana el que tiene
-    //  mayor posición X en el mundo.
-    // ─────────────────────────────────────────────
-    private void UpdatePlaces()
-    {
-        if (_raceData == null) return;
+        Debug.Log($"[RaceManager] Ronda terminada — Ganador: {winner.Health.gameObject.name} " +
+                  $"| Victorias: {winner.Wins}/{winsToWin}");
 
-        var sorted = _raceData
-            .Where(d => !d.IsEliminated)
-            .OrderByDescending(d => d.CheckpointIndex)
-            .ThenByDescending(d => d.Transform.position.x)
-            .ToArray();
+        OnRoundEnd?.Invoke(winnerIndex);
+        raceIsActive = false;
 
-        for (int i = 0; i < sorted.Length; i++)
-            sorted[i].Place = i + 1;
-
-        // Puestos para eliminados al final
-        int lastPlace = sorted.Length + 1;
-        foreach (var d in _raceData.Where(d => d.IsEliminated))
-            d.Place = lastPlace++;
-
-        // Notificar cambio de líder
-        var newLeader = sorted.FirstOrDefault();
-        if (newLeader != null && newLeader != _lastLeader)
+        if (winner.Wins >= winsToWin)
         {
-            _lastLeader = newLeader;
-            OnLeaderChanged?.Invoke(newLeader);
+            Debug.Log($"[RaceManager] {winner.Health.gameObject.name} gana la partida! " +
+                      $"({winner.Wins} victorias)");
+            OnMatchEnd?.Invoke(winnerIndex);
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            StartCoroutine(RoundEndSequence(winner));
         }
     }
 
     // ─────────────────────────────────────────────
-    //  MUERTE DE JUGADOR
+    //  SECUENCIA FIN DE RONDA
     // ─────────────────────────────────────────────
-    private void HandlePlayerDied(int playerIndex)
+    private IEnumerator RoundEndSequence(PlayerProgress winnerData)
     {
-        var data = _raceData[playerIndex];
+        // 1 — Congelar jugadores
+        FreezeAllPlayers(true);
 
-        // En SpeedRunners, morir una vez no elimina al jugador
-        // (pierde una vida y reaparece). Solo se elimina si se
-        // queda sin vidas — PlayerHealth ya gestiona eso.
-        // Aquí solo eliminamos si CurrentLives llegó a 0.
-        if (data.Health.CurrentLives <= 0)
+        yield return new WaitForSeconds(0.5f);
+
+        // 2 — Posicion de spawn
+        Vector3 spawnPos = GetSpawnPosition(winnerData);
+
+        // 3 — Teleportar y revivir a todos
+        foreach (var data in RaceData)
         {
-            data.IsEliminated = true;
-            OnPlayerEliminated?.Invoke(data);
-            UpdatePlaces();
-            Debug.Log($"[RaceManager] {data.Transform.name} eliminado de la carrera.");
+            data.Transform.position = spawnPos;
+            data.IsEliminated       = false;
+            data.Health.gameObject.SetActive(true);
+            data.Health.Revive();
+            data.CurrentCP      = 0;
+            data.Laps           = 0;
+            data.LastCheckpoint = null;
         }
+
+        // 4 — Countdown
+        for (int i = countdownSeconds; i > 0; i--)
+        {
+            Debug.Log($"[RaceManager] Nueva ronda en... {i}");
+            OnCountdownTick?.Invoke(i);
+            yield return new WaitForSeconds(1f);
+        }
+
+        Debug.Log("[RaceManager] YA! — Ronda iniciada.");
+        OnCountdownFinished?.Invoke();
+
+        // 5 — Descongelar y reactivar
+        FreezeAllPlayers(false);
+        raceIsActive = true;
     }
 
     // ─────────────────────────────────────────────
     //  HELPERS
     // ─────────────────────────────────────────────
-    private PlayerRaceData GetDataFor(PlayerHealth player)
+    private void FreezeAllPlayers(bool frozen)
     {
-        foreach (var d in _raceData)
-            if (d.Health == player) return d;
-        return null;
+        foreach (var data in RaceData)
+        {
+            var movement = data.Health.GetComponent<PlayerMovement>();
+            if (movement != null)
+                movement.SetFrozen(frozen);
+        }
     }
 
-    /// <summary>
-    /// Devuelve los datos de carrera de un jugador por su Transform.
-    /// Útil para la cámara y la UI.
-    /// </summary>
-    public PlayerRaceData GetDataFor(Transform t)
+    private Vector3 GetSpawnPosition(PlayerProgress winnerData)
     {
-        foreach (var d in _raceData)
-            if (d.Transform == t) return d;
-        return null;
+        if (winnerData != null && winnerData.LastCheckpoint != null)
+            return winnerData.LastCheckpoint.SpawnPosition;
+
+        var first = _checkpoints.OrderBy(c => c.checkpointIndex).FirstOrDefault();
+        if (first != null)
+        {
+            Debug.LogWarning("[RaceManager] El ganador no cruzo ningun checkpoint — " +
+                             "spawneando en el checkpoint inicial.");
+            return first.SpawnPosition;
+        }
+
+        Debug.LogWarning("[RaceManager] No hay checkpoints registrados — spawneando en (0,0,0).");
+        return Vector3.zero;
     }
 }
