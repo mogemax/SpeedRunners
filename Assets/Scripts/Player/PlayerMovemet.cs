@@ -102,13 +102,11 @@ public class PlayerMovement : MonoBehaviour
 
     // ─────────────────────────────────────────────
     //  PRIVADOS — Estado de input
-    //  Estas variables se llenan por los callbacks
-    //  del Input System, no por polling directo.
     // ─────────────────────────────────────────────
-    private float _moveInput;       // -1, 0 o 1 (horizontal)
-    private bool  _jumpPressed;     // true el frame que se presionó Jump
-    private bool  _jumpHeld;        // true mientras Jump está sostenido
-    private bool  _slidePressed;    // true el frame que se presionó Slide/Down
+    private float _moveInput;
+    private bool  _jumpPressed;
+    private bool  _jumpHeld;
+    private bool  _slidePressed;
 
     // ─────────────────────────────────────────────
     //  PRIVADOS — Lógica interna
@@ -118,6 +116,38 @@ public class PlayerMovement : MonoBehaviour
     private float _jumpBufferCounter;
     private float _slideTimer;
     private bool  _wasGroundedLastFrame;
+
+    // ─────────────────────────────────────────────
+    //  FREEZE — bloqueado por RaceManager durante
+    //  el countdown entre rondas. La física sigue
+    //  activa (el personaje cae normalmente) pero
+    //  no se acepta ningún input del jugador.
+    // ─────────────────────────────────────────────
+    private bool _isFrozen = false;
+
+    /// <summary>
+    /// Congela o descongela el input del jugador.
+    /// Llamado por RaceManager al inicio/fin del countdown.
+    /// La física (gravedad, colisiones) sigue funcionando.
+    /// </summary>
+    public void SetFrozen(bool frozen)
+    {
+        _isFrozen = frozen;
+
+        if (frozen)
+        {
+            // Detener velocidad horizontal al congelar
+            // para que no siga deslizándose
+            _rb.linearVelocity = new Vector2(0f, _rb.linearVelocity.y);
+
+            // Limpiar inputs buffereados para que al descongelar
+            // no se ejecute un salto o slide que se presionó antes
+            _jumpPressed  = false;
+            _jumpHeld     = false;
+            _slidePressed = false;
+            _moveInput    = 0f;
+        }
+    }
 
     // ─────────────────────────────────────────────
     //  INICIALIZACIÓN
@@ -131,32 +161,22 @@ public class PlayerMovement : MonoBehaviour
 
     // ─────────────────────────────────────────────
     //  CALLBACKS DEL INPUT SYSTEM
-    //
-    //  Unity llama estos métodos automáticamente
-    //  si el componente PlayerInput usa el Behavior
-    //  "Send Messages" o "Broadcast Messages".
-    //
-    //  Nombre del método = "On" + nombre de la Action
-    //  en el Input Action Asset.
-    //
-    //  Actions necesarias en el Asset:
-    //    - Move      (Value, Vector2)
-    //    - Jump      (Button)
-    //    - Slide     (Button)
     // ─────────────────────────────────────────────
 
-    /// <summary>Action: "Move" (Vector2 — usamos solo el eje X)</summary>
     public void OnMove(InputValue value)
     {
+        // Si está congelado ignoramos el input de movimiento
+        if (_isFrozen) return;
         _moveInput = value.Get<Vector2>().x;
     }
 
-    /// <summary>Action: "Jump"</summary>
     public void OnJump(InputValue value)
     {
+        if (_isFrozen) return;
+
         if (value.isPressed)
         {
-            _jumpPressed = true;  // consumido en Update el mismo frame
+            _jumpPressed = true;
             _jumpHeld    = true;
         }
         else
@@ -165,21 +185,20 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    /// <summary>Action: "Slide" (botón dedicado o Down en el stick/teclado)</summary>
     public void OnSlide(InputValue value)
     {
+        if (_isFrozen) return;
         if (value.isPressed)
-            _slidePressed = true;  // consumido en Update el mismo frame
+            _slidePressed = true;
     }
 
     // ─────────────────────────────────────────────
-    //  UPDATE — Lógica por frame
+    //  UPDATE
     // ─────────────────────────────────────────────
     private void Update()
     {
-        if (_health.IsDead || _health.IsStunned) return;
+        if (_health.IsDead || _isFrozen) return;
 
-        // Exponer input para que el AnimatorController lo lea
         HorizontalInput = _moveInput;
 
         HandleFlip();
@@ -187,18 +206,21 @@ public class PlayerMovement : MonoBehaviour
         HandleCoyoteTime();
         HandleSlide();
 
-        // Consumir flags de "presionado este frame"
-        // para que no se ejecuten en frames posteriores
         _jumpPressed  = false;
         _slidePressed = false;
     }
 
     // ─────────────────────────────────────────────
-    //  FIXED UPDATE — Física
+    //  FIXED UPDATE
     // ─────────────────────────────────────────────
     private void FixedUpdate()
     {
         CheckGrounded();
+
+        // Durante freeze solo chequeamos suelo —
+        // no aplicamos movimiento ni gravedad modificada
+        if (_isFrozen) return;
+
         ApplyMovement();
         ApplyGravityModifiers();
     }
@@ -225,7 +247,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (IsSliding)
         {
-            // Durante slide: solo fricción, sin control del jugador
             float newVelX = Mathf.MoveTowards(
                 _rb.linearVelocity.x, 0f, slideFriction * Time.fixedDeltaTime
             );
@@ -233,8 +254,8 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        float targetSpeed  = _moveInput * maxSpeed;
-        float speedDiff    = targetSpeed - _rb.linearVelocity.x;
+        float targetSpeed = _moveInput * maxSpeed;
+        float speedDiff   = targetSpeed - _rb.linearVelocity.x;
 
         float accelRate = Mathf.Abs(targetSpeed) > 0.01f
             ? (IsGrounded ? acceleration : acceleration * airControlMultiplier)
@@ -242,13 +263,11 @@ public class PlayerMovement : MonoBehaviour
 
         _rb.AddForce(new Vector2(speedDiff * accelRate, 0f), ForceMode2D.Force);
 
-        // Clamp de velocidad máxima
         _rb.linearVelocity = new Vector2(
             Mathf.Clamp(_rb.linearVelocity.x, -maxSpeed, maxSpeed),
             _rb.linearVelocity.y
         );
 
-        // Detectar skid: cambio de dirección brusco en suelo
         IsSkidding = IsGrounded
                      && Mathf.Abs(_rb.linearVelocity.x) > 2f
                      && _moveInput != 0
@@ -257,24 +276,15 @@ public class PlayerMovement : MonoBehaviour
 
     // ─────────────────────────────────────────────
     //  GRAVEDAD MODIFICADA
-    //  Usa _jumpHeld en vez de Input.GetButton
     // ─────────────────────────────────────────────
     private void ApplyGravityModifiers()
     {
         if (_rb.linearVelocity.y < 0)
-        {
-            // Caída más pesada
             _rb.gravityScale = fallGravityMultiplier;
-        }
         else if (_rb.linearVelocity.y > 0 && !_jumpHeld)
-        {
-            // Soltar Jump temprano = salto corto
             _rb.gravityScale = lowJumpMultiplier;
-        }
         else
-        {
             _rb.gravityScale = 1f;
-        }
     }
 
     // ─────────────────────────────────────────────
@@ -302,14 +312,12 @@ public class PlayerMovement : MonoBehaviour
         {
             if (_coyoteTimeCounter > 0f)
             {
-                // Primer salto (o coyote jump)
                 PerformJump(jumpForce, isDoubleJump: false);
                 _jumpBufferCounter = 0f;
                 _coyoteTimeCounter = 0f;
             }
             else if (_canDoubleJump)
             {
-                // Doble salto
                 PerformJump(doubleJumpForce, isDoubleJump: true);
                 _canDoubleJump     = false;
                 _jumpBufferCounter = 0f;
@@ -349,13 +357,11 @@ public class PlayerMovement : MonoBehaviour
 
         float dir = IsFacingRight ? 1f : -1f;
         _rb.linearVelocity = new Vector2(slideBoostSpeed * dir, _rb.linearVelocity.y);
-        // El animator lee IsSliding directamente desde Update() — no hay llamada manual
     }
 
     private void EndSlide()
     {
         IsSliding = false;
-        // Idem — Update() propaga el false al Animator automáticamente
     }
 
     // ─────────────────────────────────────────────
@@ -376,24 +382,22 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // ─────────────────────────────────────────────
-    //  API PÚBLICA — llamada desde otros scripts
+    //  API PÚBLICA
     // ─────────────────────────────────────────────
 
-    /// <summary>Aplica knockback al recibir daño.</summary>
     public void ApplyKnockback(Vector2 direction, float force)
     {
         _rb.linearVelocity = Vector2.zero;
         _rb.AddForce(direction.normalized * force, ForceMode2D.Impulse);
     }
 
-    /// <summary>Detiene movimiento horizontal bruscamente (usado en stun).</summary>
     public void StopHorizontalMovement()
     {
         _rb.linearVelocity = new Vector2(0f, _rb.linearVelocity.y);
     }
 
     // ─────────────────────────────────────────────
-    //  GIZMOS (debug visual en el editor)
+    //  GIZMOS
     // ─────────────────────────────────────────────
     private void OnDrawGizmosSelected()
     {
