@@ -24,6 +24,17 @@ public class RaceManager : MonoBehaviour
     public int countdownSeconds = 3;
 
     // ─────────────────────────────────────────────
+    //  ANIMACIÓN DE ELIMINACIÓN  ← NUEVO
+    //  Arrastra aquí el GameObject que tiene
+    //  EliminationUIAnimator. Si se deja vacío,
+    //  el juego sigue funcionando sin animación.
+    // ─────────────────────────────────────────────
+    [Header("Animación de eliminación")]
+    [Tooltip("GameObject con el componente EliminationUIAnimator. " +
+             "Opcional: si está vacío, la secuencia de animación se omite.")]
+    public EliminationUIAnimator eliminationAnimator;
+
+    // ─────────────────────────────────────────────
     //  PROGRESO POR JUGADOR
     // ─────────────────────────────────────────────
     [Serializable]
@@ -92,6 +103,7 @@ public class RaceManager : MonoBehaviour
 
     // ─────────────────────────────────────────────
     //  CHECKPOINTS
+    //  Sin cambios respecto al original
     // ─────────────────────────────────────────────
     public void RegisterCheckpoint(Checkpoint cp)
     {
@@ -126,6 +138,8 @@ public class RaceManager : MonoBehaviour
 
     // ─────────────────────────────────────────────
     //  ELIMINACION
+    //  Solo se agrega la llamada al animador antes
+    //  de iniciar RoundEndSequence. El resto es igual.
     // ─────────────────────────────────────────────
     private void HandleElimination(PlayerHealth eliminated)
     {
@@ -140,7 +154,7 @@ public class RaceManager : MonoBehaviour
         {
             raceIsActive = false;
             Debug.Log("[RaceManager] Empate — ambos eliminados simultaneamente.");
-            StartCoroutine(RoundEndSequence(winnerData: null));
+            StartCoroutine(EliminationThenRoundEnd(winnerData: null));
             return;
         }
 
@@ -158,16 +172,67 @@ public class RaceManager : MonoBehaviour
             Debug.Log($"[RaceManager] {winner.Health.gameObject.name} gana la partida! " +
                       $"({winner.Wins} victorias)");
             OnMatchEnd?.Invoke(winnerIndex);
-            Time.timeScale = 0f;
+
+            // ← NUEVO: reproducir animación incluso en victoria final,
+            //   luego pausar el juego
+            StartCoroutine(EliminationThenMatchEnd());
         }
         else
         {
-            StartCoroutine(RoundEndSequence(winner));
+            StartCoroutine(EliminationThenRoundEnd(winner));
         }
     }
 
     // ─────────────────────────────────────────────
+    //  NUEVO: espera la animación, luego continúa
+    // ─────────────────────────────────────────────
+
+    /// <summary>
+    /// Reproduce la secuencia de animación de eliminación y,
+    /// al terminar, inicia RoundEndSequence normalmente.
+    /// </summary>
+    private IEnumerator EliminationThenRoundEnd(PlayerProgress winnerData)
+    {
+        yield return StartCoroutine(WaitForEliminationAnimation());
+        yield return StartCoroutine(RoundEndSequence(winnerData));
+    }
+
+    /// <summary>
+    /// Reproduce la secuencia de animación y luego pausa el juego
+    /// (victoria final de partida).
+    /// </summary>
+    private IEnumerator EliminationThenMatchEnd()
+    {
+        yield return StartCoroutine(WaitForEliminationAnimation());
+        Time.timeScale = 0f;
+    }
+
+    /// <summary>
+    /// Si hay un EliminationUIAnimator asignado, lo reproduce y
+    /// espera a que termine. Si no hay, continúa inmediatamente.
+    /// </summary>
+    private IEnumerator WaitForEliminationAnimation()
+    {
+        if (eliminationAnimator == null)
+            yield break;
+
+        bool animationDone = false;
+
+        // Suscribirse una sola vez al evento de fin de secuencia
+        void OnDone() => animationDone = true;
+        eliminationAnimator.OnSequenceComplete += OnDone;
+
+        eliminationAnimator.PlayEliminationSequence();
+
+        // Esperar hasta que la animación termine
+        yield return new WaitUntil(() => animationDone);
+
+        eliminationAnimator.OnSequenceComplete -= OnDone;
+    }
+
+    // ─────────────────────────────────────────────
     //  SECUENCIA FIN DE RONDA
+    //  Sin cambios respecto al original
     // ─────────────────────────────────────────────
     private IEnumerator RoundEndSequence(PlayerProgress winnerData)
     {
@@ -209,6 +274,7 @@ public class RaceManager : MonoBehaviour
 
     // ─────────────────────────────────────────────
     //  HELPERS
+    //  Sin cambios respecto al original
     // ─────────────────────────────────────────────
     private void FreezeAllPlayers(bool frozen)
     {
