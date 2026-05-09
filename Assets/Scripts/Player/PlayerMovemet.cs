@@ -100,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerInputReader        _input;
     private PlayerAnimatorController _anim;
     private PlayerHealth             _health;
+    private PlayerGrapple            _grapple;
 
     // ─────────────────────────────────────────────
     //  ESTADO INTERNO — salto
@@ -140,10 +141,11 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     private void Awake()
     {
-        _rb     = GetComponent<Rigidbody2D>();
-        _input  = GetComponent<PlayerInputReader>();
-        _anim   = GetComponent<PlayerAnimatorController>();
-        _health = GetComponent<PlayerHealth>();
+        _rb      = GetComponent<Rigidbody2D>();
+        _input   = GetComponent<PlayerInputReader>();
+        _anim    = GetComponent<PlayerAnimatorController>();
+        _health  = GetComponent<PlayerHealth>();
+        _grapple = GetComponent<PlayerGrapple>();
     }
 
     // ─────────────────────────────────────────────
@@ -151,7 +153,7 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     private void Update()
     {
-        if (_health.IsDead || _isFrozen) return;
+        if (_health.IsDead || _health.IsStunned || _isFrozen) return;
 
         HorizontalInput = _input.MoveInput;
 
@@ -289,6 +291,8 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     private void ApplyGravityModifiers()
     {
+        if (_grapple != null && _grapple.IsGrappling) return;
+
         if (IsGrounded && IsOnSlope && !IsSliding)
         {
             _rb.gravityScale = 0f;
