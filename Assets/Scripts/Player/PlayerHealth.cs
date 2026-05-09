@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int currentLives;
     public bool IsDead { get; private set; }
     public bool IsInvincible { get; private set; }
+    public bool IsStunned { get; private set; }
 
     public event Action OnDied;
 
