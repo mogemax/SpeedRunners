@@ -3,193 +3,147 @@ using UnityEngine.InputSystem;
 
 /// <summary>
 /// Controla el movimiento del personaje: correr, saltar, doble salto y slide.
-/// Compatible con el nuevo Input System de Unity — soporta hasta 4 jugadores
-/// con teclado o mando sin conflictos entre ellos.
+/// Lee el estado de input desde PlayerInputReader — no conoce teclas ni mandos.
 ///
 /// Setup requerido en el GameObject:
 ///   - Rigidbody2D
 ///   - Collider2D
 ///   - PlayerInput (component de Unity, apuntando al Input Action Asset)
+///   - PlayerInputReader
 ///   - PlayerAnimatorController
 ///   - PlayerHealth
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(PlayerInput))]
+[RequireComponent(typeof(PlayerInputReader))]
 [RequireComponent(typeof(PlayerAnimatorController))]
 [RequireComponent(typeof(PlayerHealth))]
 public class PlayerMovement : MonoBehaviour
 {
     // ─────────────────────────────────────────────
-    //  PARÁMETROS DE MOVIMIENTO
+    //  MOVIMIENTO
     // ─────────────────────────────────────────────
     [Header("Movimiento")]
-    [Tooltip("Velocidad máxima horizontal")]
+    [Tooltip("Velocidad maxima horizontal")]
     public float maxSpeed = 12f;
 
-    [Tooltip("Qué tan rápido acelera el personaje")]
+    [Tooltip("Aceleracion lineal al correr (m/s²)")]
     public float acceleration = 25f;
 
-    [Tooltip("Qué tan rápido desacelera al soltar input")]
+    [Tooltip("Desaceleracion lineal al soltar input (m/s²)")]
     public float deceleration = 20f;
 
-    [Tooltip("Multiplicador de velocidad en el aire (menos control)")]
+    [Tooltip("Multiplicador de control en el aire")]
     [Range(0f, 1f)]
     public float airControlMultiplier = 0.6f;
 
     // ─────────────────────────────────────────────
-    //  PARÁMETROS DE SALTO
+    //  SALTO
     // ─────────────────────────────────────────────
     [Header("Salto")]
-    [Tooltip("Fuerza del primer salto")]
     public float jumpForce = 16f;
-
-    [Tooltip("Fuerza del doble salto (un poco menor)")]
     public float doubleJumpForce = 13f;
 
-    [Tooltip("Multiplicador de gravedad al caer (caída más pesada)")]
+    [Tooltip("Multiplicador de gravedad al caer")]
     public float fallGravityMultiplier = 2.5f;
 
     [Tooltip("Multiplicador de gravedad al soltar salto temprano")]
     public float lowJumpMultiplier = 2f;
 
-    [Tooltip("Tiempo de coyote (segundos que puedes saltar tras salir de plataforma)")]
+    [Tooltip("Segundos que puedes saltar tras salir de plataforma")]
     public float coyoteTime = 0.12f;
 
-    [Tooltip("Buffer de input de salto (segundos antes de tocar suelo)")]
+    [Tooltip("Segundos de buffer de input de salto antes de tocar suelo")]
     public float jumpBufferTime = 0.15f;
 
     // ─────────────────────────────────────────────
-    //  PARÁMETROS DE SLIDE
+    //  SLIDE
     // ─────────────────────────────────────────────
     [Header("Slide")]
-    [Tooltip("Velocidad adicional al iniciar slide")]
     public float slideBoostSpeed = 18f;
-
-    [Tooltip("Duración máxima del slide")]
     public float slideDuration = 0.5f;
 
-    [Tooltip("Fricción durante el slide")]
+    [Tooltip("Desaceleracion durante el slide (m/s²)")]
     public float slideFriction = 3f;
 
     // ─────────────────────────────────────────────
-    //  DETECCIÓN DE SUELO
+    //  GROUND CHECK
     // ─────────────────────────────────────────────
     [Header("Ground Check")]
-    [Tooltip("Punto desde donde se detecta el suelo")]
     public Transform groundCheck;
-
-    [Tooltip("Radio de detección de suelo")]
     public float groundCheckRadius = 0.15f;
-
-    [Tooltip("Layers que se consideran suelo")]
     public LayerMask groundLayer;
 
     // ─────────────────────────────────────────────
-    //  ESTADO PÚBLICO (leído por otros scripts)
+    //  PENDIENTES
     // ─────────────────────────────────────────────
-    public bool IsGrounded       { get; private set; }
-    public bool IsSliding        { get; private set; }
-    public bool IsFacingRight    { get; private set; } = true;
-    public bool IsSkidding       { get; private set; }
+    [Header("Pendientes")]
+    [Tooltip("Angulo maximo de pendiente transitable (grados)")]
+    public float maxSlopeAngle = 50f;
+
+    [Tooltip("Distancia del raycast de deteccion de pendiente")]
+    public float slopeCheckDistance = 0.3f;
+
+    // ─────────────────────────────────────────────
+    //  ESTADO PUBLICO
+    // ─────────────────────────────────────────────
+    public bool  IsGrounded     { get; private set; }
+    public bool  IsSliding      { get; private set; }
+    public bool  IsFacingRight  { get; private set; } = true;
+    public bool  IsSkidding     { get; private set; }
+    public bool  IsOnSlope      { get; private set; }
     public float HorizontalInput { get; private set; }
 
     // ─────────────────────────────────────────────
-    //  PRIVADOS — Referencias
+    //  REFERENCIAS
     // ─────────────────────────────────────────────
     private Rigidbody2D              _rb;
+    private PlayerInputReader        _input;
     private PlayerAnimatorController _anim;
     private PlayerHealth             _health;
 
     // ─────────────────────────────────────────────
-    //  PRIVADOS — Estado de input
-    // ─────────────────────────────────────────────
-    private float _moveInput;
-    private bool  _jumpPressed;
-    private bool  _jumpHeld;
-    private bool  _slidePressed;
-
-    // ─────────────────────────────────────────────
-    //  PRIVADOS — Lógica interna
+    //  ESTADO INTERNO — salto
     // ─────────────────────────────────────────────
     private bool  _canDoubleJump;
     private float _coyoteTimeCounter;
     private float _jumpBufferCounter;
-    private float _slideTimer;
     private bool  _wasGroundedLastFrame;
 
     // ─────────────────────────────────────────────
-    //  FREEZE — bloqueado por RaceManager durante
-    //  el countdown entre rondas. La física sigue
-    //  activa (el personaje cae normalmente) pero
-    //  no se acepta ningún input del jugador.
+    //  ESTADO INTERNO — slide
+    // ─────────────────────────────────────────────
+    private float _slideTimer;
+
+    // ─────────────────────────────────────────────
+    //  ESTADO INTERNO — pendientes
+    // ─────────────────────────────────────────────
+    private Vector2 _slopeNormal = Vector2.up;
+
+    // ─────────────────────────────────────────────
+    //  FREEZE
     // ─────────────────────────────────────────────
     private bool _isFrozen = false;
 
-    /// <summary>
-    /// Congela o descongela el input del jugador.
-    /// Llamado por RaceManager al inicio/fin del countdown.
-    /// La física (gravedad, colisiones) sigue funcionando.
-    /// </summary>
     public void SetFrozen(bool frozen)
     {
         _isFrozen = frozen;
 
         if (frozen)
         {
-            // Detener velocidad horizontal al congelar
-            // para que no siga deslizándose
             _rb.linearVelocity = new Vector2(0f, _rb.linearVelocity.y);
-
-            // Limpiar inputs buffereados para que al descongelar
-            // no se ejecute un salto o slide que se presionó antes
-            _jumpPressed  = false;
-            _jumpHeld     = false;
-            _slidePressed = false;
-            _moveInput    = 0f;
+            _input.ResetInput();
         }
     }
 
     // ─────────────────────────────────────────────
-    //  INICIALIZACIÓN
+    //  INIT
     // ─────────────────────────────────────────────
     private void Awake()
     {
         _rb     = GetComponent<Rigidbody2D>();
+        _input  = GetComponent<PlayerInputReader>();
         _anim   = GetComponent<PlayerAnimatorController>();
         _health = GetComponent<PlayerHealth>();
-    }
-
-    // ─────────────────────────────────────────────
-    //  CALLBACKS DEL INPUT SYSTEM
-    // ─────────────────────────────────────────────
-
-    public void OnMove(InputValue value)
-    {
-        // Si está congelado ignoramos el input de movimiento
-        if (_isFrozen) return;
-        _moveInput = value.Get<Vector2>().x;
-    }
-
-    public void OnJump(InputValue value)
-    {
-        if (_isFrozen) return;
-
-        if (value.isPressed)
-        {
-            _jumpPressed = true;
-            _jumpHeld    = true;
-        }
-        else
-        {
-            _jumpHeld = false;
-        }
-    }
-
-    public void OnSlide(InputValue value)
-    {
-        if (_isFrozen) return;
-        if (value.isPressed)
-            _slidePressed = true;
     }
 
     // ─────────────────────────────────────────────
@@ -199,15 +153,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (_health.IsDead || _isFrozen) return;
 
-        HorizontalInput = _moveInput;
+        HorizontalInput = _input.MoveInput;
 
         HandleFlip();
         HandleJumpBuffer();
         HandleCoyoteTime();
         HandleSlide();
-
-        _jumpPressed  = false;
-        _slidePressed = false;
     }
 
     // ─────────────────────────────────────────────
@@ -216,9 +167,8 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         CheckGrounded();
+        DetectSlope();
 
-        // Durante freeze solo chequeamos suelo —
-        // no aplicamos movimiento ni gravedad modificada
         if (_isFrozen) return;
 
         ApplyMovement();
@@ -226,7 +176,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // ─────────────────────────────────────────────
-    //  DETECCIÓN DE SUELO
+    //  DETECCION DE SUELO
     // ─────────────────────────────────────────────
     private void CheckGrounded()
     {
@@ -241,47 +191,113 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // ─────────────────────────────────────────────
+    //  DETECCION DE PENDIENTE
+    //  Raycast hacia abajo desde groundCheck para obtener
+    //  la normal del suelo. Solo se ejecuta cuando hay suelo.
+    // ─────────────────────────────────────────────
+    private void DetectSlope()
+    {
+        if (!IsGrounded)
+        {
+            IsOnSlope    = false;
+            _slopeNormal = Vector2.up;
+            return;
+        }
+
+        RaycastHit2D hit = Physics2D.Raycast(
+            groundCheck.position, Vector2.down, slopeCheckDistance, groundLayer
+        );
+
+        if (hit.collider != null)
+        {
+            _slopeNormal = hit.normal;
+            float angle  = Vector2.Angle(hit.normal, Vector2.up);
+            IsOnSlope    = angle > 1f && angle <= maxSlopeAngle;
+        }
+        else
+        {
+            _slopeNormal = Vector2.up;
+            IsOnSlope    = false;
+        }
+    }
+
+    // ─────────────────────────────────────────────
     //  MOVIMIENTO HORIZONTAL
     // ─────────────────────────────────────────────
     private void ApplyMovement()
     {
         if (IsSliding)
         {
-            float newVelX = Mathf.MoveTowards(
+            float slidingX = Mathf.MoveTowards(
                 _rb.linearVelocity.x, 0f, slideFriction * Time.fixedDeltaTime
             );
-            _rb.linearVelocity = new Vector2(newVelX, _rb.linearVelocity.y);
+            _rb.linearVelocity = new Vector2(slidingX, _rb.linearVelocity.y);
             return;
         }
 
-        float targetSpeed = _moveInput * maxSpeed;
-        float speedDiff   = targetSpeed - _rb.linearVelocity.x;
-
-        float accelRate = Mathf.Abs(targetSpeed) > 0.01f
-            ? (IsGrounded ? acceleration : acceleration * airControlMultiplier)
-            : (IsGrounded ? deceleration : deceleration * airControlMultiplier);
-
-        _rb.AddForce(new Vector2(speedDiff * accelRate, 0f), ForceMode2D.Force);
-
-        _rb.linearVelocity = new Vector2(
-            Mathf.Clamp(_rb.linearVelocity.x, -maxSpeed, maxSpeed),
-            _rb.linearVelocity.y
-        );
+        if (IsGrounded && IsOnSlope)
+            ApplyMovementOnSlope();
+        else
+            ApplyMovementFlat();
 
         IsSkidding = IsGrounded
                      && Mathf.Abs(_rb.linearVelocity.x) > 2f
-                     && _moveInput != 0
-                     && Mathf.Sign(_moveInput) != Mathf.Sign(_rb.linearVelocity.x);
+                     && _input.MoveInput != 0
+                     && Mathf.Sign(_input.MoveInput) != Mathf.Sign(_rb.linearVelocity.x);
+    }
+
+    private void ApplyMovementFlat()
+    {
+        float targetSpeed = _input.MoveInput * maxSpeed;
+
+        float accelRate = Mathf.Abs(_input.MoveInput) > 0.01f
+            ? (IsGrounded ? acceleration : acceleration * airControlMultiplier)
+            : (IsGrounded ? deceleration : deceleration * airControlMultiplier);
+
+        float newX = Mathf.MoveTowards(
+            _rb.linearVelocity.x, targetSpeed, accelRate * Time.fixedDeltaTime
+        );
+        _rb.linearVelocity = new Vector2(newX, _rb.linearVelocity.y);
+    }
+
+    private void ApplyMovementOnSlope()
+    {
+        // Tangente de la pendiente apuntando hacia la derecha
+        // Si normal = (nx, ny) → tangente = (ny, -nx)
+        Vector2 slopeTangent = new Vector2(_slopeNormal.y, -_slopeNormal.x);
+
+        // Velocidad objetivo a lo largo de la tangente
+        Vector2 targetVelocity = slopeTangent * (_input.MoveInput * maxSpeed);
+
+        float accelRate = Mathf.Abs(_input.MoveInput) > 0.01f ? acceleration : deceleration;
+
+        Vector2 newVelocity = Vector2.MoveTowards(
+            _rb.linearVelocity, targetVelocity, accelRate * Time.fixedDeltaTime
+        );
+
+        // Sin input: anular Y para evitar que resbale por gravedad
+        if (Mathf.Abs(_input.MoveInput) < 0.01f)
+            newVelocity.y = 0f;
+
+        _rb.linearVelocity = newVelocity;
     }
 
     // ─────────────────────────────────────────────
     //  GRAVEDAD MODIFICADA
+    //  En pendiente con suelo: gravedad desactivada
+    //  para evitar que Rigidbody luche contra la normal.
     // ─────────────────────────────────────────────
     private void ApplyGravityModifiers()
     {
+        if (IsGrounded && IsOnSlope && !IsSliding)
+        {
+            _rb.gravityScale = 0f;
+            return;
+        }
+
         if (_rb.linearVelocity.y < 0)
             _rb.gravityScale = fallGravityMultiplier;
-        else if (_rb.linearVelocity.y > 0 && !_jumpHeld)
+        else if (_rb.linearVelocity.y > 0 && !_input.JumpHeld)
             _rb.gravityScale = lowJumpMultiplier;
         else
             _rb.gravityScale = 1f;
@@ -299,11 +315,11 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // ─────────────────────────────────────────────
-    //  JUMP BUFFER + EJECUCIÓN DE SALTO
+    //  JUMP BUFFER + EJECUCION DE SALTO
     // ─────────────────────────────────────────────
     private void HandleJumpBuffer()
     {
-        if (_jumpPressed)
+        if (_input.JumpPressed)
             _jumpBufferCounter = jumpBufferTime;
 
         _jumpBufferCounter -= Time.deltaTime;
@@ -327,6 +343,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void PerformJump(float force, bool isDoubleJump)
     {
+        // Restaurar gravedad antes de saltar para que el impulso no
+        // quede anulado por gravityScale = 0 en pendiente
+        _rb.gravityScale = 1f;
+
         _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0f);
         _rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
 
@@ -339,7 +359,7 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     private void HandleSlide()
     {
-        if (_slidePressed && IsGrounded && !IsSliding && Mathf.Abs(_rb.linearVelocity.x) > 2f)
+        if (_input.SlidePressed && IsGrounded && !IsSliding && Mathf.Abs(_rb.linearVelocity.x) > 2f)
             StartSlide();
 
         if (IsSliding)
@@ -369,8 +389,8 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     private void HandleFlip()
     {
-        if      (_moveInput > 0 && !IsFacingRight) Flip();
-        else if (_moveInput < 0 &&  IsFacingRight) Flip();
+        if      (_input.MoveInput > 0 && !IsFacingRight) Flip();
+        else if (_input.MoveInput < 0 &&  IsFacingRight) Flip();
     }
 
     private void Flip()
@@ -382,7 +402,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // ─────────────────────────────────────────────
-    //  API PÚBLICA
+    //  API PUBLICA
     // ─────────────────────────────────────────────
 
     public void ApplyKnockback(Vector2 direction, float force)
@@ -402,7 +422,11 @@ public class PlayerMovement : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         if (groundCheck == null) return;
+
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawRay(groundCheck.position, Vector2.down * slopeCheckDistance);
     }
 }

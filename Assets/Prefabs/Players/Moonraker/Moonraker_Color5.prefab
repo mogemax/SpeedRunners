@@ -17,9 +17,10 @@ GameObject:
   - component: {fileID: 8236494828761293514}
   - component: {fileID: 6727252924610798457}
   - component: {fileID: 7544034108643772963}
+  - component: {fileID: 1020036060784338144}
   m_Layer: 0
   m_Name: Moonraker_Color5
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,7 +35,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6941465, y: 1.6941465, z: 1.6941465}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9120542568084428103}
@@ -87,7 +88,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5639015973677630997, guid: 42c90de8787074b83bda1e24a8aabbc4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -237,14 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxLives: 3
-  stunDuration: 0.6
-  heavyStunDuration: 1.2
-  knockbackForce: 10
-  heavyKnockbackForce: 18
-  invincibilityDuration: 1.5
-  blinkFrequency: 0.1
-  respawnDelay: 2
-  showDebugGUI: 0
+  currentLives: 0
 --- !u!114 &6727252924610798457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,7 +283,21 @@ MonoBehaviour:
   groundCheckRadius: 0.15
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
+  maxSlopeAngle: 50
+  slopeCheckDistance: 0.3
+--- !u!114 &1020036060784338144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7453695872522213771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d493531022c9241849afdfad2bf9de50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReader
 --- !u!1 &9098108538690856089
 GameObject:
   m_ObjectHideFlags: 0
