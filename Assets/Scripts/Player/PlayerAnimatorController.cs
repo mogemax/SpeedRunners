@@ -107,7 +107,8 @@ public class PlayerAnimatorController : MonoBehaviour
     /// Dispara la animación de salto correcta.
     /// PlayerMovement decide si es doble salto y si hay impulso horizontal.
     /// </summary>
-    public void OnJump(bool isDoubleJump, bool isLongJump)
+    // NOTE: NOT named OnJump — that prefix is reserved for PlayerInput (Send Messages).
+    public void NotifyJump(bool isDoubleJump, bool isLongJump)
     {
         _animator.SetBool(IsDoubleJump, isDoubleJump);
         _animator.SetBool(IsLongJump,   isLongJump);
