@@ -1,147 +1,111 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
-/// <summary>
-/// Reproduce una animación de explosión en world space y avisa cuando termina.
-///
-/// Setup en el prefab:
-///   - SpriteRenderer (en este mismo GameObject)
-///   - Animator con un AnimatorController que tenga UN estado llamado "Explosion"
-///   - Este script
-///
-/// El RaceManager instancia el prefab en la posición del jugador eliminado,
-/// llama a Play() y escucha OnExplosionComplete para continuar.
-/// </summary>
-[RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Image))]
 public class ExplosionEffect : MonoBehaviour
 {
-    // ─────────────────────────────────────────────
-    //  CONFIGURACIÓN
-    // ─────────────────────────────────────────────
-    [Header("Animación")]
-    [Tooltip("Nombre del estado en el Animator Controller. " +
-             "Debe coincidir exactamente con el nombre del estado.")]
-    public string animationStateName = "Explosion";
+    [Header("Sprites de la explosión (en orden)")]
+    public Sprite[] frames;
+
+    [Header("Velocidad")]
+    public float frameRate = 18f;
 
     [Header("Slow Motion")]
-    [Tooltip("Escala de tiempo durante la explosión (0.1 = muy lento, 1 = normal)")]
     [Range(0.05f, 1f)]
     public float slowMotionScale = 0.25f;
-
-    [Tooltip("Segundos (en tiempo real) que dura el slow motion tras iniciar la explosión")]
     public float slowMotionDuration = 1.2f;
-
-    [Tooltip("Segundos (en tiempo real) para recuperar la velocidad normal suavemente")]
     public float slowMotionRecoveryTime = 0.4f;
 
-    // ─────────────────────────────────────────────
-    //  EVENTOS
-    // ─────────────────────────────────────────────
-
-    /// <summary>
-    /// Se invoca cuando la animación de explosión terminó
-    /// y el tiempo ya volvió a la normalidad.
-    /// RaceManager escucha esto para continuar con la ronda.
-    /// </summary>
     public event Action OnExplosionComplete;
 
-    // ─────────────────────────────────────────────
-    //  REFERENCIAS
-    // ─────────────────────────────────────────────
-    private Animator _animator;
+    private Image         _image;
+    private RectTransform _rect;
 
-    // ─────────────────────────────────────────────
-    //  INIT
-    // ─────────────────────────────────────────────
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
+        _image = GetComponent<Image>();
+        _rect  = GetComponent<RectTransform>();
+        gameObject.SetActive(false);
     }
 
-    // ─────────────────────────────────────────────
-    //  API PÚBLICA
-    // ─────────────────────────────────────────────
-
-    /// <summary>
-    /// Inicia la explosión. Llamado por RaceManager justo después
-    /// de instanciar el prefab en la posición del jugador eliminado.
-    /// </summary>
-    public void Play()
+    // Recibe la posición mundial del jugador eliminado y la convierte
+    // a coordenadas de Canvas para que la explosión aparezca ahí en pantalla.
+    public void Play(Vector3 worldPos)
     {
+        PositionOnCanvas(worldPos);
+        gameObject.SetActive(true);
         StartCoroutine(ExplosionRoutine());
     }
 
-    // ─────────────────────────────────────────────
-    //  SECUENCIA
-    // ─────────────────────────────────────────────
+    private void PositionOnCanvas(Vector3 worldPos)
+    {
+        Camera cam = Camera.main;
+        if (cam == null) return;
+
+        // Posición en píxeles de pantalla
+        Vector2 screenPos = cam.WorldToScreenPoint(worldPos);
+
+        // Clampear para que la explosión no quede cortada en el borde
+        float halfW = _rect.sizeDelta.x * 0.5f;
+        float halfH = _rect.sizeDelta.y * 0.5f;
+        screenPos.x = Mathf.Clamp(screenPos.x, halfW, Screen.width  - halfW);
+        screenPos.y = Mathf.Clamp(screenPos.y, halfH, Screen.height - halfH);
+
+        // Convertir screen point → local point en el Canvas
+        Canvas canvas = GetComponentInParent<Canvas>();
+        if (canvas == null) return;
+
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            canvas.GetComponent<RectTransform>(),
+            screenPos,
+            canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : cam,
+            out Vector2 localPoint
+        );
+
+        _rect.localPosition = localPoint;
+    }
+
     private IEnumerator ExplosionRoutine()
     {
-        // 1 — Reproducir animación
-        _animator.Play(animationStateName, 0, 0f);
+        if (frames == null || frames.Length == 0)
+        {
+            Debug.LogWarning("[ExplosionEffect] Asigna sprites en el campo 'Frames'.");
+            gameObject.SetActive(false);
+            OnExplosionComplete?.Invoke();
+            yield break;
+        }
 
-        // Esperar un frame para que el Animator registre el estado
-        yield return null;
-
-        // Obtener la duración real del clip que está corriendo
-        float clipLength = GetCurrentClipLength();
-
-        // 2 — Activar slow motion inmediatamente
-        Time.timeScale = slowMotionScale;
-        // fixedDeltaTime debe escalar con timeScale para que la física sea consistente
+        Time.timeScale      = slowMotionScale;
         Time.fixedDeltaTime = 0.02f * Time.timeScale;
 
-        // 3 — Esperar la duración del slow motion (en tiempo real, no en tiempo de juego)
-        yield return new WaitForSecondsRealtime(slowMotionDuration);
+        float interval = 1f / frameRate;
 
-        // 4 — Recuperar velocidad normal suavemente
+        foreach (Sprite frame in frames)
+        {
+            _image.sprite = frame;
+            yield return new WaitForSecondsRealtime(interval);
+        }
+
         yield return StartCoroutine(RecoverTimeScale());
 
-        // 5 — Esperar a que la animación termine si aún no terminó
-        // clipLength está en tiempo de juego; como hubo slow motion usamos tiempo real
-        // En este punto el tiempo ya es normal, así que esperamos el resto del clip
-        AnimatorStateInfo stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
-        float remainingNormalized   = 1f - stateInfo.normalizedTime;
-        float remainingSeconds      = remainingNormalized * clipLength;
-
-        if (remainingSeconds > 0f)
-            yield return new WaitForSeconds(remainingSeconds);
-
-        // 6 — Notificar y destruir
+        gameObject.SetActive(false);
         OnExplosionComplete?.Invoke();
-        Destroy(gameObject);
     }
 
     private IEnumerator RecoverTimeScale()
     {
-        float startScale = Time.timeScale;
-        float elapsed    = 0f;
-
+        float start   = Time.timeScale;
+        float elapsed = 0f;
         while (elapsed < slowMotionRecoveryTime)
         {
-            elapsed        += Time.unscaledDeltaTime;
-            float t         = elapsed / slowMotionRecoveryTime;
-            Time.timeScale  = Mathf.Lerp(startScale, 1f, t);
-            Time.fixedDeltaTime = 0.02f * Time.timeScale;
+            elapsed             += Time.unscaledDeltaTime;
+            Time.timeScale       = Mathf.Lerp(start, 1f, elapsed / slowMotionRecoveryTime);
+            Time.fixedDeltaTime  = 0.02f * Time.timeScale;
             yield return null;
         }
-
         Time.timeScale      = 1f;
         Time.fixedDeltaTime = 0.02f;
-    }
-
-    // ─────────────────────────────────────────────
-    //  HELPER
-    // ─────────────────────────────────────────────
-    private float GetCurrentClipLength()
-    {
-        AnimatorClipInfo[] clips = _animator.GetCurrentAnimatorClipInfo(0);
-        if (clips != null && clips.Length > 0)
-            return clips[0].clip.length;
-
-        Debug.LogWarning("[ExplosionEffect] No se encontró clip en el Animator. " +
-                         "Usando duración de fallback (1s).");
-        return 1f;
     }
 }

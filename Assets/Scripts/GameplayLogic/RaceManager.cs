@@ -30,9 +30,8 @@ public class RaceManager : MonoBehaviour
     //  Se instanciará en la posición del jugador eliminado.
     // ─────────────────────────────────────────────
     [Header("Explosión")]
-    [Tooltip("Prefab con ExplosionEffect, Animator y SpriteRenderer. " +
-             "Se instancia en world space donde murió el jugador.")]
-    public ExplosionEffect explosionPrefab;
+    [Tooltip("GameObject en la escena (dentro de un Canvas) con ExplosionEffect e Image.")]
+    public ExplosionEffect explosionEffect;
 
     // ─────────────────────────────────────────────
     //  ANIMACIÓN DE ELIMINACIÓN (UI)
@@ -43,6 +42,10 @@ public class RaceManager : MonoBehaviour
     [Tooltip("Opcional: GameObject con EliminationUIAnimator para animaciones de UI " +
              "que ocurren DESPUÉS de la explosión.")]
     public EliminationUIAnimator eliminationAnimator;
+
+    [Header("Animación de victoria")]
+    [Tooltip("GameObject en la escena con WinnerDisplayController. Se activa después de la explosión.")]
+    public WinnerDisplayController winnerDisplay;
 
     // ─────────────────────────────────────────────
     //  PROGRESO POR JUGADOR
@@ -69,8 +72,8 @@ public class RaceManager : MonoBehaviour
 
     private List<Checkpoint> _checkpoints = new List<Checkpoint>();
 
-    // Guardamos la posición del jugador eliminado para instanciar la explosión ahí
     private Vector3 _lastEliminationPos = Vector3.zero;
+    private int     _lastWinnerIndex    = -1;
 
     // ─────────────────────────────────────────────
     //  EVENTOS
@@ -172,7 +175,8 @@ public class RaceManager : MonoBehaviour
         }
 
         winner.Wins++;
-        int winnerIndex = RaceData.IndexOf(winner);
+        int winnerIndex  = RaceData.IndexOf(winner);
+        _lastWinnerIndex = winnerIndex;
 
         Debug.Log($"[RaceManager] Ronda terminada — Ganador: {winner.Health.gameObject.name} " +
                   $"| Victorias: {winner.Wins}/{winsToWin}");
@@ -201,9 +205,10 @@ public class RaceManager : MonoBehaviour
     {
         yield return StartCoroutine(WaitForEliminationAnimation());
 
-        // Si hay animaciones de UI adicionales (EliminationUIAnimator), las ejecutamos aquí
         if (eliminationAnimator != null)
             yield return StartCoroutine(WaitForUIAnimation());
+
+        yield return StartCoroutine(WaitForWinnerAnimation(_lastWinnerIndex));
 
         yield return StartCoroutine(RoundEndSequence(winnerData));
     }
@@ -215,41 +220,56 @@ public class RaceManager : MonoBehaviour
         if (eliminationAnimator != null)
             yield return StartCoroutine(WaitForUIAnimation());
 
-        // Victoria final: pausar el juego
+        yield return StartCoroutine(WaitForWinnerAnimation(_lastWinnerIndex));
+
+        // Victoria final: pausar el juego (el winnerDisplay queda visible)
         Time.timeScale = 0f;
     }
 
     // ─────────────────────────────────────────────
-    //  EXPLOSIÓN EN WORLD SPACE  ← NUEVO
+    //  ANIMACIÓN DE VICTORIA
+    // ─────────────────────────────────────────────
+    private IEnumerator WaitForWinnerAnimation(int winnerIndex)
+    {
+        if (winnerDisplay == null || winnerIndex < 0)
+            yield break;
+
+        bool done = false;
+        void OnDone() => done = true;
+        winnerDisplay.OnAnimationComplete += OnDone;
+
+        winnerDisplay.Show(winnerIndex);
+
+        yield return new WaitUntil(() => done);
+
+        winnerDisplay.OnAnimationComplete -= OnDone;
+        // El display NO se oculta aquí — se mantiene visible durante el countdown
+    }
+
+    // ─────────────────────────────────────────────
+    //  EXPLOSIÓN EN WORLD SPACE
     //  Instancia el prefab en la posición del jugador
     //  eliminado y espera a que ExplosionEffect termine.
     //  El slow motion lo maneja el propio ExplosionEffect.
     // ─────────────────────────────────────────────
     private IEnumerator WaitForEliminationAnimation()
     {
-        if (explosionPrefab == null)
+        if (explosionEffect == null)
         {
-            Debug.LogWarning("[RaceManager] No hay explosionPrefab asignado. Saltando animación.");
+            Debug.LogWarning("[RaceManager] No hay explosionEffect asignado. Saltando animación.");
             yield break;
         }
 
         bool explosionDone = false;
 
-        // Instanciar en la posición donde murió el jugador
-        ExplosionEffect instance = Instantiate(
-            explosionPrefab,
-            _lastEliminationPos,
-            Quaternion.identity
-        );
-
         void OnDone() => explosionDone = true;
-        instance.OnExplosionComplete += OnDone;
+        explosionEffect.OnExplosionComplete += OnDone;
 
-        instance.Play();
+        explosionEffect.Play(_lastEliminationPos);
 
-        // WaitUntil usa unscaledDeltaTime internamente, así que funciona aunque
-        // Time.timeScale esté en slow motion
         yield return new WaitUntil(() => explosionDone);
+
+        explosionEffect.OnExplosionComplete -= OnDone;
     }
 
     // ─────────────────────────────────────────────
@@ -302,6 +322,9 @@ public class RaceManager : MonoBehaviour
 
         Debug.Log("[RaceManager] ¡YA! — Ronda iniciada.");
         OnCountdownFinished?.Invoke();
+
+        if (winnerDisplay != null)
+            winnerDisplay.Hide();
 
         FreezeAllPlayers(false);
         raceIsActive = true;

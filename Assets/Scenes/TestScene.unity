@@ -801,7 +801,8 @@ MonoBehaviour:
   raceIsActive: 1
   winsToWin: 3
   countdownSeconds: 3
-  eliminationAnimator: {fileID: 1863021379}
+  explosionPrefab: {fileID: 0}
+  eliminationAnimator: {fileID: 0}
   RaceData: []
 --- !u!4 &127481154
 Transform:
@@ -4264,6 +4265,63 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &922636692
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 409
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 307.22742
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386688941764015947, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616714010583872280, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+      propertyPath: m_Name
+      value: Explotion
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
 --- !u!1 &936532428
 GameObject:
   m_ObjectHideFlags: 0
@@ -8051,8 +8109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -501, y: -74}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_SizeDelta: {x: 0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1863021378
 Animator:
@@ -9194,3 +9252,4 @@ SceneRoots:
   - {fileID: 24200194}
   - {fileID: 1542403687}
   - {fileID: 1282079518}
+  - {fileID: 922636692}

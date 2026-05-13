@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2386688941764015947}
   - component: {fileID: 2646178130867802113}
   - component: {fileID: 3911426313391475759}
-  - component: {fileID: -6911476346157935668}
+  - component: {fileID: 5178995756613051356}
   m_Layer: 0
   m_Name: Explotion
   m_TagString: Untagged
@@ -103,7 +103,7 @@ Animator:
   m_GameObject: {fileID: 2616714010583872280}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a2dbb396ac256534f94a375dfefb86aa, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -115,7 +115,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-6911476346157935668
+--- !u!114 &5178995756613051356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,18 +124,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2616714010583872280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eba84629251a4e948afe36d047faa87e, type: 3}
+  m_Script: {fileID: 11500000, guid: 47763bdb43f7153478526fd507e38fe2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AnimatedExplosion
-  frames:
-  - {fileID: -7049314841173876634, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  - {fileID: 463291327848779202, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  - {fileID: -8208418593442405642, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  - {fileID: 4338079957754892777, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  - {fileID: 4582642259670072965, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  - {fileID: 2496718898828519629, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  - {fileID: 1335054805576180384, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  - {fileID: 1793112375806720963, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  - {fileID: 8146197859128745503, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  - {fileID: 3003064995863300019, guid: e71af898f8b266249b2007142e86f112, type: 3}
-  frameRate: 18
+  m_EditorClassIdentifier: Assembly-CSharp::ExplosionEffect
+  explosionClip: {fileID: 7400000, guid: 3eaff503f28de3d43956ba3814b2dd36, type: 2}
+  slowMotionScale: 0.25
+  slowMotionDuration: 1.2
+  slowMotionRecoveryTime: 0.4
