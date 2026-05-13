@@ -24,14 +24,24 @@ public class RaceManager : MonoBehaviour
     public int countdownSeconds = 3;
 
     // ─────────────────────────────────────────────
-    //  ANIMACIÓN DE ELIMINACIÓN  ← NUEVO
-    //  Arrastra aquí el GameObject que tiene
-    //  EliminationUIAnimator. Si se deja vacío,
-    //  el juego sigue funcionando sin animación.
+    //  EXPLOSIÓN  ← NUEVO
+    //  Arrastra aquí el prefab que tiene
+    //  ExplosionEffect + Animator + SpriteRenderer.
+    //  Se instanciará en la posición del jugador eliminado.
     // ─────────────────────────────────────────────
-    [Header("Animación de eliminación")]
-    [Tooltip("GameObject con el componente EliminationUIAnimator. " +
-             "Opcional: si está vacío, la secuencia de animación se omite.")]
+    [Header("Explosión")]
+    [Tooltip("Prefab con ExplosionEffect, Animator y SpriteRenderer. " +
+             "Se instancia en world space donde murió el jugador.")]
+    public ExplosionEffect explosionPrefab;
+
+    // ─────────────────────────────────────────────
+    //  ANIMACIÓN DE ELIMINACIÓN (UI)
+    //  Se mantiene por si lo usas para las otras
+    //  animaciones de UI que mencionaste.
+    // ─────────────────────────────────────────────
+    [Header("Animación de eliminación (UI)")]
+    [Tooltip("Opcional: GameObject con EliminationUIAnimator para animaciones de UI " +
+             "que ocurren DESPUÉS de la explosión.")]
     public EliminationUIAnimator eliminationAnimator;
 
     // ─────────────────────────────────────────────
@@ -47,7 +57,6 @@ public class RaceManager : MonoBehaviour
         public bool         IsEliminated = false;
         public int          Wins         = 0;
 
-        // Referencia al ultimo checkpoint fisico que cruzo
         public Checkpoint LastCheckpoint = null;
 
         public float TotalScore => (Laps * 1000) + CurrentCP;
@@ -60,6 +69,9 @@ public class RaceManager : MonoBehaviour
 
     private List<Checkpoint> _checkpoints = new List<Checkpoint>();
 
+    // Guardamos la posición del jugador eliminado para instanciar la explosión ahí
+    private Vector3 _lastEliminationPos = Vector3.zero;
+
     // ─────────────────────────────────────────────
     //  EVENTOS
     // ─────────────────────────────────────────────
@@ -69,7 +81,7 @@ public class RaceManager : MonoBehaviour
     public event Action      OnCountdownFinished;
 
     // ─────────────────────────────────────────────
-    //  CAMARA
+    //  CÁMARA
     // ─────────────────────────────────────────────
     public Transform LeaderTransform
     {
@@ -103,7 +115,6 @@ public class RaceManager : MonoBehaviour
 
     // ─────────────────────────────────────────────
     //  CHECKPOINTS
-    //  Sin cambios respecto al original
     // ─────────────────────────────────────────────
     public void RegisterCheckpoint(Checkpoint cp)
     {
@@ -128,7 +139,7 @@ public class RaceManager : MonoBehaviour
         {
             data.Laps++;
             data.CurrentCP = 0;
-            Debug.Log($"[RaceManager] {p.gameObject.name} completo la vuelta {data.Laps}.");
+            Debug.Log($"[RaceManager] {p.gameObject.name} completó la vuelta {data.Laps}.");
         }
         else if (idx > data.CurrentCP)
         {
@@ -137,23 +148,25 @@ public class RaceManager : MonoBehaviour
     }
 
     // ─────────────────────────────────────────────
-    //  ELIMINACION
-    //  Solo se agrega la llamada al animador antes
-    //  de iniciar RoundEndSequence. El resto es igual.
+    //  ELIMINACIÓN
     // ─────────────────────────────────────────────
     private void HandleElimination(PlayerHealth eliminated)
     {
         if (!raceIsActive) return;
 
+        // Guardar posición ANTES de que el GameObject se desactive
         if (_progressMap.TryGetValue(eliminated, out var eliminatedData))
+        {
+            _lastEliminationPos      = eliminatedData.Transform.position;
             eliminatedData.IsEliminated = true;
+        }
 
         var winner = RaceData.FirstOrDefault(d => !d.IsEliminated);
 
         if (winner == null)
         {
             raceIsActive = false;
-            Debug.Log("[RaceManager] Empate — ambos eliminados simultaneamente.");
+            Debug.Log("[RaceManager] Empate — ambos eliminados simultáneamente.");
             StartCoroutine(EliminationThenRoundEnd(winnerData: null));
             return;
         }
@@ -172,9 +185,6 @@ public class RaceManager : MonoBehaviour
             Debug.Log($"[RaceManager] {winner.Health.gameObject.name} gana la partida! " +
                       $"({winner.Wins} victorias)");
             OnMatchEnd?.Invoke(winnerIndex);
-
-            // ← NUEVO: reproducir animación incluso en victoria final,
-            //   luego pausar el juego
             StartCoroutine(EliminationThenMatchEnd());
         }
         else
@@ -184,47 +194,78 @@ public class RaceManager : MonoBehaviour
     }
 
     // ─────────────────────────────────────────────
-    //  NUEVO: espera la animación, luego continúa
+    //  CORRUTINAS DE SECUENCIA
     // ─────────────────────────────────────────────
 
-    /// <summary>
-    /// Reproduce la secuencia de animación de eliminación y,
-    /// al terminar, inicia RoundEndSequence normalmente.
-    /// </summary>
     private IEnumerator EliminationThenRoundEnd(PlayerProgress winnerData)
     {
         yield return StartCoroutine(WaitForEliminationAnimation());
+
+        // Si hay animaciones de UI adicionales (EliminationUIAnimator), las ejecutamos aquí
+        if (eliminationAnimator != null)
+            yield return StartCoroutine(WaitForUIAnimation());
+
         yield return StartCoroutine(RoundEndSequence(winnerData));
     }
 
-    /// <summary>
-    /// Reproduce la secuencia de animación y luego pausa el juego
-    /// (victoria final de partida).
-    /// </summary>
     private IEnumerator EliminationThenMatchEnd()
     {
         yield return StartCoroutine(WaitForEliminationAnimation());
+
+        if (eliminationAnimator != null)
+            yield return StartCoroutine(WaitForUIAnimation());
+
+        // Victoria final: pausar el juego
         Time.timeScale = 0f;
     }
 
-    /// <summary>
-    /// Si hay un EliminationUIAnimator asignado, lo reproduce y
-    /// espera a que termine. Si no hay, continúa inmediatamente.
-    /// </summary>
+    // ─────────────────────────────────────────────
+    //  EXPLOSIÓN EN WORLD SPACE  ← NUEVO
+    //  Instancia el prefab en la posición del jugador
+    //  eliminado y espera a que ExplosionEffect termine.
+    //  El slow motion lo maneja el propio ExplosionEffect.
+    // ─────────────────────────────────────────────
     private IEnumerator WaitForEliminationAnimation()
     {
-        if (eliminationAnimator == null)
+        if (explosionPrefab == null)
+        {
+            Debug.LogWarning("[RaceManager] No hay explosionPrefab asignado. Saltando animación.");
             yield break;
+        }
 
+        bool explosionDone = false;
+
+        // Instanciar en la posición donde murió el jugador
+        ExplosionEffect instance = Instantiate(
+            explosionPrefab,
+            _lastEliminationPos,
+            Quaternion.identity
+        );
+
+        void OnDone() => explosionDone = true;
+        instance.OnExplosionComplete += OnDone;
+
+        instance.Play();
+
+        // WaitUntil usa unscaledDeltaTime internamente, así que funciona aunque
+        // Time.timeScale esté en slow motion
+        yield return new WaitUntil(() => explosionDone);
+    }
+
+    // ─────────────────────────────────────────────
+    //  ANIMACIÓN UI (EliminationUIAnimator)
+    //  Sin cambios — se mantiene para las otras
+    //  dos animaciones que mencionaste.
+    // ─────────────────────────────────────────────
+    private IEnumerator WaitForUIAnimation()
+    {
         bool animationDone = false;
 
-        // Suscribirse una sola vez al evento de fin de secuencia
         void OnDone() => animationDone = true;
         eliminationAnimator.OnSequenceComplete += OnDone;
 
         eliminationAnimator.PlayEliminationSequence();
 
-        // Esperar hasta que la animación termine
         yield return new WaitUntil(() => animationDone);
 
         eliminationAnimator.OnSequenceComplete -= OnDone;
@@ -232,19 +273,15 @@ public class RaceManager : MonoBehaviour
 
     // ─────────────────────────────────────────────
     //  SECUENCIA FIN DE RONDA
-    //  Sin cambios respecto al original
     // ─────────────────────────────────────────────
     private IEnumerator RoundEndSequence(PlayerProgress winnerData)
     {
-        // 1 — Congelar jugadores
         FreezeAllPlayers(true);
 
         yield return new WaitForSeconds(0.5f);
 
-        // 2 — Posicion de spawn
         Vector3 spawnPos = GetSpawnPosition(winnerData);
 
-        // 3 — Teleportar y revivir a todos
         foreach (var data in RaceData)
         {
             data.Transform.position = spawnPos;
@@ -256,7 +293,6 @@ public class RaceManager : MonoBehaviour
             data.LastCheckpoint = null;
         }
 
-        // 4 — Countdown
         for (int i = countdownSeconds; i > 0; i--)
         {
             Debug.Log($"[RaceManager] Nueva ronda en... {i}");
@@ -264,17 +300,15 @@ public class RaceManager : MonoBehaviour
             yield return new WaitForSeconds(1f);
         }
 
-        Debug.Log("[RaceManager] YA! — Ronda iniciada.");
+        Debug.Log("[RaceManager] ¡YA! — Ronda iniciada.");
         OnCountdownFinished?.Invoke();
 
-        // 5 — Descongelar y reactivar
         FreezeAllPlayers(false);
         raceIsActive = true;
     }
 
     // ─────────────────────────────────────────────
     //  HELPERS
-    //  Sin cambios respecto al original
     // ─────────────────────────────────────────────
     private void FreezeAllPlayers(bool frozen)
     {
@@ -294,7 +328,7 @@ public class RaceManager : MonoBehaviour
         var first = _checkpoints.OrderBy(c => c.checkpointIndex).FirstOrDefault();
         if (first != null)
         {
-            Debug.LogWarning("[RaceManager] El ganador no cruzo ningun checkpoint — " +
+            Debug.LogWarning("[RaceManager] El ganador no cruzó ningún checkpoint — " +
                              "spawneando en el checkpoint inicial.");
             return first.SpawnPosition;
         }
