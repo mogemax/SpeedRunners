@@ -6,13 +6,12 @@ using UnityEngine.InputSystem;
 /// No toma ninguna decision de gameplay — solo lee y almacena.
 /// Cualquier script del jugador (PlayerMovement, PlayerHook, etc.) lee de aqui.
 /// </summary>
-[RequireComponent(typeof(PlayerInput))]
 public class PlayerInputReader : MonoBehaviour
 {
-    public float MoveInput    { get; private set; }
-    public bool  JumpHeld     { get; private set; }
-    public bool  JumpPressed  { get; private set; }
-    public bool  SlidePressed { get; private set; }
+    public float MoveInput    { get; protected set; }
+    public bool  JumpHeld     { get; protected set; }
+    public bool  JumpPressed  { get; protected set; }
+    public bool  SlidePressed { get; protected set; }
 
     // ─────────────────────────────────────────────
     //  CALLBACKS DEL INPUT SYSTEM
