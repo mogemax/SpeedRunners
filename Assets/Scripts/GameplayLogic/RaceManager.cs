@@ -47,6 +47,10 @@ public class RaceManager : MonoBehaviour
     [Tooltip("GameObject en la escena con WinnerDisplayController. Se activa después de la explosión.")]
     public WinnerDisplayController winnerDisplay;
 
+    [Header("Cuenta regresiva")]
+    [Tooltip("GameObject en la escena con CountdownDisplayController. Se muestra antes de iniciar la ronda.")]
+    public CountdownDisplayController countdownDisplay;
+
     // ─────────────────────────────────────────────
     //  PROGRESO POR JUGADOR
     // ─────────────────────────────────────────────
@@ -313,18 +317,28 @@ public class RaceManager : MonoBehaviour
             data.LastCheckpoint = null;
         }
 
-        for (int i = countdownSeconds; i > 0; i--)
+        if (winnerDisplay != null)
+            winnerDisplay.Hide();
+
+        if (countdownDisplay != null && countdownDisplay.frames != null && countdownDisplay.frames.Length > 0)
         {
-            Debug.Log($"[RaceManager] Nueva ronda en... {i}");
-            OnCountdownTick?.Invoke(i);
-            yield return new WaitForSeconds(1f);
+            void TickRelay(int idx) => OnCountdownTick?.Invoke(idx);
+            countdownDisplay.OnTick += TickRelay;
+            yield return countdownDisplay.PlayRoutine();
+            countdownDisplay.OnTick -= TickRelay;
+        }
+        else
+        {
+            for (int i = countdownSeconds; i > 0; i--)
+            {
+                Debug.Log($"[RaceManager] Nueva ronda en... {i}");
+                OnCountdownTick?.Invoke(i);
+                yield return new WaitForSeconds(1f);
+            }
         }
 
         Debug.Log("[RaceManager] ¡YA! — Ronda iniciada.");
         OnCountdownFinished?.Invoke();
-
-        if (winnerDisplay != null)
-            winnerDisplay.Hide();
 
         FreezeAllPlayers(false);
         raceIsActive = true;
