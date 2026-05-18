@@ -13,7 +13,7 @@ public class RaceManager : MonoBehaviour
 
     [Header("Configuración")]
     public int  totalCheckpoints = 10;
-    public bool raceIsActive     = true;
+    public bool raceIsActive     = false;
 
     [Header("Victorias")]
     [Tooltip("Victorias necesarias para ganar la partida completa")]
@@ -118,6 +118,22 @@ public class RaceManager : MonoBehaviour
             PlayerHealth captured = p;
             p.OnDied += () => HandleElimination(captured);
         }
+
+        StartCoroutine(InitialCountdownSequence());
+    }
+
+    private IEnumerator InitialCountdownSequence()
+    {
+        FreezeAllPlayers(true);
+
+        yield return null;
+
+        yield return StartCoroutine(PlayCountdown());
+
+        Debug.Log("[RaceManager] ¡YA! — Partida iniciada.");
+
+        FreezeAllPlayers(false);
+        raceIsActive = true;
     }
 
     // ─────────────────────────────────────────────
@@ -320,6 +336,16 @@ public class RaceManager : MonoBehaviour
         if (winnerDisplay != null)
             winnerDisplay.Hide();
 
+        yield return StartCoroutine(PlayCountdown());
+
+        Debug.Log("[RaceManager] ¡YA! — Ronda iniciada.");
+
+        FreezeAllPlayers(false);
+        raceIsActive = true;
+    }
+
+    private IEnumerator PlayCountdown()
+    {
         if (countdownDisplay != null && countdownDisplay.frames != null && countdownDisplay.frames.Length > 0)
         {
             void TickRelay(int idx) => OnCountdownTick?.Invoke(idx);
@@ -331,17 +357,13 @@ public class RaceManager : MonoBehaviour
         {
             for (int i = countdownSeconds; i > 0; i--)
             {
-                Debug.Log($"[RaceManager] Nueva ronda en... {i}");
+                Debug.Log($"[RaceManager] Cuenta atrás... {i}");
                 OnCountdownTick?.Invoke(i);
                 yield return new WaitForSeconds(1f);
             }
         }
 
-        Debug.Log("[RaceManager] ¡YA! — Ronda iniciada.");
         OnCountdownFinished?.Invoke();
-
-        FreezeAllPlayers(false);
-        raceIsActive = true;
     }
 
     // ─────────────────────────────────────────────
