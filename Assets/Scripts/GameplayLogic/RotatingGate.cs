@@ -3,18 +3,27 @@ using System.Collections;
 
 public class RotatingGate : MonoBehaviour
 {
-    [Header("Rotación de la puerta")]
-    [Tooltip("Transform del sprite que rota (hijo). Su pivote define el eje de giro.")]
-    public Transform gateTransform;
+    [System.Serializable]
+    public class GatePiece
+    {
+        [Tooltip("Transform de la pieza (hijo). Su posición = el eje de rotación.")]
+        public Transform pieceTransform;
 
-    [Tooltip("Ángulo objetivo en grados (eje Z). Puede ser cualquier valor, no solo 90/180.")]
-    public float targetAngle = 90f;
+        [Tooltip("Ángulo objetivo en grados (eje Z). Puede ser positivo o negativo para invertir el giro.")]
+        public float targetAngle = 90f;
 
+        [HideInInspector] public Quaternion initialRotation;
+    }
+
+    [Header("Piezas de la puerta")]
+    [Tooltip("Cada hoja de la compuerta con su propio ángulo. Para una compuerta tipo trampilla, una pieza con +90 y otra con -90.")]
+    public GatePiece[] gates;
+
+    [Header("Tiempos")]
     [Tooltip("Duración del giro en segundos.")]
     public float rotationDuration = 0.4f;
 
-    [Header("Reset")]
-    [Tooltip("Tiempo en segundos antes de que la puerta vuelva a su posición inicial.")]
+    [Tooltip("Tiempo en segundos antes de que las puertas vuelvan a su posición inicial.")]
     public float resetTime = 3.0f;
 
     [Header("Feedback visual de la palanca (trigger)")]
@@ -27,13 +36,18 @@ public class RotatingGate : MonoBehaviour
     [Tooltip("Sprite cuando la palanca FUE activada por el jugador.")]
     public Sprite spriteActivado;
 
-    private Quaternion _initialRotation;
     private bool _isTriggered = false;
 
     private void Awake()
     {
-        if (gateTransform != null)
-            _initialRotation = gateTransform.localRotation;
+        if (gates != null)
+        {
+            foreach (var g in gates)
+            {
+                if (g != null && g.pieceTransform != null)
+                    g.initialRotation = g.pieceTransform.localRotation;
+            }
+        }
 
         if (triggerRenderer != null && spriteInicial != null)
             triggerRenderer.sprite = spriteInicial;
@@ -58,12 +72,11 @@ public class RotatingGate : MonoBehaviour
         if (triggerRenderer != null && spriteActivado != null)
             triggerRenderer.sprite = spriteActivado;
 
-        Quaternion targetRot = _initialRotation * Quaternion.Euler(0f, 0f, targetAngle);
-        yield return RotateGate(_initialRotation, targetRot, rotationDuration);
+        yield return RotateAll(toTarget: true);
 
         yield return new WaitForSeconds(resetTime);
 
-        yield return RotateGate(gateTransform.localRotation, _initialRotation, rotationDuration);
+        yield return RotateAll(toTarget: false);
 
         if (triggerRenderer != null && spriteInicial != null)
             triggerRenderer.sprite = spriteInicial;
@@ -71,24 +84,44 @@ public class RotatingGate : MonoBehaviour
         _isTriggered = false;
     }
 
-    private IEnumerator RotateGate(Quaternion from, Quaternion to, float duration)
+    private IEnumerator RotateAll(bool toTarget)
     {
-        if (gateTransform == null) yield break;
+        if (gates == null || gates.Length == 0) yield break;
 
-        if (duration <= 0f)
+        if (rotationDuration <= 0f)
         {
-            gateTransform.localRotation = to;
+            foreach (var g in gates)
+            {
+                if (g == null || g.pieceTransform == null) continue;
+                g.pieceTransform.localRotation = toTarget
+                    ? g.initialRotation * Quaternion.Euler(0f, 0f, g.targetAngle)
+                    : g.initialRotation;
+            }
             yield break;
         }
 
         float elapsed = 0f;
-        while (elapsed < duration)
+        while (elapsed < rotationDuration)
         {
             elapsed += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsed / duration);
-            gateTransform.localRotation = Quaternion.Slerp(from, to, t);
+            float t = Mathf.Clamp01(elapsed / rotationDuration);
+
+            foreach (var g in gates)
+            {
+                if (g == null || g.pieceTransform == null) continue;
+                Quaternion from = toTarget ? g.initialRotation : g.initialRotation * Quaternion.Euler(0f, 0f, g.targetAngle);
+                Quaternion to = toTarget ? g.initialRotation * Quaternion.Euler(0f, 0f, g.targetAngle) : g.initialRotation;
+                g.pieceTransform.localRotation = Quaternion.Slerp(from, to, t);
+            }
             yield return null;
         }
-        gateTransform.localRotation = to;
+
+        foreach (var g in gates)
+        {
+            if (g == null || g.pieceTransform == null) continue;
+            g.pieceTransform.localRotation = toTarget
+                ? g.initialRotation * Quaternion.Euler(0f, 0f, g.targetAngle)
+                : g.initialRotation;
+        }
     }
 }
