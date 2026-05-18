@@ -57,8 +57,10 @@ public class PlayerHUDController : MonoBehaviour
         }
     }
 
-    private void OnEnable()
+    private void Start()
     {
+        // Suscripciones persistentes — no se desuscriben al ocultar el HUD,
+        // así el HUD recibe OnCountdownFinished aunque esté inactivo.
         for (int i = 0; i < playerStaminas.Length; i++)
         {
             if (playerStaminas[i] != null)
@@ -67,12 +69,12 @@ public class PlayerHUDController : MonoBehaviour
 
         if (RaceManager.Instance != null)
         {
-            RaceManager.Instance.OnRoundEnd        += OnRoundEnd;
+            RaceManager.Instance.OnRoundEnd          += OnRoundEnd;
             RaceManager.Instance.OnCountdownFinished += OnRoundStart;
         }
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
         for (int i = 0; i < playerStaminas.Length; i++)
         {
@@ -82,7 +84,7 @@ public class PlayerHUDController : MonoBehaviour
 
         if (RaceManager.Instance != null)
         {
-            RaceManager.Instance.OnRoundEnd        -= OnRoundEnd;
+            RaceManager.Instance.OnRoundEnd          -= OnRoundEnd;
             RaceManager.Instance.OnCountdownFinished -= OnRoundStart;
         }
     }
