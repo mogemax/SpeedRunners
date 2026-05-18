@@ -94,8 +94,9 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb;
     private PlayerInputReader _input;
     private PlayerAnimatorController _anim;
-    private PlayerHealth _health;
-    private PlayerGrapple _grapple;
+    private PlayerHealth             _health;
+    private PlayerGrapple            _grapple;
+    private PlayerStamina            _stamina;
 
     // ─────────────────────────────────────────────
     //  ESTADO INTERNO — salto
@@ -146,6 +147,7 @@ public class PlayerMovement : MonoBehaviour
         _anim = GetComponent<PlayerAnimatorController>();
         _health = GetComponent<PlayerHealth>();
         _grapple = GetComponent<PlayerGrapple>();
+        _stamina = GetComponent<PlayerStamina>();
     }
 
     // ─────────────────────────────────────────────
@@ -301,7 +303,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void ApplyMovementFlat()
     {
-        float targetSpeed = _input.MoveInput * maxSpeed;
+        float staminaMult = _stamina != null ? _stamina.GetSpeedMultiplier() : 1f;
+        float targetSpeed = _input.MoveInput * maxSpeed * staminaMult;
 
         float accelRate = Mathf.Abs(_input.MoveInput) > 0.01f
             ? (IsGrounded ? acceleration : acceleration * airControlMultiplier)
@@ -316,7 +319,10 @@ public class PlayerMovement : MonoBehaviour
     private void ApplyMovementOnSlope()
     {
         Vector2 slopeTangent = new Vector2(_slopeNormal.y, -_slopeNormal.x);
-        Vector2 targetVelocity = slopeTangent * (_input.MoveInput * maxSpeed);
+
+        // Velocidad objetivo a lo largo de la tangente
+        float staminaMult = _stamina != null ? _stamina.GetSpeedMultiplier() : 1f;
+        Vector2 targetVelocity = slopeTangent * (_input.MoveInput * maxSpeed * staminaMult);
 
         float accelRate = Mathf.Abs(_input.MoveInput) > 0.01f ? acceleration : deceleration;
 

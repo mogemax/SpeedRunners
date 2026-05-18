@@ -6,13 +6,13 @@ using UnityEngine.InputSystem;
 /// No toma ninguna decision de gameplay — solo lee y almacena.
 /// Cualquier script del jugador (PlayerMovement, PlayerHook, etc.) lee de aqui.
 /// </summary>
-[RequireComponent(typeof(PlayerInput))]
 public class PlayerInputReader : MonoBehaviour
 {
-    public float MoveInput    { get; private set; }
-    public bool  JumpHeld     { get; private set; }
-    public bool  JumpPressed  { get; private set; }
-    public bool  SlidePressed { get; private set; }
+    public float MoveInput    { get; protected set; }
+    public bool  JumpHeld     { get; protected set; }
+    public bool  JumpPressed  { get; protected set; }
+    public bool  SlidePressed { get; protected set; }
+    public bool  BoostHeld    { get; protected set; }
 
     // ─────────────────────────────────────────────
     //  CALLBACKS DEL INPUT SYSTEM
@@ -33,6 +33,11 @@ public class PlayerInputReader : MonoBehaviour
         if (value.isPressed) SlidePressed = true;
     }
 
+    public void OnBoost(InputValue value)
+    {
+        BoostHeld = value.isPressed;
+    }
+
     // ─────────────────────────────────────────────
     //  RESET — llamado por PlayerMovement al congelar
     // ─────────────────────────────────────────────
@@ -43,6 +48,7 @@ public class PlayerInputReader : MonoBehaviour
         JumpPressed  = false;
         JumpHeld     = false;
         SlidePressed = false;
+        BoostHeld    = false;
     }
 
     // ─────────────────────────────────────────────
