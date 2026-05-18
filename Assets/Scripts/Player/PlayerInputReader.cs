@@ -12,6 +12,7 @@ public class PlayerInputReader : MonoBehaviour
     public bool  JumpHeld     { get; protected set; }
     public bool  JumpPressed  { get; protected set; }
     public bool  SlidePressed { get; protected set; }
+    public bool  BoostHeld    { get; protected set; }
 
     // ─────────────────────────────────────────────
     //  CALLBACKS DEL INPUT SYSTEM
@@ -32,6 +33,11 @@ public class PlayerInputReader : MonoBehaviour
         if (value.isPressed) SlidePressed = true;
     }
 
+    public void OnBoost(InputValue value)
+    {
+        BoostHeld = value.isPressed;
+    }
+
     // ─────────────────────────────────────────────
     //  RESET — llamado por PlayerMovement al congelar
     // ─────────────────────────────────────────────
@@ -42,6 +48,7 @@ public class PlayerInputReader : MonoBehaviour
         JumpPressed  = false;
         JumpHeld     = false;
         SlidePressed = false;
+        BoostHeld    = false;
     }
 
     // ─────────────────────────────────────────────
