@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(PlayerInputReader))]
@@ -86,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
     public bool IsSkidding { get; private set; }
     public bool IsOnSlope { get; private set; }
     public bool IsWallSliding { get; private set; }   // ← NUEVO: útil para el Animator
+    public bool IsPenalized { get; private set; }
     public float HorizontalInput { get; private set; }
 
     // ─────────────────────────────────────────────
@@ -121,6 +123,7 @@ public class PlayerMovement : MonoBehaviour
     //  ESTADO INTERNO — pendientes
     // ─────────────────────────────────────────────
     private Vector2 _slopeNormal = Vector2.up;
+    private float _originalMaxSpeed;
 
     // ─────────────────────────────────────────────
     //  FREEZE
@@ -148,6 +151,7 @@ public class PlayerMovement : MonoBehaviour
         _health = GetComponent<PlayerHealth>();
         _grapple = GetComponent<PlayerGrapple>();
         _stamina = GetComponent<PlayerStamina>();
+        _originalMaxSpeed = maxSpeed;
     }
 
     // ─────────────────────────────────────────────
@@ -417,7 +421,7 @@ public class PlayerMovement : MonoBehaviour
         _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0f);
         _rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
 
-        bool isLongJump = Mathf.Abs(_rb.linearVelocity.x) > maxSpeed * 0.5f;
+        bool isLongJump = Mathf.Abs(_rb.linearVelocity.x) > _originalMaxSpeed * 0.5f;
         _anim.NotifyJump(isDoubleJump, isLongJump);
     }
 
@@ -500,6 +504,24 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     //  API PUBLICA
     // ─────────────────────────────────────────────
+    public void ApplyCratePenalty(float speedFactor, float duration)
+    {
+        StopCoroutine(nameof(CratePenaltyRoutine));
+        StartCoroutine(CratePenaltyRoutine(speedFactor, duration));
+    }
+
+    private IEnumerator CratePenaltyRoutine(float factor, float duration)
+    {
+        IsPenalized = true;
+        _rb.linearVelocity = new Vector2(_rb.linearVelocity.x * factor, _rb.linearVelocity.y);
+        maxSpeed = _originalMaxSpeed * factor;
+
+        yield return new WaitForSeconds(duration);
+
+        maxSpeed = _originalMaxSpeed;
+        IsPenalized = false;
+    }
+
     public void ApplyKnockback(Vector2 direction, float force)
     {
         _rb.linearVelocity = Vector2.zero;
