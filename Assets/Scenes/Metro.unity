@@ -356742,11 +356742,11 @@ Transform:
   m_GameObject: {fileID: 641069826}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.27, y: -0.27, z: 0}
+  m_LocalPosition: {x: -0.00999999, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1192634778}
+  m_Father: {fileID: 992739104}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &641069828
 TilemapRenderer:
@@ -362102,7 +362102,7 @@ GameObject:
   - component: {fileID: 992739109}
   - component: {fileID: 992739108}
   - component: {fileID: 992739107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: walljump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -362121,7 +362121,8 @@ Transform:
   m_LocalPosition: {x: 0.28, y: -0.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 641069827}
   m_Father: {fileID: 1192634778}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &992739105
@@ -365055,6 +365056,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!4 &1082316091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5966957077658194732, guid: a20d631d358664581bf99100e8c1a405, type: 3}
+  m_PrefabInstance: {fileID: 1897542800}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1115340090
 GameObject:
   m_ObjectHideFlags: 0
@@ -365918,7 +365924,6 @@ Transform:
   m_Children:
   - {fileID: 361096666}
   - {fileID: 992739104}
-  - {fileID: 641069827}
   - {fileID: 918545826}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -371181,7 +371186,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1443521001635936357, guid: a20d631d358664581bf99100e8c1a405, type: 3}
       propertyPath: m_Distance
-      value: 53.914375
+      value: 49.783104
       objectReference: {fileID: 0}
     - target: {fileID: 1443521001635936357, guid: a20d631d358664581bf99100e8c1a405, type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -371191,29 +371196,21 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.y
       value: -26.691101
       objectReference: {fileID: 0}
-    - target: {fileID: 3037142456369115198, guid: a20d631d358664581bf99100e8c1a405, type: 3}
-      propertyPath: m_SortingOrder
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 3445801792613327601, guid: a20d631d358664581bf99100e8c1a405, type: 3}
       propertyPath: maxSpeed
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 3445801792613327601, guid: a20d631d358664581bf99100e8c1a405, type: 3}
+      propertyPath: wallCheck
+      value: 
+      objectReference: {fileID: 1082316091}
+    - target: {fileID: 3445801792613327601, guid: a20d631d358664581bf99100e8c1a405, type: 3}
+      propertyPath: wallLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 5819198822494391980, guid: a20d631d358664581bf99100e8c1a405, type: 3}
       propertyPath: m_Name
       value: Moonraker_Color1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8675510511676902968, guid: a20d631d358664581bf99100e8c1a405, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.6941465
-      objectReference: {fileID: 0}
-    - target: {fileID: 8675510511676902968, guid: a20d631d358664581bf99100e8c1a405, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.6941465
-      objectReference: {fileID: 0}
-    - target: {fileID: 8675510511676902968, guid: a20d631d358664581bf99100e8c1a405, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.6941465
       objectReference: {fileID: 0}
     - target: {fileID: 8675510511676902968, guid: a20d631d358664581bf99100e8c1a405, type: 3}
       propertyPath: m_LocalPosition.x
@@ -371221,7 +371218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8675510511676902968, guid: a20d631d358664581bf99100e8c1a405, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -48.34
+      value: -50.58
       objectReference: {fileID: 0}
     - target: {fileID: 8675510511676902968, guid: a20d631d358664581bf99100e8c1a405, type: 3}
       propertyPath: m_LocalPosition.z
