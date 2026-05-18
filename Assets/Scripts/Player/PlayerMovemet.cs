@@ -1,18 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-/// <summary>
-/// Controla el movimiento del personaje: correr, saltar, doble salto y slide.
-/// Lee el estado de input desde PlayerInputReader — no conoce teclas ni mandos.
-///
-/// Setup requerido en el GameObject:
-///   - Rigidbody2D
-///   - Collider2D
-///   - PlayerInput (component de Unity, apuntando al Input Action Asset)
-///   - PlayerInputReader
-///   - PlayerAnimatorController
-///   - PlayerHealth
-/// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(PlayerInputReader))]
 [RequireComponent(typeof(PlayerAnimatorController))]
@@ -23,16 +11,9 @@ public class PlayerMovement : MonoBehaviour
     //  MOVIMIENTO
     // ─────────────────────────────────────────────
     [Header("Movimiento")]
-    [Tooltip("Velocidad maxima horizontal")]
     public float maxSpeed = 12f;
-
-    [Tooltip("Aceleracion lineal al correr (m/s²)")]
     public float acceleration = 25f;
-
-    [Tooltip("Desaceleracion lineal al soltar input (m/s²)")]
     public float deceleration = 20f;
-
-    [Tooltip("Multiplicador de control en el aire")]
     [Range(0f, 1f)]
     public float airControlMultiplier = 0.6f;
 
@@ -42,18 +23,36 @@ public class PlayerMovement : MonoBehaviour
     [Header("Salto")]
     public float jumpForce = 16f;
     public float doubleJumpForce = 13f;
-
-    [Tooltip("Multiplicador de gravedad al caer")]
     public float fallGravityMultiplier = 2.5f;
-
-    [Tooltip("Multiplicador de gravedad al soltar salto temprano")]
     public float lowJumpMultiplier = 2f;
-
-    [Tooltip("Segundos que puedes saltar tras salir de plataforma")]
     public float coyoteTime = 0.12f;
-
-    [Tooltip("Segundos de buffer de input de salto antes de tocar suelo")]
     public float jumpBufferTime = 0.15f;
+
+    // ─────────────────────────────────────────────
+    //  WALL JUMP / WALL SLIDE  ← NUEVO
+    // ─────────────────────────────────────────────
+    [Header("Wall Jump")]
+    [Tooltip("Transform en el lado del personaje que detecta paredes")]
+    public Transform wallCheck;
+
+    [Tooltip("Radio del OverlapCircle para detectar pared")]
+    public float wallCheckRadius = 0.15f;
+
+    [Tooltip("Layer de las paredes (puede ser la misma que groundLayer)")]
+    public LayerMask wallLayer;
+
+    [Tooltip("Velocidad horizontal al saltar de la pared (alejándose)")]
+    public float wallJumpForceX = 10f;
+
+    [Tooltip("Velocidad vertical al saltar de la pared")]
+    public float wallJumpForceY = 16f;
+
+    [Tooltip("Velocidad máxima de deslizamiento hacia abajo en la pared")]
+    public float wallSlideSpeed = 2f;
+
+    [Tooltip("Tiempo (s) en que el input horizontal queda bloqueado tras el wall jump, " +
+             "para que el personaje se separe bien de la pared")]
+    public float wallJumpControlLockTime = 0.2f;
 
     // ─────────────────────────────────────────────
     //  SLIDE
@@ -61,8 +60,6 @@ public class PlayerMovement : MonoBehaviour
     [Header("Slide")]
     public float slideBoostSpeed = 18f;
     public float slideDuration = 0.5f;
-
-    [Tooltip("Desaceleracion durante el slide (m/s²)")]
     public float slideFriction = 3f;
 
     // ─────────────────────────────────────────────
@@ -77,43 +74,47 @@ public class PlayerMovement : MonoBehaviour
     //  PENDIENTES
     // ─────────────────────────────────────────────
     [Header("Pendientes")]
-    [Tooltip("Angulo maximo de pendiente transitable (grados)")]
     public float maxSlopeAngle = 50f;
-
-    [Tooltip("Distancia del raycast de deteccion de pendiente")]
     public float slopeCheckDistance = 0.3f;
 
     // ─────────────────────────────────────────────
     //  ESTADO PUBLICO
     // ─────────────────────────────────────────────
-    public bool  IsGrounded     { get; private set; }
-    public bool  IsSliding      { get; private set; }
-    public bool  IsFacingRight  { get; private set; } = true;
-    public bool  IsSkidding     { get; private set; }
-    public bool  IsOnSlope      { get; private set; }
+    public bool IsGrounded { get; private set; }
+    public bool IsSliding { get; private set; }
+    public bool IsFacingRight { get; private set; } = true;
+    public bool IsSkidding { get; private set; }
+    public bool IsOnSlope { get; private set; }
+    public bool IsWallSliding { get; private set; }   // ← NUEVO: útil para el Animator
     public float HorizontalInput { get; private set; }
 
     // ─────────────────────────────────────────────
     //  REFERENCIAS
     // ─────────────────────────────────────────────
-    private Rigidbody2D              _rb;
-    private PlayerInputReader        _input;
+    private Rigidbody2D _rb;
+    private PlayerInputReader _input;
     private PlayerAnimatorController _anim;
-    private PlayerHealth             _health;
-    private PlayerGrapple            _grapple;
+    private PlayerHealth _health;
+    private PlayerGrapple _grapple;
 
     // ─────────────────────────────────────────────
     //  ESTADO INTERNO — salto
     // ─────────────────────────────────────────────
-    private bool  _canDoubleJump;
+    private bool _canDoubleJump;
     private float _coyoteTimeCounter;
     private float _jumpBufferCounter;
-    private bool  _wasGroundedLastFrame;
+    private bool _wasGroundedLastFrame;
 
     // ─────────────────────────────────────────────
     //  ESTADO INTERNO — slide
     // ─────────────────────────────────────────────
     private float _slideTimer;
+
+    // ─────────────────────────────────────────────
+    //  ESTADO INTERNO — wall jump  ← NUEVO
+    // ─────────────────────────────────────────────
+    private bool _isTouchingWall;
+    private float _wallJumpLockTimer;   // mientras > 0 el input H está bloqueado
 
     // ─────────────────────────────────────────────
     //  ESTADO INTERNO — pendientes
@@ -128,7 +129,6 @@ public class PlayerMovement : MonoBehaviour
     public void SetFrozen(bool frozen)
     {
         _isFrozen = frozen;
-
         if (frozen)
         {
             _rb.linearVelocity = new Vector2(0f, _rb.linearVelocity.y);
@@ -141,10 +141,10 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     private void Awake()
     {
-        _rb      = GetComponent<Rigidbody2D>();
-        _input   = GetComponent<PlayerInputReader>();
-        _anim    = GetComponent<PlayerAnimatorController>();
-        _health  = GetComponent<PlayerHealth>();
+        _rb = GetComponent<Rigidbody2D>();
+        _input = GetComponent<PlayerInputReader>();
+        _anim = GetComponent<PlayerAnimatorController>();
+        _health = GetComponent<PlayerHealth>();
         _grapple = GetComponent<PlayerGrapple>();
     }
 
@@ -161,6 +161,10 @@ public class PlayerMovement : MonoBehaviour
         HandleJumpBuffer();
         HandleCoyoteTime();
         HandleSlide();
+
+        // Bajar el lock timer del wall jump
+        if (_wallJumpLockTimer > 0f)
+            _wallJumpLockTimer -= Time.deltaTime;
     }
 
     // ─────────────────────────────────────────────
@@ -169,10 +173,12 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         CheckGrounded();
+        CheckWall();          // ← NUEVO
         DetectSlope();
 
         if (_isFrozen) return;
 
+        HandleWallSlide();    // ← NUEVO
         ApplyMovement();
         ApplyGravityModifiers();
     }
@@ -193,15 +199,56 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // ─────────────────────────────────────────────
+    //  DETECCION DE PARED  ← NUEVO
+    //  El wallCheck debe estar en el lado del personaje
+    //  (hijo del GameObject, offset en X hacia el frente).
+    //  Como el sprite se flipea con localScale.x, el
+    //  wallCheck se mueve automáticamente con él.
+    // ─────────────────────────────────────────────
+    private void CheckWall()
+    {
+        if (wallCheck == null) { _isTouchingWall = false; return; }
+
+        _isTouchingWall = !IsGrounded &&
+                          Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
+    }
+
+    // ─────────────────────────────────────────────
+    //  WALL SLIDE  ← NUEVO
+    //  Limita la velocidad de caída mientras se toca
+    //  la pared. También recarga el doble salto.
+    // ─────────────────────────────────────────────
+    private void HandleWallSlide()
+    {
+        // Condición: tocando pared, cayendo, sin estar en el suelo
+        bool shouldWallSlide = _isTouchingWall && _rb.linearVelocity.y < 0f;
+
+        IsWallSliding = shouldWallSlide;
+
+        if (IsWallSliding)
+        {
+            // Recargar doble salto al entrar en wall slide
+            _canDoubleJump = true;
+
+            // Limitar la velocidad de caída al wallSlideSpeed
+            if (_rb.linearVelocity.y < -wallSlideSpeed)
+            {
+                _rb.linearVelocity = new Vector2(
+                    _rb.linearVelocity.x,
+                    -wallSlideSpeed
+                );
+            }
+        }
+    }
+
+    // ─────────────────────────────────────────────
     //  DETECCION DE PENDIENTE
-    //  Raycast hacia abajo desde groundCheck para obtener
-    //  la normal del suelo. Solo se ejecuta cuando hay suelo.
     // ─────────────────────────────────────────────
     private void DetectSlope()
     {
         if (!IsGrounded)
         {
-            IsOnSlope    = false;
+            IsOnSlope = false;
             _slopeNormal = Vector2.up;
             return;
         }
@@ -213,13 +260,13 @@ public class PlayerMovement : MonoBehaviour
         if (hit.collider != null)
         {
             _slopeNormal = hit.normal;
-            float angle  = Vector2.Angle(hit.normal, Vector2.up);
-            IsOnSlope    = angle > 1f && angle <= maxSlopeAngle;
+            float angle = Vector2.Angle(hit.normal, Vector2.up);
+            IsOnSlope = angle > 1f && angle <= maxSlopeAngle;
         }
         else
         {
             _slopeNormal = Vector2.up;
-            IsOnSlope    = false;
+            IsOnSlope = false;
         }
     }
 
@@ -236,6 +283,10 @@ public class PlayerMovement : MonoBehaviour
             _rb.linearVelocity = new Vector2(slidingX, _rb.linearVelocity.y);
             return;
         }
+
+        // Durante el lock del wall jump no se aplica input horizontal,
+        // el impulso ya se encarga de alejarte de la pared
+        if (_wallJumpLockTimer > 0f) return;   // ← NUEVO
 
         if (IsGrounded && IsOnSlope)
             ApplyMovementOnSlope();
@@ -264,11 +315,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void ApplyMovementOnSlope()
     {
-        // Tangente de la pendiente apuntando hacia la derecha
-        // Si normal = (nx, ny) → tangente = (ny, -nx)
         Vector2 slopeTangent = new Vector2(_slopeNormal.y, -_slopeNormal.x);
-
-        // Velocidad objetivo a lo largo de la tangente
         Vector2 targetVelocity = slopeTangent * (_input.MoveInput * maxSpeed);
 
         float accelRate = Mathf.Abs(_input.MoveInput) > 0.01f ? acceleration : deceleration;
@@ -277,7 +324,6 @@ public class PlayerMovement : MonoBehaviour
             _rb.linearVelocity, targetVelocity, accelRate * Time.fixedDeltaTime
         );
 
-        // Sin input: anular Y para evitar que resbale por gravedad
         if (Mathf.Abs(_input.MoveInput) < 0.01f)
             newVelocity.y = 0f;
 
@@ -286,14 +332,20 @@ public class PlayerMovement : MonoBehaviour
 
     // ─────────────────────────────────────────────
     //  GRAVEDAD MODIFICADA
-    //  En pendiente con suelo: gravedad desactivada
-    //  para evitar que Rigidbody luche contra la normal.
     // ─────────────────────────────────────────────
     private void ApplyGravityModifiers()
     {
         if (_grapple != null && _grapple.IsGrappling) return;
 
         if (IsGrounded && IsOnSlope && !IsSliding)
+        {
+            _rb.gravityScale = 0f;
+            return;
+        }
+
+        // Wall slide: reducir gravedad para que el deslizamiento
+        // quede controlado por la velocidad que fijamos arriba
+        if (IsWallSliding)                    // ← NUEVO
         {
             _rb.gravityScale = 0f;
             return;
@@ -330,6 +382,14 @@ public class PlayerMovement : MonoBehaviour
 
         if (_jumpBufferCounter > 0f)
         {
+            // ── Wall jump tiene prioridad sobre salto normal ── NUEVO
+            if (IsWallSliding)
+            {
+                PerformWallJump();
+                _jumpBufferCounter = 0f;
+                return;
+            }
+
             if (_coyoteTimeCounter > 0f)
             {
                 PerformJump(jumpForce, isDoubleJump: false);
@@ -339,7 +399,7 @@ public class PlayerMovement : MonoBehaviour
             else if (_canDoubleJump)
             {
                 PerformJump(doubleJumpForce, isDoubleJump: true);
-                _canDoubleJump     = false;
+                _canDoubleJump = false;
                 _jumpBufferCounter = 0f;
             }
         }
@@ -347,15 +407,42 @@ public class PlayerMovement : MonoBehaviour
 
     private void PerformJump(float force, bool isDoubleJump)
     {
-        // Restaurar gravedad antes de saltar para que el impulso no
-        // quede anulado por gravityScale = 0 en pendiente
         _rb.gravityScale = 1f;
-
         _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0f);
         _rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
 
         bool isLongJump = Mathf.Abs(_rb.linearVelocity.x) > maxSpeed * 0.5f;
         _anim.NotifyJump(isDoubleJump, isLongJump);
+    }
+
+    // ─────────────────────────────────────────────
+    //  WALL JUMP  ← NUEVO
+    //  Lanza al personaje en diagonal opuesta a la pared.
+    //  IsFacingRight indica hacia qué lado está mirando,
+    //  o sea hacia qué lado está la pared → saltamos al opuesto.
+    // ─────────────────────────────────────────────
+    private void PerformWallJump()
+    {
+        _rb.gravityScale = 1f;
+
+        // Dirección opuesta a la pared
+        float directionAwayFromWall = IsFacingRight ? -1f : 1f;
+
+        _rb.linearVelocity = new Vector2(
+            directionAwayFromWall * wallJumpForceX,
+            wallJumpForceY
+        );
+
+        // Bloquear input horizontal brevemente para que el arco
+        // de salto se vea limpio y el jugador no "pegue" a la pared
+        _wallJumpLockTimer = wallJumpControlLockTime;
+
+        // Flip para mirar hacia donde va
+        if ((directionAwayFromWall > 0 && !IsFacingRight) ||
+            (directionAwayFromWall < 0 && IsFacingRight))
+            Flip();
+
+        _anim.NotifyJump(isDoubleJump: false, isLongJump: true);
     }
 
     // ─────────────────────────────────────────────
@@ -376,39 +463,37 @@ public class PlayerMovement : MonoBehaviour
 
     private void StartSlide()
     {
-        IsSliding   = true;
+        IsSliding = true;
         _slideTimer = slideDuration;
-
         float dir = IsFacingRight ? 1f : -1f;
         _rb.linearVelocity = new Vector2(slideBoostSpeed * dir, _rb.linearVelocity.y);
     }
 
-    private void EndSlide()
-    {
-        IsSliding = false;
-    }
+    private void EndSlide() => IsSliding = false;
 
     // ─────────────────────────────────────────────
     //  FLIP DE SPRITE
     // ─────────────────────────────────────────────
     private void HandleFlip()
     {
-        if      (_input.MoveInput > 0 && !IsFacingRight) Flip();
-        else if (_input.MoveInput < 0 &&  IsFacingRight) Flip();
+        // No flipear mientras el wall jump lock está activo
+        if (_wallJumpLockTimer > 0f) return;   // ← NUEVO
+
+        if (_input.MoveInput > 0 && !IsFacingRight) Flip();
+        else if (_input.MoveInput < 0 && IsFacingRight) Flip();
     }
 
     private void Flip()
     {
-        IsFacingRight        = !IsFacingRight;
-        Vector3 scale        = transform.localScale;
-        scale.x             *= -1f;
+        IsFacingRight = !IsFacingRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1f;
         transform.localScale = scale;
     }
 
     // ─────────────────────────────────────────────
     //  API PUBLICA
     // ─────────────────────────────────────────────
-
     public void ApplyKnockback(Vector2 direction, float force)
     {
         _rb.linearVelocity = Vector2.zero;
@@ -425,12 +510,19 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     private void OnDrawGizmosSelected()
     {
-        if (groundCheck == null) return;
+        if (groundCheck != null)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawRay(groundCheck.position, Vector2.down * slopeCheckDistance);
+        }
 
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
-
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawRay(groundCheck.position, Vector2.down * slopeCheckDistance);
+        // Visualizar el wallCheck en el editor  ← NUEVO
+        if (wallCheck != null)
+        {
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawWireSphere(wallCheck.position, wallCheckRadius);
+        }
     }
 }
