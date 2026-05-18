@@ -12,6 +12,5 @@ public class MenuManager : MonoBehaviour
     public void SalirDelJuego()
     {
         Application.Quit();
-        Debug.Log("el botón funciona");
     }
 }
