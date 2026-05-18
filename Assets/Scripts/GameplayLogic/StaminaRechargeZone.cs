@@ -7,8 +7,11 @@ public class StaminaRechargeZone : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D col)
     {
-        var stamina = col.GetComponent<PlayerStamina>();
+        var stamina = col.attachedRigidbody != null
+            ? col.attachedRigidbody.GetComponent<PlayerStamina>()
+            : col.GetComponentInParent<PlayerStamina>();
+
         if (stamina != null)
-            stamina.Recharge(rechargeRate * Time.deltaTime);
+            stamina.Recharge(rechargeRate * Time.fixedDeltaTime);
     }
 }
