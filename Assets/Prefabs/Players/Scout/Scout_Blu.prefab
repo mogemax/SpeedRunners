@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 7834527089469988445}
   - component: {fileID: 4534612626098411419}
   - component: {fileID: 6207107336544028115}
-  - component: {fileID: 3079749904657766139}
   - component: {fileID: 7953369248748427315}
   - component: {fileID: 2780849995657090801}
   - component: {fileID: 765085108435683962}
@@ -52,6 +51,7 @@ GameObject:
   - component: {fileID: -2133944841288346521}
   - component: {fileID: -5385773115936426778}
   - component: {fileID: 3379369979681976298}
+  - component: {fileID: 1831919116869843128}
   m_Layer: 0
   m_Name: Scout_Blu
   m_TagString: Player
@@ -161,52 +161,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &3079749904657766139
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8099487625140347564}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.86, y: 1.29}
-    newSize: {x: 2.7, y: 1.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.7, y: 1.4}
-  m_EdgeRadius: 0
 --- !u!95 &7953369248748427315
 Animator:
   serializedVersion: 7
@@ -310,6 +264,15 @@ MonoBehaviour:
   lowJumpMultiplier: 2
   coyoteTime: 0.12
   jumpBufferTime: 0.15
+  wallCheck: {fileID: 0}
+  wallCheckRadius: 0.15
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  wallJumpForceX: 10
+  wallJumpForceY: 16
+  wallSlideSpeed: 2
+  wallJumpControlLockTime: 0.2
   slideBoostSpeed: 18
   slideDuration: 0.5
   slideFriction: 3
@@ -480,3 +443,40 @@ MonoBehaviour:
     m_Bits: 64
   swingForce: 15
   maxSwingSpeed: 18
+--- !u!70 &1831919116869843128
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8099487625140347564}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.056373376, y: -0.032876402}
+  m_Size: {x: 0.82136345, y: 1.3755511}
+  m_Direction: 0

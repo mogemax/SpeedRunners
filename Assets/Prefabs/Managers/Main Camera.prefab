@@ -168,5 +168,5 @@ MonoBehaviour:
   offset: {x: 3, y: 3}
   smoothSpeed: 5
   zoomSpeed: 2
-  minSize: 11
-  maxSize: 16
+  minSize: 34.3
+  maxSize: 48.9

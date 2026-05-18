@@ -73,7 +73,6 @@ GameObject:
   - component: {fileID: 8675510511676902968}
   - component: {fileID: 3037142456369115198}
   - component: {fileID: 2937620434296883094}
-  - component: {fileID: 2110761406936633159}
   - component: {fileID: 8536119512912762711}
   - component: {fileID: 3819138828723145367}
   - component: {fileID: 8383752464771218177}
@@ -83,6 +82,7 @@ GameObject:
   - component: {fileID: 1443521001635936357}
   - component: {fileID: -4199938509250974920}
   - component: {fileID: -8142542614827797964}
+  - component: {fileID: 3463750797462495763}
   m_Layer: 0
   m_Name: Moonraker_Color1
   m_TagString: Player
@@ -193,52 +193,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &2110761406936633159
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5819198822494391980}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.7, y: 1.7}
-    newSize: {x: 2.7, y: 1.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.7, y: 1.4}
-  m_EdgeRadius: 0
 --- !u!95 &8536119512912762711
 Animator:
   serializedVersion: 7
@@ -332,12 +286,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdc644a0645f43f9a72e6dc512288a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  maxSpeed: 20
-  acceleration: 25
+  maxSpeed: 30
+  acceleration: 20
   deceleration: 20
   airControlMultiplier: 0.6
-  jumpForce: 16
-  doubleJumpForce: 13
+  jumpForce: 10
+  doubleJumpForce: 10
   fallGravityMultiplier: 2.5
   lowJumpMultiplier: 2
   coyoteTime: 0.12
@@ -521,3 +475,40 @@ MonoBehaviour:
     m_Bits: 64
   swingForce: 15
   maxSwingSpeed: 18
+--- !u!70 &3463750797462495763
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5819198822494391980}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.056373376, y: -0.032876402}
+  m_Size: {x: 0.82136345, y: 1.3755511}
+  m_Direction: 0
