@@ -22,6 +22,7 @@ public class PlayerInputReaderKeyboardP2 : PlayerInputReader
     public Key rightKey = Key.RightArrow;
     public Key jumpKey  = Key.UpArrow;
     public Key slideKey = Key.DownArrow;
+    public Key boostKey = Key.RightShift;
 
     private void Update()
     {
@@ -42,5 +43,8 @@ public class PlayerInputReaderKeyboardP2 : PlayerInputReader
         // Slide: edge-press
         if (kb[slideKey].wasPressedThisFrame)
             SlidePressed = true;
+
+        // Boost: held
+        BoostHeld = kb[boostKey].isPressed;
     }
 }
