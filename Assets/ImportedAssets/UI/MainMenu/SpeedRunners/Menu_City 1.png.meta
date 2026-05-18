@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ad02e72f9461446438d3777264169954
+guid: 7d818f6356616db4a886581b350d0c88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7886300805520941393
-    second: Menu_Sky_Beam_0
+      213: 3626856301017887660
+    second: Menu_City_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu_Sky_Beam_0
+      name: Menu_City_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 87
-        width: 80
-        height: 1201
+        x: 0
+        y: 0
+        width: 1280
+        height: 991
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fae1c07633b3e8290800000000000000
-      internalID: -7886300805520941393
+      spriteID: ca3fe81079e255230800000000000000
+      internalID: 3626856301017887660
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 415e6902d179cc844b4fce1459422ab7
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +133,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: True
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Menu_Sky_Beam_0: -7886300805520941393
+      Menu_City_0: 3626856301017887660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
