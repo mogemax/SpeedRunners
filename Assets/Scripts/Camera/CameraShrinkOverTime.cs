@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 [RequireComponent(typeof(SpeedRunnersCamera))]
 public class CameraShrinkOverTime : MonoBehaviour
@@ -18,9 +17,11 @@ public class CameraShrinkOverTime : MonoBehaviour
              "Cuanto más bajo, menos verán los jugadores.")]
     public float minSizeAllowed = 2.5f;
 
-    [Header("Borde de alerta (UI Images en Canvas)")]
-    public Image alertBorderRed;
-    public Image alertBorderBlack;
+    [Header("Bordes de alerta")]
+    [Tooltip("Componentes AlertBorderFlash en las Images que forman el marco " +
+             "(típicamente 4: top, bottom, left, right). El script los enciende " +
+             "cuando arranca el achicamiento y modula su frecuencia.")]
+    public AlertBorderFlash[] alertBorders;
 
     [Tooltip("Frecuencia (Hz) del parpadeo al inicio del achicamiento.")]
     public float flashStartFreq = 1f;
@@ -101,8 +102,7 @@ public class CameraShrinkOverTime : MonoBehaviour
 
     private void ResetVisuals()
     {
-        if (alertBorderRed != null) SetAlpha(alertBorderRed, 0f);
-        if (alertBorderBlack != null) SetAlpha(alertBorderBlack, 0f);
+        StopAllBorders();
         if (warningSprite != null) warningSprite.SetActive(false);
         if (_warningSpriteRoutine != null)
         {
@@ -120,6 +120,7 @@ public class CameraShrinkOverTime : MonoBehaviour
         if (!_shrinkTriggered && _roundTimer >= timeUntilShrinkStarts)
         {
             _shrinkTriggered = true;
+            StartAllBorders();
             if (warningSprite != null)
                 _warningSpriteRoutine = StartCoroutine(ShowWarningSprite());
         }
@@ -137,16 +138,29 @@ public class CameraShrinkOverTime : MonoBehaviour
         float offsetScale = Mathf.Lerp(1f, minSizeAllowed / Mathf.Max(0.0001f, _originalMaxSize), t);
         _srCam.offset = _originalOffset * offsetScale;
 
-        UpdateAlertBorders(t);
+        float freq = Mathf.Lerp(flashStartFreq, flashEndFreq, t);
+        SetAllBordersFrequency(freq);
     }
 
-    private void UpdateAlertBorders(float t)
+    private void StartAllBorders()
     {
-        float freq = Mathf.Lerp(flashStartFreq, flashEndFreq, t);
-        float pulse = (Mathf.Sin(Time.time * freq * Mathf.PI * 2f) + 1f) * 0.5f;
+        if (alertBorders == null) return;
+        foreach (var b in alertBorders)
+            if (b != null) b.StartFlashing();
+    }
 
-        if (alertBorderRed != null) SetAlpha(alertBorderRed, pulse);
-        if (alertBorderBlack != null) SetAlpha(alertBorderBlack, 1f - pulse);
+    private void StopAllBorders()
+    {
+        if (alertBorders == null) return;
+        foreach (var b in alertBorders)
+            if (b != null) b.StopFlashing();
+    }
+
+    private void SetAllBordersFrequency(float freq)
+    {
+        if (alertBorders == null) return;
+        foreach (var b in alertBorders)
+            if (b != null) b.frequency = freq;
     }
 
     private IEnumerator ShowWarningSprite()
@@ -155,12 +169,5 @@ public class CameraShrinkOverTime : MonoBehaviour
         yield return new WaitForSeconds(warningSpriteDuration);
         warningSprite.SetActive(false);
         _warningSpriteRoutine = null;
-    }
-
-    private static void SetAlpha(Image img, float a)
-    {
-        var c = img.color;
-        c.a = a;
-        img.color = c;
     }
 }
