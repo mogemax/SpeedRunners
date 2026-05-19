@@ -102,6 +102,7 @@ public class PlayerHUDController : MonoBehaviour
     private void Start()
     {
         AutoBindIfNeeded();
+        SubscribeRaceEvents();
     }
 
     private void AutoBindIfNeeded()
@@ -125,6 +126,27 @@ public class PlayerHUDController : MonoBehaviour
         }
     }
 
+    // Las suscripciones al RaceManager viven en Awake/OnDestroy a propósito:
+    // OnRoundEnd hace SetActive(false) sobre este GameObject, lo que dispara
+    // OnDisable. Si nos desuscribiéramos ahí, OnCountdownFinished no nos
+    // volvería a despertar y el HUD (con el icono de victoria recién activado)
+    // quedaría oculto para siempre.
+    private void SubscribeRaceEvents()
+    {
+        if (RaceManager.Instance == null) return;
+        RaceManager.Instance.OnRoundEnd          += OnRoundEnd;
+        RaceManager.Instance.OnCountdownFinished += OnRoundStart;
+    }
+
+    private void UnsubscribeRaceEvents()
+    {
+        if (RaceManager.Instance == null) return;
+        RaceManager.Instance.OnRoundEnd          -= OnRoundEnd;
+        RaceManager.Instance.OnCountdownFinished -= OnRoundStart;
+    }
+
+    private void OnDestroy() => UnsubscribeRaceEvents();
+
     private void OnEnable()
     {
         if (_staminaHandlers == null || _pickupHandlers == null) return;
@@ -139,12 +161,6 @@ public class PlayerHUDController : MonoBehaviour
         {
             if (pickupHolders[i] != null)
                 pickupHolders[i].OnPickupChanged += _pickupHandlers[i];
-        }
-
-        if (RaceManager.Instance != null)
-        {
-            RaceManager.Instance.OnRoundEnd          += OnRoundEnd;
-            RaceManager.Instance.OnCountdownFinished += OnRoundStart;
         }
     }
 
@@ -166,12 +182,6 @@ public class PlayerHUDController : MonoBehaviour
                 if (pickupHolders[i] != null)
                     pickupHolders[i].OnPickupChanged -= _pickupHandlers[i];
             }
-        }
-
-        if (RaceManager.Instance != null)
-        {
-            RaceManager.Instance.OnRoundEnd          -= OnRoundEnd;
-            RaceManager.Instance.OnCountdownFinished -= OnRoundStart;
         }
     }
 
