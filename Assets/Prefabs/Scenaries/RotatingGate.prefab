@@ -151,18 +151,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c75471753264a628833cca1b1ad80ae, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RotatingGate
   gates:
   - pieceTransform: {fileID: 4000000000000000002}
     targetAngle: 90
+    initialRotation: {x: 0, y: 0, z: 0, w: 0}
   - pieceTransform: {fileID: 4000000000000000003}
     targetAngle: -90
+    initialRotation: {x: 0, y: 0, z: 0, w: 0}
   rotationDuration: 0.4
   resetTime: 3
   triggerRenderer: {fileID: 2120000000000000001}
-  spriteInicial: {fileID: 0}
-  spriteActivado: {fileID: 0}
+  spriteInicial: {fileID: -5791533861771406970, guid: a6f4ef345de08dc4fa26bef530ed38fb, type: 3}
+  spriteActivado: {fileID: 1971089474277950741, guid: a6f4ef345de08dc4fa26bef530ed38fb, type: 3}
 --- !u!1 &1000000000000000002
 GameObject:
   m_ObjectHideFlags: 0
