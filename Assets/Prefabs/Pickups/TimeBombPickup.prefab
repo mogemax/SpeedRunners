@@ -47,3 +47,6 @@ MonoBehaviour:
   _idleIcon: {fileID: -3769386729268415729, guid: 20b1f826e51f6e14aa8fbfe7dfaffa7f, type: 3}
   _armedIcon: {fileID: -6222452102138856250, guid: 20b1f826e51f6e14aa8fbfe7dfaffa7f, type: 3}
   _droppedBombPrefab: {fileID: 7290853696135777083, guid: 0e038975bb02d4886b997f2f4fd4fcf5, type: 3}
+  _groundMask:
+    serializedVersion: 2
+    m_Bits: 8

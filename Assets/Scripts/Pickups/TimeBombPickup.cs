@@ -14,6 +14,9 @@ public class TimeBombPickup : PickupBase
     [Header("Prefabs")]
     [SerializeField] private GameObject _droppedBombPrefab;
 
+    [Header("Posición")]
+    [SerializeField] private LayerMask _groundMask = ~0;
+
     public override Sprite InitialIcon => _idleIcon;
 
     private DroppedBomb _placedBomb;
@@ -35,13 +38,23 @@ public class TimeBombPickup : PickupBase
             return;
         }
 
+        Vector3 spawnPos = FindGroundBelow(holder.transform.position);
+
         GameObject bombGO = Instantiate(_droppedBombPrefab,
-                                        holder.transform.position,
+                                        spawnPos,
                                         Quaternion.identity);
         _placedBomb = bombGO.GetComponent<DroppedBomb>();
         _isArmed    = true;
 
         NotifyIconChange(_armedIcon);
+    }
+
+    private Vector3 FindGroundBelow(Vector3 origin)
+    {
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, 10f, _groundMask);
+        if (hit.collider != null)
+            return new Vector3(origin.x, hit.point.y, origin.z);
+        return origin;
     }
 
     private void Detonate(PlayerPickupHolder holder)

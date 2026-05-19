@@ -72,10 +72,60 @@ public class PlayerHUDController : MonoBehaviour
         }
     }
 
+    // ─────────────────────────────────────────────
+    //  AUTO-BIND DE JUGADORES
+    // ─────────────────────────────────────────────
+    /// <summary>
+    /// Llamado por GeneradorJugadores después de spawnear cada jugador.
+    /// Extrae y registra los componentes necesarios del player en el slot indicado.
+    /// </summary>
+    public void BindPlayer(int index, GameObject player)
+    {
+        if (index < 0 || index >= playerStaminas.Length || player == null) return;
+
+        // Desuscribir referencias anteriores si existían
+        if (_staminaHandlers != null && playerStaminas[index] != null)
+            playerStaminas[index].OnStaminaChanged -= _staminaHandlers[index];
+        if (_pickupHandlers != null && pickupHolders[index] != null)
+            pickupHolders[index].OnPickupChanged -= _pickupHandlers[index];
+
+        playerStaminas[index] = player.GetComponent<PlayerStamina>();
+        pickupHolders[index]  = player.GetComponent<PlayerPickupHolder>();
+
+        // Suscribir nuevas referencias
+        if (_staminaHandlers != null && playerStaminas[index] != null)
+            playerStaminas[index].OnStaminaChanged += _staminaHandlers[index];
+        if (_pickupHandlers != null && pickupHolders[index] != null)
+            pickupHolders[index].OnPickupChanged += _pickupHandlers[index];
+    }
+
     private void Start()
     {
-        // Suscripciones persistentes — no se desuscriben al ocultar el HUD,
-        // así el HUD recibe OnCountdownFinished aunque esté inactivo.
+        AutoBindIfNeeded();
+    }
+
+    private void AutoBindIfNeeded()
+    {
+        bool anyMissing = false;
+        for (int i = 0; i < pickupHolders.Length; i++)
+            if (pickupHolders[i] == null || playerStaminas[i] == null) { anyMissing = true; break; }
+
+        if (!anyMissing) return;
+
+        // P1 usa PlayerInputReader, P2 usa PlayerInputReaderKeyboardP2.
+        // Usamos eso para asignar el índice correcto automáticamente.
+        var holders = FindObjectsByType<PlayerPickupHolder>(FindObjectsSortMode.None);
+        foreach (var holder in holders)
+        {
+            int index = holder.GetComponent<PlayerInputReaderKeyboardP2>() != null ? 1 : 0;
+            BindPlayer(index, holder.gameObject);
+        }
+    }
+
+    private void OnEnable()
+    {
+        if (_staminaHandlers == null || _pickupHandlers == null) return;
+
         for (int i = 0; i < playerStaminas.Length; i++)
         {
             if (playerStaminas[i] != null)
@@ -95,18 +145,24 @@ public class PlayerHUDController : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
-        for (int i = 0; i < playerStaminas.Length; i++)
+        if (_staminaHandlers != null)
         {
-            if (playerStaminas[i] != null)
-                playerStaminas[i].OnStaminaChanged -= _staminaHandlers[i];
+            for (int i = 0; i < playerStaminas.Length; i++)
+            {
+                if (playerStaminas[i] != null)
+                    playerStaminas[i].OnStaminaChanged -= _staminaHandlers[i];
+            }
         }
 
-        for (int i = 0; i < pickupHolders.Length; i++)
+        if (_pickupHandlers != null)
         {
-            if (pickupHolders[i] != null)
-                pickupHolders[i].OnPickupChanged -= _pickupHandlers[i];
+            for (int i = 0; i < pickupHolders.Length; i++)
+            {
+                if (pickupHolders[i] != null)
+                    pickupHolders[i].OnPickupChanged -= _pickupHandlers[i];
+            }
         }
 
         if (RaceManager.Instance != null)
@@ -115,6 +171,7 @@ public class PlayerHUDController : MonoBehaviour
             RaceManager.Instance.OnCountdownFinished -= OnRoundStart;
         }
     }
+
 
     // ─────────────────────────────────────────────
     //  STAMINA BAR

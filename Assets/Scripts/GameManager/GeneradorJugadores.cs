@@ -18,21 +18,16 @@ public class GeneradorJugadores : MonoBehaviour {
     }
 
     private void SpawnearJugador1() {
-        // Tomamos el prefab almacenado de forma estática
         GameObject prefabFinal = DatosSeleccion.prefabJugador1;
 
-        // Protección por si pruebas la escena suelta en Unity
         if (prefabFinal == null) {
             Debug.LogWarning("Menú saltado: Usando personaje por defecto para Jugador 1.");
             prefabFinal = prefabDefectoP1;
         }
 
-        // Si tenemos el prefab y el lugar de aparición, lo creamos
         if (prefabFinal != null && puntoSpawnJugador1 != null) {
             GameObject jugador1 = Instantiate(prefabFinal, puntoSpawnJugador1.position, puntoSpawnJugador1.rotation);
-
-            // TIP EXTRA: Si tus prefabs necesitan saber qué número de jugador son para los controles, puedes decírselo aquí:
-            // jugador1.GetComponent<ControladorMovimiento>().AsignarControles(1);
+            RegistrarEnHUD(0, jugador1);
         } else {
             Debug.LogError("Falta asignar el Spawn Point o el Prefab por defecto del Jugador 1 en el Generador.");
         }
@@ -48,10 +43,15 @@ public class GeneradorJugadores : MonoBehaviour {
 
         if (prefabFinal != null && puntoSpawnJugador2 != null) {
             GameObject jugador2 = Instantiate(prefabFinal, puntoSpawnJugador2.position, puntoSpawnJugador2.rotation);
-
-            // jugador2.GetComponent<ControladorMovimiento>().AsignarControles(2);
+            RegistrarEnHUD(1, jugador2);
         } else {
             Debug.LogError("Falta asignar el Spawn Point o el Prefab por defecto del Jugador 2 en el Generador.");
         }
+    }
+
+    private void RegistrarEnHUD(int index, GameObject player) {
+        var hud = FindFirstObjectByType<PlayerHUDController>();
+        if (hud != null)
+            hud.BindPlayer(index, player);
     }
 }

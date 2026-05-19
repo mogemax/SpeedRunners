@@ -147,5 +147,5 @@ MonoBehaviour:
   _affectedLayers:
     serializedVersion: 2
     m_Bits: 128
-  _explosionEffectPrefab: {fileID: 2616714010583872280, guid: a515ce4c3a152ba409e163a51d2dd629, type: 3}
+  _explosionEffectPrefab: {fileID: 8604648395683370056, guid: ce7ad1e06a26d4bd9a2646e19d46b748, type: 3}
   _bombTriggerEffectPrefab: {fileID: 4940240901034314965, guid: 6de09ee55794d4859ae32a66500ea090, type: 3}
