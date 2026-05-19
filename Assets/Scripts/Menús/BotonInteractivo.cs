@@ -1,36 +1,38 @@
 using UnityEngine;
 using UnityEngine.EventSystems; // Necesario para detectar el ratón
-using TMPro; // Asegúrate de estar usando TextMeshPro para tus textos
+using UnityEngine.UI;           // ¡NUEVO! Necesario para controlar el componente Button
+using TMPro;                    // Necesario para tus textos TextMeshPro
 
 public class BotonInteractivo : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
     [Header("Efecto de Aumento")]
-    [SerializeField] private float multiplicadorEscala = 1.1f; // 1.1 significa 10% más grande
+    [SerializeField] private float multiplicadorEscala = 1.1f;
     [SerializeField] private float velocidadAnimacion = 15f;
 
     private Vector3 escalaOriginal;
     private Vector3 escalaObjetivo;
 
     [Header("Texto Descriptivo")]
-    [SerializeField] private TextMeshProUGUI panelDeTexto; // El texto general donde aparecerá el mensaje
+    [SerializeField] private TextMeshProUGUI panelDeTexto;
     [TextArea(2, 4)]
-    [SerializeField] private string descripcionDelBoton; // Lo que dirá este botón en específico
+    [SerializeField] private string descripcionDelBoton;
+
+    private Button botonComponente; // Para guardar la referencia al botón físico
 
     void Start() {
-        // Guardamos el tamaño original para poder volver a la normalidad
         escalaOriginal = transform.localScale;
         escalaObjetivo = escalaOriginal;
 
-        // Limpiamos el texto al iniciar por si acaso
         if (panelDeTexto != null)
             panelDeTexto.text = "";
+
+        // Buscamos automáticamente el componente Button en este mismo objeto
+        botonComponente = GetComponent<Button>();
     }
 
     void Update() {
-        // Lerp hace que el cambio de tamaño sea fluido y no de golpe
         transform.localScale = Vector3.Lerp(transform.localScale, escalaObjetivo, Time.deltaTime * velocidadAnimacion);
     }
 
-    // Se ejecuta cuando el ratón ENTRA al botón
     public void OnPointerEnter(PointerEventData eventData) {
         escalaObjetivo = escalaOriginal * multiplicadorEscala;
 
@@ -38,11 +40,32 @@ public class BotonInteractivo : MonoBehaviour, IPointerEnterHandler, IPointerExi
             panelDeTexto.text = descripcionDelBoton;
     }
 
-    // Se ejecuta cuando el ratón SALE del botón
     public void OnPointerExit(PointerEventData eventData) {
         escalaObjetivo = escalaOriginal;
 
         if (panelDeTexto != null)
             panelDeTexto.text = "";
+    }
+
+    // Apaga solo los efectos de este script (escala y texto descriptivo)
+    public void ApagarScript() {
+        transform.localScale = escalaOriginal;
+        escalaObjetivo = escalaOriginal;
+
+        if (panelDeTexto != null) {
+            panelDeTexto.text = "Esperando...";
+        }
+
+        this.enabled = false;
+    }
+
+    // OPTION 2: Desaparece el botón de la pantalla por completo
+    public void OcultarBotonPorCompleto() {
+        if (panelDeTexto != null) {
+            panelDeTexto.text = "";
+        }
+
+        // Desactiva el GameObject entero de la escena (hace "invisible" el botón)
+        gameObject.SetActive(false);
     }
 }
