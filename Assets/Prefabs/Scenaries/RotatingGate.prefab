@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RotatingGate
   gates:
   - pieceTransform: {fileID: 4000000000000000002}
-    targetAngle: 90
+    targetAngle: 0
     initialRotation: {x: 0, y: 0, z: 0, w: 0}
   - pieceTransform: {fileID: 4000000000000000003}
     targetAngle: -90
@@ -246,15 +246,15 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 6241764278559506641, guid: 5f5ebcf6a03ac574e87b1569dcaf3371, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.43, y: 0.74}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!1 &1000000000000000003
 GameObject:
