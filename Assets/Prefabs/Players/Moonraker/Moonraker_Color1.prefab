@@ -83,6 +83,7 @@ GameObject:
   - component: {fileID: -4199938509250974920}
   - component: {fileID: -8142542614827797964}
   - component: {fileID: 3463750797462495763}
+  - component: {fileID: -6060828285943260244}
   m_Layer: 0
   m_Name: Moonraker_Color1
   m_TagString: Player
@@ -512,3 +513,15 @@ CapsuleCollider2D:
   m_Offset: {x: 0.056373376, y: -0.032876402}
   m_Size: {x: 0.82136345, y: 1.3755511}
   m_Direction: 0
+--- !u!114 &-6060828285943260244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5819198822494391980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1fb291b18bf46acbe695b0458981df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerPickupHolder

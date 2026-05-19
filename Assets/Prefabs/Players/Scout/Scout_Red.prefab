@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: -8628789452393621028}
   - component: {fileID: 4832901022255884499}
   - component: {fileID: 4549438915491962212}
+  - component: {fileID: 8349668339959844903}
   m_Layer: 0
   m_Name: Scout_Red
   m_TagString: Player
@@ -449,6 +450,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.86, y: 1.29}
   m_Direction: 0
+--- !u!114 &8349668339959844903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950208896885366325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1fb291b18bf46acbe695b0458981df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerPickupHolder
 --- !u!1 &5565644642083448636
 GameObject:
   m_ObjectHideFlags: 0

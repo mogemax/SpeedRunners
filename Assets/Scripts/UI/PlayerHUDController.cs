@@ -16,6 +16,10 @@ public class PlayerHUDController : MonoBehaviour
     [Header("Iconos de victoria por ronda")]
     public RoundWinSlot[] playerRoundWins = new RoundWinSlot[2];
 
+    [Header("Slot de Pickup")]
+    public Image[] pickupIcons = new Image[2];
+    public PlayerPickupHolder[] pickupHolders = new PlayerPickupHolder[2];
+
     [Serializable]
     public class RoundWinSlot
     {
@@ -27,6 +31,7 @@ public class PlayerHUDController : MonoBehaviour
     //  Delegates almacenados para poder desuscribirse
     // ─────────────────────────────────────────────
     private Action<float, float>[] _staminaHandlers;
+    private Action<Sprite>[]       _pickupHandlers;
 
     // ─────────────────────────────────────────────
     //  INIT
@@ -34,11 +39,17 @@ public class PlayerHUDController : MonoBehaviour
     private void Awake()
     {
         _staminaHandlers = new Action<float, float>[playerStaminas.Length];
-
         for (int i = 0; i < playerStaminas.Length; i++)
         {
             int idx = i;
             _staminaHandlers[i] = (current, max) => UpdateStaminaBar(idx, current, max);
+        }
+
+        _pickupHandlers = new Action<Sprite>[pickupHolders.Length];
+        for (int i = 0; i < pickupHolders.Length; i++)
+        {
+            int idx = i;
+            _pickupHandlers[i] = sprite => UpdatePickupIcon(idx, sprite);
         }
 
         // Inicializar barras a vacío
@@ -47,6 +58,10 @@ public class PlayerHUDController : MonoBehaviour
             if (staminaFillImages[i] != null)
                 staminaFillImages[i].fillAmount = 0f;
         }
+
+        // Ocultar iconos de pickup
+        foreach (var icon in pickupIcons)
+            if (icon != null) icon.gameObject.SetActive(false);
 
         // Apagar todos los iconos de victoria
         foreach (var slot in playerRoundWins)
@@ -67,6 +82,12 @@ public class PlayerHUDController : MonoBehaviour
                 playerStaminas[i].OnStaminaChanged += _staminaHandlers[i];
         }
 
+        for (int i = 0; i < pickupHolders.Length; i++)
+        {
+            if (pickupHolders[i] != null)
+                pickupHolders[i].OnPickupChanged += _pickupHandlers[i];
+        }
+
         if (RaceManager.Instance != null)
         {
             RaceManager.Instance.OnRoundEnd          += OnRoundEnd;
@@ -80,6 +101,12 @@ public class PlayerHUDController : MonoBehaviour
         {
             if (playerStaminas[i] != null)
                 playerStaminas[i].OnStaminaChanged -= _staminaHandlers[i];
+        }
+
+        for (int i = 0; i < pickupHolders.Length; i++)
+        {
+            if (pickupHolders[i] != null)
+                pickupHolders[i].OnPickupChanged -= _pickupHandlers[i];
         }
 
         if (RaceManager.Instance != null)
@@ -112,6 +139,26 @@ public class PlayerHUDController : MonoBehaviour
     private void OnRoundStart()
     {
         gameObject.SetActive(true);
+    }
+
+    // ─────────────────────────────────────────────
+    //  PICKUP ICON
+    // ─────────────────────────────────────────────
+    private void UpdatePickupIcon(int playerIndex, Sprite sprite)
+    {
+        if (playerIndex >= pickupIcons.Length) return;
+        var icon = pickupIcons[playerIndex];
+        if (icon == null) return;
+
+        if (sprite != null)
+        {
+            icon.sprite = sprite;
+            icon.gameObject.SetActive(true);
+        }
+        else
+        {
+            icon.gameObject.SetActive(false);
+        }
     }
 
     // ─────────────────────────────────────────────

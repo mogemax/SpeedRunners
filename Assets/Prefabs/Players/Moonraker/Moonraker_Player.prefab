@@ -52,6 +52,7 @@ GameObject:
   - component: {fileID: 4750405235688725782}
   - component: {fileID: 6563443127868349797}
   - component: {fileID: -6878747739464807076}
+  - component: {fileID: 2835419652668513300}
   m_Layer: 3
   m_Name: Moonraker_Player
   m_TagString: Player
@@ -310,6 +311,15 @@ MonoBehaviour:
   lowJumpMultiplier: 2
   coyoteTime: 0.12
   jumpBufferTime: 0.15
+  wallCheck: {fileID: 0}
+  wallCheckRadius: 0.15
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  wallJumpForceX: 10
+  wallJumpForceY: 16
+  wallSlideSpeed: 2
+  wallJumpControlLockTime: 0.2
   slideBoostSpeed: 18
   slideDuration: 0.5
   slideFriction: 3
@@ -480,3 +490,15 @@ MonoBehaviour:
     m_Bits: 64
   swingForce: 15
   maxSwingSpeed: 18
+--- !u!114 &2835419652668513300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992990914103743282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1fb291b18bf46acbe695b0458981df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerPickupHolder

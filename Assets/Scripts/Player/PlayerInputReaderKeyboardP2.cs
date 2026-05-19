@@ -18,11 +18,12 @@ using UnityEngine.InputSystem;
 public class PlayerInputReaderKeyboardP2 : PlayerInputReader
 {
     [Header("Teclas (Input System / Keyboard.current)")]
-    public Key leftKey  = Key.LeftArrow;
-    public Key rightKey = Key.RightArrow;
-    public Key jumpKey  = Key.UpArrow;
-    public Key slideKey = Key.DownArrow;
-    public Key boostKey = Key.RightShift;
+    public Key leftKey    = Key.LeftArrow;
+    public Key rightKey   = Key.RightArrow;
+    public Key jumpKey    = Key.UpArrow;
+    public Key slideKey   = Key.DownArrow;
+    public Key boostKey   = Key.RightShift;
+    public Key useItemKey = Key.Numpad1;
 
     private void Update()
     {
@@ -46,5 +47,9 @@ public class PlayerInputReaderKeyboardP2 : PlayerInputReader
 
         // Boost: held
         BoostHeld = kb[boostKey].isPressed;
+
+        // UseItem: edge-press
+        if (kb[useItemKey].wasPressedThisFrame)
+            UseItemPressed = true;
     }
 }
