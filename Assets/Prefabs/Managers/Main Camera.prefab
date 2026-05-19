@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5092910824019189537}
   - component: {fileID: 3779017395783978475}
   - component: {fileID: 577762688099088620}
+  - component: {fileID: 3139299014055685939}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -168,5 +169,25 @@ MonoBehaviour:
   offset: {x: 3, y: 3}
   smoothSpeed: 5
   zoomSpeed: 2
-  minSize: 11
-  maxSize: 16
+  minSize: 34.3
+  maxSize: 48.9
+--- !u!114 &3139299014055685939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105000227564520652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ec8bbccfc252e4ebd84dee083d4f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraShrinkOverTime
+  timeUntilShrinkStarts: 180
+  shrinkDuration: 30
+  minSizeAllowed: 2.5
+  alertBorders: []
+  flashStartFreq: 1
+  flashEndFreq: 4
+  warningSprite: {fileID: 0}
+  warningSpriteDuration: 2
