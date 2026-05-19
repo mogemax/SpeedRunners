@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Colecci\xF3n de insignias"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
-  m_sharedMaterial: {fileID: -7238583983587093378, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
+  m_sharedMaterial: {fileID: -3126931930814091722, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -679,8 +679,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
-  m_sharedMaterial: {fileID: -7238583983587093378, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
+  m_sharedMaterial: {fileID: -3126931930814091722, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1477,8 +1477,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "partida R\xE1pida"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
-  m_sharedMaterial: {fileID: -7238583983587093378, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
+  m_sharedMaterial: {fileID: -3126931930814091722, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1779,7 +1779,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: fed6f08759347814fb58d5c9c83c7a13, type: 3}
+    m_Font: {fileID: 12800000, guid: 668c593e5239e344e81f3c477602f32f, type: 3}
     m_FontSize: 40
     m_FontStyle: 2
     m_BestFit: 1
@@ -2156,8 +2156,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Colecci\xF3n de insignias"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
-  m_sharedMaterial: {fileID: -7238583983587093378, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
+  m_sharedMaterial: {fileID: -3126931930814091722, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2421,8 +2421,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Progreso Clasif.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
-  m_sharedMaterial: {fileID: -7238583983587093378, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
+  m_sharedMaterial: {fileID: -3126931930814091722, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2741,8 +2741,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Progreso Clasif.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
-  m_sharedMaterial: {fileID: -7238583983587093378, guid: 71ff3259e72e19e408f086170eb846ac, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
+  m_sharedMaterial: {fileID: -3126931930814091722, guid: 05e6d0a17e80f7744852f97d41785d15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
