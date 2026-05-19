@@ -140,6 +140,7 @@ public class CameraShrinkOverTime : MonoBehaviour
 
         float freq = Mathf.Lerp(flashStartFreq, flashEndFreq, t);
         SetAllBordersFrequency(freq);
+        SetAllBordersGrowth(t);
     }
 
     private void StartAllBorders()
@@ -153,7 +154,11 @@ public class CameraShrinkOverTime : MonoBehaviour
     {
         if (alertBorders == null) return;
         foreach (var b in alertBorders)
-            if (b != null) b.StopFlashing();
+        {
+            if (b == null) continue;
+            b.StopFlashing();
+            b.ResetGrowth();
+        }
     }
 
     private void SetAllBordersFrequency(float freq)
@@ -161,6 +166,13 @@ public class CameraShrinkOverTime : MonoBehaviour
         if (alertBorders == null) return;
         foreach (var b in alertBorders)
             if (b != null) b.frequency = freq;
+    }
+
+    private void SetAllBordersGrowth(float t)
+    {
+        if (alertBorders == null) return;
+        foreach (var b in alertBorders)
+            if (b != null) b.SetGrowth(t);
     }
 
     private IEnumerator ShowWarningSprite()
