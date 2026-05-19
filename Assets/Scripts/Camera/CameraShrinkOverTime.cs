@@ -38,6 +38,7 @@ public class CameraShrinkOverTime : MonoBehaviour
     private SpeedRunnersCamera _srCam;
     private float _originalMinSize;
     private float _originalMaxSize;
+    private Vector2 _originalOffset;
 
     private float _roundTimer;
     private bool _timerActive;
@@ -49,6 +50,7 @@ public class CameraShrinkOverTime : MonoBehaviour
         _srCam = GetComponent<SpeedRunnersCamera>();
         _originalMinSize = _srCam.minSize;
         _originalMaxSize = _srCam.maxSize;
+        _originalOffset = _srCam.offset;
     }
 
     private void OnEnable()
@@ -93,6 +95,7 @@ public class CameraShrinkOverTime : MonoBehaviour
         _shrinkTriggered = false;
         _srCam.minSize = _originalMinSize;
         _srCam.maxSize = _originalMaxSize;
+        _srCam.offset = _originalOffset;
         ResetVisuals();
     }
 
@@ -130,6 +133,9 @@ public class CameraShrinkOverTime : MonoBehaviour
         float newMax = Mathf.Lerp(_originalMaxSize, minSizeAllowed, t);
         _srCam.minSize = newMin;
         _srCam.maxSize = newMax;
+
+        float offsetScale = Mathf.Lerp(1f, minSizeAllowed / Mathf.Max(0.0001f, _originalMaxSize), t);
+        _srCam.offset = _originalOffset * offsetScale;
 
         UpdateAlertBorders(t);
     }
