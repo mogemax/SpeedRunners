@@ -112,12 +112,15 @@ public class PlayerHUDController : MonoBehaviour
 
         if (!anyMissing) return;
 
-        // P1 usa PlayerInputReader, P2 usa PlayerInputReaderKeyboardP2.
+        // P1 usa PlayerInputReader base, P2 usa cualquier reader derivado
+        // (PlayerInputReaderKeyboardP2 o PlayerInputReaderGamepad).
         // Usamos eso para asignar el índice correcto automáticamente.
         var holders = FindObjectsByType<PlayerPickupHolder>(FindObjectsSortMode.None);
         foreach (var holder in holders)
         {
-            int index = holder.GetComponent<PlayerInputReaderKeyboardP2>() != null ? 1 : 0;
+            bool isP2 = holder.GetComponent<PlayerInputReaderKeyboardP2>() != null
+                     || holder.GetComponent<PlayerInputReaderGamepad>()    != null;
+            int index = isP2 ? 1 : 0;
             BindPlayer(index, holder.gameObject);
         }
     }
