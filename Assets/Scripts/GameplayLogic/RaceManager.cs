@@ -94,10 +94,37 @@ public class RaceManager : MonoBehaviour
     {
         get {
             var leader = RaceData.Where(d => !d.IsEliminated)
-                                 .OrderByDescending(d => d.TotalScore)
+                                 .OrderByDescending(d => GetProgressScore(d))
                                  .FirstOrDefault();
             return leader != null ? leader.Transform : null;
         }
+    }
+
+    // Score continuo: TotalScore (escalonado por CP) + fracción [0..0.99)
+    // del tramo recorrido hacia el siguiente checkpoint. Esto rompe los
+    // empates cuando dos jugadores van entre el mismo par de checkpoints,
+    // para que la cámara siga al que físicamente va más adelante.
+    private float GetProgressScore(PlayerProgress data)
+    {
+        float score = data.TotalScore;
+
+        if (data.LastCheckpoint == null) return score;
+
+        Checkpoint next = _checkpoints
+            .FirstOrDefault(c => c.checkpointIndex == data.CurrentCP + 1);
+        if (next == null) return score;
+
+        Vector2 from = data.LastCheckpoint.transform.position;
+        Vector2 to   = next.transform.position;
+        float segLen = Vector2.Distance(from, to);
+        if (segLen < 0.01f) return score;
+
+        Vector2 segDir = (to - from) / segLen;
+        Vector2 rel    = (Vector2)data.Transform.position - from;
+        float traveled = Vector2.Dot(rel, segDir);
+        float frac     = Mathf.Clamp01(traveled / segLen);
+
+        return score + frac * 0.99f;
     }
 
     // ─────────────────────────────────────────────

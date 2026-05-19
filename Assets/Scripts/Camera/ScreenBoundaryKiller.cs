@@ -27,10 +27,20 @@ public class ScreenBoundaryKiller : MonoBehaviour
         if (RaceManager.Instance == null || !RaceManager.Instance.raceIsActive) return;
 
         var players = RaceManager.Instance.RaceData;
+        Transform leader = RaceManager.Instance.LeaderTransform;
 
         for (int i = 0; i < players.Count; i++)
         {
             if (players[i].IsEliminated) continue;
+
+            // El líder está exento: la cámara lo sigue con Lerp suave y
+            // puede quedar momentáneamente fuera del viewport. Matarlo
+            // sería castigarlo por ir adelante.
+            if (players[i].Transform == leader)
+            {
+                _deathTimers[i] = 0f;
+                continue;
+            }
 
             // Convertir posición del jugador a coordenadas de viewport:
             // (0,0) = esquina inferior izquierda de la cámara
