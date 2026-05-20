@@ -70,7 +70,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -214.37, y: -50.82, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6941465, y: 1.6941465, z: 1.6941465}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8365526777701929091}
@@ -362,9 +362,11 @@ MonoBehaviour:
     m_Bits: 64
   swingForce: 15
   maxSwingSpeed: 18
+  ropeOriginOffset: {x: 0.2, y: 0.3}
   hookProjectilePrefab: {fileID: 3073129155926391873, guid: 708a8fedd5060445f8ea88e57a717260, type: 3}
   hookTravelSpeed: 25
   hookSprite: {fileID: 0}
+  groundLaunchImpulse: 10
 --- !u!114 &4701011063957810312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,6 +379,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8e2f4a1c5d9e3f74a2b6c4d8e1f5a9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReaderGamepad
+  leftKeyA: 15
+  rightKeyA: 18
+  jumpKeyA: 1
+  slideKeyA: 51
+  hookshotKeyA: 38
+  useItemKeyA: 19
+  leftKeyB: 61
+  rightKeyB: 62
+  jumpKeyB: 63
+  slideKeyB: 52
+  hookshotKeyB: 84
+  useItemKeyB: 85
   useLeftStick: 1
   stickDeadzone: 0.2
   leftButton: 2
@@ -419,6 +433,7 @@ MonoBehaviour:
   slideBoostSpeed: 18
   slideDuration: 0.5
   slideFriction: 3
+  slideColliderHeight: 0.6
   groundCheck: {fileID: 8365526777701929091}
   groundCheckRadius: 0.15
   groundLayer:

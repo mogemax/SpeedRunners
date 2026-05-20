@@ -20,6 +20,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuEscenario.unity
     guid: b11768a887be7f84aacd54554ca12dba
+  - enabled: 1
+    path: Assets/Scenes/Metro.unity
+    guid: 06e4a4f69de11b641a7dea81b9511d43
+  - enabled: 1
+    path: Assets/Scenes/Fabrica.unity
+    guid: 3e3a1ed4cfb642d4d8e460ee5b5f356f
+  - enabled: 1
+    path: Assets/Scenes/Crucero.unity
+    guid: 2c117e29b88196f48993828c0d41fe10
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

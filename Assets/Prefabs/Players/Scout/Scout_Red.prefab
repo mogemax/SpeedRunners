@@ -215,6 +215,7 @@ MonoBehaviour:
   slideBoostSpeed: 18
   slideDuration: 0.5
   slideFriction: 3
+  slideColliderHeight: 0.6
   groundCheck: {fileID: 5122684460852414867}
   groundCheckRadius: 0.15
   groundLayer:
@@ -234,6 +235,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d493531022c9241849afdfad2bf9de50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReader
+  leftKeyA: 15
+  rightKeyA: 18
+  jumpKeyA: 1
+  slideKeyA: 51
+  hookshotKeyA: 38
+  useItemKeyA: 19
+  leftKeyB: 61
+  rightKeyB: 62
+  jumpKeyB: 63
+  slideKeyB: 52
+  hookshotKeyB: 84
+  useItemKeyB: 85
 --- !u!232 &-6434542902171762123
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -252,7 +265,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 1
+  m_Distance: 0.005
   m_MaxDistanceOnly: 0
 --- !u!120 &-8628789452393621028
 LineRenderer:
@@ -382,9 +395,11 @@ MonoBehaviour:
     m_Bits: 64
   swingForce: 15
   maxSwingSpeed: 18
+  ropeOriginOffset: {x: 0.2, y: 0.3}
   hookProjectilePrefab: {fileID: 3073129155926391873, guid: 708a8fedd5060445f8ea88e57a717260, type: 3}
   hookTravelSpeed: 25
   hookSprite: {fileID: 0}
+  groundLaunchImpulse: 10
 --- !u!70 &4549438915491962212
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -459,7 +474,7 @@ Transform:
   m_GameObject: {fileID: 5565644642083448636}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.75, z: 0}
+  m_LocalPosition: {x: 0, y: -0.637, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
