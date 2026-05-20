@@ -16,6 +16,9 @@ public class TimeBombPickup : PickupBase
 
     [Header("Posición")]
     [SerializeField] private LayerMask _groundMask = ~0;
+    [Tooltip("Cuánto se eleva la bomba sobre el suelo para que su pivote (centro) " +
+             "no quede medio enterrado. Típicamente la mitad de la altura del sprite.")]
+    [SerializeField] private float _groundOffset = 0.3f;
 
     public override Sprite InitialIcon => _idleIcon;
 
@@ -53,7 +56,7 @@ public class TimeBombPickup : PickupBase
     {
         RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, 10f, _groundMask);
         if (hit.collider != null)
-            return new Vector3(origin.x, hit.point.y, origin.z);
+            return new Vector3(origin.x, hit.point.y + _groundOffset, origin.z);
         return origin;
     }
 
