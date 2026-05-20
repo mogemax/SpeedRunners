@@ -63,7 +63,10 @@ public class PlayerAnimatorController : MonoBehaviour
     // ─────────────────────────────────────────────
     private Animator         _animator;
     private PlayerMovement   _movement;
+    private PlayerGrapple    _grapple;
     private Rigidbody2D      _rb;
+    private bool             _suppressNextRoll;
+    private bool             _isHookActive;
     // ─────────────────────────────────────────────
     //  INIT
     // ─────────────────────────────────────────────
@@ -71,6 +74,7 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _movement = GetComponent<PlayerMovement>();
+        _grapple  = GetComponent<PlayerGrapple>();
         _rb       = GetComponent<Rigidbody2D>();
     }
     // ─────────────────────────────────────────────
@@ -82,6 +86,13 @@ public class PlayerAnimatorController : MonoBehaviour
     // ─────────────────────────────────────────────
     private void Update()
     {
+        if (_isHookActive) {
+            _animator.SetBool(IsHookActive, true);
+            _animator.SetBool(IsSwinging,   _grapple != null && _grapple.IsGrappling);
+            _animator.SetFloat(SpeedY,      0f);
+            _animator.SetBool(IsLongFall,   false);
+            return;
+        }
         UpdateLocomotionParameters();
         UpdateAirParameters();
     }
@@ -89,13 +100,12 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         _animator.SetFloat(SpeedX,     Mathf.Abs(_rb.linearVelocity.x));
         _animator.SetBool (IsGrounded, _movement.IsGrounded);
-        _animator.SetBool (IsSliding,  _movement.IsSliding);   // Update ya cubre OnSlideStart/End
+        _animator.SetBool (IsSliding,  _movement.IsSliding);
         _animator.SetBool (IsSkidding, _movement.IsSkidding);
     }
     private void UpdateAirParameters()
     {
         _animator.SetFloat(SpeedY, _rb.linearVelocity.y);
-        // Long-Fall: caída rápida con velocidad horizontal suficiente
         bool isLongFall = _rb.linearVelocity.y < longFallThreshold
                         && Mathf.Abs(_rb.linearVelocity.x) > 3f;
         _animator.SetBool(IsLongFall, isLongFall);
@@ -110,6 +120,7 @@ public class PlayerAnimatorController : MonoBehaviour
     // NOTE: NOT named OnJump — that prefix is reserved for PlayerInput (Send Messages).
     public void NotifyJump(bool isDoubleJump, bool isLongJump)
     {
+        if (_isHookActive) return;
         _animator.SetBool(IsDoubleJump, isDoubleJump);
         _animator.SetBool(IsLongJump,   isLongJump);
         _animator.SetTrigger(TriggerJump);
@@ -123,10 +134,14 @@ public class PlayerAnimatorController : MonoBehaviour
     /// </summary>
     public void OnLand()
     {
-        if (Mathf.Abs(_rb.linearVelocity.x) > hardLandingThreshold)
+        if (_isHookActive) return;
+
+        if (!_suppressNextRoll && Mathf.Abs(_rb.linearVelocity.x) > hardLandingThreshold)
             _animator.SetTrigger(TriggerRoll);
         else
             _animator.SetTrigger(TriggerLand);
+
+        _suppressNextRoll = false;
     }
     // ─────────────────────────────────────────────
     //  DAÑO — llamado desde PlayerHealth
@@ -169,6 +184,16 @@ public class PlayerAnimatorController : MonoBehaviour
     /// <summary>Activar animación de hookshot al lanzar el gancho.</summary>
     public void OnHookshotStart()
     {
+        // Limpiar estado sucio antes de congelar parámetros
+        _animator.SetFloat(SpeedY,      0f);
+        _animator.SetBool (IsLongFall,  false);
+        _animator.SetBool (IsSkidding,  false);
+        _animator.SetBool (IsSliding,   false);
+        _animator.ResetTrigger(TriggerJump);
+        _animator.ResetTrigger(TriggerLand);
+        _animator.ResetTrigger(TriggerRoll);
+
+        _isHookActive = true;
         _animator.SetBool(IsHookActive,  true);
         bool isRunning = _movement.IsGrounded
                         && Mathf.Abs(_rb.linearVelocity.x) > runningHookThreshold;
@@ -178,13 +203,28 @@ public class PlayerAnimatorController : MonoBehaviour
     public void OnSwingStart()
     {
         _animator.SetBool(IsSwinging, true);
+        _animator.CrossFade("Swing", 0.1f);
     }
     /// <summary>Gancho soltado — volver a animaciones normales.</summary>
     public void OnHookshotEnd()
     {
+        _isHookActive = false;
         _animator.SetBool(IsHookActive,  false);
         _animator.SetBool(IsSwinging,    false);
         _animator.SetBool(IsRunningHook, false);
+
+        // Evitar roll en el próximo aterrizaje post-gancho
+        _suppressNextRoll = true;
+
+        // Limpiar triggers pendientes que podrían interferir
+        _animator.ResetTrigger(TriggerRoll);
+        _animator.ResetTrigger(TriggerJump);
+
+        // Forzar salida del estado Swing hacia el estado correcto
+        if (_movement.IsGrounded)
+            _animator.SetTrigger(TriggerLand);
+        else
+            _animator.CrossFade("Straight-Fall", 0.05f);
     }
 
     // ─────────────────────────────────────────────
