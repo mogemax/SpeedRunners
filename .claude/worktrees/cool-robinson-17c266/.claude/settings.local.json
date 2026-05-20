@@ -10,7 +10,8 @@
       "Bash(grep -n \"Track02 - Stinger\" \"C:/Users/jr_bb/OneDrive/Documentos/GitHub/SpeedRunners/Assets/ImportedAssets/Audio/Sfx/Stingers/Track02 - Stinger.wav.meta\" 2>/dev/null; echo \"Track02 GUID: 8f60d4ca667300c49b712986fab6579c\"; echo \"Track01 PREMIX GUID: e54fc97584d1cb64b9c57cdf29b3e2ae\")",
       "Bash(find \"C:/Users/jr_bb/OneDrive/Documentos/GitHub/SpeedRunners/Assets/ImportedAssets\" -type f \\\\\\( -iname \"*win*\" -o -iname \"*round*\" -o -iname \"*end*\" -o -iname \"*finish*\" -o -iname \"*ronda*\" -o -iname \"*final*\" -o -iname \"*victor*\" \\\\\\) -name \"*.wav\" 2>/dev/null)",
       "Bash(grep -rln \"^Canvas:\" \"C:/Users/jr_bb/OneDrive/Documentos/GitHub/SpeedRunners/Assets/Prefabs\" 2>/dev/null)",
-      "Bash(grep -v \".meta$\")"
+      "Bash(grep -v \".meta$\")",
+      "Bash(cd \"C:/Users/jr_bb/OneDrive/Documentos/GitHub/SpeedRunners\" && ls -1 \"Assets/Scripts/Menús/\" 2>/dev/null | head -20)"
     ]
   }
 }
