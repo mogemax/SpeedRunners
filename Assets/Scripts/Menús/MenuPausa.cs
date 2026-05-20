@@ -77,7 +77,7 @@ public class MenuPausa : MonoBehaviour {
 
     private static void OcultarCursor() {
         Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     private static void MostrarCursor() {
