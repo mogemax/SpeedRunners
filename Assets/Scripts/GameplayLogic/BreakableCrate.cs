@@ -15,6 +15,10 @@ public class BreakableCrate : MonoBehaviour
     [SerializeField] private bool _respawns = true;
     [SerializeField] private float _respawnTime = 8f;
 
+    [Header("Sonido al romperse")]
+    [SerializeField] private AudioClip[] _sonidosRotura;
+    [SerializeField, Range(0f, 1f)] private float _volumenRotura = 1f;
+
     private SpriteRenderer[] _renderers;
     private Collider2D _collider;
     private bool _isBroken;
@@ -43,6 +47,13 @@ public class BreakableCrate : MonoBehaviour
 
         if (_pickupCollectiblePrefab != null)
             Instantiate(_pickupCollectiblePrefab, transform.position, Quaternion.identity);
+
+        if (_sonidosRotura != null && _sonidosRotura.Length > 0)
+        {
+            var clip = _sonidosRotura[Random.Range(0, _sonidosRotura.Length)];
+            if (clip != null)
+                AudioSource.PlayClipAtPoint(clip, transform.position, _volumenRotura);
+        }
 
         SetVisible(false);
         _collider.enabled = false;
