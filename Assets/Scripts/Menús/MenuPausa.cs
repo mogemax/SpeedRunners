@@ -31,6 +31,7 @@ public class MenuPausa : MonoBehaviour {
         if (panelPausa != null) panelPausa.SetActive(false);
         Time.timeScale = 1f;
         enPausa = false;
+        OcultarCursor();
     }
 
     void Update() {
@@ -51,6 +52,7 @@ public class MenuPausa : MonoBehaviour {
         enPausa = true;
         ReproducirSonido();
         Time.timeScale = 0f;
+        MostrarCursor();
         if (panelPausa != null) panelPausa.SetActive(true);
     }
 
@@ -58,6 +60,7 @@ public class MenuPausa : MonoBehaviour {
         enPausa = false;
         ReproducirSonido();
         Time.timeScale = 1f;
+        OcultarCursor();
         if (panelPausa != null) panelPausa.SetActive(false);
     }
 
@@ -68,6 +71,17 @@ public class MenuPausa : MonoBehaviour {
 
     public void Salir() {
         Time.timeScale = 1f;
+        MostrarCursor();
         SceneManager.LoadScene(escenaSalida);
+    }
+
+    private static void OcultarCursor() {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
+    private static void MostrarCursor() {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 }

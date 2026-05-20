@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RaceManager : MonoBehaviour
 {
@@ -50,6 +51,12 @@ public class RaceManager : MonoBehaviour
     [Header("Cuenta regresiva")]
     [Tooltip("GameObject en la escena con CountdownDisplayController. Se muestra antes de iniciar la ronda.")]
     public CountdownDisplayController countdownDisplay;
+
+    [Header("Fin de partida")]
+    [Tooltip("Nombre de la escena a cargar cuando termina la partida completa.")]
+    public string escenaPostPartida = "MenuEscenario";
+    [Tooltip("Segundos que el WinnerDisplay permanece visible antes de cambiar de escena.")]
+    public float tiempoEsperaFin = 2f;
 
     // ─────────────────────────────────────────────
     //  PROGRESO POR JUGADOR
@@ -301,8 +308,15 @@ public class RaceManager : MonoBehaviour
 
         yield return StartCoroutine(WaitForWinnerAnimation(_lastWinnerIndex));
 
-        // Victoria final: pausar el juego (el winnerDisplay queda visible)
+        yield return StartCoroutine(TerminarPartida());
+    }
+
+    private IEnumerator TerminarPartida()
+    {
         Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(tiempoEsperaFin);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(escenaPostPartida);
     }
 
     // ─────────────────────────────────────────────

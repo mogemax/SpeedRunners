@@ -659,7 +659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuPausa
   panelPausa: {fileID: 7449194874928630022}
-  teclaPausa: 27
+  teclaPausa: 60
   escenaSalida: MenuSeleccion
 --- !u!1 &7185788314278837841
 GameObject:
