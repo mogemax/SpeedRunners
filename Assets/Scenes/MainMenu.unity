@@ -656,6 +656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc46e3b02ea50e842b0ed27be40dce46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
+  nombreDeLaSiguienteEscena: Creditos
 --- !u!4 &306264709
 Transform:
   m_ObjectHideFlags: 0
@@ -1832,7 +1833,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 306264708}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: SalirDelJuego
+        m_MethodName: CargarEscena
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
