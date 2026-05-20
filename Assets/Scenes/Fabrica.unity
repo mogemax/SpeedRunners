@@ -3855,6 +3855,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6943606777476326741, guid: 554d064f4f2d14171b5c497a4095e323, type: 3}
   m_PrefabInstance: {fileID: 996362973}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1016819242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1016819243}
+  - component: {fileID: 1016819244}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1016819243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016819242}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -19.3, y: -20.9, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1956756302}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1016819244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016819242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010e531325a72458fa3dbef219fe3e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraBounds
+  minX: -135
+  maxX: 130
+  minY: -50
+  maxY: 15
 --- !u!1001 &1062133413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -117070,6 +117118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 577762688099088620, guid: 69940c4fe6380402799acf4b52edb138, type: 3}
+      propertyPath: bounds
+      value: 
+      objectReference: {fileID: 1016819244}
     - target: {fileID: 3139299014055685939, guid: 69940c4fe6380402799acf4b52edb138, type: 3}
       propertyPath: warningSprite
       value: 
@@ -117314,6 +117366,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1016819243}
   - {fileID: 1912046907}
   - {fileID: 2118901018}
   - {fileID: 585454737}
