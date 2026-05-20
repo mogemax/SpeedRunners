@@ -10,80 +10,128 @@ public class PlayerGrapple : MonoBehaviour {
     public float swingForce = 15f;
     public float maxSwingSpeed = 18f;
 
+    [Header("Proyectil")]
+    [Tooltip("Prefab del proyectil (opcional). Si no se asigna, se crea uno en runtime.")]
+    public GameObject hookProjectilePrefab;
+    [Tooltip("Velocidad de vuelo del gancho en unidades/segundo")]
+    public float hookTravelSpeed = 25f;
+    [Tooltip("Sprite de la punta del gancho para creación en runtime")]
+    public Sprite hookSprite;
+
     public bool IsGrappling { get; private set; }
 
     private DistanceJoint2D _joint;
     private LineRenderer _line;
     private Rigidbody2D _rb;
-    private PlayerMovement _movementScript;
+    private PlayerMovement _movement;
+    private PlayerAnimatorController _anim;
     private Vector2 _grapplePoint;
+    private HookProjectile _activeProjectile;
 
     private void Awake() {
         _joint = GetComponent<DistanceJoint2D>();
         _line = GetComponent<LineRenderer>();
         _rb = GetComponent<Rigidbody2D>();
-        _movementScript = GetComponent<PlayerMovement>();
+        _movement = GetComponent<PlayerMovement>();
+        _anim = GetComponent<PlayerAnimatorController>();
 
         _joint.enabled = false;
-        // Mantiene la distancia fija (evita que la cuerda se encoja)
         _joint.maxDistanceOnly = false;
         _line.enabled = false;
     }
 
     public void OnGrapple(InputValue value) {
-        if (value.isPressed) {
+        if (value.isPressed)
             TryStartGrapple();
-        } else if (IsGrappling) {
+        else if (IsGrappling || _activeProjectile != null)
             StopGrapple();
-        }
     }
 
     private void TryStartGrapple() {
-        Vector2 direction = _movementScript.IsFacingRight ? (Vector2.right + Vector2.up) : (Vector2.left + Vector2.up);
+        if (_activeProjectile != null || IsGrappling) return;
 
-        RaycastHit2D hit = Physics2D.CircleCast(transform.position, 0.5f, direction.normalized, grappleRange, grappleLayer);
+        Vector2 dir = _movement.IsFacingRight
+            ? (Vector2.right + Vector2.up).normalized
+            : (Vector2.left + Vector2.up).normalized;
 
-        if (hit.collider != null) {
-            _grapplePoint = hit.point;
-            _joint.connectedAnchor = _grapplePoint;
-            _joint.distance = Vector2.Distance(transform.position, _grapplePoint);
+        RaycastHit2D hit = Physics2D.CircleCast(
+            transform.position, 0.5f, dir, grappleRange, grappleLayer);
 
-            _joint.enabled = true;
-            _line.enabled = true;
-            IsGrappling = true;
+        _anim?.OnHookshotStart();
 
-            _rb.gravityScale = 1f;
-        }
+        bool willConnect = hit.collider != null;
+        Vector2 target = willConnect
+            ? hit.point
+            : (Vector2)transform.position + dir * grappleRange;
+
+        _activeProjectile = SpawnHookProjectile();
+        _activeProjectile.Launch(this, (Vector2)transform.position, target, hookTravelSpeed, willConnect);
     }
 
-    private void StopGrapple() {
+    private HookProjectile SpawnHookProjectile() {
+        if (hookProjectilePrefab != null) {
+            var go = Instantiate(hookProjectilePrefab, transform.position, Quaternion.identity);
+            return go.GetComponent<HookProjectile>();
+        }
+
+        var fallback = new GameObject("HookProjectile");
+        fallback.transform.position = transform.position;
+        if (hookSprite != null) {
+            var sr = fallback.AddComponent<SpriteRenderer>();
+            sr.sprite = hookSprite;
+            sr.sortingOrder = 101;
+        }
+        return fallback.AddComponent<HookProjectile>();
+    }
+
+    // Llamado por HookProjectile cuando llega a la superficie de agarre
+    public void ConnectGrapple(Vector2 point) {
+        _grapplePoint = point;
+        _joint.connectedAnchor = _grapplePoint;
+        _joint.distance = Vector2.Distance(transform.position, _grapplePoint);
+        _joint.enabled = true;
+        _line.enabled = true;
+        IsGrappling = true;
+        _rb.gravityScale = 1f;
+        _anim?.OnSwingStart();
+    }
+
+    public void StopGrapple() {
+        if (_activeProjectile != null) {
+            _activeProjectile.Cancel();
+            _activeProjectile = null;
+        }
         _joint.enabled = false;
         _line.enabled = false;
         IsGrappling = false;
+        _anim?.OnHookshotEnd();
+    }
+
+    // Llamado por HookProjectile cuando termina (conectó o falló)
+    public void OnProjectileFinished() {
+        _activeProjectile = null;
+        if (!IsGrappling)
+            _anim?.OnHookshotEnd();
     }
 
     private void Update() {
-        if (IsGrappling) {
-            _line.SetPosition(0, transform.position);
-            _line.SetPosition(1, _grapplePoint);
-        }
+        if (!IsGrappling) return;
+        _line.SetPosition(0, transform.position);
+        _line.SetPosition(1, _grapplePoint);
     }
 
     private void FixedUpdate() {
-        if (IsGrappling) {
-            float h = _movementScript.HorizontalInput;
-            if (h != 0) {
-                Vector2 ropeDir = (_grapplePoint - (Vector2)transform.position).normalized;
-                Vector2 perpDir = new Vector2(ropeDir.y, -ropeDir.x);
+        if (!IsGrappling) return;
 
-                if (Mathf.Sign(h) != Mathf.Sign(perpDir.x)) perpDir *= -1;
-
-                _rb.AddForce(perpDir * swingForce, ForceMode2D.Force);
-            }
-
-            if (_rb.linearVelocity.magnitude > maxSwingSpeed) {
-                _rb.linearVelocity = _rb.linearVelocity.normalized * maxSwingSpeed;
-            }
+        float h = _movement.HorizontalInput;
+        if (h != 0f) {
+            Vector2 ropeDir = (_grapplePoint - (Vector2)transform.position).normalized;
+            Vector2 perpDir = new Vector2(ropeDir.y, -ropeDir.x);
+            if (Mathf.Sign(h) != Mathf.Sign(perpDir.x)) perpDir *= -1f;
+            _rb.AddForce(perpDir * swingForce, ForceMode2D.Force);
         }
+
+        if (_rb.linearVelocity.magnitude > maxSwingSpeed)
+            _rb.linearVelocity = _rb.linearVelocity.normalized * maxSwingSpeed;
     }
 }

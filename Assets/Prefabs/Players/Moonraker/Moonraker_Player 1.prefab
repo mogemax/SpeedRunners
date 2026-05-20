@@ -260,7 +260,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: d14b7c0c114bfd740ac4ce404d27c1ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -362,6 +362,9 @@ MonoBehaviour:
     m_Bits: 64
   swingForce: 15
   maxSwingSpeed: 18
+  hookProjectilePrefab: {fileID: 3073129155926391873, guid: 708a8fedd5060445f8ea88e57a717260, type: 3}
+  hookTravelSpeed: 25
+  hookSprite: {fileID: 0}
 --- !u!114 &4701011063957810312
 MonoBehaviour:
   m_ObjectHideFlags: 0
