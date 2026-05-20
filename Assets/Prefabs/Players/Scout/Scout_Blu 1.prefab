@@ -201,7 +201,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 220.83218
+  m_Distance: 219.605
   m_MaxDistanceOnly: 0
 --- !u!120 &6134903258860616509
 LineRenderer:
@@ -370,8 +370,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.056373376, y: -0.032876402}
-  m_Size: {x: 0.82136345, y: 1.3755511}
+  m_Offset: {x: -0.06287625, y: -0.047520846}
+  m_Size: {x: 0.5828641, y: 1.2542086}
   m_Direction: 0
 --- !u!114 &2846367779116821009
 MonoBehaviour:
@@ -391,12 +391,14 @@ MonoBehaviour:
   slideKeyA: 51
   hookshotKeyA: 38
   useItemKeyA: 19
+  boostKeyA: 40
   leftKeyB: 61
   rightKeyB: 62
   jumpKeyB: 63
   slideKeyB: 52
   hookshotKeyB: 84
   useItemKeyB: 85
+  boostKeyB: 86
 --- !u!114 &4088529470554146730
 MonoBehaviour:
   m_ObjectHideFlags: 0

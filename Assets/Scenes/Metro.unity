@@ -366441,7 +366441,7 @@ GameObject:
   - component: {fileID: 918545826}
   - component: {fileID: 918545828}
   - component: {fileID: 918545827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: escaleras
   m_TagString: Untagged
   m_Icon: {fileID: 0}

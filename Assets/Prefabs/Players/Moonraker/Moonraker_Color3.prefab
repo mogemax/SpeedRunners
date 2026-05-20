@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2001001001001001001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2002002002002002002}
+  m_Layer: 7
+  m_Name: Wallcheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2002002002002002002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001001001001001001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.471, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5436468676198334546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7251027324975296319
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +248,7 @@ MonoBehaviour:
   slideBoostSpeed: 18
   slideDuration: 0.5
   slideFriction: 3
+  slideColliderHeight: 0.6
   groundCheck: {fileID: 3339707410061455602}
   groundCheckRadius: 0.15
   groundLayer:
@@ -224,26 +256,6 @@ MonoBehaviour:
     m_Bits: 8
   maxSlopeAngle: 50
   slopeCheckDistance: 0.3
---- !u!114 &2003003003003003003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7251027324975296319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8e2f4a1c5d9e3f74a2b6c4d8e1f5a9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReaderGamepad
-  useLeftStick: 1
-  stickDeadzone: 0.2
-  leftButton: 2
-  rightButton: 3
-  jumpButton: 6
-  slideButton: 5
-  boostButton: 11
-  useItemButton: 7
 --- !u!232 &-552409658410013906
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -262,7 +274,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 1
+  m_Distance: 0.005
   m_MaxDistanceOnly: 0
 --- !u!120 &3229784013797856555
 LineRenderer:
@@ -392,9 +404,11 @@ MonoBehaviour:
     m_Bits: 64
   swingForce: 15
   maxSwingSpeed: 18
+  ropeOriginOffset: {x: 0.2, y: 0.3}
   hookProjectilePrefab: {fileID: 3073129155926391873, guid: 708a8fedd5060445f8ea88e57a717260, type: 3}
   hookTravelSpeed: 25
   hookSprite: {fileID: 0}
+  groundLaunchImpulse: 10
 --- !u!70 &-4937609601990056833
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -429,8 +443,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.056373376, y: -0.032876402}
-  m_Size: {x: 0.82136345, y: 1.3755511}
+  m_Offset: {x: 0.10608555, y: -0.044348493}
+  m_Size: {x: 0.5307383, y: 1.1919985}
   m_Direction: 0
 --- !u!114 &-7108694998182222970
 MonoBehaviour:
@@ -444,6 +458,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a1fb291b18bf46acbe695b0458981df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerPickupHolder
+--- !u!114 &2003003003003003003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7251027324975296319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e2f4a1c5d9e3f74a2b6c4d8e1f5a9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReaderGamepad
+  leftKeyA: 15
+  rightKeyA: 18
+  jumpKeyA: 1
+  slideKeyA: 51
+  hookshotKeyA: 38
+  useItemKeyA: 19
+  boostKeyA: 40
+  leftKeyB: 61
+  rightKeyB: 62
+  jumpKeyB: 63
+  slideKeyB: 52
+  hookshotKeyB: 84
+  useItemKeyB: 85
+  boostKeyB: 86
+  useLeftStick: 1
+  stickDeadzone: 0.2
+  leftButton: 2
+  rightButton: 3
+  jumpButton: 6
+  slideButton: 5
+  hookshotButton: 11
+  useItemButton: 7
+--- !u!114 &2004004004004004004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7251027324975296319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952d7e4d8e76ab24c8da68625638190e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStamina
+  maxStamina: 100
+  drainRate: 50
+  speedBoostMultiplier: 5
 --- !u!1 &7406325654460590941
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,53 +532,7 @@ Transform:
   m_GameObject: {fileID: 7406325654460590941}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.75, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5436468676198334546}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2004004004004004004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7251027324975296319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 952d7e4d8e76ab24c8da68625638190e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerStamina
-  maxStamina: 100
-  drainRate: 50
-  speedBoostMultiplier: 5
---- !u!1 &2001001001001001001
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2002002002002002002}
-  m_Layer: 7
-  m_Name: Wallcheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2002002002002002002
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001001001001001001}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.364, y: 0, z: 0}
+  m_LocalPosition: {x: 0.122, y: -0.754, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
