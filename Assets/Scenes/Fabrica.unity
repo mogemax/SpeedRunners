@@ -495,6 +495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 62158550}
   - component: {fileID: 62158549}
+  - component: {fileID: 62158551}
   m_Layer: 0
   m_Name: ENV_Area3_Layer0_0
   m_TagString: Untagged
@@ -570,12 +571,31 @@ Transform:
   m_GameObject: {fileID: 62158548}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 56.216904, y: 21.310278, z: 0}
-  m_LocalScale: {x: 2.8104599, y: 1.8132, z: 1.8132}
+  m_LocalPosition: {x: -81.3, y: 10.7, z: 0}
+  m_LocalScale: {x: 6.0298414, y: 3.8902204, z: 3.8902204}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1828742862}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &62158551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62158548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8fe0dbba29f4a01abd989c52f13031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParallaxLayer
+  parallaxFactorX: 0
+  parallaxFactorY: 0
+  enableTiling: 0
+  tileWidth: 20
+  scaleWithZoom: 1
+  referenceSize: 17
+  targetCamera: {fileID: 1912046913}
 --- !u!114 &93011772 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8547704457300085765, guid: b80700e9146ed4747a1b59132943e872, type: 3}
@@ -2399,6 +2419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerGUILogic
       objectReference: {fileID: 0}
+    - target: {fileID: 3609960986146439247, guid: a12adcc9002704f088181dbb72f21b5c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4333008141614440040, guid: a12adcc9002704f088181dbb72f21b5c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.242569
@@ -2925,7 +2949,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7688238668598939699, guid: 592a772216171e24193cec392ee2897b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -116580,7 +116604,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7688238668598939699, guid: 592a772216171e24193cec392ee2897b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -117118,6 +117142,11 @@ PrefabInstance:
 --- !u!4 &1912046907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8439138124482448718, guid: 69940c4fe6380402799acf4b52edb138, type: 3}
+  m_PrefabInstance: {fileID: 1912046906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1912046913 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4696838067355655771, guid: 69940c4fe6380402799acf4b52edb138, type: 3}
   m_PrefabInstance: {fileID: 1912046906}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1929563459
