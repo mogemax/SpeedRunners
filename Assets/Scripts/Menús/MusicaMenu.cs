@@ -12,10 +12,11 @@ public class MusicaMenu : MonoBehaviour {
     [SerializeField] private AudioClip musicaFinRonda;
     [SerializeField, Range(0f, 1f)] private float volumen = 0.5f;
     [SerializeField] private bool enBucle = true;
-    [Tooltip("Segundos de espera antes de comenzar a reproducir cualquier audio.")]
+    [Tooltip("Segundos de espera antes de comenzar a reproducir cualquier audio, contados desde el inicio del countdown.")]
     [SerializeField, Min(0f)] private float retrasoInicio = 0f;
 
     private AudioSource fuente;
+    private bool musicaPendiente = true;
 
     void Awake() {
         fuente = GetComponent<AudioSource>();
@@ -24,15 +25,20 @@ public class MusicaMenu : MonoBehaviour {
     }
 
     void Start() {
-        StartCoroutine(SecuenciaReproduccion());
-
-        if (RaceManager.Instance != null)
+        if (RaceManager.Instance != null) {
             RaceManager.Instance.OnRoundEnd += AlTerminarRonda;
+            RaceManager.Instance.OnCountdownTick += AlTickCountdown;
+        } else {
+            // Escena sin RaceManager (menús): arranca de una.
+            StartCoroutine(SecuenciaReproduccion());
+        }
     }
 
     void OnDestroy() {
-        if (RaceManager.Instance != null)
+        if (RaceManager.Instance != null) {
             RaceManager.Instance.OnRoundEnd -= AlTerminarRonda;
+            RaceManager.Instance.OnCountdownTick -= AlTickCountdown;
+        }
     }
 
     private IEnumerator SecuenciaReproduccion() {
@@ -55,7 +61,14 @@ public class MusicaMenu : MonoBehaviour {
     }
 
     private void AlTerminarRonda(int ganadorIndex) {
+        musicaPendiente = true;
         ReproducirFinRonda();
+    }
+
+    private void AlTickCountdown(int tick) {
+        if (!musicaPendiente) return;
+        musicaPendiente = false;
+        ReiniciarMusica();
     }
 
     public void ReproducirFinRonda() {
@@ -66,5 +79,11 @@ public class MusicaMenu : MonoBehaviour {
         fuente.loop = false;
         fuente.volume = volumen;
         fuente.Play();
+    }
+
+    public void ReiniciarMusica() {
+        StopAllCoroutines();
+        fuente.Stop();
+        StartCoroutine(SecuenciaReproduccion());
     }
 }

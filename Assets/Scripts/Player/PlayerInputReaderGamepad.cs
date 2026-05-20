@@ -17,7 +17,8 @@ using UnityEngine.InputSystem.LowLevel;
 ///   - Mover:    Stick izquierdo (eje X) + D-Pad izq/der como respaldo
 ///   - Saltar:   Botón South (A en Xbox / X en PS)
 ///   - Slide:    Botón East  (B en Xbox / O en PS)
-///   - Boost:    RightShoulder (RB / R1)
+///   - Boost:    Right Trigger (RT / R2)
+///   - Hookshot: RightShoulder (RB / R1)
 ///   - UseItem:  Botón West  (X en Xbox / Cuadrado en PS)
 /// </summary>
 [DefaultExecutionOrder(-100)]
@@ -31,13 +32,13 @@ public class PlayerInputReaderGamepad : PlayerInputReader
     [Range(0f, 0.9f)]
     public float stickDeadzone = 0.2f;
 
-    public GamepadButton leftButton    = GamepadButton.DpadLeft;
-    public GamepadButton rightButton   = GamepadButton.DpadRight;
-    public GamepadButton jumpButton    = GamepadButton.South;        // A / X
-    public GamepadButton slideButton   = GamepadButton.East;         // B / O
-    public GamepadButton boostButton   = GamepadButton.RightShoulder;// RB / R1
-    public GamepadButton useItemButton = GamepadButton.West;         // X / Cuadrado
-    // Hookshot: Right Trigger (leído como ButtonControl, activo al superar el umbral)
+    public GamepadButton leftButton     = GamepadButton.DpadLeft;
+    public GamepadButton rightButton    = GamepadButton.DpadRight;
+    public GamepadButton jumpButton     = GamepadButton.South;        // A / X
+    public GamepadButton slideButton    = GamepadButton.East;         // B / O
+    public GamepadButton hookshotButton = GamepadButton.RightShoulder;// RB / R1
+    public GamepadButton useItemButton  = GamepadButton.West;         // X / Cuadrado
+    // Boost: Right Trigger (leído como ButtonControl, activo al superar el umbral)
 
     private void Update()
     {
@@ -67,16 +68,16 @@ public class PlayerInputReaderGamepad : PlayerInputReader
         if (gp[slideButton].wasPressedThisFrame)
             SlidePressed = true;
 
-        // ── Boost: held ──
-        BoostHeld = gp[boostButton].isPressed;
+        // ── Boost: Right Trigger ──
+        BoostHeld = gp.rightTrigger.isPressed;
 
         // ── UseItem: edge-press ──
         if (gp[useItemButton].wasPressedThisFrame)
             UseItemPressed = true;
 
-        // ── Hookshot: Right Trigger ──
-        HookshotHeld = gp.rightTrigger.isPressed;
-        if (gp.rightTrigger.wasPressedThisFrame)
+        // ── Hookshot: RightShoulder ──
+        HookshotHeld = gp[hookshotButton].isPressed;
+        if (gp[hookshotButton].wasPressedThisFrame)
             HookshotPressed = true;
     }
 }

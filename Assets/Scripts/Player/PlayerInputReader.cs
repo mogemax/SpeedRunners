@@ -15,6 +15,7 @@ public class PlayerInputReader : MonoBehaviour {
     public Key slideKeyA    = Key.LeftShift;
     public Key hookshotKeyA = Key.X;
     public Key useItemKeyA  = Key.E;
+    public Key boostKeyA    = Key.Z;
 
     [Header("Layout B — Flechas / Numpad")]
     public Key leftKeyB     = Key.LeftArrow;
@@ -23,6 +24,7 @@ public class PlayerInputReader : MonoBehaviour {
     public Key slideKeyB    = Key.RightShift;
     public Key hookshotKeyB = Key.Numpad0;
     public Key useItemKeyB  = Key.Numpad1;
+    public Key boostKeyB    = Key.Numpad2;
 
     // ── Estado público ────────────────────────────────────────────────────
     public float MoveInput       { get; protected set; }
@@ -63,6 +65,9 @@ public class PlayerInputReader : MonoBehaviour {
         // UseItem
         if (kb[useItemKeyA].wasPressedThisFrame || kb[useItemKeyB].wasPressedThisFrame)
             UseItemPressed = true;
+
+        // Boost
+        BoostHeld = kb[boostKeyA].isPressed || kb[boostKeyB].isPressed;
     }
 
     private void LateUpdate() {
