@@ -198,8 +198,8 @@ MonoBehaviour:
   acceleration: 25
   deceleration: 20
   airControlMultiplier: 0.6
-  jumpForce: 16
-  doubleJumpForce: 13
+  jumpForce: 11
+  doubleJumpForce: 11
   fallGravityMultiplier: 2.5
   lowJumpMultiplier: 2
   coyoteTime: 0.12
