@@ -25,8 +25,14 @@ public class PlayerGrapple : MonoBehaviour {
     private Rigidbody2D _rb;
     private PlayerMovement _movement;
     private PlayerAnimatorController _anim;
+    private PlayerInputReader _input;
     private Vector2 _grapplePoint;
     private HookProjectile _activeProjectile;
+    private bool _showingFailRope;
+    private Vector2 _failRopePoint;
+
+    private static readonly Color RopeColorNormal = Color.black;
+    private static readonly Color RopeColorFail   = Color.white;
 
     private void Awake() {
         _joint = GetComponent<DistanceJoint2D>();
@@ -34,17 +40,13 @@ public class PlayerGrapple : MonoBehaviour {
         _rb = GetComponent<Rigidbody2D>();
         _movement = GetComponent<PlayerMovement>();
         _anim = GetComponent<PlayerAnimatorController>();
+        _input = GetComponent<PlayerInputReader>();
 
         _joint.enabled = false;
         _joint.maxDistanceOnly = false;
         _line.enabled = false;
-    }
-
-    public void OnGrapple(InputValue value) {
-        if (value.isPressed)
-            TryStartGrapple();
-        else if (IsGrappling || _activeProjectile != null)
-            StopGrapple();
+        _line.startColor = RopeColorNormal;
+        _line.endColor   = RopeColorNormal;
     }
 
     private void TryStartGrapple() {
@@ -107,6 +109,24 @@ public class PlayerGrapple : MonoBehaviour {
         _anim?.OnHookshotEnd();
     }
 
+    // Llamado por HookProjectile al llegar a una superficie inválida
+    public void ShowFailRope(Vector2 point) {
+        _failRopePoint = point;
+        _showingFailRope = true;
+        _line.startColor = RopeColorFail;
+        _line.endColor   = RopeColorFail;
+        _line.SetPosition(0, transform.position);
+        _line.SetPosition(1, _failRopePoint);
+        _line.enabled = true;
+    }
+
+    public void HideFailRope() {
+        _showingFailRope = false;
+        _line.enabled = false;
+        _line.startColor = RopeColorNormal;
+        _line.endColor   = RopeColorNormal;
+    }
+
     // Llamado por HookProjectile cuando termina (conectó o falló)
     public void OnProjectileFinished() {
         _activeProjectile = null;
@@ -115,9 +135,19 @@ public class PlayerGrapple : MonoBehaviour {
     }
 
     private void Update() {
-        if (!IsGrappling) return;
-        _line.SetPosition(0, transform.position);
-        _line.SetPosition(1, _grapplePoint);
+        if (_input != null) {
+            if (_input.HookshotPressed)
+                TryStartGrapple();
+            else if (!_input.HookshotHeld && (IsGrappling || _activeProjectile != null))
+                StopGrapple();
+        }
+
+        if (IsGrappling) {
+            _line.SetPosition(0, transform.position);
+            _line.SetPosition(1, _grapplePoint);
+        } else if (_showingFailRope) {
+            _line.SetPosition(0, transform.position);
+        }
     }
 
     private void FixedUpdate() {

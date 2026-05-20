@@ -37,15 +37,7 @@ public class PlayerInputReaderGamepad : PlayerInputReader
     public GamepadButton slideButton   = GamepadButton.East;         // B / O
     public GamepadButton boostButton   = GamepadButton.RightShoulder;// RB / R1
     public GamepadButton useItemButton = GamepadButton.West;         // X / Cuadrado
-
-    // Bloqueamos los callbacks del PlayerInput (SendMessages). Si el GameObject
-    // tiene además un componente PlayerInput, su input no debe afectar a este
-    // jugador — solo el polling de Gamepad.current configurado arriba.
-    public override void OnMove(InputValue value)    { }
-    public override void OnJump(InputValue value)    { }
-    public override void OnSlide(InputValue value)   { }
-    public override void OnBoost(InputValue value)   { }
-    public override void OnUseItem(InputValue value) { }
+    // Hookshot: Right Trigger (leído como ButtonControl, activo al superar el umbral)
 
     private void Update()
     {
@@ -81,5 +73,10 @@ public class PlayerInputReaderGamepad : PlayerInputReader
         // ── UseItem: edge-press ──
         if (gp[useItemButton].wasPressedThisFrame)
             UseItemPressed = true;
+
+        // ── Hookshot: Right Trigger ──
+        HookshotHeld = gp.rightTrigger.isPressed;
+        if (gp.rightTrigger.wasPressedThisFrame)
+            HookshotPressed = true;
     }
 }

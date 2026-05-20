@@ -84,6 +84,8 @@ public class HookProjectile : MonoBehaviour {
     }
 
     private IEnumerator PlayBreak() {
+        _owner.ShowFailRope(_target);
+
         if (_sr != null && breakSprites != null && breakSprites.Length > 0) {
             float interval = 1f / breakFrameRate;
             foreach (Sprite s in breakSprites) {
@@ -94,6 +96,8 @@ public class HookProjectile : MonoBehaviour {
         } else {
             yield return new WaitForSeconds(0.25f);
         }
+
+        _owner.HideFailRope();
         _owner.OnProjectileFinished();
         Destroy(gameObject);
     }
