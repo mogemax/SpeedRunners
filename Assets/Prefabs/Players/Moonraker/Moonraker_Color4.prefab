@@ -43,17 +43,17 @@ GameObject:
   - component: {fileID: 8249049856279690711}
   - component: {fileID: 7155017451255131350}
   - component: {fileID: 4617297781969229270}
-  - component: {fileID: 5268385773294382455}
   - component: {fileID: 4853908614907393715}
   - component: {fileID: 3096345386253985988}
   - component: {fileID: 7353332598726905237}
-  - component: {fileID: 6470991334361034010}
   - component: {fileID: 7227706986076799264}
   - component: {fileID: 837555158594888973}
   - component: {fileID: 9078478946221138104}
   - component: {fileID: 6942271798366514576}
   - component: {fileID: 3263291510926405796}
-  m_Layer: 0
+  - component: {fileID: 3003003003003003003}
+  - component: {fileID: 3004004004004004004}
+  m_Layer: 7
   m_Name: Moonraker_Color4
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -74,6 +74,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8030727944434654874}
+  - {fileID: 3002002002002002002}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8249049856279690711
@@ -159,7 +160,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 1
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!95 &4617297781969229270
@@ -184,36 +185,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5268385773294382455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4969245860212732808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-  m_Actions: {fileID: -944628639613478452, guid: 76541016f09b847f69c6b5218651608b, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!114 &4853908614907393715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +236,7 @@ MonoBehaviour:
   lowJumpMultiplier: 2
   coyoteTime: 0.12
   jumpBufferTime: 0.15
-  wallCheck: {fileID: 0}
+  wallCheck: {fileID: 3002002002002002002}
   wallCheckRadius: 0.15
   wallLayer:
     serializedVersion: 2
@@ -284,7 +255,7 @@ MonoBehaviour:
     m_Bits: 8
   maxSlopeAngle: 50
   slopeCheckDistance: 0.3
---- !u!114 &6470991334361034010
+--- !u!114 &3003003003003003003
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -293,9 +264,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 4969245860212732808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d493531022c9241849afdfad2bf9de50, type: 3}
+  m_Script: {fileID: 11500000, guid: b8e2f4a1c5d9e3f74a2b6c4d8e1f5a9b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReader
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReaderGamepad
+  useLeftStick: 1
+  stickDeadzone: 0.2
+  leftButton: 2
+  rightButton: 3
+  jumpButton: 6
+  slideButton: 5
+  boostButton: 11
+  useItemButton: 7
 --- !u!232 &7227706986076799264
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -496,3 +475,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a1fb291b18bf46acbe695b0458981df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerPickupHolder
+--- !u!114 &3004004004004004004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4969245860212732808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952d7e4d8e76ab24c8da68625638190e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStamina
+  maxStamina: 100
+  drainRate: 50
+  speedBoostMultiplier: 5
+--- !u!1 &3001001001001001001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3002002002002002002}
+  m_Layer: 7
+  m_Name: Wallcheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3002002002002002002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3001001001001001001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.364, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9007645959333354868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
