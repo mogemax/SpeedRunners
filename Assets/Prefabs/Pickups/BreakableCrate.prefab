@@ -269,6 +269,11 @@ MonoBehaviour:
   _boxPopEffectPrefab: {fileID: 8604648395683370056, guid: ce7ad1e06a26d4bd9a2646e19d46b748, type: 3}
   _respawns: 1
   _respawnTime: 8
+  _sonidosRotura:
+  - {fileID: 8300000, guid: 6426ef9f8d08ae649b3bd50cc349d9f8, type: 3}
+  - {fileID: 8300000, guid: afcf9ca5af798c44bb7ea9238b783757, type: 3}
+  - {fileID: 8300000, guid: 581601b0df0a22f419e52ea79a95537d, type: 3}
+  _volumenRotura: 1
 --- !u!61 &7315706036297616907
 BoxCollider2D:
   m_ObjectHideFlags: 0
