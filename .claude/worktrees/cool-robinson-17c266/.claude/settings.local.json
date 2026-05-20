@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout *)",
+      "Bash(xargs grep -l -i \"audio\\\\|music\\\\|sound\")",
+      "PowerShell(.\\\\add_audio_to_scene.ps1 -ScenePath \"Assets\\\\Scenes\\\\MainMenu.unity\" -MusicGuid \"8f60d4ca667300c49b712986fab6579c\" -ScenePrefix \"9100000000\")",
+      "Bash(grep -c \"\\\\\\\\\\\\\\\\r\")",
+      "Bash(awk '/\\\\\\\\r/ {cr++} /\\\\\\\\n/ {lf++} END {print \"lines containing \\\\\\\\\\\\\\\\r:\", cr, \"containing \\\\\\\\\\\\\\\\n:\", lf}')",
+      "Bash(awk 'NR>=2540 && NR<=2545' Assets/Scenes/MainMenu.unity)",
+      "Bash(grep -n \"Track02 - Stinger\" \"C:/Users/jr_bb/OneDrive/Documentos/GitHub/SpeedRunners/Assets/ImportedAssets/Audio/Sfx/Stingers/Track02 - Stinger.wav.meta\" 2>/dev/null; echo \"Track02 GUID: 8f60d4ca667300c49b712986fab6579c\"; echo \"Track01 PREMIX GUID: e54fc97584d1cb64b9c57cdf29b3e2ae\")"
+    ]
+  }
+}
