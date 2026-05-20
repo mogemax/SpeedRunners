@@ -150,7 +150,20 @@ public class RaceManager : MonoBehaviour
 
     private void Start()
     {
-        foreach (var p in players)
+        // Si hay jugadores asignados manualmente en el inspector (ej. pruebas directas),
+        // los inicializamos aquí como fallback. En producción, GeneradorJugadores
+        // llama a InitializeRace() después de spawnear.
+        var validPlayers = System.Array.FindAll(players, p => p != null);
+        if (validPlayers.Length > 0)
+            InitializeRace(validPlayers);
+    }
+
+    public void InitializeRace(PlayerHealth[] registeredPlayers)
+    {
+        RaceData.Clear();
+        _progressMap.Clear();
+
+        foreach (var p in registeredPlayers)
         {
             if (p == null) continue;
 

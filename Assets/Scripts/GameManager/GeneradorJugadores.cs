@@ -13,40 +13,44 @@ public class GeneradorJugadores : MonoBehaviour {
     [SerializeField] private GameObject prefabDefectoP2;
 
     void Start() {
-        SpawnearJugador1();
-        SpawnearJugador2();
+        GameObject jugador1 = SpawnearJugador(0, DatosSeleccion.prefabJugador1, prefabDefectoP1, puntoSpawnJugador1);
+        GameObject jugador2 = SpawnearJugador(1, DatosSeleccion.prefabJugador2, prefabDefectoP2, puntoSpawnJugador2);
+
+        RegistrarEnRaceManager(jugador1, jugador2);
     }
 
-    private void SpawnearJugador1() {
-        GameObject prefabFinal = DatosSeleccion.prefabJugador1;
+    private GameObject SpawnearJugador(int index, GameObject prefabSeleccion, GameObject prefabDefecto, Transform puntoSpawn) {
+        GameObject prefabFinal = prefabSeleccion;
 
         if (prefabFinal == null) {
-            Debug.LogWarning("Menú saltado: Usando personaje por defecto para Jugador 1.");
-            prefabFinal = prefabDefectoP1;
+            Debug.LogWarning($"Menú saltado: Usando personaje por defecto para Jugador {index + 1}.");
+            prefabFinal = prefabDefecto;
         }
 
-        if (prefabFinal != null && puntoSpawnJugador1 != null) {
-            GameObject jugador1 = Instantiate(prefabFinal, puntoSpawnJugador1.position, puntoSpawnJugador1.rotation);
-            RegistrarEnHUD(0, jugador1);
-        } else {
-            Debug.LogError("Falta asignar el Spawn Point o el Prefab por defecto del Jugador 1 en el Generador.");
+        if (prefabFinal == null || puntoSpawn == null) {
+            Debug.LogError($"Falta asignar el Spawn Point o el Prefab por defecto del Jugador {index + 1} en el Generador.");
+            return null;
         }
+
+        GameObject jugador = Instantiate(prefabFinal, puntoSpawn.position, puntoSpawn.rotation);
+        RegistrarEnHUD(index, jugador);
+        return jugador;
     }
 
-    private void SpawnearJugador2() {
-        GameObject prefabFinal = DatosSeleccion.prefabJugador2;
-
-        if (prefabFinal == null) {
-            Debug.LogWarning("Menú saltado: Usando personaje por defecto para Jugador 2.");
-            prefabFinal = prefabDefectoP2;
+    private void RegistrarEnRaceManager(GameObject jugador1, GameObject jugador2) {
+        if (RaceManager.Instance == null) {
+            Debug.LogError("No hay RaceManager en la escena.");
+            return;
         }
 
-        if (prefabFinal != null && puntoSpawnJugador2 != null) {
-            GameObject jugador2 = Instantiate(prefabFinal, puntoSpawnJugador2.position, puntoSpawnJugador2.rotation);
-            RegistrarEnHUD(1, jugador2);
-        } else {
-            Debug.LogError("Falta asignar el Spawn Point o el Prefab por defecto del Jugador 2 en el Generador.");
-        }
+        var p1 = jugador1 != null ? jugador1.GetComponent<PlayerHealth>() : null;
+        var p2 = jugador2 != null ? jugador2.GetComponent<PlayerHealth>() : null;
+
+        var jugadoresValidos = new System.Collections.Generic.List<PlayerHealth>();
+        if (p1 != null) jugadoresValidos.Add(p1);
+        if (p2 != null) jugadoresValidos.Add(p2);
+
+        RaceManager.Instance.InitializeRace(jugadoresValidos.ToArray());
     }
 
     private void RegistrarEnHUD(int index, GameObject player) {
