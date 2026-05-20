@@ -28,6 +28,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6573747839047623257, guid: bd1e081c5d3be464ca36d8859527fea5, type: 3}
+    - target: {fileID: 657903746355536692, guid: 218a1a4818d87424e8cb448b8523e67a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 101
+      objectReference: {fileID: 0}
     - target: {fileID: 6783583304714397687, guid: 218a1a4818d87424e8cb448b8523e67a, type: 3}
       propertyPath: m_Name
       value: ObstacleCrate
