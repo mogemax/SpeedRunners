@@ -102,6 +102,31 @@ public class PlayerHUDController : MonoBehaviour
     private void Start()
     {
         AutoBindIfNeeded();
+
+        // Suscripción al RaceManager va aquí (no en OnEnable) porque
+        // RaceManager.Awake puede no haber corrido todavía cuando OnEnable
+        // dispara — depende del orden del archivo de escena. Start corre
+        // después de TODOS los Awakes, así que Instance está garantizado.
+        if (RaceManager.Instance != null)
+        {
+            RaceManager.Instance.OnRoundEnd          += OnRoundEnd;
+            RaceManager.Instance.OnCountdownFinished += OnRoundStart;
+            Debug.Log("[PlayerHUDController] Suscrito a RaceManager en Start().");
+        }
+        else
+        {
+            Debug.LogError("[PlayerHUDController] Start: RaceManager.Instance sigue null. " +
+                           "Verifica que haya un RaceManager en la escena.");
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (RaceManager.Instance != null)
+        {
+            RaceManager.Instance.OnRoundEnd          -= OnRoundEnd;
+            RaceManager.Instance.OnCountdownFinished -= OnRoundStart;
+        }
     }
 
     private void AutoBindIfNeeded()
@@ -112,12 +137,11 @@ public class PlayerHUDController : MonoBehaviour
 
         if (!anyMissing) return;
 
-        // P1 usa PlayerInputReader, P2 usa PlayerInputReaderKeyboardP2.
-        // Usamos eso para asignar el índice correcto automáticamente.
+        // P1 usa PlayerInputReader (teclado), P2 usa PlayerInputReaderGamepad (control).
         var holders = FindObjectsByType<PlayerPickupHolder>(FindObjectsSortMode.None);
         foreach (var holder in holders)
         {
-            int index = holder.GetComponent<PlayerInputReaderKeyboardP2>() != null ? 1 : 0;
+            int index = holder.GetComponent<PlayerInputReaderGamepad>() != null ? 1 : 0;
             BindPlayer(index, holder.gameObject);
         }
     }
@@ -138,11 +162,9 @@ public class PlayerHUDController : MonoBehaviour
                 pickupHolders[i].OnPickupChanged += _pickupHandlers[i];
         }
 
-        if (RaceManager.Instance != null)
-        {
-            RaceManager.Instance.OnRoundEnd          += OnRoundEnd;
-            RaceManager.Instance.OnCountdownFinished += OnRoundStart;
-        }
+        // Suscripciones al RaceManager NO se manejan aquí — Start() lo hace
+        // porque Awake del RaceManager puede no haber corrido todavía
+        // cuando OnEnable dispara durante la carga de escena.
     }
 
     private void OnDisable()
@@ -165,11 +187,8 @@ public class PlayerHUDController : MonoBehaviour
             }
         }
 
-        if (RaceManager.Instance != null)
-        {
-            RaceManager.Instance.OnRoundEnd          -= OnRoundEnd;
-            RaceManager.Instance.OnCountdownFinished -= OnRoundStart;
-        }
+        // Desuscripciones del RaceManager las hace OnDestroy, no aquí, para
+        // que sobrevivan a SetActive(false) si algo apaga este GameObject.
     }
 
 
@@ -189,13 +208,21 @@ public class PlayerHUDController : MonoBehaviour
     // ─────────────────────────────────────────────
     private void OnRoundEnd(int winnerIndex)
     {
+        Debug.Log($"[PlayerHUDController] OnRoundEnd recibido. winnerIndex={winnerIndex}");
+        // No desactivamos el HUD completo: el WinnerDisplay cubre la pantalla
+        // por encima durante la animación de victoria. Desactivar este GameObject
+        // dispara OnDisable (que rompe re-suscripciones) y los iconos de victoria
+        // recién activados quedan ocultos para siempre si algo falla en la
+        // reactivación. Es más simple y robusto dejarlo siempre visible.
         ActivateNextWinIcon(winnerIndex);
-        gameObject.SetActive(false);
     }
 
     private void OnRoundStart()
     {
-        gameObject.SetActive(true);
+        // Reactivación defensiva: por si algo (un Animator, otro script, una
+        // versión anterior del prefab) dejó el HUD apagado, lo prendemos al
+        // arrancar la ronda.
+        if (!gameObject.activeSelf) gameObject.SetActive(true);
     }
 
     // ─────────────────────────────────────────────
@@ -223,18 +250,41 @@ public class PlayerHUDController : MonoBehaviour
     // ─────────────────────────────────────────────
     private void ActivateNextWinIcon(int playerIndex)
     {
-        if (playerIndex < 0 || playerIndex >= playerRoundWins.Length) return;
+        if (playerIndex < 0 || playerIndex >= playerRoundWins.Length)
+        {
+            Debug.LogWarning($"[PlayerHUDController] ActivateNextWinIcon: playerIndex {playerIndex} " +
+                             $"fuera de rango. playerRoundWins.Length = {playerRoundWins.Length}");
+            return;
+        }
 
         var slot = playerRoundWins[playerIndex];
-        if (slot?.icons == null) return;
-
-        foreach (var icon in slot.icons)
+        if (slot?.icons == null)
         {
-            if (icon != null && !icon.gameObject.activeSelf)
+            Debug.LogWarning($"[PlayerHUDController] ActivateNextWinIcon: slot o slot.icons " +
+                             $"es null en index {playerIndex}");
+            return;
+        }
+
+        Debug.Log($"[PlayerHUDController] ActivateNextWinIcon player {playerIndex}: " +
+                  $"{slot.icons.Length} iconos disponibles. Buscando primer inactivo…");
+
+        for (int i = 0; i < slot.icons.Length; i++)
+        {
+            var icon = slot.icons[i];
+            if (icon == null)
+            {
+                Debug.LogWarning($"  - icono [{i}]: REFERENCIA NULL");
+                continue;
+            }
+            bool active = icon.gameObject.activeSelf;
+            Debug.Log($"  - icono [{i}] = {icon.gameObject.name}, activeSelf={active}");
+            if (!active)
             {
                 icon.gameObject.SetActive(true);
+                Debug.Log($"[PlayerHUDController] ACTIVADO icono [{i}] = {icon.gameObject.name}");
                 return;
             }
         }
+        Debug.LogWarning($"[PlayerHUDController] No quedan iconos inactivos para player {playerIndex}.");
     }
 }

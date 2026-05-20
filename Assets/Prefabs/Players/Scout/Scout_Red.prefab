@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5244117150251504344}
   - component: {fileID: 4553126199523031297}
   - component: {fileID: 6753118861472173909}
-  - component: {fileID: 6191868058682795143}
   - component: {fileID: 7465790145791986580}
   - component: {fileID: 4442229506369206044}
   - component: {fileID: 18955365174164474}
@@ -153,36 +152,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6191868058682795143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950208896885366325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-  m_Actions: {fileID: -944628639613478452, guid: 76541016f09b847f69c6b5218651608b, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!114 &7465790145791986580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,7 +280,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: d14b7c0c114bfd740ac4ce404d27c1ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -413,6 +382,9 @@ MonoBehaviour:
     m_Bits: 64
   swingForce: 15
   maxSwingSpeed: 18
+  hookProjectilePrefab: {fileID: 3073129155926391873, guid: 708a8fedd5060445f8ea88e57a717260, type: 3}
+  hookTravelSpeed: 25
+  hookSprite: {fileID: 0}
 --- !u!70 &4549438915491962212
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 616888220550011171}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.364, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -232,7 +232,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 220.31152
+  m_Distance: 221.83363
   m_MaxDistanceOnly: 0
 --- !u!120 &929320132404181730
 LineRenderer:
@@ -260,7 +260,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: d14b7c0c114bfd740ac4ce404d27c1ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -362,6 +362,9 @@ MonoBehaviour:
     m_Bits: 64
   swingForce: 15
   maxSwingSpeed: 18
+  hookProjectilePrefab: {fileID: 3073129155926391873, guid: 708a8fedd5060445f8ea88e57a717260, type: 3}
+  hookTravelSpeed: 25
+  hookSprite: {fileID: 0}
 --- !u!114 &4701011063957810312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,15 +374,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 3905449876946456287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0baac5cd0131c10489f4184b3c88eba7, type: 3}
+  m_Script: {fileID: 11500000, guid: b8e2f4a1c5d9e3f74a2b6c4d8e1f5a9b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReaderKeyboardP2
-  leftKey: 15
-  rightKey: 18
-  jumpKey: 1
-  slideKey: 51
-  boostKey: 1
-  useItemKey: 85
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReaderGamepad
+  useLeftStick: 1
+  stickDeadzone: 0.2
+  leftButton: 2
+  rightButton: 3
+  jumpButton: 6
+  slideButton: 5
+  boostButton: 11
+  useItemButton: 7
 --- !u!114 &8814680885606657593
 MonoBehaviour:
   m_ObjectHideFlags: 0

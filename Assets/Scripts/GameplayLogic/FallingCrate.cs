@@ -31,14 +31,24 @@ public class FallingCrate : MonoBehaviour
         _rb.bodyType = RigidbodyType2D.Kinematic;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+private void OnCollisionEnter2D(Collision2D collision)
     {
         if (_isTriggered) return;
 
         if (collision.gameObject.TryGetComponent<PlayerMovement>(out PlayerMovement player))
         {
             _isTriggered = true;
+
+            // 1. Aplicamos la penalización de velocidad que ya tenías
             player.ApplyCratePenalty(speedFactor, penaltyDuration);
+
+            // 2. BUSCAMOS EL ANIMATOR EN EL JUGADOR Y DETONAMOS EL ROLL
+            if (collision.gameObject.TryGetComponent<Animator>(out Animator playerAnimator))
+            {
+                playerAnimator.SetTrigger("TriggerRoll");
+            }
+
+            // 3. Iniciamos el ciclo de caída de la caja
             StartCoroutine(CrateLifeCycle());
         }
     }

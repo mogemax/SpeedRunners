@@ -6447,7 +6447,7 @@ GameObject:
   - component: {fileID: 641069832}
   - component: {fileID: 641069831}
   - component: {fileID: 641069830}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: paredGancho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
