@@ -70,7 +70,8 @@ public class PlayerInputReaderGamepad : PlayerInputReader
         if (gp[jumpButton].wasPressedThisFrame)
             JumpPressed = true;
 
-        // ── Slide: edge-press ──
+        // ── Slide: held + edge-press ──
+        SlideHeld = gp[slideButton].isPressed;
         if (gp[slideButton].wasPressedThisFrame)
             SlidePressed = true;
 

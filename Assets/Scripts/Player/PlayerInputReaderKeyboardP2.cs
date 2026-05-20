@@ -52,7 +52,8 @@ public class PlayerInputReaderKeyboardP2 : PlayerInputReader
         if (kb[jumpKey].wasPressedThisFrame)
             JumpPressed = true;
 
-        // Slide: edge-press
+        // Slide: held + edge-press
+        SlideHeld = kb[slideKey].isPressed;
         if (kb[slideKey].wasPressedThisFrame)
             SlidePressed = true;
 

@@ -60,8 +60,14 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     [Header("Slide")]
     public float slideBoostSpeed = 18f;
-    public float slideDuration = 0.5f;
+    [Tooltip("Tope máximo de duración del slide aunque el jugador siga manteniendo la tecla. " +
+             "El slide termina antes si se suelta la tecla o si el jugador deja el suelo.")]
+    public float slideDuration = 2f;
     public float slideFriction = 3f;
+    [Tooltip("Altura del CapsuleCollider2D mientras el jugador desliza. " +
+             "La anchura se mantiene. El offset se ajusta para que los pies " +
+             "queden a la misma altura del suelo. Default ≈ mitad de la original.")]
+    public float slideColliderHeight = 0.6f;
 
     // ─────────────────────────────────────────────
     //  GROUND CHECK
@@ -111,7 +117,9 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     //  ESTADO INTERNO — slide
     // ─────────────────────────────────────────────
-    private float _slideTimer;
+    private float             _slideTimer;
+    private CapsuleCollider2D _capsuleCollider;   // collider normal (de pie)
+    private BoxCollider2D     _slideCollider;     // collider durante slide (cuadrado, no rebota)
 
     // ─────────────────────────────────────────────
     //  ESTADO INTERNO — wall jump  ← NUEVO
@@ -152,6 +160,27 @@ public class PlayerMovement : MonoBehaviour
         _grapple = GetComponent<PlayerGrapple>();
         _stamina = GetComponent<PlayerStamina>();
         _originalMaxSpeed = maxSpeed;
+
+        _capsuleCollider = GetComponent<CapsuleCollider2D>();
+
+        // El collider del slide es un BoxCollider2D (cuadrado) para que las
+        // esquinas planas no hagan rebotar al jugador. Si el prefab ya tiene
+        // uno lo reusamos; si no, lo creamos en runtime y lo configuramos a
+        // partir del capsule original. Empieza desactivado.
+        _slideCollider = GetComponent<BoxCollider2D>();
+        if (_slideCollider == null)
+            _slideCollider = gameObject.AddComponent<BoxCollider2D>();
+
+        if (_capsuleCollider != null)
+        {
+            float heightDiff = _capsuleCollider.size.y - slideColliderHeight;
+            _slideCollider.size = new Vector2(
+                _capsuleCollider.size.x, slideColliderHeight);
+            _slideCollider.offset = new Vector2(
+                _capsuleCollider.offset.x,
+                _capsuleCollider.offset.y - heightDiff * 0.5f);
+        }
+        _slideCollider.enabled = false;
     }
 
     // ─────────────────────────────────────────────
@@ -465,8 +494,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (IsSliding)
         {
+            // El slide dura mientras se mantenga la tecla. Si el jugador
+            // suelta, deja el suelo o se llega al tope de seguridad, termina.
+            // La velocidad cae sola por slideFriction en ApplyMovement.
             _slideTimer -= Time.deltaTime;
-            if (_slideTimer <= 0f || !IsGrounded)
+            if (!_input.SlideHeld || !IsGrounded || _slideTimer <= 0f)
                 EndSlide();
         }
     }
@@ -477,9 +509,30 @@ public class PlayerMovement : MonoBehaviour
         _slideTimer = slideDuration;
         float dir = IsFacingRight ? 1f : -1f;
         _rb.linearVelocity = new Vector2(slideBoostSpeed * dir, _rb.linearVelocity.y);
+        ApplySlideCollider();
     }
 
-    private void EndSlide() => IsSliding = false;
+    private void EndSlide()
+    {
+        IsSliding = false;
+        RestoreCollider();
+    }
+
+    // Cambia al collider del slide (BoxCollider2D, esquinas planas) y apaga
+    // el CapsuleCollider2D. Así el jugador agachado pasa bajo obstáculos
+    // bajos y no rebota en bordes como sí lo hacía el capsule por sus caps
+    // redondeados.
+    private void ApplySlideCollider()
+    {
+        if (_slideCollider != null)  _slideCollider.enabled  = true;
+        if (_capsuleCollider != null) _capsuleCollider.enabled = false;
+    }
+
+    private void RestoreCollider()
+    {
+        if (_capsuleCollider != null) _capsuleCollider.enabled = true;
+        if (_slideCollider != null)  _slideCollider.enabled  = false;
+    }
 
     // ─────────────────────────────────────────────
     //  FLIP DE SPRITE

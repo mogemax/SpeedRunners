@@ -12,6 +12,7 @@ public class PlayerInputReader : MonoBehaviour
     public bool  JumpHeld       { get; protected set; }
     public bool  JumpPressed    { get; protected set; }
     public bool  SlidePressed   { get; protected set; }
+    public bool  SlideHeld      { get; protected set; }
     public bool  BoostHeld      { get; protected set; }
     public bool  UseItemPressed { get; protected set; }
 
@@ -31,7 +32,8 @@ public class PlayerInputReader : MonoBehaviour
 
     public virtual void OnSlide(InputValue value)
     {
-        if (value.isPressed) SlidePressed = true;
+        if (value.isPressed) { SlidePressed = true; SlideHeld = true; }
+        else                   SlideHeld = false;
     }
 
     public virtual void OnBoost(InputValue value)
@@ -54,6 +56,7 @@ public class PlayerInputReader : MonoBehaviour
         JumpPressed    = false;
         JumpHeld       = false;
         SlidePressed   = false;
+        SlideHeld      = false;
         BoostHeld      = false;
         UseItemPressed = false;
     }
