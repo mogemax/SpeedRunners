@@ -8,6 +8,8 @@ public class MusicaMenu : MonoBehaviour {
     [SerializeField] private AudioClip musicaIntro;
     [Tooltip("Clip principal que se reproduce después de la intro. Se loopea si 'enBucle' está activo.")]
     [SerializeField] private AudioClip musica;
+    [Tooltip("Clip que se reproduce cuando termina una ronda (reemplaza a la música actual).")]
+    [SerializeField] private AudioClip musicaFinRonda;
     [SerializeField, Range(0f, 1f)] private float volumen = 0.5f;
     [SerializeField] private bool enBucle = true;
     [Tooltip("Segundos de espera antes de comenzar a reproducir cualquier audio.")]
@@ -23,6 +25,14 @@ public class MusicaMenu : MonoBehaviour {
 
     void Start() {
         StartCoroutine(SecuenciaReproduccion());
+
+        if (RaceManager.Instance != null)
+            RaceManager.Instance.OnRoundEnd += AlTerminarRonda;
+    }
+
+    void OnDestroy() {
+        if (RaceManager.Instance != null)
+            RaceManager.Instance.OnRoundEnd -= AlTerminarRonda;
     }
 
     private IEnumerator SecuenciaReproduccion() {
@@ -42,5 +52,19 @@ public class MusicaMenu : MonoBehaviour {
             fuente.volume = volumen;
             fuente.Play();
         }
+    }
+
+    private void AlTerminarRonda(int ganadorIndex) {
+        ReproducirFinRonda();
+    }
+
+    public void ReproducirFinRonda() {
+        if (musicaFinRonda == null) return;
+        StopAllCoroutines();
+        fuente.Stop();
+        fuente.clip = musicaFinRonda;
+        fuente.loop = false;
+        fuente.volume = volumen;
+        fuente.Play();
     }
 }

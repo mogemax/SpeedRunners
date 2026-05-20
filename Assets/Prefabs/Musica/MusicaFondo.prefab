@@ -144,6 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicaIntro: {fileID: 8300000, guid: e54fc97584d1cb64b9c57cdf29b3e2ae, type: 3}
   musica: {fileID: 8300000, guid: 8f60d4ca667300c49b712986fab6579c, type: 3}
+  musicaFinRonda: {fileID: 8300000, guid: 03ba2dde325a2a24fa9b70d3934e0e41, type: 3}
   volumen: 0.7
   enBucle: 1
   retrasoInicio: 0.5
