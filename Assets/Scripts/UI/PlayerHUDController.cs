@@ -102,7 +102,6 @@ public class PlayerHUDController : MonoBehaviour
     private void Start()
     {
         AutoBindIfNeeded();
-        SubscribeRaceEvents();
     }
 
     private void AutoBindIfNeeded()
@@ -113,39 +112,15 @@ public class PlayerHUDController : MonoBehaviour
 
         if (!anyMissing) return;
 
-        // P1 usa PlayerInputReader base, P2 usa cualquier reader derivado
-        // (PlayerInputReaderKeyboardP2 o PlayerInputReaderGamepad).
+        // P1 usa PlayerInputReader, P2 usa PlayerInputReaderKeyboardP2.
         // Usamos eso para asignar el índice correcto automáticamente.
         var holders = FindObjectsByType<PlayerPickupHolder>(FindObjectsSortMode.None);
         foreach (var holder in holders)
         {
-            bool isP2 = holder.GetComponent<PlayerInputReaderKeyboardP2>() != null
-                     || holder.GetComponent<PlayerInputReaderGamepad>()    != null;
-            int index = isP2 ? 1 : 0;
+            int index = holder.GetComponent<PlayerInputReaderKeyboardP2>() != null ? 1 : 0;
             BindPlayer(index, holder.gameObject);
         }
     }
-
-    // Las suscripciones al RaceManager viven en Awake/OnDestroy a propósito:
-    // OnRoundEnd hace SetActive(false) sobre este GameObject, lo que dispara
-    // OnDisable. Si nos desuscribiéramos ahí, OnCountdownFinished no nos
-    // volvería a despertar y el HUD (con el icono de victoria recién activado)
-    // quedaría oculto para siempre.
-    private void SubscribeRaceEvents()
-    {
-        if (RaceManager.Instance == null) return;
-        RaceManager.Instance.OnRoundEnd          += OnRoundEnd;
-        RaceManager.Instance.OnCountdownFinished += OnRoundStart;
-    }
-
-    private void UnsubscribeRaceEvents()
-    {
-        if (RaceManager.Instance == null) return;
-        RaceManager.Instance.OnRoundEnd          -= OnRoundEnd;
-        RaceManager.Instance.OnCountdownFinished -= OnRoundStart;
-    }
-
-    private void OnDestroy() => UnsubscribeRaceEvents();
 
     private void OnEnable()
     {
@@ -161,6 +136,12 @@ public class PlayerHUDController : MonoBehaviour
         {
             if (pickupHolders[i] != null)
                 pickupHolders[i].OnPickupChanged += _pickupHandlers[i];
+        }
+
+        if (RaceManager.Instance != null)
+        {
+            RaceManager.Instance.OnRoundEnd          += OnRoundEnd;
+            RaceManager.Instance.OnCountdownFinished += OnRoundStart;
         }
     }
 
@@ -183,6 +164,12 @@ public class PlayerHUDController : MonoBehaviour
                     pickupHolders[i].OnPickupChanged -= _pickupHandlers[i];
             }
         }
+
+        if (RaceManager.Instance != null)
+        {
+            RaceManager.Instance.OnRoundEnd          -= OnRoundEnd;
+            RaceManager.Instance.OnCountdownFinished -= OnRoundStart;
+        }
     }
 
 
@@ -202,13 +189,20 @@ public class PlayerHUDController : MonoBehaviour
     // ─────────────────────────────────────────────
     private void OnRoundEnd(int winnerIndex)
     {
+        // No desactivamos el HUD completo: el WinnerDisplay cubre la pantalla
+        // por encima durante la animación de victoria. Desactivar este GameObject
+        // dispara OnDisable (que rompe re-suscripciones) y los iconos de victoria
+        // recién activados quedan ocultos para siempre si algo falla en la
+        // reactivación. Es más simple y robusto dejarlo siempre visible.
         ActivateNextWinIcon(winnerIndex);
-        gameObject.SetActive(false);
     }
 
     private void OnRoundStart()
     {
-        gameObject.SetActive(true);
+        // Reactivación defensiva: por si algo (un Animator, otro script, una
+        // versión anterior del prefab) dejó el HUD apagado, lo prendemos al
+        // arrancar la ronda.
+        if (!gameObject.activeSelf) gameObject.SetActive(true);
     }
 
     // ─────────────────────────────────────────────

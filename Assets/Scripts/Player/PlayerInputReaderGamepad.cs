@@ -38,6 +38,15 @@ public class PlayerInputReaderGamepad : PlayerInputReader
     public GamepadButton boostButton   = GamepadButton.RightShoulder;// RB / R1
     public GamepadButton useItemButton = GamepadButton.West;         // X / Cuadrado
 
+    // Bloqueamos los callbacks del PlayerInput (SendMessages). Si el GameObject
+    // tiene además un componente PlayerInput, su input no debe afectar a este
+    // jugador — solo el polling de Gamepad.current configurado arriba.
+    public override void OnMove(InputValue value)    { }
+    public override void OnJump(InputValue value)    { }
+    public override void OnSlide(InputValue value)   { }
+    public override void OnBoost(InputValue value)   { }
+    public override void OnUseItem(InputValue value) { }
+
     private void Update()
     {
         var gp = Gamepad.current;

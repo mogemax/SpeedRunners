@@ -101,26 +101,42 @@ public class RaceManager : MonoBehaviour
     }
 
     // Score continuo: TotalScore (escalonado por CP) + fracción [0..0.99)
-    // del tramo recorrido hacia el siguiente checkpoint. Esto rompe los
-    // empates cuando dos jugadores van entre el mismo par de checkpoints,
-    // para que la cámara siga al que físicamente va más adelante.
+    // que representa qué tan avanzado va el jugador hacia el próximo CP.
+    // Rompe los empates cuando dos jugadores van entre el mismo par de
+    // checkpoints, para que la cámara siga al que físicamente va más adelante.
+    //
+    // Importante: NO usa data.LastCheckpoint porque ese campo puede quedar
+    // desincronizado de CurrentCP si el jugador retrocede sobre un CP previo.
+    // Buscamos el checkpoint por índice directamente.
     private float GetProgressScore(PlayerProgress data)
     {
         float score = data.TotalScore;
 
-        if (data.LastCheckpoint == null) return score;
-
-        Checkpoint next = _checkpoints
+        Checkpoint to = _checkpoints
             .FirstOrDefault(c => c.checkpointIndex == data.CurrentCP + 1);
-        if (next == null) return score;
+        if (to == null) return score;
 
-        Vector2 from = data.LastCheckpoint.transform.position;
-        Vector2 to   = next.transform.position;
-        float segLen = Vector2.Distance(from, to);
+        Checkpoint from = _checkpoints
+            .FirstOrDefault(c => c.checkpointIndex == data.CurrentCP);
+
+        // Caso inicial: aún no ha cruzado ningún CP (CurrentCP == 0 y no
+        // hay CP con índice 0). El desempate es la cercanía al primer CP:
+        // menor distancia = mayor score, mapeado a [0..0.99) para no
+        // invadir el siguiente escalón.
+        if (from == null)
+        {
+            float distToNext = Vector2.Distance(
+                data.Transform.position, to.transform.position);
+            return score + (1f / (1f + distToNext)) * 0.99f;
+        }
+
+        Vector2 fromPos = from.transform.position;
+        Vector2 toPos   = to.transform.position;
+        float segLen   = Vector2.Distance(fromPos, toPos);
         if (segLen < 0.01f) return score;
 
-        Vector2 segDir = (to - from) / segLen;
-        Vector2 rel    = (Vector2)data.Transform.position - from;
+        Vector2 segDir = (toPos - fromPos) / segLen;
+        Vector2 rel    = (Vector2)data.Transform.position - fromPos;
         float traveled = Vector2.Dot(rel, segDir);
         float frac     = Mathf.Clamp01(traveled / segLen);
 
@@ -182,18 +198,21 @@ public class RaceManager : MonoBehaviour
         if (!_progressMap.TryGetValue(p, out var data)) return;
 
         var checkpoint = _checkpoints.FirstOrDefault(c => c.checkpointIndex == idx);
-        if (checkpoint != null)
-            data.LastCheckpoint = checkpoint;
 
         if (isMeta && data.CurrentCP >= totalCheckpoints - 1)
         {
             data.Laps++;
             data.CurrentCP = 0;
+            // Reset del LastCheckpoint para la nueva vuelta
+            if (checkpoint != null) data.LastCheckpoint = checkpoint;
             Debug.Log($"[RaceManager] {p.gameObject.name} completó la vuelta {data.Laps}.");
         }
         else if (idx > data.CurrentCP)
         {
             data.CurrentCP = idx;
+            // Solo actualizar LastCheckpoint cuando hay avance real,
+            // para que el spawn no retroceda si el jugador pisa un CP previo.
+            if (checkpoint != null) data.LastCheckpoint = checkpoint;
         }
     }
 

@@ -20,26 +20,26 @@ public class PlayerInputReader : MonoBehaviour
     //  Unity los invoca via SendMessages desde PlayerInput
     // ─────────────────────────────────────────────
 
-    public void OnMove(InputValue value)
+    public virtual void OnMove(InputValue value)
         => MoveInput = value.Get<Vector2>().x;
 
-    public void OnJump(InputValue value)
+    public virtual void OnJump(InputValue value)
     {
         if (value.isPressed) { JumpPressed = true; JumpHeld = true; }
         else                   JumpHeld = false;
     }
 
-    public void OnSlide(InputValue value)
+    public virtual void OnSlide(InputValue value)
     {
         if (value.isPressed) SlidePressed = true;
     }
 
-    public void OnBoost(InputValue value)
+    public virtual void OnBoost(InputValue value)
     {
         BoostHeld = value.isPressed;
     }
 
-    public void OnUseItem(InputValue value)
+    public virtual void OnUseItem(InputValue value)
     {
         if (value.isPressed) UseItemPressed = true;
     }

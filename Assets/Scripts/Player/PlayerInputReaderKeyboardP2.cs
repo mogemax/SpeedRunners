@@ -25,6 +25,17 @@ public class PlayerInputReaderKeyboardP2 : PlayerInputReader
     public Key boostKey   = Key.RightShift;
     public Key useItemKey = Key.Numpad1;
 
+    // Bloqueamos los callbacks del PlayerInput (SendMessages). Si el GameObject
+    // tiene además un componente PlayerInput, su input — incluido el del
+    // gamepad — no debe afectar a este jugador, que se mueve solo por las
+    // teclas configuradas arriba. Sin estos overrides, presionar gamepad
+    // disparaba JumpPressed en este lector y hacía saltar a P2 también.
+    public override void OnMove(InputValue value)    { }
+    public override void OnJump(InputValue value)    { }
+    public override void OnSlide(InputValue value)   { }
+    public override void OnBoost(InputValue value)   { }
+    public override void OnUseItem(InputValue value) { }
+
     private void Update()
     {
         var kb = Keyboard.current;
