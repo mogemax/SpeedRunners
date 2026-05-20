@@ -83,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 101
   m_MaskInteraction: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -161,7 +161,7 @@ MonoBehaviour:
     targetAngle: -90
     initialRotation: {x: 0, y: 0, z: 0, w: 0}
   rotationDuration: 0.4
-  resetTime: 3
+  resetTime: 15
   triggerRenderer: {fileID: 2120000000000000001}
   spriteInicial: {fileID: -5791533861771406970, guid: a6f4ef345de08dc4fa26bef530ed38fb, type: 3}
   spriteActivado: {fileID: 1971089474277950741, guid: a6f4ef345de08dc4fa26bef530ed38fb, type: 3}
@@ -291,7 +291,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.714792, y: -0.012516499}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: -0.008627568, y: 0.5170824}
@@ -301,7 +301,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 3.4296842, y: 0.62593555}
   m_EdgeRadius: 0
 --- !u!1 &1000000000000000003
 GameObject:

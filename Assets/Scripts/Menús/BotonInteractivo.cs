@@ -27,14 +27,6 @@ public class BotonInteractivo : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
         // Buscamos automáticamente el componente Button en este mismo objeto
         botonComponente = GetComponent<Button>();
-        if (botonComponente != null) {
-            botonComponente.onClick.AddListener(ReproducirSonidoClick);
-        }
-    }
-
-    private void ReproducirSonidoClick() {
-        if (GestorAudioMenu.Instancia != null)
-            GestorAudioMenu.Instancia.ReproducirClick();
     }
 
     void Update() {
@@ -46,9 +38,6 @@ public class BotonInteractivo : MonoBehaviour, IPointerEnterHandler, IPointerExi
 
         if (panelDeTexto != null)
             panelDeTexto.text = descripcionDelBoton;
-
-        if (GestorAudioMenu.Instancia != null)
-            GestorAudioMenu.Instancia.ReproducirHover();
     }
 
     public void OnPointerExit(PointerEventData eventData) {

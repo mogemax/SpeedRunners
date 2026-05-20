@@ -5,10 +5,15 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(LineRenderer))]
 public class PlayerGrapple : MonoBehaviour {
     [Header("Configuración del Gancho")]
+    [Tooltip("Rango de referencia (no limita el vuelo; lo usa el proyectil como safety)")]
     public float grappleRange = 10f;
     public LayerMask grappleLayer;
     public float swingForce = 15f;
     public float maxSwingSpeed = 18f;
+
+    [Header("Origen de la cuerda")]
+    [Tooltip("Offset desde el centro del jugador para simular la posición de la mano")]
+    public Vector2 ropeOriginOffset = new Vector2(0.2f, 0.3f);
 
     [Header("Proyectil")]
     [Tooltip("Prefab del proyectil (opcional). Si no se asigna, se crea uno en runtime.")]
@@ -18,7 +23,18 @@ public class PlayerGrapple : MonoBehaviour {
     [Tooltip("Sprite de la punta del gancho para creación en runtime")]
     public Sprite hookSprite;
 
+    [Header("Launch desde suelo")]
+    [Tooltip("Impulso aplicado hacia el punto de agarre cuando el hook conecta estando en el suelo")]
+    public float groundLaunchImpulse = 10f;
+
     public bool IsGrappling { get; private set; }
+
+    private Vector2 RopeOrigin {
+        get {
+            float xDir = _movement.IsFacingRight ? 1f : -1f;
+            return (Vector2)transform.position + new Vector2(ropeOriginOffset.x * xDir, ropeOriginOffset.y);
+        }
+    }
 
     private DistanceJoint2D _joint;
     private LineRenderer _line;
@@ -43,6 +59,7 @@ public class PlayerGrapple : MonoBehaviour {
         _input = GetComponent<PlayerInputReader>();
 
         _joint.enabled = false;
+        _joint.autoConfigureDistance = false;
         _joint.maxDistanceOnly = false;
         _line.enabled = false;
         _line.startColor = RopeColorNormal;
@@ -56,18 +73,18 @@ public class PlayerGrapple : MonoBehaviour {
             ? (Vector2.right + Vector2.up).normalized
             : (Vector2.left + Vector2.up).normalized;
 
-        RaycastHit2D hit = Physics2D.CircleCast(
-            transform.position, 0.5f, dir, grappleRange, grappleLayer);
-
         _anim?.OnHookshotStart();
 
-        bool willConnect = hit.collider != null;
-        Vector2 target = willConnect
-            ? hit.point
-            : (Vector2)transform.position + dir * grappleRange;
-
+        Vector2 origin = RopeOrigin;
         _activeProjectile = SpawnHookProjectile();
-        _activeProjectile.Launch(this, (Vector2)transform.position, target, hookTravelSpeed, willConnect);
+        _activeProjectile.Launch(this, origin, dir, hookTravelSpeed);
+
+        // Activar la cuerda negra desde el momento del lanzamiento
+        _line.startColor = RopeColorNormal;
+        _line.endColor   = RopeColorNormal;
+        _line.SetPosition(0, origin);
+        _line.SetPosition(1, origin);
+        _line.enabled = true;
     }
 
     private HookProjectile SpawnHookProjectile() {
@@ -89,12 +106,20 @@ public class PlayerGrapple : MonoBehaviour {
     // Llamado por HookProjectile cuando llega a la superficie de agarre
     public void ConnectGrapple(Vector2 point) {
         _grapplePoint = point;
+        _joint.autoConfigureDistance = false;
         _joint.connectedAnchor = _grapplePoint;
         _joint.distance = Vector2.Distance(transform.position, _grapplePoint);
         _joint.enabled = true;
         _line.enabled = true;
         IsGrappling = true;
         _rb.gravityScale = 1f;
+
+        if (_movement.IsGrounded) {
+            Vector2 rawDir = (_grapplePoint - (Vector2)transform.position).normalized;
+            Vector2 launchDir = (rawDir + Vector2.up * 0.35f).normalized;
+            _rb.AddForce(launchDir * groundLaunchImpulse, ForceMode2D.Impulse);
+        }
+
         _anim?.OnSwingStart();
     }
 
@@ -143,10 +168,13 @@ public class PlayerGrapple : MonoBehaviour {
         }
 
         if (IsGrappling) {
-            _line.SetPosition(0, transform.position);
+            _line.SetPosition(0, RopeOrigin);
             _line.SetPosition(1, _grapplePoint);
+        } else if (_activeProjectile != null) {
+            _line.SetPosition(0, RopeOrigin);
+            _line.SetPosition(1, _activeProjectile.transform.position);
         } else if (_showingFailRope) {
-            _line.SetPosition(0, transform.position);
+            _line.SetPosition(0, RopeOrigin);
         }
     }
 
@@ -154,14 +182,15 @@ public class PlayerGrapple : MonoBehaviour {
         if (!IsGrappling) return;
 
         float h = _movement.HorizontalInput;
-        if (h != 0f) {
+        if (Mathf.Abs(h) > 0.01f) {
             Vector2 ropeDir = (_grapplePoint - (Vector2)transform.position).normalized;
-            Vector2 perpDir = new Vector2(ropeDir.y, -ropeDir.x);
-            if (Mathf.Sign(h) != Mathf.Sign(perpDir.x)) perpDir *= -1f;
-            _rb.AddForce(perpDir * swingForce, ForceMode2D.Force);
+            Vector2 perp = new Vector2(-ropeDir.y, ropeDir.x);
+            if (Vector2.Dot(perp, Vector2.right * h) < 0f) perp = -perp;
+            _rb.AddForce(perp * swingForce, ForceMode2D.Force);
         }
 
-        if (_rb.linearVelocity.magnitude > maxSwingSpeed)
+        float speed = _rb.linearVelocity.magnitude;
+        if (speed > maxSwingSpeed)
             _rb.linearVelocity = _rb.linearVelocity.normalized * maxSwingSpeed;
     }
 }

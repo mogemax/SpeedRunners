@@ -3,22 +3,20 @@ using UnityEngine;
 
 public class HookProjectile : MonoBehaviour {
     [Header("Trayectoria")]
-    [Tooltip("Altura del arco bezier respecto al punto medio origen-destino")]
-    public float arcHeight = 1.5f;
+    [Tooltip("Distancia máxima antes de auto-destruirse silenciosamente")]
+    public float maxDistance = 50f;
+    [Tooltip("Offset de rotación para corregir la orientación natural del sprite (grados)")]
+    public float rotationOffset = 0f;
 
     [Header("Animación de ruptura")]
-    [Tooltip("Sprites del HookBreak en orden de reproducción")]
     public Sprite[] breakSprites;
-    [Tooltip("Frames por segundo de la animación de ruptura")]
     public float breakFrameRate = 20f;
 
     private PlayerGrapple _owner;
     private Vector2 _origin;
-    private Vector2 _target;
-    private float _speed;
-    private bool _willConnect;
-    private float _t;
+    private Vector2 _velocity;
     private bool _done;
+    private Collider2D[] _ownerColliders;
 
     private SpriteRenderer _sr;
 
@@ -26,56 +24,67 @@ public class HookProjectile : MonoBehaviour {
         _sr = GetComponent<SpriteRenderer>();
     }
 
-    public void Launch(PlayerGrapple owner, Vector2 origin, Vector2 target, float speed, bool willConnect) {
-        _owner = owner;
-        _origin = origin;
-        _target = target;
-        _speed = speed;
-        _willConnect = willConnect;
-        _t = 0f;
-        _done = false;
+    public void Launch(PlayerGrapple owner, Vector2 origin, Vector2 direction, float speed) {
+        _owner          = owner;
+        _origin         = origin;
+        _velocity       = direction.normalized * speed;
+        _done           = false;
+        _ownerColliders = owner.GetComponentsInChildren<Collider2D>();
+        transform.position = origin;
+        float initialAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, initialAngle + rotationOffset);
     }
 
     private void Update() {
         if (_done) return;
 
-        float totalDist = Vector2.Distance(_origin, _target);
-        if (totalDist < 0.01f) {
-            OnArrived();
+        if (Vector2.Distance(_origin, transform.position) >= maxDistance) {
+            SilentDestroy();
             return;
         }
 
-        _t += (_speed / totalDist) * Time.deltaTime;
-        _t = Mathf.Clamp01(_t);
+        Vector2 prevPos = transform.position;
+        Vector2 delta   = _velocity * Time.deltaTime;
+        transform.position = prevPos + delta;
 
-        // Punto de control elevado para crear el arco parabólico
-        Vector2 control = (_origin + _target) * 0.5f + Vector2.up * arcHeight;
-        Vector2 pos = Bezier(_origin, control, _target, _t);
-        transform.position = pos;
+        // Rotar sprite en la dirección de movimiento
+        if (_velocity.sqrMagnitude > 0.001f) {
+            float angle = Mathf.Atan2(_velocity.y, _velocity.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0f, 0f, angle + rotationOffset);
+        }
 
-        // Rotar el sprite en la dirección de avance del arco
-        if (_t < 0.98f) {
-            float tNext = Mathf.Clamp01(_t + 0.04f);
-            Vector2 posNext = Bezier(_origin, control, _target, tNext);
-            Vector2 dir = posNext - pos;
-            if (dir.sqrMagnitude > 0.0001f) {
-                float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-                transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        // Detectar colisiones a lo largo del movimiento de este frame.
+        // CircleCastAll devuelve hits ordenados por distancia (el más cercano primero).
+        float dist = delta.magnitude;
+        if (dist > 0.001f) {
+            RaycastHit2D[] hits = Physics2D.CircleCastAll(prevPos, 0.15f, delta.normalized, dist);
+            foreach (RaycastHit2D hit in hits) {
+                if (hit.collider.isTrigger) continue;
+                if (IsOwnerCollider(hit.collider)) continue;
+
+                if (hit.collider.GetComponent<GrappleSurface>() != null) {
+                    // Superficie grappleable → conectar
+                    _done = true;
+                    _owner.ConnectGrapple(hit.point);
+                    _owner.OnProjectileFinished();
+                    Destroy(gameObject);
+                    return;
+                } else {
+                    // Superficie sólida sin GrappleSurface → fallo
+                    _done = true;
+                    transform.position = hit.point;
+                    StartCoroutine(PlayBreak());
+                    return;
+                }
             }
         }
-
-        if (_t >= 1f) OnArrived();
     }
 
-    private void OnArrived() {
-        _done = true;
-        if (_willConnect) {
-            _owner.ConnectGrapple(_target);
-            _owner.OnProjectileFinished();
-            Destroy(gameObject);
-        } else {
-            StartCoroutine(PlayBreak());
-        }
+    private bool IsOwnerCollider(Collider2D col) {
+        if (_ownerColliders == null) return false;
+        foreach (Collider2D c in _ownerColliders)
+            if (c == col) return true;
+        return false;
     }
 
     public void Cancel() {
@@ -83,8 +92,17 @@ public class HookProjectile : MonoBehaviour {
         Destroy(gameObject);
     }
 
+    private void SilentDestroy() {
+        _done = true;
+        _owner.OnProjectileFinished();
+        Destroy(gameObject);
+    }
+
+    // Reservado para impactos con superficies no grappleables en el futuro
     private IEnumerator PlayBreak() {
-        _owner.ShowFailRope(_target);
+        // Resetear el estado del gancho inmediatamente — la animación es solo visual
+        _owner.OnProjectileFinished();
+        _owner.ShowFailRope((Vector2)transform.position);
 
         if (_sr != null && breakSprites != null && breakSprites.Length > 0) {
             float interval = 1f / breakFrameRate;
@@ -98,12 +116,7 @@ public class HookProjectile : MonoBehaviour {
         }
 
         _owner.HideFailRope();
-        _owner.OnProjectileFinished();
+        if (_sr != null) _sr.enabled = false;
         Destroy(gameObject);
-    }
-
-    private static Vector2 Bezier(Vector2 p0, Vector2 p1, Vector2 p2, float t) {
-        float u = 1f - t;
-        return u * u * p0 + 2f * u * t * p1 + t * t * p2;
     }
 }

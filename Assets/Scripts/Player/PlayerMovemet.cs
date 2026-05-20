@@ -255,6 +255,8 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     private void HandleWallSlide()
     {
+        if (_grapple != null && _grapple.IsGrappling) { IsWallSliding = false; return; }
+
         // Condición: tocando pared, cayendo, sin estar en el suelo
         bool shouldWallSlide = _isTouchingWall && _rb.linearVelocity.y < 0f;
 
@@ -310,6 +312,8 @@ public class PlayerMovement : MonoBehaviour
     // ─────────────────────────────────────────────
     private void ApplyMovement()
     {
+        if (_grapple != null && _grapple.IsGrappling) return;
+
         if (IsSliding)
         {
             float slidingX = Mathf.MoveTowards(
