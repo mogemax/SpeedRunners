@@ -927,7 +927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1140000000000000001, guid: 0db35c77c8c44dbebc1de18a9a83036f, type: 3}
       propertyPath: gates.Array.data[0].targetAngle
-      value: 45
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 4000000000000000001, guid: 0db35c77c8c44dbebc1de18a9a83036f, type: 3}
       propertyPath: m_LocalPosition.x
