@@ -42,6 +42,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5122684460852414867}
+  - {fileID: 7291343192001038921}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5244117150251504344
@@ -203,11 +204,11 @@ MonoBehaviour:
   lowJumpMultiplier: 2
   coyoteTime: 0.12
   jumpBufferTime: 0.15
-  wallCheck: {fileID: 0}
+  wallCheck: {fileID: 7291343192001038921}
   wallCheckRadius: 0.15
   wallLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   wallJumpForceX: 10
   wallJumpForceY: 16
   wallSlideSpeed: 2
@@ -241,12 +242,14 @@ MonoBehaviour:
   slideKeyA: 51
   hookshotKeyA: 38
   useItemKeyA: 19
+  boostKeyA: 40
   leftKeyB: 61
   rightKeyB: 62
   jumpKeyB: 63
   slideKeyB: 52
   hookshotKeyB: 84
   useItemKeyB: 85
+  boostKeyB: 86
 --- !u!232 &-6434542902171762123
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -434,8 +437,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.86, y: 1.29}
+  m_Offset: {x: -0.09025709, y: -0.05615996}
+  m_Size: {x: 0.59123445, y: 1.17768}
   m_Direction: 0
 --- !u!114 &8349668339959844903
 MonoBehaviour:
@@ -449,6 +452,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a1fb291b18bf46acbe695b0458981df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerPickupHolder
+--- !u!1 &2833474460210923736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7291343192001038921}
+  m_Layer: 0
+  m_Name: WallCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7291343192001038921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2833474460210923736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.281, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1151138464965924413}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5565644642083448636
 GameObject:
   m_ObjectHideFlags: 0

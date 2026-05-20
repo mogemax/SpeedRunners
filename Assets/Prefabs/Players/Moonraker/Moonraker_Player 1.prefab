@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 616888220550011171}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.364, y: 0, z: 0}
+  m_LocalPosition: {x: 0.46, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -232,7 +232,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 221.83363
+  m_Distance: 220.31152
   m_MaxDistanceOnly: 0
 --- !u!120 &929320132404181730
 LineRenderer:
@@ -385,19 +385,21 @@ MonoBehaviour:
   slideKeyA: 51
   hookshotKeyA: 38
   useItemKeyA: 19
+  boostKeyA: 40
   leftKeyB: 61
   rightKeyB: 62
   jumpKeyB: 63
   slideKeyB: 52
   hookshotKeyB: 84
   useItemKeyB: 85
+  boostKeyB: 86
   useLeftStick: 1
   stickDeadzone: 0.2
   leftButton: 2
   rightButton: 3
   jumpButton: 6
   slideButton: 5
-  boostButton: 11
+  hookshotButton: 11
   useItemButton: 7
 --- !u!114 &8814680885606657593
 MonoBehaviour:
@@ -490,8 +492,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.06527516, y: -0.065485716}
-  m_Size: {x: 0.72659403, y: 1.3424582}
+  m_Offset: {x: 0.091360174, y: -0.05244192}
+  m_Size: {x: 0.5091978, y: 1.1424503}
   m_Direction: 0
 --- !u!114 &-5719534524944367683
 MonoBehaviour:
@@ -530,7 +532,7 @@ Transform:
   m_GameObject: {fileID: 4200616629812186593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.75, z: 0}
+  m_LocalPosition: {x: 0.122, y: -0.689, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
